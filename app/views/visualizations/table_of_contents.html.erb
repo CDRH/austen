@@ -1,0 +1,7 @@
+<h2><%= @book["title"] %></h2>
+
+<p>Download XML: <%= link_to @book["xml"], "/#{@book['xml']}" %> </p>
+
+<p><%= link_to "View chapter by chapter visualization of text", visual_all_path(params["id"]) %> (warning: large page)</p>
+
+<%= generate_chapter_links(params["id"], @book["chapters"], @book["prelude"]).html_safe %>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:functx="http://www.functx.com" xmlns="http://www.w3.org/1999/xhtml" class="<%= @page_class %>" hc="a0" hcx="0">
+<head>
+  <title>Austen</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <%= csrf_meta_tags %>
+  
+  <!-- Stylesheets -->
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'bootstrap-theme.min', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'bootstrap.min', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'main', media: 'all', 'data-turbolinks-track' => true %>
+
+  <!-- Scripts -->
+  <%= javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => false %>
+  <%= javascript_include_tag 'bootstrap.min', 'data-turbolinks-track' => false %>
+  <%= javascript_include_tag 'main' %>
+  <%= javascript_include_tag 'modernizr.min', 'data-turbolinks-track' => false %>
+
+</head>
+
+<body>
+  <div class="navbar navbar-inverse">
+    <div class="container">
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar">
+              <span class="icon-bar">
+                <span class="icon-bar"></span>
+              </span>
+            </span>
+          </button>
+          <%= link_to "Austen", home_path, class: "navbar-brand" %>
+        </div>
+
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><%= link_to "Home", home_path %></li>
+            <li><%= link_to "Word Frequency Generator", freq_index_path %></li>
+            <li><%= link_to "Word Visualizations", visual_index_path %></li>
+            <li><%= link_to "Essays", essays_path %></li>
+            <li><%= link_to "Search", search_path %></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <%= yield %>
+    </div>
+
+</body>
+</html>

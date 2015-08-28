@@ -1,0 +1,52 @@
+<div class="main_content">
+  <h2><%= @book["title"] %></h2>
+  <div class="row">
+    <div class="col-md-3">
+      <div class="panel panel-default panel-novel-overview">
+        <div class="panel-heading">
+          <h3 class="panel-title">Key</h3>
+        </div>
+        <div class="panel-body">
+          <h4>fid (<button class="show_hide" id="fid">hide</button>)</h4>
+          <p>
+            <span class="fid certainty_1 mode_key"> </span>
+            <span class="fid certainty_2 mode_key"> </span>
+            <span class="fid certainty_3 mode_key"> </span>
+            <span class="fid certainty_4 mode_key"> </span>
+            <span class="fid certainty_5 mode_key"> </span>
+            <span class="fid certainty_6 mode_key"> </span>
+            <span class="fid certainty_7 mode_key"> </span>
+            <span class="fid certainty_8 mode_key"> </span>
+            <span class="fid certainty_9 mode_key"> </span>
+            <span class="fid certainty1 mode_key"> </span>
+            <br></br>
+            <span>less certain</span>
+            <span class="pull-right">more certain</span>
+          </p>
+          <h4>indirect (<button class="show_hide" id="indirect">hide</button>)</h4>
+          <p><span class="indirect certainty_1 mode_key"> </span>
+          <span class="indirect certainty_2 mode_key"> </span>
+          <span class="indirect certainty_3 mode_key"> </span>
+          <span class="indirect certainty_4 mode_key"> </span>
+          <span class="indirect certainty_5 mode_key"> </span>
+          <span class="indirect certainty_6 mode_key"> </span>
+          <span class="indirect certainty_7 mode_key"> </span>
+          <span class="indirect certainty_8 mode_key"> </span>
+          <span class="indirect certainty_9 mode_key"> </span>
+          <span class="indirect certainty1 mode_key"> </span>
+          <br></br>
+          <span>less certain</span>
+          <span class="pull-right">more certain</span>
+        </p>
+        <h4>intro to fid or indirect (<button class="show_hide" id="intro_to_fid">hide</button>)</h4>
+        <p class="intro_to_fid mode_key_intro">
+          <span class="mode_key"> </span>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-9">
+    <%= render params["id"] %>
+  </div>
+</div>

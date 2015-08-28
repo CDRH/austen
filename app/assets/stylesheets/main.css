@@ -1,0 +1,159 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.character-list {
+  -moz-column-count:3; /* Firefox */
+  -webkit-column-count:3; /* Safari and Chrome */
+  column-count:3;
+  
+}
+
+
+body {        
+
+          padding-bottom: 1000px;
+          /*background-color: red;*/
+          }
+          
+
+
+.indirect {
+  background-color: blue;
+
+}
+
+.fid {
+  background-color: red;
+}
+
+.intro_to_fid {
+  background-color: yellow;
+}
+
+.certainty_1 {
+  background-image: url(certainty.1.png);
+}
+
+.certainty_2 {
+  background-image: url(certainty.2.png);
+}
+
+.certainty_3 {
+  background-image: url(certainty.3.png);
+}
+
+.certainty_4 {
+  background-image: url(certainty.4.png);
+}
+
+.certainty_5 {
+  background-image: url(certainty.5.png);
+}
+
+.certainty_6 {
+  background-image: url(certainty.6.png);
+}
+
+.certainty_7 {
+  background-image: url(certainty.7.png);
+}
+
+.certainty_8 {
+  background-image: url(certainty.8.png);
+}
+
+.certainty_9 {
+  background-image: url(certainty.9.png);
+}
+
+.certainty_1 {
+  /* None, darkest */
+}
+
+.mode_key {
+  /*padding: .2em .7em;*/
+  width:10%;
+  display: inline-block;
+}
+
+.mode_key_intro {
+  width:100%;
+  display: inline-block;
+}
+
+/* Page jump Navigation */
+
+.pagination {
+  
+}
+
+.pagination, .searchSort {
+  padding:  10px 0;
+}
+
+.paginationJump {
+  width: 3em;
+  border: 1px solid #aaa;
+  margin: 0;
+  padding: .2em;
+  border-radius: 0px;
+}
+
+.pagination input.submit {
+  border: 1px solid #aaa;
+  background-color: #faf8ef;
+  margin: 0 0 0 -1px;
+  padding: .2em;
+}
+
+form.jumpForm {
+  display: inline;
+}
+
+/* Temporary */
+.search_results {
+  border: solid #aaa 2px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.search_results em {
+  background-color: yellow;
+}
+
+
+
+/* Chapter visualization */
+
+
+/* Inline block code from http://www.ruzee.com/blog/2007/05/align-list-items-horizontally-with-css */
+
+.chapter-div {
+  width: 160px;
+  display:-moz-inline-box; 
+  -moz-box-orient:vertical;
+  display:inline-block; 
+  vertical-align:top; 
+  word-wrap:break-word;
+}
+
+* + html .novel-container .chapter-div { display:inline; }  /* for IE 7 */
+
+.chapter-div-small-text {
+  font-size: 3px;
+}
+
+.chapter-div p{
+  margin: 0;
+}
+
+.chapter-div blockquote p, .chapter-div blockquote{
+  margin: 0;
+  font-size: 3px;
+  padding: 0;
+}
+
+.panel-novel-overview {
+  position: fixed;
+}

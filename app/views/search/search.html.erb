@@ -1,0 +1,103 @@
+<div class="container">
+  <h2>Search</h2>
+
+  <h3>Your search returned <%= @docs[:num_found] %> result(s)</h3>
+  <%= link_to "View all files", search_path({:special => "all"}) %>
+
+  <%= form_tag(search_path, :method => "get", :class => "form-inline") do %>
+    <div class="form-group">
+      <%= hidden_field_tag(:qfield, "text") %>
+      <%= text_field_tag(:qtext, params[:qtext], :placeholder => "Search documents", :class => "form-control") %>
+      <%= submit_tag("Search", :class => "btn btn-info") %>
+    </div>
+  <% end %>
+
+  <div class="row">
+    <div class="col-md-3">
+      <%= render partial: "facet_panel", locals: {
+        panel_type: "primary",
+        label: "novel",
+        facet_type: "novel",
+        results: @facets["novel"]
+      } %>
+
+      <%= render partial: "facet_panel", locals: {
+        panel_type: "default",
+        label: "speaker name",
+        facet_type: "speaker_name",
+        results: @facets["speaker_name"]
+      } %>
+
+      <%= render partial: "facet_panel", locals: {
+        panel_type: "default",
+        label: "sex",
+        facet_type: "sex",
+        results: @facets["sex"]
+      } %>
+
+      <%= render partial: "facet_panel", locals: {
+        panel_type: "default",
+        label: "marriage status",
+        facet_type: "marriage_status",
+        results: @facets["marriage_status"]
+      } %>
+
+      <%= render partial: "facet_panel", locals: {
+        panel_type: "default",
+        label: "class status",
+        facet_type: "class_status",
+        results: @facets["class_status"]
+      } %>
+
+      <%= render partial: "facet_panel", locals: {
+        panel_type: "default",
+        label: "age",
+        facet_type: "age",
+        results: @facets["age"]
+      } %>
+
+      <%= render partial: "facet_panel", locals: {
+        panel_type: "default",
+        label: "occupation",
+        facet_type: "occupation",
+        results: @facets["occupation"]
+      } %>
+
+      <%= render partial: "facet_panel", locals: {
+        panel_type: "default",
+        label: "mode of speech",
+        facet_type: "mode_of_speech",
+        results: @facets["mode_of_speech"]
+      } %>
+
+      <%= render partial: "facet_panel", locals: {
+        panel_type: "default",
+        label: "speaker id",
+        facet_type: "speaker_id",
+        results: @facets["speaker_id"]
+      } %>
+
+    </div>
+  </div>
+
+  <div class="col-md-9">
+    <div class="pagination">TODO put the pagination here!</div>
+    <% if @docs && @docs[:docs].length > 0 %>
+      <% @docs[:docs].each do |doc| %>
+        <ul class="search_results">
+          <li>Link: <%= link_to "Chapter #{doc['chapter']}", visual_chapter_path({:id => 'emma', :chapter => doc['chapter'] }) %> (TODO that is hardcoded to always be emma until title normalization) </li>
+          <li><strong>id</strong>: <%= doc['id'] %></li>
+          <li><strong>novel</strong>: <%= doc['novel'].titleize %></li>
+          <li><strong>chapter</strong>: <%= doc['chapter'] %></li>
+          <li><strong>said_no</strong>: <%= doc['said_no'] %></li>
+          <li><strong>speaker_id</strong>: <%= doc['speaker_id'] %></li>
+          <li><strong>speaker_name</strong>: <%= doc['speaker_name'] %></li>
+          <li><strong>text</strong>: <%= doc['text'][0] %></li>
+          <!-- <li>highlight: </li> -->
+        </ul>
+      <% end %>
+    <% else %>
+      <p>No results found!</p>
+    <% end %>
+  </div>
+</div>
