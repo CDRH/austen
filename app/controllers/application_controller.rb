@@ -22,6 +22,10 @@ class ApplicationController < ActionController::Base
     $solr.set_default_query_params({
       :sort => "id asc"
     })
+    $solr.set_default_facet_params({
+      "facet.limit" => "-1",
+      "facet.mincount" => "1"
+    })
   else
     raise "No Solr URL found for Austen rails project, cannot continue!"
   end
