@@ -97,7 +97,7 @@
       <% if @docs && @docs[:docs].length > 0 %>
         <% @docs[:docs].each do |doc| %>
           <ul class="search_results">
-            <li>Link: <%= link_to "Chapter #{doc['chapter']}", visual_chapter_path({:id => 'emma', :chapter => doc['chapter'], :anchor => doc['id'] }) %> (TODO that is hardcoded to always be emma until title normalization) </li>
+            <li>Link: <%= link_to "Chapter #{doc['chapter']}", visual_chapter_path({:id => doc['novel'], :chapter => doc['chapter'], :anchor => doc['id'] }) %> </li>
             <li><strong>id</strong>: <%= doc['id'] %></li>
             <li><strong>novel</strong>: <%= doc['novel'].titleize %></li>
             <li><strong>chapter</strong>: <%= doc['chapter'] %></li>
