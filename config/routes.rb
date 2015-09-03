@@ -2,7 +2,9 @@ Rails.application.routes.draw do
 
   root 'static#index', as: :home
   get 'search' => 'search#search', as: :search
-  get 'frequency' => 'static#frequency', as: :frequency
+
+  # frequencies
+  get 'frequency' => 'frequencies#index', as: :frequency
 
   # visualizations
   get 'visualizations' => 'visualizations#index', as: :visual_index

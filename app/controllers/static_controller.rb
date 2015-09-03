@@ -3,7 +3,4 @@ class StaticController < ApplicationController
     @page_class = "home"
   end
 
-  def frequency
-    @page_class = "frequency"
-  end
 end

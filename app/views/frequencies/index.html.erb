@@ -1,0 +1,89 @@
+<h2>Austen Word Frequency Form Test</h2>
+
+<ul class="nav nav-tabs" role="tablist">
+  <li role="presentation" class="active">
+    <a href="#one" aria-controls="home" role="tab" data-toggle="tab">Pride and Prejudice</a>
+  </li>
+  <li role="presentation">
+    <a href="#two" aria-controls="settings" role="tab" data-toggle="tab">Persuasion</a>
+  </li>
+  <li role="presentation">
+    <a href="#three" aria-controls="messages" role="tab" data-toggle="tab">Northanger Abbey</a>
+  </li>
+  <li role="presentation">
+    <a href="#four" aria-controls="settings" role="tab" data-toggle="tab">Sense and Sensibility</a>
+  </li>
+  <li role="presentation">
+    <a href="#five" aria-controls="settings" role="tab" data-toggle="tab">Emma</a>
+  </li>
+  <li role="presentation">
+    <a href="#six" aria-controls="profile" role="tab" data-toggle="tab">Mansfield Park</a>
+  </li>
+</ul>
+
+<div class="tab-content">
+
+  <div class="tab-pane active" id="one" role="tabpanel">
+    <%= render :partial => "pride_and_prejudice" %>
+  </div>
+
+  <div role="tabpanel" class="tab-pane" id="two">
+    <%= render :partial => "persuasion" %>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="three">
+    <%= render :partial => "northanger_abbey" %>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="four">
+    <%= render :partial => "sense_and_sensibility" %>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="five">
+    <%= render :partial => "emma" %>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="six">
+    <%= render :partial => "mansfield_park" %>
+  </div>
+
+
+    <script>
+      $(document).ready(function() {
+        var container = $(".text-display-container");
+        var textarea_num = 0;
+        var max_textareas = 3;
+        $(".btn").click(function() {
+          var title = $(this).text();
+          console.log("title " + JSON.stringify(title));
+          removeExtraTextareas(function() {
+            var textarea = newTextArea(textarea_num, title).hide();
+            container.append(textarea);
+            textarea.show(600);
+            textarea_num++;
+          });
+        });
+
+        function removeExtraTextareas(onRemoved) {
+          var things = $(".frequency_text");
+          if (things.length >= max_textareas ) {
+            things.first().hide(600, function() {
+              things.first().remove();
+              onRemoved();
+            });
+          } else {
+            onRemoved();
+          }
+        };
+
+        // this should be pulled eventually from actual information
+        // but for now using a placeholder as a ui proof of concept
+        function newTextArea(number, heading) {
+          var textarea = $('<textarea id="textarea_'+number+'" class="frequency_text" readonly=true rows=12></textarea>');
+          var sampleText = "listened\reagerly\rran\robserving\rbow\rdrove\rembarrassment\rfinished\rhall\rpronounced\rthrew\rwhisper\rexclaimed\rprotested\rrelieved\rwarmth\rapproach\rblushed\rcoffee\rglance\rrose\rsucceeded\raccompanied\racross\ragitation"
+          textarea.append(heading + "\r---------------\r" + sampleText);
+          return textarea;
+        };
+      });
+    </script>
+
+    <h3>Austen Frequency Stuff</h3>
+    <div class="text-display-container">
+    </div>
+  </div>
