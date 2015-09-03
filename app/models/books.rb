@@ -14,7 +14,7 @@ module Books
       },
       "northanger_abbey" => {
         "xml" => "aus.003.xml",
-        "chapters" => 32,
+        "chapters" => 31,
         "prelude" => true,  # has a chapter 0
         "title" => "Northanger Abbey"
       },

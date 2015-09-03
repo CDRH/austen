@@ -2,6 +2,17 @@
 
 <h2><%= @book["title"] %>
 
+<ul class="pager">
+  <% minpage = @book["prelude"] ? 0 : 1 %>
+  <% if params[:chapter].to_i > minpage %>
+    <li><%= link_to "Previous Chapter", chapter_link(params[:id], @book, params[:chapter], -1) %></li>
+  <% end %>
+  <li><%= link_to "Table of Contents", visual_toc_path(params[:id]) %></li>
+  <% if params[:chapter].to_i < @book["chapters"] %>
+    <li><%= link_to "Next Chapter", chapter_link(params[:id], @book, params[:chapter], 1) %></li>
+  <% end %>
+</ul>
+
 <!-- note this key is subtly different than the version on the overview page
     in that it isn't a panel-novel-overview class and it has rows / columns -->
 <div class="panel panel-default">
