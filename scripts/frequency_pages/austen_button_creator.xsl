@@ -146,7 +146,7 @@
                        
                         <div class="panel-body">
                             <xsl:for-each select="dd">
-                                <a class="btn btn-default" href="#{@id}" role="button"><xsl:value-of select="."/></a>
+                                <a class="btn btn-default" href="#{@id}" role="button" data="{$title_slug}"><xsl:value-of select="."/></a>
                             </xsl:for-each>
                         </div>
                     </div>
