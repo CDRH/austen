@@ -4,7 +4,8 @@ Rails.application.routes.draw do
   get 'search' => 'search#search', as: :search
 
   # frequencies
-  get 'frequency' => 'frequencies#index', as: :frequency
+  get 'frequencies' => 'frequencies#index', as: :frequency
+  get 'frequencies/:novel/:id' => 'frequencies#json', as: :freq_json, :constraints => { :id => /[^\/]+/ }
 
   # visualizations
   get 'visualizations' => 'visualizations#index', as: :visual_index
