@@ -75,6 +75,9 @@ novels.each do |filename, title|
     type = category.attr('n')  # like fool, aus.001.charactername, female
     unique_word_count = category.attr('countOfWordsUniqueToThisSpeaker')
     speeches = category.attr('speeches')
+    # TODO can also get the speeches from the top of the documents
+    # and so should perhaps be pulling that if no info found for an
+    # individual, but will have to hash through capitalization issues first
     json = {
       "unique_words" => unique_word_count,
       "speeches" => speeches,
