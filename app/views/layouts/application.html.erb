@@ -10,10 +10,9 @@
   <%= favicon_link_tag %>
   
   <!-- Stylesheets -->
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= stylesheet_link_tag    'bootstrap-theme.min', media: 'all', 'data-turbolinks-track' => true %>
-  <%= stylesheet_link_tag    'bootstrap.min', media: 'all', 'data-turbolinks-track' => true %>
-  <%= stylesheet_link_tag    'main', media: 'all', 'data-turbolinks-track' => true %>
+
+  <%= stylesheet_link_tag    'bootstrap', media: 'all', 'data-turbolinks-track' => false %>
+  <%= stylesheet_link_tag    'style', media: 'all', 'data-turbolinks-track' => false %>
 
   <!-- Scripts -->
   <%= javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js' %>
@@ -25,19 +24,23 @@
 </head>
 
 <body>
-  <div class="navbar navbar-inverse">
-    <div class="container">
-      <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar">
-              <span class="icon-bar">
-                <span class="icon-bar"></span>
-              </span>
-            </span>
-          </button>
-          <%= link_to "Austen", home_path, class: "navbar-brand" %>
-        </div>
+	
+	<div class="header"><div class="container"><div class="site_title">
+	<h1>Austen <span class="title_said">Said</span>:</h1>
+	<h2>Patterns of Diction in <span class="secondary_title">Jane Austen's Major Novels</span></h2>
+</div></div>
 
+
+<div class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+         
+        </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><%= link_to "Home", home_path %></li>
@@ -47,12 +50,22 @@
             <li><%= link_to "Search", search_path %></li>
           </ul>
         </div>
+
       </div>
     </div>
+</div><!-- /header -->
 
-    <div class="container">
+
+    <div class="container" id="wrapper">
       <%= yield %>
     </div>
 
+
+ <div class="footer">
+	        <div class="container">
+		        <p>Footer Stuff</p>
+	        </div>
+	        
+        </div><!-- /footer -->
 </body>
 </html>

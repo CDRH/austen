@@ -1,3 +1,136 @@
+
+/* /BTS IMPORT */
+/**************************************/
+
+#wrapper {
+  margin-top: 20px; }
+
+
+.site_title h1 {
+  font-family: 'Alice', serif;
+  font-size: 5em;
+  margin: .2em 0 0 0;
+  color: #447984; }
+
+
+.site_title h1 span {
+  color: #EE1F20; }
+
+
+.site_title h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2em;
+  color: #3c9d64;
+  margin: 0 0 .5em 0; }
+
+
+.tei_element {
+  color: #ee3f42; }
+
+
+.tei_attribute {
+  color: #447984; }
+
+
+.tei_attribute_value {
+  color: #3c9d64; }
+
+
+pre {
+  font-size: 1em;
+  color: #000; }
+
+
+.tei_said {
+  font-weight: 800; }
+
+
+code.austen_tei pre {
+  border: none;
+  background: transparent; }
+
+
+.home_text {
+  font-size: 1.5em;
+  line-height: 1.4em; }
+
+
+.home_text .initial_word {
+  font-family: 'Alice';
+  font-size: 1.9em;
+  color: #3c9d64; }
+
+
+code {
+  padding: 0;
+  margin: 0; }
+
+
+body {
+  /*background-image: url(../../assets/images/sample_bg.jpg);*/
+  /* 	background-color: #f1e0b4; */ }
+
+
+.container {
+  background-color: RGBA(255, 255, 255, 0.9); }
+
+
+.navbar {
+  margin: 0; }
+
+
+#wrapper {
+  margin: 0 auto;
+  padding-top: 2em; }
+
+@media (min-width: 992px) {
+  	/*body {
+  	background-color: #aaa;
+  }*/
+  
+  .site_title h1 {
+    display: inline-block;
+    width: 50%;
+    line-height: 1em; }
+
+
+  .site_title h2 {
+    display: inline-block;
+    width: 45%;
+    font-size: 2.2em;
+    padding-left: .2em;
+    line-height: 1em; }
+
+
+  .secondary_title {
+    display: inline-block; } }
+
+.navbar {
+  border: none;
+  border-right: none;
+  border-left: none;
+  background-image: url(sample_bg.gif); }
+
+
+.footer .container {
+  background-image: url(sample_bg.gif);
+  padding: 15px 50px; }
+
+
+.footer .container p {
+  background-color: RGBA(255, 255, 255, 0.9);
+  padding: 10px; }
+
+
+*/
+@media (max-width: 767px) {
+
+  .go {
+    color: #ccc; } }
+
+
+
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -157,3 +290,12 @@ padding-bottom: 10px;
 .panel-novel-overview {
   position: fixed;
 }
+
+/* From individual pages */
+
+
+/* From search */
+.selected {
+    background-color:#B8DAE6;
+  }
+
