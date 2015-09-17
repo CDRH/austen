@@ -1,6 +1,11 @@
-<h2>Austen Word Frequency Form Test</h2>
+<h2>Austen Word Frequencies</h2>
 
-<ul class="nav nav-tabs" role="tablist">
+<p>Select characters and the frequencies for that character will appear at the bottom.</p>
+
+<div class="row">
+  <div class="col-md-6">
+	  
+	  	 <ul class="nav nav-pills" role="tablist">
   <li role="presentation" class="active">
     <a href="#one" aria-controls="home" role="tab" data-toggle="tab">Pride and Prejudice</a>
   </li>
@@ -41,24 +46,33 @@
   </div>
   <div role="tabpanel" class="tab-pane" id="six">
     <%= render :partial => "mansfield_park" %>
+  </div> 
+	  
+</div>
+	  
   </div>
-
-  <style>
-  .text-display-container {
-    float:left;
-  }
-
-  .frequency_group {
-    float:left;
-    position:relative;
-  }
-
-  .select-text-btn {
-    position:absolute;
-  }
-
-  </style>
-
-  <h3>Austen Frequency Stuff</h3>
+  <div class="col-md-6">
+	  
+	   <h3>Selected Frequencies</h3>
   <div class="text-display-container"/>
 </div>
+
+	  
+  </div>
+</div>
+
+	  
+
+	  
+
+
+
+	
+
+
+
+
+
+  
+
+  </div><!-- I don't know why this needs to be here but the fuuter does not display correctly without it -->

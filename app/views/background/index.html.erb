@@ -1,0 +1,766 @@
+<h2>Background</h2>
+
+  <ul>
+  
+  <li><a href="#background">Background</a> by Laura White</li>
+
+  <li><a href="#beginnings">Beginnings</a></li>
+
+  <li><a href="#traits">Traits</a></li>
+
+  <li><a href="#questions">Questions Left Hanging&mdash;The Turn to FID</a></li>
+
+  <li><a href="#focalization">Focalization</a></li>
+
+  <li><a href="#scaling">Scaling</a></li>
+
+  <li><a href="#visualization">Novel Visualization</a></li>
+
+  <li><a href="#personography">Personography</a></li>
+
+  <li><a href="#fid">Adventures in FID</a></li>
+
+  <li><a href="#text">Text</a></li>
+
+  <li><a href="#forward">Going Forward</a></li>
+
+  <li><a href="#reading">Further Reading</a></li>
+  
+  </ul>
+
+<h4 id="background">Background</h4>
+
+  <p class="c3"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This
+  project began when David Moberly, then an M.A. student at the University of
+  Nebraska-Lincoln [UNL] (and currently a Ph.D. student at the University of Minnesota)
+  approached me at the suggestion of Steve Ramsay (Susan J. Rosowski Associate Professor
+  of English, UNL) about my interest in data-mining Jane Austen. &nbsp;Our first idea,
+  checking Austen&rsquo;s words against those of the Anglican liturgy and the King James
+  Bible, was a bust, as Austen tended</span> <span class="c0 c2">not</span><span class=
+  "c0">&nbsp;to use the exact words of liturgy or scripture to avoid irreverence.
+  &nbsp;But with the help of Brian Pytlig Zillig of UNL&rsquo;s Center for Digital
+  Research in the Humanities [CDRH] and Professor of Libraries, and his brainchild,
+  TokenX, a text visualization, analysis, and play tool, we began to look for patterns of
+  speech in Austen, first with</span> <span class="c0 c2">Pride and
+  Prejudice</span><span>&nbsp;[</span><span class=
+  "c0 c2">PP</span><span>]. &nbsp; David coded all the dialogue of the novel,
+  at which point we began to see how interesting results of this sort could be.
+  &nbsp;</span></p>
+
+  <h4 id="beginnings">Beginnings</h4>
+
+  <p class="c3"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The size
+  of Austen&rsquo;s corpus, only six completed major novels, seems to augur against
+  successful data-mining or &ldquo;distant reading,&rdquo; as an ordinary person can read
+  all six for him or herself and presumably note important features of diction without
+  the aid of computational analysis. &nbsp;And yet we found even at this early stage that
+  there were tantalizing results of the sort which ordinary readers would indeed miss.
+  &nbsp;TokenX works through creating frequency tables. &nbsp;By sorting for unique
+  utterances of a given character (or type of character, such as &ldquo;female&rdquo; or
+  &ldquo;male&rdquo;), one could see, for instance, that Elizabeth Bennet is the only
+  character in</span> <span class="c0 c2">PP</span><span>&nbsp;to use the
+  words &ldquo;friendship,&rdquo; &ldquo;merit,&rdquo; &ldquo;wretched&rdquo; (four times
+  each) and &ldquo;affections&rdquo; and &ldquo;disdain&rdquo; (three times each), while
+  Darcy is the only character to use &ldquo;abhorrence,&rdquo; &ldquo;confession,&rdquo;
+  &ldquo;insufficient,&rdquo; and &ldquo;offenses&rdquo; (he uses each three times).
+  &nbsp;In fact, one can make a kind of impressionistic picture of his character by
+  listing some of the words Darcy alone uses (in these cases, twice each):
+  &nbsp;</span><span class="c0 c2">accusations, carelessness, catch, consulting,
+  defiance, existing, explaining, faithful, indirect, lessen, liberally, meanly, motives,
+  offers, purposely, repetition, school,</span> <span>and</span> <span class=
+  "c0 c2">support</span><span>. &nbsp;Words unique to the narrator are perhaps
+  less surprising, as many of them are words that set the stage or describe action, such
+  as &ldquo;followed&rdquo; (25 times), &ldquo;breakfast&rdquo; and
+  &ldquo;listened&rdquo; (20 times each), and &ldquo;pause&rdquo; and
+  &ldquo;seated&rdquo; (15 times each). &nbsp;Much later in our project, Steve Ramsay
+  would find that running similarity algorithms on the vocabulary of the characters
+  in</span> <span class="c0 c2">PP</span><span>&nbsp;reveals that the
+  narrator, Elizabeth, and Darcy are more similar to each other in the words they use
+  than they are to any other character. &nbsp;The surprise is that Mr. Collins also
+  shares an enormous amount of vocabulary with this group, only slightly less than
+  Elizabeth shares with Jane, her own sister. &nbsp;Users may wish to create wordclouds
+  from the frequency tables of unique utterances to create a rendering of a given
+  character, such as Darcy&rsquo;s.</span></p>
+
+  <h4 id="traits">Traits</h4>
+
+  <p class="c3"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From the
+  beginning, we aimed to search not just for individual speech but patterns of speech
+  among classes of characters. &nbsp;We assigned traits of gender, age, marital status,
+  class, occupation, and kind of character. &nbsp;The categories within the traits are
+  listed below. &nbsp;</span></p>
+
+
+  <ul class="c19 lst-kix_list_7-0 start">
+    <li><a href="#gender">Gender</a> male, female</li>
+
+    <li><a href="#age">Age</a> child, young and marriageable ("out"), young married, middle-aged, old, and deceased</li>
+
+    <li><a href="#marital">Marital</a> married, unmarried, married during the novel's action (&ldquo;mda&rdquo;), widowed</li>
+
+    <li><a href="#class">Class</a> aristocrat, landed gentry, gentry, professional class, working class</span></li>
+
+    <li><a href="#occupation">Occupation</a> clergyman, doctor, nurse, lawyer, naval officer, army officer, servant, and farmer</span></li>
+
+    <li><a href="#kind">Kind of Character</a> hero, heroine, cad, fool, heir, neutral, narrator</span></li>
+  </ul>
+
+  <h4 id="gender">Gender</h4>
+
+
+  <p class="c3"><span class=
+  "c0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Assigning gender is unproblematic
+  in Austen&rsquo;s novels. &nbsp;Some of the more interesting results arise through
+  searching by gender. &nbsp;For instance, we found that in</span> <span class=
+  "c0 c2">Pride and Prejudice</span><span>&nbsp;no female character uses the
+  word &ldquo;matrimony&rdquo; while no male character uses the word
+  &ldquo;wedding.&rdquo;</span></p>
+
+  <h4 id="age">Age</h4>
+
+  <p class="c3"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;While
+  &ldquo;out&rdquo; in Austen&rsquo;s day described only young women of marriageable age,
+  we found it a handy (and short) code for both marriageable male and female characters
+  (the chief actors in most of the novels). &nbsp;Age is sometimes hard to
+  discern&mdash;for instance, is Mrs. Weston of</span> <span class=
+  "c0 c2">Emma</span><span>&nbsp;[</span><span class=
+  "c0 c2">E</span><span>] &ldquo;young married&rdquo; or
+  &ldquo;middle-aged&rdquo;? &nbsp;We have coded her as &ldquo;young married,&rdquo;
+  partly because she becomes pregnant and has a child within the action of the story.
+  &nbsp;One would think that &ldquo;deceased&rdquo; would not be a necessary category,
+  but there are points in which now-dead characters speak through indirect diction within
+  the speech of the narrator or that of living characters.</span></p>
+
+  <h4 id="marital">Marital Status</h4>
+
+  <p class="c3"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Many
+  characters marry during the course of the action, and so we have coded them as
+  &ldquo;married during action&rdquo; or &ldquo;mda&rdquo; (examples include Mr. Elton
+  in</span> <span class="c0 c2">Emma</span> <span>and Maria and Mr. Rushworth
+  in</span> <span class="c0 c2">Persuasion</span><span class=
+  "c0">&nbsp;[</span><span class="c0 c2">P</span><span>])</span><span class=
+  "c0 c2">.</span><span>&nbsp;Users may wish to play with this designation if
+  they are more interested in one stage of the character&rsquo;s life over the other (for
+  instance, one can search for Mr. Elton alongside unmarried characters or married ones).
+  &nbsp;</span></p>
+
+  <h4 id="class">Class</h4>
+
+  <p class="c3"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As many
+  critics have noted, Austen&rsquo;s world is focused on the gentry and professional
+  classes, with few aristocrats and a limited depiction of servants and other members of
+  the working classes. &nbsp;Working-class speech, we found, was very rare. &nbsp;We
+  assigned married female characters the class status and occupation status of their
+  husbands, as reflects the social laws of Austen&rsquo;s day; Mrs. Gardiner, for
+  instance, has the class standing of her husband, a lawyer, and thus belongs to the
+  professional class. &nbsp;However, assigning class rank for married women based on
+  their husband&rsquo;s class becomes more problematic with characters who marry within
+  the course of the novel (for instance, Lydia Bennet of</span> <span class=
+  "c0 c2">PP</span><span>&nbsp;is coded as &ldquo;landed gentry&rdquo; even
+  though for several chapters at the end of the novel she has become a member of the
+  professional classes, married as she is to an army officer, worthless though he might
+  be). &nbsp;</span></p>
+
+  <h4 id="occupation">Occupation</h4>
+  
+  <p class="c3"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The
+  range of occupations of Austen&rsquo;s speaking characters is limited: &nbsp;clergyman
+  (Austen&rsquo;s clergymen are always Anglican priests), doctor, nurse, lawyer, naval
+  officer, army officer, servant, and farmer. Most of her characters do not have any
+  occupation at all, including almost all of the women. &nbsp;</span></p>
+
+  <h4 id="kind">Kind of Character</h4>
+  
+  <p class="c3"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This
+  trait is perhaps the most open to readerly interpretation. &nbsp;In most cases,
+  assigning the hero and heroine is readily done. &nbsp;We judged that both Marianne and
+  Elinor Dashwood in</span> <span class="c0 c2">Sense and Sensibility</span><span class=
+  "c0">&nbsp;[</span><span class="c0 c2">SS</span><span>] as well as Elizabeth
+  and Jane Bennet in</span> <span class="c0 c2">PP</span> <span>are heroines;
+  likewise, Colonel Brandon and Edward Ferrars (SS) and Mr. Darcy and Mr. Bingley
+  (</span><span class="c0 c2">PP</span><span>) are coded as heroes.
+  &nbsp;There is one cad in each novel. &nbsp;There are more fools than any other sort of
+  character; &ldquo;neutral&rdquo; was assigned to those relatively rare characters such
+  as Mrs. Weston (</span><span class="c0 c2">E</span><span>) or Mrs. Gardiner
+  (</span><span class="c0 c2">PP</span><span>) who are reasonably wise and
+  decent people. &nbsp;We have included the category of &ldquo;heir&rdquo; because five
+  of the six novels feature a major character who is marked as being the heir of a
+  substantial property and/or title (Henry Tilney in</span> <span class=
+  "c0 c2">Northanger Abbey</span><span>&nbsp;[</span><span class=
+  "c0 c2">NA</span><span>], Mr. Collins [</span><span class=
+  "c0 c2">PP</span><span>], Edward Ferrars [</span><span class=
+  "c0 c2">SS</span><span>], Tom Bertram in</span> <span class=
+  "c0 c2">Mansfield Park</span><span>&nbsp;[</span><span class=
+  "c0 c2">MP</span><span>], and Mr. Elliot [</span><span class=
+  "c0 c2">P</span><span>]). &nbsp;</span></p>
+
+  <h4 id="questions">Questions left hanging: The Turn to FID</h4>
+
+  <p class="c3"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Coding
+  direct speech can tell us a lot about Austen&rsquo;s technique. &nbsp;However, much of
+  the novels are rendered in indirect speech and free indirect discourse [FID]. &nbsp;In
+  FID, the narrator renders not merely the point of view of a given character
+  (focalization [link]) but gives the flavor of a character&rsquo;s speech or thought.
+  &nbsp;In the most direct form of FID, the narrator ventriloquizes for the character; in
+  other words, the reader senses that by changing third person pronouns to first person
+  ones, one would have a rendering of the character&rsquo;s direct speech or thought.
+  &nbsp;For instance, when Colonel Brandon first calls on Elinor and Marianne in London,
+  Elinor&rsquo;s question to him in FID can readily be turned into direct dialogue:
+  &nbsp;&ldquo;. . . she asked if he had been in London ever since she had seen him
+  last&rdquo; becomes (inferentially) &ldquo;she asked,&ldquo; &lsquo;if you have been in
+  London ever since I saw you last.&rsquo;&rdquo;</span></p>
+
+  <p class="c3 c12"><span>Outside of direct dialogue, free indirect discourse
+  is the most common, economical, and sophisticated way novels (and other texts) relay
+  information about thoughts and speech. &nbsp;For instance, early in</span> <span class=
+  "c0 c2">Pride and Prejudice</span><span>&nbsp;we learn what Mr. Bingley
+  thought of the Meryton assembly at which he meets the Bennet family:
+  &nbsp;&ldquo;Bingley had never met with pleasanter people or prettier girls in his
+  life; every body had been most kind and attentive to him, there had been no formality,
+  no stiffness, he had soon felt acquainted with all the room; and as to Miss Bennet, he
+  could not conceive an angel more beautiful&rdquo; (Ch. 4). The narrator is speaking,
+  but the language is really Bingley&rsquo;s, including his use of clich&eacute;s and
+  hyperbole (e.g., &ldquo;an angel more beautiful&rdquo;). &nbsp;One cannot account for
+  diction in Austen&rsquo;s novels without paying attention to indirect speech,
+  especially FID. &nbsp;Bingley needs to have credit for saying &ldquo;an angel more
+  beautiful,&rdquo; not merely because it is his language but also because it is
+  plainly</span> <span class="c0 c2">not</span> <span>the language the
+  narrator would choose for herself. &nbsp; Because FID always blends the speech of the
+  narrator with that of a character, it creates opportunities for tremendous narrative
+  flexibility, as narrators can vary how closely they mimic the language of their
+  characters, and can make ironic points at the character&rsquo;s expense even as they
+  seem to let their characters speak or think for themselves. &nbsp;FID&rsquo;s use in
+  the eighteenth-century novel (British, German, French, etc.) was rudimentary&mdash;one
+  finds some employment of FID in Goethe, for instance, and in Fanny Burney and Samuel
+  Richardson, but no sustained or complex use. &nbsp;As many scholars have noted, it took
+  Jane Austen, writing six novels between 1811 and 1817, to discover and exploit the full
+  potential of FID, including FID&rsquo;s capacity to display complex ironies.
+  &nbsp;Austen&rsquo;s discovery of what FID could do was comparable in the history of
+  the novel to the discovery of the atomic bomb in the history of warfare; thereafter,
+  things were never the same, and FID became a basic feature of the novel as
+  genre.</span></p>
+
+  <p class="c3 c12"><span>One cannot account for all the intricacies of
+  Austen&rsquo;s use of diction by simply coding direct dialogue and leaving all the rest
+  to the narrator, because the narrator is often speaking in the voice of her characters.
+  &nbsp;Furthermore, without coding all forms of indirect speech, one cannot answer
+  questions such as which character&rsquo;s diction most resembles that of the narrator,
+  or even to which gender the narrator&rsquo;s diction aligns most closely. &nbsp;After
+  all, within everything we had coded initially as &ldquo;narrator&rdquo; there were
+  multitudinous points at which both the narrator and a given character are speaking at
+  once (approximately 20%-30% of the narrator&rsquo;s language is FID). &nbsp;Accounting
+  for all of the words in Austen&rsquo;s novels thus requires marking shared speech, both
+  indirect speech and FID. &nbsp;Marking FID is a special challenge due to its nature.
+  &nbsp;</span></p>
+
+  <p class="c3 c4"><span>Free indirect speech, free indirect discourse
+  involves both a character's speech and the narrator's comments or presentation.
+  Famously utilized by James Joyce, free indirect discourse is a more comprehensive
+  method of representation--one which many times makes indistinguishable the thoughts of
+  the narrator and the thoughts of a character. Thus, the method typically privileges the
+  past tense, yet cannot be discerned through merely grammatical indicators.</span></p>
+
+  <p class="c3 c4"><span class=
+  "c0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--International Society for
+  the Study of Narrative (</span><span class=
+  "c0 c22">http://narrative.georgetown.edu/wiki/index.php/Free_indirect_discourse)</span></p>
+
+<h4 id="focalization">Focalization</h4>
+
+  <p class="c3"><span class=
+  "c0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Throughout, one of the greatest
+  challenges for the coder of Austen&rsquo;s diction is distinguishing between
+  focalization and FID. &nbsp;Focalization occurs when the narrator renders a
+  character&rsquo;s point of view, feelings, motives, or thought. &nbsp;All FID is a kind
+  of focalization, but not all focalization is FID. &nbsp;To be FID, the speech must have
+  something of the flavor of the exact words the character would have used in either
+  speech or thought; FID must be a kind of ventriloquism by the narrator.
+  &nbsp;Focalizations which only convey a character&rsquo;s feelings are often not FID,
+  as in this passage from</span> <span class="c0 c2">Emma</span><span>:
+  &nbsp;&ldquo;Part of [Mrs. Weston&rsquo;s] meaning was to conceal some favourite
+  thoughts of her own and Mr. Weston&rsquo;s on the subject, as much as possible.
+  &nbsp;There were wishes at Randalls respecting Emma&rsquo;s destiny, but it was not
+  desirable to have them suspected&rdquo; (Ch. 5). &nbsp;These sentences speak to Mrs.
+  Weston&rsquo;s motives, hoping to conceal from Emma that she wishes Emma would marry
+  Frank Churchill, but she would not have said to herself something like &ldquo;part of
+  my meaning is to conceal some favourite thoughts of my own.&rdquo; &nbsp;Similarly,
+  when Emma leaps to insult Miss Bates, the narrator&rsquo;s comment, &ldquo;Emma could
+  not resist,&rdquo; is focalization without FID. &nbsp;What is described is the flash of
+  succumbing to temptation; the words in Emma&rsquo;s mind are presumably not &ldquo;I
+  cannot resist&rdquo; but the clever and devastating thing she actually says to Miss
+  Bates, &ldquo;&lsquo;Ah! Ma&rsquo;am, there may be a difficulty. &nbsp;Pardon me, but
+  you will be limited as to number, only three at once.&rsquo;&rdquo; &nbsp;The task of
+  distinguishing between focalization and FID is made thornier when the narrator is
+  describing the thoughts or speech of her wittier heroines, because it is sometimes
+  difficult to discern between the narrator&rsquo;s ironies and those of her characters.
+  &nbsp;Distinguishing FID for Catherine Morland (</span><span class=
+  "c0 c2">NA</span><span>) was much easier, as Catherine&rsquo;s mind is no
+  match for that of Austen&rsquo;s narrators. &nbsp;</span></p>
+
+  <h4 id="scaling">Scaling</h4>
+  
+  <p class="c3 c12"><span>Free indirect discourse wavers in its intensity.
+  &nbsp;Sometimes it seems as if one could simply replace the third person pronouns with
+  first person ones and one would have the character&rsquo;s direct speech, as in the
+  earlier example of Elinor&rsquo;s question to Colonel Brandon. &nbsp;In other cases,
+  the FID seems less fully direct ventriloquism of a character; instead the
+  narrator&rsquo;s speech has something of the flavor of or, in some cases, only hints at
+  a character&rsquo;s speech. &nbsp;To complicate the situation, the same passage of FID
+  can change in intensity, as in this example, in which Elizabeth&rsquo;s thoughts about
+  Darcy are rendered in FID, but the central statement, &ldquo;In that case he would
+  return no more,&rdquo; seems most plainly rendered exactly as Elizabeth would have
+  thought the idea (we show the coding here to show how we expressed the scaling of FID
+  intensity): &nbsp;</span></p>
+
+  <p class="c3 c21"><span class="c10">&lt;p&gt;</span><span class="c20 c13"><br />
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span> <span class=
+  "c10">&lt;seg&gt;</span><span class="c20 c13"><br />
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span> <span class=
+  "c10">&lt;said</span><span class="c5">&nbsp;who</span><span class=
+  "c15">=</span><span class="c14">"aus.001.nar_eliz"</span><span class=
+  "c5">&nbsp;direct</span><span class="c15">=</span><span class=
+  "c14">"false"</span><span class="c5">&nbsp;aloud</span><span class=
+  "c15">=</span><span class="c14">"false"</span><span class=
+  "c10">&gt;&lt;certainty</span><span class="c5">&nbsp;locus</span><span class=
+  "c15">=</span><span class="c14">"name"</span><span class=
+  "c5">&nbsp;target</span><span class="c15">=</span><span class=
+  "c14">"aus.001.nar_eliz"</span><span class="c5">&nbsp;degree</span><span class=
+  "c15">=</span><span class="c14">".5"</span><span class="c10">/&gt;</span><span class=
+  "c13 c20">If he had been wavering<br />
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; before as to what he should do, which
+  had often seemed likely, the advice and entreaty of so near a relation might settle
+  every doubt, and<br />
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; determine him at once to be as happy
+  as dignity unblemished could make him.</span><span class=
+  "c10">&lt;/said&gt;</span><span class="c20 c13"><br />
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span> <span class=
+  "c10">&lt;said</span><span class="c5">&nbsp;who</span><span class=
+  "c15">=</span><span class="c14">"aus.001.nar_eliz"</span><span class=
+  "c5">&nbsp;direct</span><span class="c15">=</span><span class=
+  "c14">"false"</span><span class="c5">&nbsp;aloud</span><span class=
+  "c15">=</span><span class="c14">"false"</span><span class=
+  "c10">&gt;&lt;certainty</span><span class="c5">&nbsp;locus</span><span class=
+  "c15">=</span><span class="c14">"name"</span><span class=
+  "c5">&nbsp;target</span><span class="c15">=</span><span class=
+  "c14">"aus.001.nar_eliz"</span><span class="c5">&nbsp;degree</span><span class=
+  "c15">=</span><span class="c14">"1"</span><span class="c10">/&gt;</span><span class=
+  "c20 c13">&nbsp;In that case he would<br />
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; return no more.</span><span class=
+  "c10">&lt;/said&gt;</span><span class="c20 c13"><br />
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span> <span class=
+  "c10">&lt;said</span><span class="c5">&nbsp;who</span><span class=
+  "c15">=</span><span class="c14">"aus.001.nar_eliz"</span><span class=
+  "c5">&nbsp;direct</span><span class="c15">=</span><span class=
+  "c14">"false"</span><span class="c5">&nbsp;aloud</span><span class=
+  "c15">=</span><span class="c14">"false"</span><span class=
+  "c10">&gt;&lt;certainty</span><span class="c5">&nbsp;locus</span><span class=
+  "c15">=</span><span class="c14">"name"</span><span class=
+  "c5">&nbsp;target</span><span class="c15">=</span><span class=
+  "c14">"aus.001.nar_eliz"</span><span class="c5">&nbsp;degree</span><span class=
+  "c15">=</span><span class="c14">".7"</span><span class="c10">/&gt;</span><span class=
+  "c20 c13">&nbsp;Lady Catherine might see<br />
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; him in her way through town; and his
+  engagement to Bingley of coming again to Netherfield must give way.</span><span class=
+  "c10">&lt;/said&gt;</span><span class="c20 c13"><br />
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span> <span class=
+  "c10">&lt;/seg&gt;</span><span class="c20 c13"><br />
+  &nbsp; &nbsp; &nbsp; &nbsp;</span> <span class="c10">&lt;/p&gt;</span></p>
+
+  <p class="c3"><span>We found scaling to be the most difficult part of this
+  project, for though FID clearly varies in intensity, ascribing it to a mathematical
+  scale seems to offer a false scientific precision. &nbsp;We encourage readers to look
+  at &ldquo;Novel Visualization&rdquo; [link] for a visual record of the scaling, where
+  more intense colors represent more intense FID. &nbsp;</span></p>
+
+  <h4 id="visualization">Novel Visualization</h4>
+  
+  <p class="c3 c12"><span>This section of the site allows the user to see
+  patterns of indirect speech and FID, including the intensity of scale of FID, at a
+  glance. &nbsp;You can scroll through the pages of a given novel, noting where indirect
+  speech is most predominant and where it ebbs. &nbsp;You can also see exactly how we
+  coded individual passages, and if you have disagree with our interpretation of a given
+  passage, we would be glad to hear your case for a different one (contact Laura White
+  at</span> <span class="c0 c22 c30"><a class="c26" href=
+  "mailto:lwhite4@unl.edu">lwhite4@unl.edu</a></span><span>).
+  &nbsp;</span></p>
+
+  <p class="c3"><span>Almost half of Austen&rsquo;s FID is introduced by a
+  kind of formula: &nbsp;&ldquo;character&rdquo; &ldquo;verb expressing thought or
+  speech&rdquo; &ldquo;that&rdquo; (e.g., &ldquo;Mr. Gardiner added in his letter, that
+  they might expect to see their father at home on the following day&rdquo;
+  [</span><span class="c0 c2">PP</span><span>, Vol. III, Ch. 10]). &nbsp;These
+  introductions, where they occur, have been coded throughout and can be seen in the
+  novel visualizations. &nbsp;[Laura, is the latter clause true?]</span></p>
+
+  <h4 id="personography">Personography</h4>
+
+  <p class="c3"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The
+  personography of Austen&rsquo;s novels would be very simple if we were limited only to
+  speaking characters and the narrator. &nbsp;But once one turns one&rsquo;s attention to
+  indirect speech and FID, the personography widens considerably. &nbsp;Sometimes living
+  characters cite the dead; sometimes a group of people, such as Meryton society, render
+  judgment through the narrator in FID; and sometimes characters speak in chorus in
+  indirect speech. &nbsp;There are some occasions in which indirect speech is boxed
+  within indirect speech within direct speech, and other complex configurations (for
+  instance, when the narrator renders Elizabeth&rsquo;s thought in FID while
+  incorporating within that FID the direct speech of Colonel Fitzwilliam). &nbsp;See
+  Adventures in FID [link] for examples of complex indirect speech.</span></p>
+
+  <h4 id="fid">Adventures in FID</h4>
+  
+  <p class="c3 c12"><span>Here, courtesy of Carmen Smith, are some examples of
+  the many complex forms of diction Austen employs relative to indirect diction and/or
+  FID. &nbsp;The reader does not notice these complexities, generally, just as we do not
+  pay much attention to occasions of indirect speech or even FID in our own
+  lives&mdash;they seem natural, like water to a fish. &nbsp;However, coding for indirect
+  speech forces philological precision, as much as it can be attained. &nbsp;Ultimately,
+  this project depends on professional judgment about who speaks what and to what degree.
+  &nbsp;As Roland Barthes noted in</span> <span class="c0 c2">S/Z</span><span class=
+  "c0">,</span></p>
+
+  <p class="c3 c4"><span>Irony acts as a signpost, and thereby it destroys the
+  multivalence that might be expected from quoted discourse. &nbsp;A multivalent text can
+  carry out its basic duplicity only if it subverts the opposition between true and
+  false, if it fails to attribute quotations (even seeking to discredit them) to explicit
+  authorities, . . . in short, if it coldly and fraudulently abolishes quotation marks
+  which . . . distribute the ownership of the sentences to their respective proprietors,
+  like subdivisions of a field. &nbsp;(44-5)</span></p>
+
+  <p class="c3"><span>Austen&rsquo;s use of FID certainly &ldquo;abolished
+  quotation marks&rdquo; which &ldquo;distribute the ownership of the sentences to their
+  respective proprietors&rdquo;; we look to make judgments which put the marks back in,
+  as it were, at least heuristically. &nbsp;We rely on informed inference throughout,
+  especially in complex cases, a reliance which in turn depends on the interpretation of
+  characters&rsquo; mindstates. &nbsp;</span></p>
+
+  <p class="c3"><span class="c0 c2">Direct dialogue within direct dialogue (here,
+  changing the speaker from Mrs. Bennet to Mrs. Bennet-as-Mrs. Long, and then in the
+  second example from Darcy to Darcy-as-Elizabeth, yet in both cases remaining
+  &lsquo;aloud&rsquo;):</span></p>
+
+  <p class="c3 c4"><span>&lsquo;And, my dear Jane, I never saw you look in
+  greater beauty. Mrs. Long said so too, for I asked her whether you did not. And what do
+  you think she said besides? &ldquo;Ah! Mrs. Bennet, we shall have her at Netherfield at
+  last.&rdquo; She did indeed.&rsquo; (Vol. III, Ch. 12)</span></p>
+
+  <p class="c3 c4"><span>&lsquo;Your reproof, so well applied, I shall never
+  forget: &ldquo;had you behaved in a more gentleman like manner.&rdquo; Those were your
+  words.&rsquo; (Vol. III, Ch. 16; Darcy reciting past-Elizabeth to
+  present-Elizabeth)</span></p>
+
+  <p class="c3"><span class="c0 c2">Characters not otherwise afforded presence (no direct
+  dialogue in the book) expressing themselves through FID; here, the gardener of
+  Pemberley and Darcy&rsquo;s dead father, respectively:</span></p>
+
+  <p class="c3 c4"><span>Mr. Gardiner expressed a wish of going round the
+  whole Park, but feared it might be beyond a walk. With a triumphant smile, they were
+  told, that it was ten miles round. (Vol. III, Ch. 1)</span></p>
+
+  <p class="c3 c4"><span>&lsquo;My excellent father died about five years ago;
+  and in his will he particularly recommended it to me, to promote his advancement in the
+  best manner that his profession might allow, and if he took orders, desired that a
+  valuable family living might be his as soon as it became vacant.&rsquo; (Vol. II, Ch.
+  12)</span></p>
+
+  <p class="c3"><span class="c0 c2">FID by a large, unnamed collection of people, here,
+  Meryton society:</span></p>
+
+  <p class="c3 c4"><span>The Bennets were speedily pronounced to be the
+  luckiest family in the world, though only a few weeks before, when Lydia had first run
+  away, they had been generally proved to be marked out for misfortune. (Vol. III, Ch.
+  13)</span></p>
+
+  <p class="c3"><span class="c0 c2">Very short instance of FID inserted into narration,
+  sometimes with a length of only one or two words (easy to miss!):</span></p>
+
+  <p class="c3 c4"><span>Lydia was exceedingly fond of him. He was her dear
+  Wickham on every occasion&hellip; (Vol. III, Ch. 9)</span></p>
+
+  <p class="c3"><span class="c0 c2">Direct quotation from another, in this scene
+  physically absent, character within FID-thought (here,
+  Elizabeth&rsquo;s)</span><span>:</span></p>
+
+  <p class="c3 c4"><span>&hellip;He had ruined for a while every hope of
+  happiness for the most affectionate, generous heart in the world; and no one could say
+  how lasting an evil he might have inflicted. [par] &ldquo;There were some very strong
+  objections against the lady,&rdquo; were Colonel Fitzwilliam&rsquo;s words, and these
+  strong objections probably were, her having one uncle who was a country attorney, and
+  another who was in business in London. (Vol. II, Ch. 10)</span></p>
+
+  <p class="c3"><span class="c0 c2">Word usage (&ldquo;said she&rdquo;) indicates direct
+  dialogue, but contextually, this is clear FID (not said aloud as indicated by
+  third-person usage) camouflaged as direct dialogue; in other words, the direct dialogue
+  here constitutes FID:</span></p>
+
+  <p class="c3 c4"><a name="h.gjdgxs" id="h.gjdgxs"></a><span class=
+  "c0">&hellip;Elizabeth was determined to make no effort for conversation with a woman,
+  who was now more than usually insolent and disagreeable. &ldquo;How could I ever think
+  her like her nephew?&rdquo; said she, as she looked in her face. (Volume III, Chapter
+  XIV)</span></p>
+
+  
+
+  <p class="c3"><span class="c0 c22 c2">Some examples of typical introductions of FID in
+  Austen:</span></p>
+
+  
+
+  <p class="c3"><span class="c0 c2">&lsquo;That&rsquo; phrase indicating FID beforehand,
+  sometimes also with &lsquo;that&rsquo; omitted but implied:</span></p>
+
+  
+
+  <p class="c3 c4"><span>Mr. Gardiner added in his letter, that they might
+  expect to see their father at home on the following day&hellip; (Volume III, Chapter
+  VI)</span></p>
+
+  
+
+  <p class="c3"><span class="c0 c2">Entire sentence contextually leading into FID without
+  direct cues:</span></p>
+
+  
+
+  <p class="c3 c4"><span>On such encouragement to ask, Elizabeth was forced to
+  put it out of her power, by running away. [par] But to live in ignorance on such a
+  point was impossible; or at least it was impossible not to try for information&hellip;
+  (Volume III, Chapter IX)</span></p>
+
+  
+
+  <p class="c3 c4"><span>Elizabeth did not know what to make of it. Had she
+  not seen him in Derbyshire&hellip; (Volume III, Chapter XI)</span></p>
+
+  
+
+  <p class="c3"><span class="c0 c2">Inserted phrase, generally synonymous with
+  &ldquo;character thought&rdquo;:</span></p>
+
+  
+
+  <p class="c3 c4"><span>Jane&rsquo;s delicate sense of honour would not allow
+  her to speak to Elizabeth privately of what Lydia had let fall; Elizabeth was glad of
+  it; &ndash; till it appeared whether her inquiries would receive any satisfaction, she
+  had rather be without a confidante. (Volume III, Chapter IX)</span></p>
+
+  
+
+  <p class="c3"><span class="c0 c2">Regular introduction of FID with &lsquo;that&rsquo;
+  phrase, yet occurring within a letter by a different character, with a consequent
+  change of speaker:</span></p>
+
+  
+
+  <p class="c3 c4"><span>&lsquo;His own father did not long survive mine, and
+  within half a year from these events, Mr. Wickham wrote to inform me that, having
+  finally resolved against taking orders, he hoped I should not think it unreasonable for
+  him to expect some more immediate pecuniary advantage&hellip;&rsquo; (Vol. II, Ch.
+  12)</span></p>
+
+  
+
+  <p class="c3"><span class="c0 c2">Elaborate description introducing FID contained in
+  prepositional clause; particularly difficult to ascertain where introduction ends and
+  FID begins:</span></p>
+
+  
+
+  <p class="c3 c4"><span>The vague and unsettled suspicions which uncertainty
+  had produced of what Mr. Darcy might have been doing to forward her sister&rsquo;s
+  match&hellip; (Volume III, Chapter X)</span></p>
+
+  
+
+  <p class="c3"><span>[NOTE&mdash;Laura, here goes Carmen&rsquo;s
+  &ldquo;Austen Project Modes of Speech Legend,&rdquo; which is a chart that sets the
+  forms of speech against our coding of the same. Carmen has this and will send it to us.
+  It has a note at the end that I am putting separately here in the text, on stuff not
+  attributed to narrator or character, which thus</span> <span class="c0 c8">can be cut
+  from the chart</span><span>]</span></p>
+
+  
+
+  <p class="c3"><span>[NOTE&mdash;Laura, here would be a good place to link
+  Carmen&rsquo;s animated slideshow about how she did the actual coding]</span></p>
+
+  <h4 id="text">Text</h4>
+
+  
+
+  <p class="c12 c21 c25"><span>Austen&rsquo;s manuscripts, unlike (say) Walt
+  Whitman&rsquo;s, are relatively unproblematic, with only a few genuine cruxes.
+  &nbsp;</span><span class="c0 c17">The texts were created by comparing two previously
+  digitized, open-source editions &mdash; one from The University of Adelaide, the other
+  from Project Gutenberg. When differences occurred that were not obvious Optical
+  Character Recognition errors, a third source, noted in the metadata for each text, was
+  consulted.</span></p>
+
+  <p class="c3 c12"><span>There are a few kinds of words or passages in the
+  novels which are not coded as either character or narrator speech: &nbsp;chapter or
+  volume markings (e.g., &ldquo;Volume II, Chapter I&rdquo;), quotations (e.g., from
+  Shakespeare, Gray, or nursery rhymes), and putative documents (e.g., the passage on the
+  Elliots in the Baronetage from</span> <span class="c0 c2">Persuasion</span><span class=
+  "c0">&nbsp;or the newspaper clipping about Mrs. Rushworth&rsquo;s running off with
+  Henry Crawford in</span> <span class="c0 c2">Mansfield Park</span><span>).
+  &nbsp;Letters are treated throughout as direct speech from the letter-writer, though
+  letters can and often do contain both indirect speech and free indirect speech (so
+  coded). &nbsp;</span></p>
+
+  
+
+  <h5 id="forward">Going forward: &nbsp;FID in the novel</h5>
+
+  
+
+  <p class="c3 c12"><span>If FID can be found computationally, the scholarly
+  world would potentially be significantly advanced in terms of understanding narrative
+  in general computationally.</span><span class="c0 c8">&nbsp;</span> <span class=
+  "c0">That said, FID is notoriously hard to track. &nbsp;The scholarship on FID has
+  confirmed what we suspected, that FID has no grammatical markers as such (see Further
+  Reading [link]). &nbsp;However, having coded all of Austen&rsquo;s major novels for
+  FID, we are in a position to test that and other propositions about FID in the novel,
+  especially as Austen&rsquo;s innovations make her novels a linchpin of sorts in the
+  history of FID and the history of the novel. &nbsp;We plan to deploy the encoded novels
+  against the eighteenth-century novel (through the huge number of novels available
+  digitally in ECCO, Eighteenth-Century Collections Online) and against the
+  nineteenth-century novel (through the capacious hoard of Chadwick-Healey&rsquo;s
+  Nineteenth-Century Fiction Collection). &nbsp;We expect that our work will have several
+  important outputs and objectives: &nbsp;1) determining if FID can be found
+  computationally in Austen; 2) determining if FID can be found computationally in novels
+  more generally; and 3) providing the means to analyze the development of FID in the
+  novel as genre. &nbsp;This last is the most ambitious of the three ambitious goals.
+  &nbsp;</span></p>
+
+<h4 id="reading">Further Reading on FID and interpreting
+  character&rsquo;s mindstates</h4>  
+
+  
+
+  
+
+  <p><span>Banfield, Ann. &nbsp;</span><span class=
+  "c0 c2">Unspeakable Sentences: &nbsp;Narration and Representation in the Language of
+  Fiction</span><span>. &nbsp;Boston: Routledge and Kegan Paul,
+  1982.</span></p>
+
+  <p><span>Bray, Joe. &nbsp;&ldquo;The Source of
+  &lsquo;Dramatized Consciousness&rsquo;: &nbsp;Richardson, Austen, and Stylistic
+  Influence.&rdquo; &nbsp;</span><span class="c0 c2">Style</span><span class=
+  "c0">&nbsp;35.1 (2001): &nbsp;18-29. &nbsp;</span></p>
+
+  <p><span>B&uuml;hler, Willi. &nbsp;</span><span class=
+  "c0 c2">Die &lsquo;erlebte Rede&rsquo; im englischen Roman: &nbsp;ihre Vorstufen und
+  ihre Ausbildung im Werke Jane Austens</span><span>. &nbsp;Zurich: &nbsp;Max
+  Niehans Verlag: 1937. &nbsp;In German. &nbsp;</span></p>
+
+  <p><span>Cohn, Dorrit. &nbsp;</span><span class=
+  "c0 c2">Transparent Minds: Narrative Modes for Presenting Consciousness in
+  Fiction.</span><span>&nbsp; Princeton: &nbsp;Princeton UP, 1978.
+  &nbsp;</span></p>
+
+  <p><span>Dillon, George L. and Frederick Kirchoff.
+  &nbsp;&ldquo;On the Form and Function of Free Indirect Style.&rdquo;
+  &nbsp;</span><span class="c0 c2">Poetics and Theory of Literature</span><span class=
+  "c0">&nbsp;1.3 (1976): 431-40. &nbsp;</span></p>
+
+  <p><span>Finch, Casey and Peter Bowen.
+  &nbsp;&ldquo;&lsquo;The Tittle-Tattle of Highbury&rsquo;: &nbsp;Gossip and the Free
+  Indirect Style in</span> <span class="c0 c2">Emma</span><span>.&rdquo;
+  &nbsp;</span><span class="c0 c2">Representations</span> <span>31 (1990):
+  1-18.</span></p>
+
+  <p><span>Flavin, Louise. &nbsp;&ldquo;Free Indirect Discourse
+  and the Clever Heroine of</span> <span class="c0 c2">Emma</span><span class=
+  "c0">.&rdquo; &nbsp;</span><span class="c0 c2">Persuasions</span><span class=
+  "c0">&nbsp;13 (1991): &nbsp;50-7.</span></p>
+
+  <p><span>Fletcher, Angus, and Mike Benveniste. &nbsp;&ldquo;A
+  Scientific Justification for Literature: Jane Austen&rsquo;s Free Indirect Style as
+  Ethical Tool.&rdquo; &nbsp;</span><span class="c0 c2">Journal of Narrative
+  Theory</span><span>&nbsp;43.1 (2013): 1-18. &nbsp;</span></p>
+
+  <p><span>Goldman, Alvin. &nbsp;</span><span class=
+  "c0 c2">Stimulating Minds: &nbsp;The Philosophy, Psychology, and Neuroscience of
+  Mindreading</span><span>. &nbsp;Oxford: &nbsp;Oxford UP, 2006.
+  &nbsp;</span></p>
+
+  <p><span>Gunn, Daniel. &nbsp;&ldquo;Free Indirect Discourse
+  and Narrative Authority in Emma.&rdquo; &nbsp;</span><span class=
+  "c0 c2">Narrative</span><span>&nbsp;12 (2004): 35-54.</span></p>
+
+  <p><span>Hale, Dorothy. &nbsp;&ldquo;Fiction as Restriction:
+  &nbsp;Self-Binding in New Ethical Theories of the Novel.&rdquo;
+  &nbsp;</span><span class="c0 c2">Narrative</span><span>&nbsp;15 (2007):
+  187-206.</span></p>
+
+  <p><span>Horstkotte, Silke. &nbsp;&ldquo;Seeing or Speaking:
+  Visual Narratology and Focalization, Literature to Film.&rdquo;
+  &nbsp;</span><span class="c0 c2">Narratology in the Age of Cross-Disciplinary Narrative
+  Research</span><span>. &nbsp;Eds. Sandra Heinen and Roy Sommer.
+  &nbsp;Berlin: de Gruyter, 2009. &nbsp;170-92. &nbsp;</span></p>
+
+  <p><span>Keen, Suzanne. &nbsp;&ldquo;Readers&rsquo;
+  Temperaments and Fictional Character.&rdquo; &nbsp;</span><span class="c0 c2">New
+  Literary History</span><span>&nbsp;42 (2011): 295-314.</span></p>
+
+  <p><span>---. &nbsp;</span><span class="c0 c2">Empathy and
+  the Novel</span><span>. &nbsp;Oxford: &nbsp;Oxford UP, 2010.</span></p>
+
+  <p><span>Nazar, Hina. &nbsp;&ldquo;The Imagination Goes
+  Visiting: &nbsp;Jane Austen, Judgment, and the Social.&rdquo; &nbsp;</span><span class=
+  "c0 c2">Nineteenth Century Literature</span><span>&nbsp;59 (2004): 145-78.
+  &nbsp;</span></p>
+
+  <p><span>Neumann, Anne Waldron. &nbsp;&ldquo;Characterization
+  and Comment in</span> <span class="c0 c2">Pride and Prejudice</span><span>:
+  &nbsp;Free Indirect Discourse and &lsquo;Double-Voiced&rsquo; Verbs of Speaking,
+  Thinking, and Feeling.&rdquo; &nbsp;</span><span class="c0 c2">Style</span><span class=
+  "c0">&nbsp;20.3 (Fall 1986): &nbsp;364-94. &nbsp;</span></p>
+
+  <p><span>Page, Norman. &nbsp;</span><span class="c0 c2">The
+  Language of Jane Austen</span><span>. &nbsp;Oxford: Basil Blackwell, 1972.
+  &nbsp;</span></p>
+
+  <p><span>Pascal, Roy. &nbsp;</span><span class="c0 c2">The
+  Dual Voice: &nbsp;Free Indirect Speech and Its Functioning in the Nineteenth Century
+  European Novel.</span><span>&nbsp; Manchester: Manchester UP, 1977.
+  &nbsp;</span></p>
+
+  <p><span>Phelan, James. &nbsp;</span><span class=
+  "c0 c2">Reading People, Reading Plots: &nbsp;Character, Progression, and the
+  Interpretive of Narrative</span><span>. &nbsp;Chicago: &nbsp;U of Chicago P,
+  1989. &nbsp;</span></p>
+
+  <p><span>Poovey, Mary. &nbsp;</span><span class="c0 c2">The
+  Proper Lady and the Woman Writer: &nbsp;Ideology as Style in the Works of Mary
+  Wollstonecraft, Mary Shelley, and Jane Austen</span><span>. &nbsp;Chicago: U
+  of Chicago P, 1985.</span></p>
+
+  <p><span>Shaw, Harry E. &nbsp;</span><span class=
+  "c0 c2">Narrating Reality: &nbsp;Austen, Scott, Eliot</span><span>.
+  &nbsp;Ithaca: &nbsp;Cornell UP, 1999. &nbsp;</span></p>
+
+  <p><span>Starr, G. Gabrielle. &nbsp;&ldquo;Evolved Reading
+  and the Science(s) of Literary Study.&rdquo;</span> <span class="c0 c2">Critical
+  Inquiry</span><span>&nbsp;38 (2012): 418-25.</span></p>
+
+  <p><span>Tandrup, Birthe. &nbsp;&ldquo;Free Indirect Style
+  and the Critique of the Gothic in</span> <span class="c0 c2">Northanger
+  Abbey</span><span>.&rdquo; &nbsp;In</span> <span class="c0 c2">The Romantic
+  Heritage: &nbsp;A Collection of Critical Essays</span><span>. &nbsp;Ed.
+  Karsten Engelberg. &nbsp;Copenhagen: &nbsp;U of Copenhagen, 1983. &nbsp;81-92.
+  &nbsp;</span></p>
+
+  <p><span>Tone, Anne. &nbsp;&ldquo;A &lsquo;Said He&rsquo; or
+  a &lsquo;Said She&rsquo;: &nbsp;Speech Attribution in Austen&rsquo;s Fiction.&rdquo;
+  &nbsp;</span><span class="c0 c2">Persuasions</span> <span>34 (2012): 140-49.
+  &nbsp;</span></p>
+
+  <p><span>Vermeule, Blakey. &nbsp;</span><span class=
+  "c0 c2">Why Do We Care About Literary Characters?</span><span>&nbsp;
+  Baltimore: Johns Hopkins UP, 2009.</span></p>
+
+  <p><span>Wajsberg, Jeffrey. &nbsp;</span><span class=
+  "c0 c2">Jane Austen&rsquo;s Free Indirect Style: &nbsp;A Linguistic
+  Ethnography</span><span>. &nbsp;M.A. thesis. &nbsp;Vancouver: &nbsp;U of
+  British Columbia, 2012. &nbsp; &nbsp;</span></p>

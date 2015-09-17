@@ -105,3 +105,11 @@ $(document).ready(function() {
     return container;
   };
 });
+
+$(document).ready(function() {
+  $('.panel-novel-overview').affix({
+  offset: {
+  top: $('.panel-novel-overview').offset().top
+  }
+  });
+});
