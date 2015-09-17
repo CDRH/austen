@@ -287,10 +287,24 @@ padding-bottom: 10px;
   padding: 0;
 }
 
+.novel-panel {
+	position: relative;
+}
 .panel-novel-overview {
-  position: fixed;
+  /*position: fixed;*/
+  width:250px;
+  float:left;
 }
 
+.all_chapters {
+	margin-left:270px
+}
+
+.affix {
+  top: 0px;
+  /* width: 213px; */
+
+}
 /* From individual pages */
 
 

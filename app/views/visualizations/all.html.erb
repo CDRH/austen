@@ -1,13 +1,14 @@
 
 </div>
 
-<div class="container-fluid" id="all_chapter_visualization">
+<div class="container" id="all_chapter_visualization">
 
 <div class="main_content">
   <h2><%= @book["title"] %></h2>
-  <div class="row">
-    <div class="col-md-3">
-      <div class="panel panel-default panel-novel-overview">
+  
+  
+  
+      <div class="panel panel-default panel-novel-overview" style="float:left;">
         <div class="panel-heading">
           <h3 class="panel-title">Key</h3>
         </div>
@@ -49,10 +50,10 @@
         </p>
       </div>
     </div>
-  </div>
 
-  <div class="col-md-9">
+<div class="all_chapters">
     <%= render params["id"] %>
-  </div>
+    
 </div>
+
 </div><!-- I don't know why this needs to be here but the footer is misplaced without it -->
