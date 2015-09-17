@@ -1,5 +1,0 @@
-development:
-  solr_url: http://cdrhsearch.unl.edu:8080/solr/austen/select?q=*%3A*&wt=xml&indent=true
-production:
-
-test:
