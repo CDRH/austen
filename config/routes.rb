@@ -13,7 +13,9 @@ Rails.application.routes.draw do
   get 'visualizations/:id/all' => 'visualizations#all', as: :visual_all
   get 'visualizations/:id/:chapter' => 'visualizations#chapter', as: :visual_chapter
 
-  get 'essays' => 'essays#index', as: :essays
+  get 'background' => 'background#index', as: :background
+  
+  get 'about' => 'about#index', as: :about
 
 
 end

@@ -145,7 +145,7 @@ body {
 
 body {        
 
-          padding-bottom: 1000px;
+          /* padding-bottom: 1000px; */
           /*background-color: red;*/
           }
           
@@ -298,4 +298,20 @@ padding-bottom: 10px;
 .selected {
     background-color:#B8DAE6;
   }
+  
+/* frequencies */
+
+.text-display-container {
+    float:left;
+  }
+
+  .frequency_group {
+    float:left;
+    position:relative;
+  }
+
+  .select-text-btn {
+    position:absolute;
+  }
+
 
