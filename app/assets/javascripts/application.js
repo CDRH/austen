@@ -10,11 +10,8 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-
-// I commented out all of these because they are hateful and double include
-// require jquery
-// require jquery_ujs
-// require turbolinks
-// require bootstrap-sprockets
+//= require modernizr.min
+//= require bootstrap.min
+//= require main
 // require_tree .
 

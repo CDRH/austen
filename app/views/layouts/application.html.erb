@@ -10,16 +10,18 @@
   <%= favicon_link_tag %>
   
   <!-- Stylesheets -->
+  
+  <!-- Only need to call application because application calls the other two? -kmd 
+	  todo figure this out and then remove comment -->
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => false %>
 
-  <%= stylesheet_link_tag    'bootstrap', media: 'all', 'data-turbolinks-track' => false %>
-  <%= stylesheet_link_tag    'style', media: 'all', 'data-turbolinks-track' => false %>
+
 
   <!-- Scripts -->
   <%= javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js' %>
+  <!-- As above, application is calling the other files -->
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => false %>
-  <%= javascript_include_tag 'bootstrap.min', 'data-turbolinks-track' => false %>
-  <%= javascript_include_tag 'main' %>
-  <%= javascript_include_tag 'modernizr.min', 'data-turbolinks-track' => false %>
+  
 
 </head>
 

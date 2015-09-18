@@ -1,5 +1,7 @@
-
-/* /BTS IMPORT */
+/**************************************/
+/* Bootstrap IMPORT */
+@import "bootstrap";
+/* /Bootstrap IMPORT */
 /**************************************/
 
 #wrapper {
@@ -8,7 +10,7 @@
 
 .site_title h1 {
   font-family: 'Alice', serif;
-  font-size: 5em;
+  font-size: 4.5em;
   margin: .2em 0 0 0;
   color: #447984; }
 
@@ -19,7 +21,7 @@
 
 .site_title h2 {
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 2em;
+  font-size: 1.8em;
   color: #3c9d64;
   margin: 0 0 .5em 0; }
 
@@ -35,6 +37,18 @@
 .tei_attribute_value {
   color: #3c9d64; }
 
+.header .navbar {
+	font-size: 1.2em;
+	width:100%;
+	text-align: center;
+	
+
+}
+
+.header .navbar li {
+		float:none;
+		display: inline-block;
+	}
 
 pre {
   font-size: 1em;
@@ -91,13 +105,14 @@ body {
   .site_title h1 {
     display: inline-block;
     width: 50%;
-    line-height: 1em; }
+    line-height: 1em;
+    font-size: 6em; }
 
 
   .site_title h2 {
     display: inline-block;
     width: 45%;
-    font-size: 2.2em;
+    font-size: 2.6em;
     padding-left: .2em;
     line-height: 1em; }
 
@@ -122,7 +137,7 @@ body {
   padding: 10px; }
 
 
-*/
+/*
 @media (max-width: 767px) {
 
   .go {
