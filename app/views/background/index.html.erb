@@ -30,215 +30,198 @@
 
 <h4 id="background">Background</h4>
 
-  <p class="c3"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This
+  <p>This
   project began when David Moberly, then an M.A. student at the University of
   Nebraska-Lincoln [UNL] (and currently a Ph.D. student at the University of Minnesota)
   approached me at the suggestion of Steve Ramsay (Susan J. Rosowski Associate Professor
-  of English, UNL) about my interest in data-mining Jane Austen. &nbsp;Our first idea,
+  of English, UNL) about my interest in data-mining Jane Austen. Our first idea,
   checking Austen&rsquo;s words against those of the Anglican liturgy and the King James
-  Bible, was a bust, as Austen tended</span> <span class="c0 c2">not</span><span class=
-  "c0">&nbsp;to use the exact words of liturgy or scripture to avoid irreverence.
-  &nbsp;But with the help of Brian Pytlig Zillig of UNL&rsquo;s Center for Digital
+  Bible, was a bust, as Austen tended <i>not</i> to use the exact words of liturgy or scripture to avoid irreverence.
+  But with the help of Brian Pytlig Zillig of UNL&rsquo;s Center for Digital
   Research in the Humanities [CDRH] and Professor of Libraries, and his brainchild,
   TokenX, a text visualization, analysis, and play tool, we began to look for patterns of
-  speech in Austen, first with</span> <span class="c0 c2">Pride and
-  Prejudice</span><span>&nbsp;[</span><span class=
-  "c0 c2">PP</span><span>]. &nbsp; David coded all the dialogue of the novel,
+  speech in Austen, first with <i>Pride and
+  Prejudice</i> [<i>PP</i>]. David coded all the dialogue of the novel,
   at which point we began to see how interesting results of this sort could be.
-  &nbsp;</span></p>
+  </p>
 
   <h4 id="beginnings">Beginnings</h4>
 
-  <p class="c3"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The size
+  <p>The size
   of Austen&rsquo;s corpus, only six completed major novels, seems to augur against
   successful data-mining or &ldquo;distant reading,&rdquo; as an ordinary person can read
   all six for him or herself and presumably note important features of diction without
-  the aid of computational analysis. &nbsp;And yet we found even at this early stage that
+  the aid of computational analysis. And yet we found even at this early stage that
   there were tantalizing results of the sort which ordinary readers would indeed miss.
-  &nbsp;TokenX works through creating frequency tables. &nbsp;By sorting for unique
+  TokenX works through creating frequency tables. By sorting for unique
   utterances of a given character (or type of character, such as &ldquo;female&rdquo; or
   &ldquo;male&rdquo;), one could see, for instance, that Elizabeth Bennet is the only
-  character in</span> <span class="c0 c2">PP</span><span>&nbsp;to use the
+  character in <i>PP</i> to use the
   words &ldquo;friendship,&rdquo; &ldquo;merit,&rdquo; &ldquo;wretched&rdquo; (four times
   each) and &ldquo;affections&rdquo; and &ldquo;disdain&rdquo; (three times each), while
   Darcy is the only character to use &ldquo;abhorrence,&rdquo; &ldquo;confession,&rdquo;
   &ldquo;insufficient,&rdquo; and &ldquo;offenses&rdquo; (he uses each three times).
-  &nbsp;In fact, one can make a kind of impressionistic picture of his character by
+  In fact, one can make a kind of impressionistic picture of his character by
   listing some of the words Darcy alone uses (in these cases, twice each):
-  &nbsp;</span><span class="c0 c2">accusations, carelessness, catch, consulting,
+  <i>accusations, carelessness, catch, consulting,
   defiance, existing, explaining, faithful, indirect, lessen, liberally, meanly, motives,
-  offers, purposely, repetition, school,</span> <span>and</span> <span class=
-  "c0 c2">support</span><span>. &nbsp;Words unique to the narrator are perhaps
+  offers, purposely, repetition, school,</i> and <i>support</i>. Words unique to the narrator are perhaps
   less surprising, as many of them are words that set the stage or describe action, such
   as &ldquo;followed&rdquo; (25 times), &ldquo;breakfast&rdquo; and
   &ldquo;listened&rdquo; (20 times each), and &ldquo;pause&rdquo; and
-  &ldquo;seated&rdquo; (15 times each). &nbsp;Much later in our project, Steve Ramsay
+  &ldquo;seated&rdquo; (15 times each). Much later in our project, Steve Ramsay
   would find that running similarity algorithms on the vocabulary of the characters
-  in</span> <span class="c0 c2">PP</span><span>&nbsp;reveals that the
+  in <i>PP</i> reveals that the
   narrator, Elizabeth, and Darcy are more similar to each other in the words they use
-  than they are to any other character. &nbsp;The surprise is that Mr. Collins also
+  than they are to any other character. The surprise is that Mr. Collins also
   shares an enormous amount of vocabulary with this group, only slightly less than
-  Elizabeth shares with Jane, her own sister. &nbsp;Users may wish to create wordclouds
+  Elizabeth shares with Jane, her own sister. Users may wish to create wordclouds
   from the frequency tables of unique utterances to create a rendering of a given
-  character, such as Darcy&rsquo;s.</span></p>
+  character, such as Darcy&rsquo;s.</p>
 
   <h4 id="traits">Traits</h4>
 
-  <p class="c3"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From the
+  <p>From the
   beginning, we aimed to search not just for individual speech but patterns of speech
-  among classes of characters. &nbsp;We assigned traits of gender, age, marital status,
-  class, occupation, and kind of character. &nbsp;The categories within the traits are
-  listed below. &nbsp;</span></p>
+  among classes of characters. We assigned traits of gender, age, marital status,
+  class, occupation, and kind of character. The categories within the traits are
+  listed below.</p>
 
 
   <ul class="c19 lst-kix_list_7-0 start">
-    <li><a href="#gender">Gender</a> male, female</li>
+    <li><a href="#gender">Gender:</a> male, female</li>
 
-    <li><a href="#age">Age</a> child, young and marriageable ("out"), young married, middle-aged, old, and deceased</li>
+    <li><a href="#age">Age:</a> child, young and marriageable ("out"), young married, middle-aged, old, and deceased</li>
 
-    <li><a href="#marital">Marital</a> married, unmarried, married during the novel's action (&ldquo;mda&rdquo;), widowed</li>
+    <li><a href="#marital">Marital:</a> married, unmarried, married during the novel's action (&ldquo;mda&rdquo;), widowed</li>
 
-    <li><a href="#class">Class</a> aristocrat, landed gentry, gentry, professional class, working class</span></li>
+    <li><a href="#class">Class:</a> aristocrat, landed gentry, gentry, professional class, working class</li>
 
-    <li><a href="#occupation">Occupation</a> clergyman, doctor, nurse, lawyer, naval officer, army officer, servant, and farmer</span></li>
+    <li><a href="#occupation">Occupation:</a> clergyman, doctor, nurse, lawyer, naval officer, army officer, servant, and farmer</li>
 
-    <li><a href="#kind">Kind of Character</a> hero, heroine, cad, fool, heir, neutral, narrator</span></li>
+    <li><a href="#kind">Kind of Character:</a> hero, heroine, cad, fool, heir, neutral, narrator</li>
   </ul>
 
   <h4 id="gender">Gender</h4>
 
 
-  <p class="c3"><span class=
-  "c0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Assigning gender is unproblematic
-  in Austen&rsquo;s novels. &nbsp;Some of the more interesting results arise through
-  searching by gender. &nbsp;For instance, we found that in</span> <span class=
-  "c0 c2">Pride and Prejudice</span><span>&nbsp;no female character uses the
+  <p>Assigning gender is unproblematic
+  in Austen&rsquo;s novels. Some of the more interesting results arise through
+  searching by gender. For instance, we found that in <i>Pride and Prejudice</i> no female character uses the
   word &ldquo;matrimony&rdquo; while no male character uses the word
-  &ldquo;wedding.&rdquo;</span></p>
+  &ldquo;wedding.&rdquo;</p>
 
   <h4 id="age">Age</h4>
 
-  <p class="c3"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;While
+  <p>While
   &ldquo;out&rdquo; in Austen&rsquo;s day described only young women of marriageable age,
   we found it a handy (and short) code for both marriageable male and female characters
-  (the chief actors in most of the novels). &nbsp;Age is sometimes hard to
-  discern&mdash;for instance, is Mrs. Weston of</span> <span class=
-  "c0 c2">Emma</span><span>&nbsp;[</span><span class=
-  "c0 c2">E</span><span>] &ldquo;young married&rdquo; or
-  &ldquo;middle-aged&rdquo;? &nbsp;We have coded her as &ldquo;young married,&rdquo;
+  (the chief actors in most of the novels). Age is sometimes hard to
+  discern&mdash;for instance, is Mrs. Weston of <i>Emma</i> [<i>E</i>] &ldquo;young married&rdquo; or
+  &ldquo;middle-aged&rdquo;? We have coded her as &ldquo;young married,&rdquo;
   partly because she becomes pregnant and has a child within the action of the story.
-  &nbsp;One would think that &ldquo;deceased&rdquo; would not be a necessary category,
+  One would think that &ldquo;deceased&rdquo; would not be a necessary category,
   but there are points in which now-dead characters speak through indirect diction within
-  the speech of the narrator or that of living characters.</span></p>
+  the speech of the narrator or that of living characters.</p>
 
   <h4 id="marital">Marital Status</h4>
 
-  <p class="c3"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Many
+  <p>Many
   characters marry during the course of the action, and so we have coded them as
   &ldquo;married during action&rdquo; or &ldquo;mda&rdquo; (examples include Mr. Elton
-  in</span> <span class="c0 c2">Emma</span> <span>and Maria and Mr. Rushworth
-  in</span> <span class="c0 c2">Persuasion</span><span class=
-  "c0">&nbsp;[</span><span class="c0 c2">P</span><span>])</span><span class=
-  "c0 c2">.</span><span>&nbsp;Users may wish to play with this designation if
+  in <i>Emma</i> and Maria and Mr. Rushworth
+  in <i>Persuasion</i> [<i>P</i>]). Users may wish to play with this designation if
   they are more interested in one stage of the character&rsquo;s life over the other (for
   instance, one can search for Mr. Elton alongside unmarried characters or married ones).
-  &nbsp;</span></p>
+  </p>
 
   <h4 id="class">Class</h4>
 
-  <p class="c3"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As many
+  <p>As many
   critics have noted, Austen&rsquo;s world is focused on the gentry and professional
   classes, with few aristocrats and a limited depiction of servants and other members of
-  the working classes. &nbsp;Working-class speech, we found, was very rare. &nbsp;We
+  the working classes. Working-class speech, we found, was very rare. We
   assigned married female characters the class status and occupation status of their
   husbands, as reflects the social laws of Austen&rsquo;s day; Mrs. Gardiner, for
   instance, has the class standing of her husband, a lawyer, and thus belongs to the
-  professional class. &nbsp;However, assigning class rank for married women based on
+  professional class. However, assigning class rank for married women based on
   their husband&rsquo;s class becomes more problematic with characters who marry within
-  the course of the novel (for instance, Lydia Bennet of</span> <span class=
-  "c0 c2">PP</span><span>&nbsp;is coded as &ldquo;landed gentry&rdquo; even
+  the course of the novel (for instance, Lydia Bennet of <i>PP</i> is coded as &ldquo;landed gentry&rdquo; even
   though for several chapters at the end of the novel she has become a member of the
   professional classes, married as she is to an army officer, worthless though he might
-  be). &nbsp;</span></p>
+  be).</p>
 
   <h4 id="occupation">Occupation</h4>
   
-  <p class="c3"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The
-  range of occupations of Austen&rsquo;s speaking characters is limited: &nbsp;clergyman
+  <p>The
+  range of occupations of Austen&rsquo;s speaking characters is limited: clergyman
   (Austen&rsquo;s clergymen are always Anglican priests), doctor, nurse, lawyer, naval
   officer, army officer, servant, and farmer. Most of her characters do not have any
-  occupation at all, including almost all of the women. &nbsp;</span></p>
+  occupation at all, including almost all of the women. </p>
 
   <h4 id="kind">Kind of Character</h4>
   
-  <p class="c3"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This
-  trait is perhaps the most open to readerly interpretation. &nbsp;In most cases,
-  assigning the hero and heroine is readily done. &nbsp;We judged that both Marianne and
-  Elinor Dashwood in</span> <span class="c0 c2">Sense and Sensibility</span><span class=
-  "c0">&nbsp;[</span><span class="c0 c2">SS</span><span>] as well as Elizabeth
-  and Jane Bennet in</span> <span class="c0 c2">PP</span> <span>are heroines;
-  likewise, Colonel Brandon and Edward Ferrars (SS) and Mr. Darcy and Mr. Bingley
-  (</span><span class="c0 c2">PP</span><span>) are coded as heroes.
-  &nbsp;There is one cad in each novel. &nbsp;There are more fools than any other sort of
+  <p>This
+  trait is perhaps the most open to readerly interpretation. In most cases,
+  assigning the hero and heroine is readily done. We judged that both Marianne and
+  Elinor Dashwood in <i>Sense and Sensibility</i> [<i>SS</i>] as well as Elizabeth
+  and Jane Bennet in <i>PP</i> are heroines;
+  likewise, Colonel Brandon and Edward Ferrars (<i>SS</i>) and Mr. Darcy and Mr. Bingley
+  (<i>PP</i>) are coded as heroes.
+  There is one cad in each novel. There are more fools than any other sort of
   character; &ldquo;neutral&rdquo; was assigned to those relatively rare characters such
-  as Mrs. Weston (</span><span class="c0 c2">E</span><span>) or Mrs. Gardiner
-  (</span><span class="c0 c2">PP</span><span>) who are reasonably wise and
-  decent people. &nbsp;We have included the category of &ldquo;heir&rdquo; because five
+  as Mrs. Weston (<i>E</i>) or Mrs. Gardiner
+  (<i>PP</i>) who are reasonably wise and
+  decent people. We have included the category of &ldquo;heir&rdquo; because five
   of the six novels feature a major character who is marked as being the heir of a
-  substantial property and/or title (Henry Tilney in</span> <span class=
-  "c0 c2">Northanger Abbey</span><span>&nbsp;[</span><span class=
-  "c0 c2">NA</span><span>], Mr. Collins [</span><span class=
-  "c0 c2">PP</span><span>], Edward Ferrars [</span><span class=
-  "c0 c2">SS</span><span>], Tom Bertram in</span> <span class=
-  "c0 c2">Mansfield Park</span><span>&nbsp;[</span><span class=
-  "c0 c2">MP</span><span>], and Mr. Elliot [</span><span class=
-  "c0 c2">P</span><span>]). &nbsp;</span></p>
+  substantial property and/or title (Henry Tilney in <i>Northanger Abbey</i> [<i>NA</i>], 
+    Mr. Collins [<i>PP</i>], Edward Ferrars [<i>SS</i>], Tom Bertram in <i>Mansfield Park</i>
+    [<i>MP</i>], and Mr. Elliot [<i>P</i>]).</p>
 
   <h4 id="questions">Questions left hanging: The Turn to FID</h4>
 
-  <p class="c3"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Coding
-  direct speech can tell us a lot about Austen&rsquo;s technique. &nbsp;However, much of
-  the novels are rendered in indirect speech and free indirect discourse [FID]. &nbsp;In
+  <p>Coding
+  direct speech can tell us a lot about Austen&rsquo;s technique. However, much of
+  the novels are rendered in indirect speech and free indirect discourse [FID]. In
   FID, the narrator renders not merely the point of view of a given character
   (focalization [link]) but gives the flavor of a character&rsquo;s speech or thought.
-  &nbsp;In the most direct form of FID, the narrator ventriloquizes for the character; in
+  In the most direct form of FID, the narrator ventriloquizes for the character; in
   other words, the reader senses that by changing third person pronouns to first person
   ones, one would have a rendering of the character&rsquo;s direct speech or thought.
-  &nbsp;For instance, when Colonel Brandon first calls on Elinor and Marianne in London,
+  For instance, when Colonel Brandon first calls on Elinor and Marianne in London,
   Elinor&rsquo;s question to him in FID can readily be turned into direct dialogue:
-  &nbsp;&ldquo;. . . she asked if he had been in London ever since she had seen him
+  &ldquo;. . . she asked if he had been in London ever since she had seen him
   last&rdquo; becomes (inferentially) &ldquo;she asked,&ldquo; &lsquo;if you have been in
-  London ever since I saw you last.&rsquo;&rdquo;</span></p>
+  London ever since I saw you last.&rsquo;&rdquo;</p>
 
-  <p class="c3 c12"><span>Outside of direct dialogue, free indirect discourse
+  <p>Outside of direct dialogue, free indirect discourse
   is the most common, economical, and sophisticated way novels (and other texts) relay
-  information about thoughts and speech. &nbsp;For instance, early in</span> <span class=
-  "c0 c2">Pride and Prejudice</span><span>&nbsp;we learn what Mr. Bingley
+  information about thoughts and speech. &nbsp;For instance, early in <i>Pride and Prejudice</i> we learn what Mr. Bingley
   thought of the Meryton assembly at which he meets the Bennet family:
-  &nbsp;&ldquo;Bingley had never met with pleasanter people or prettier girls in his
+  &ldquo;Bingley had never met with pleasanter people or prettier girls in his
   life; every body had been most kind and attentive to him, there had been no formality,
   no stiffness, he had soon felt acquainted with all the room; and as to Miss Bennet, he
   could not conceive an angel more beautiful&rdquo; (Ch. 4). The narrator is speaking,
   but the language is really Bingley&rsquo;s, including his use of clich&eacute;s and
-  hyperbole (e.g., &ldquo;an angel more beautiful&rdquo;). &nbsp;One cannot account for
+  hyperbole (e.g., &ldquo;an angel more beautiful&rdquo;). One cannot account for
   diction in Austen&rsquo;s novels without paying attention to indirect speech,
-  especially FID. &nbsp;Bingley needs to have credit for saying &ldquo;an angel more
+  especially FID. Bingley needs to have credit for saying &ldquo;an angel more
   beautiful,&rdquo; not merely because it is his language but also because it is
-  plainly</span> <span class="c0 c2">not</span> <span>the language the
-  narrator would choose for herself. &nbsp; Because FID always blends the speech of the
+  plainly <i>not</i> the language the
+  narrator would choose for herself. Because FID always blends the speech of the
   narrator with that of a character, it creates opportunities for tremendous narrative
   flexibility, as narrators can vary how closely they mimic the language of their
   characters, and can make ironic points at the character&rsquo;s expense even as they
-  seem to let their characters speak or think for themselves. &nbsp;FID&rsquo;s use in
+  seem to let their characters speak or think for themselves. FID&rsquo;s use in
   the eighteenth-century novel (British, German, French, etc.) was rudimentary&mdash;one
   finds some employment of FID in Goethe, for instance, and in Fanny Burney and Samuel
-  Richardson, but no sustained or complex use. &nbsp;As many scholars have noted, it took
+  Richardson, but no sustained or complex use. As many scholars have noted, it took
   Jane Austen, writing six novels between 1811 and 1817, to discover and exploit the full
   potential of FID, including FID&rsquo;s capacity to display complex ironies.
-  &nbsp;Austen&rsquo;s discovery of what FID could do was comparable in the history of
+  Austen&rsquo;s discovery of what FID could do was comparable in the history of
   the novel to the discovery of the atomic bomb in the history of warfare; thereafter,
   things were never the same, and FID became a basic feature of the novel as
-  genre.</span></p>
+  genre.</p>
 
   <p class="c3 c12"><span>One cannot account for all the intricacies of
   Austen&rsquo;s use of diction by simply coding direct dialogue and leaving all the rest
