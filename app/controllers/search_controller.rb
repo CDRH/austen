@@ -16,15 +16,18 @@ class SearchController < ApplicationController
 
   # leave params as is, then squish together the various facet fields
   # to prepare to send off via rsolr
+  # also put in sorting
   def create_search_options(aParams)
     options = aParams.clone
     fq = []
-    for key in [:novel, :speaker_name, :sex, :marriage_status, :class_status, :age, :occupation, :mode_of_speech] do
+    for key in Facets.facet_list do
       if options[key]
         fq << "#{key.to_s}:\"#{options[key]}\""
       end
     end
     options[:fq] = fq
+    options[:sort] = "#{options[:sort]} asc" if options[:sort] == "novel"
+    options[:sort] = "#{options[:sort]} desc" if options[:sort] == "score"
     return options
   end
 end

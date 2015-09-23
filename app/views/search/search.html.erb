@@ -3,13 +3,6 @@
 
   <h3>Your search returned <%= @docs[:num_found] %> result(s)</h3>
 
-  <%= link_to search_path({:qfield => params[:qfield], :qtext => params[:qtext]}) do %>
-    Clear all filters 
-    <button class="btn btn-warning btn-xs">x</button>
-  <% end %>
-  
-  
-
   <%= form_tag(search_path, :method => "get", :class => "form-inline") do %>
     <div class="form-group">
       <%= hidden_field_tag(:qfield, "text") %>
@@ -19,6 +12,20 @@
   <% end %>
   
   <br/>
+
+  <% if any_facets_selected? %>
+    <div class="clear-filters-container">
+      <%= link_to search_path({:qfield => params[:qfield], :qtext => params[:qtext]}) do %>
+        Clear all filters 
+        <button class="btn btn-warning btn-xs">x</button>
+      <% end %>
+
+      <%= link_to search_path do %>
+        Clear search and filters
+        <button class="btn btn-warning btn-xs">x</button>
+      <% end %>
+    </div>
+  <% end %>
 
   <div class="row">
     <div class="col-md-3">
@@ -90,6 +97,15 @@
 
     <div class="col-md-9">
 
+      Sort by: 
+      <% score_selected = params[:sort] == "score" %>
+      <% novel_selected = params[:sort] == "novel" %>
+      <%= link_to search_path(sort("score")), :class => "selected=#{score_selected}" do %>
+        <button class="btn btn-info btn-xs">Relevancy</button>
+      <% end %>
+      <%= link_to search_path(sort("novel")), :class => "selected=#{novel_selected}" do %>
+        <button class="btn btn-info btn-xs">Novel</button>
+      <% end %>
       <%= render partial: "pagination" %>
 
       <% if @docs && @docs[:docs].length > 0 %>
