@@ -1,7 +1,22 @@
 <h2><%= @book["title"] %></h2>
 
-<p>Download XML: <%= link_to @book["xml"], "/#{@book['xml']}" %> </p>
+<div class="row">
+  <div class="col-md-6 col-md-push-6">
 
-<p><%= link_to "View chapter by chapter visualization of text", visual_all_path(params["id"]) %> (warning: large page)</p>
+    <div class="view_chapter">
+      <p>
+        <%= link_to "View chapter by chapter visualization of text", visual_all_path(params["id"]) %>
+        <span class="viz_warning">(warning: large page)</span>
+      </p>
+    </div>
+    <p>Download XML: <%= link_to @book["xml"], "/#{@book['xml']}" %> </p>
+  </div>
+  <div class="col-md-6 col-md-pull-6">
 
-<%= generate_chapter_links(params["id"], @book["chapters"], @book["prelude"]).html_safe %>
+    <div class="table_of_contents">
+      <%= generate_chapter_links(params["id"], @book["chapters"], @book["prelude"]).html_safe %>
+    </div>
+</div>
+
+
+
