@@ -13,8 +13,8 @@
       <%= form_tag(search_path, :method => "get", :class => "form-inline") do %>
     <div class="form-group">
       <%= hidden_field_tag(:qfield, "text") %>
-      <%= text_field_tag(:qtext, params[:qtext], :placeholder => "Search documents", :class => "form-control") %><button class="btn btn-warning">x</button>
-      <%= submit_tag("Search", :class => "btn btn-info") %>
+      <%= text_field_tag(:qtext, params[:qtext], :placeholder => "Search documents", :class => "form-control main_search_text") %><!-- Jessica TODO: add an if here to indicate some text has been searched for --><button class="btn btn-warning clear_main_search_text">x</button><!-- end if -->
+      <%= submit_tag("Search", :class => "btn btn-info submit_main_search_text") %>
     </div>
   <% end %>
   
@@ -111,26 +111,30 @@
 
     <div class="col-md-9">
     
-    <div class="row">
-  <div class="col-md-3">
+    <div class="row search_controls">
+  <div class="col-md-3 search_limit">
 	  
+	   <!-- Jessica TODO make an if statement that only shows this if text has been searched for
+  	    Also TODO: Highlight the correct button when nothing has been set (relevancy by default?) -->
 	   Sort by: <br/>
       <% score_selected = params[:sort] == "score" %>
       <% novel_selected = params[:sort] == "novel" %>
-      <%= link_to search_path(sort("score")), :class => "selected=#{score_selected}" do %>
-        <button class="btn btn-info btn-xs">Relevancy</button>
+      <%= link_to search_path(sort("score")), :class => "#{score_selected == true  ? 'btn-info' : 'btn-default' } btn btn-xs" do %>
+        Relevancy
       <% end %>
-      <%= link_to search_path(sort("novel")), :class => "selected=#{novel_selected}" do %>
-        <button class="btn btn-info btn-xs">Novel Order</button>
+      <%= link_to search_path(sort("novel")), :class => "#{novel_selected == true ? 'btn-info' : 'btn-default' } btn btn-xs" do %>
+        Novel Order
       <% end %>
+      
+      <!-- END TODO -->
 	  
   </div>
-  <div class="col-md-9 paginateion_container">
+  <div class="col-md-9 pagination_container">
 	  
 	  <%= render partial: "pagination" %>
 	  
   </div>
-</div>
+</div><!-- /row -->
 
 
 
@@ -150,19 +154,24 @@
   <div class="col-md-4 search_results_info">
 	  
 	  <ul>
+  	        <li><strong>Novel</strong>: <%= doc['novel'].titleize %></li>
+  	        <li><strong>Character</strong>: <%= doc['speaker_name'] %></li>
             <li><%= link_to "Link to text in chapter #{doc['chapter']}", visual_chapter_path({:id => doc['novel'], :chapter => doc['chapter'], :anchor => "said_no_" + doc['said_no'] }) %> </li>
             <!-- <li><strong>id</strong>: <#= doc['id'] #></li> -->
-            <li><strong>novel</strong>: <%= doc['novel'].titleize %></li>
+            
             <!-- <li><strong>chapter</strong>: <#= doc['chapter'] #></li> -->
-            <li><strong>said_no</strong>: <%= doc['said_no'] %></li>
+            <li><strong>Text ID</strong>: <%= doc['said_no'] %></li>
             <!-- <li><strong>speaker_id</strong>: <#= doc['speaker_id'] #></li> -->
-            <li><strong>speaker_name</strong>: <%= doc['speaker_name'] %></li>
+            
             
             <!-- <li>highlight: </li> -->
           </ul>
 	  
   </div>
 </div>
+
+
+
 
 
          
@@ -172,5 +181,20 @@
       <% else %>
         <p>No results found!</p>
       <% end %>
+      
+      
+         <div class="row search_controls">
+  <div class="col-md-3 search_limit">
+	  
+	  
+	  
+  </div>
+  <div class="col-md-9 pagination_container">
+	  
+	  <%= render partial: "pagination" %>
+	  
+  </div>
+</div><!-- /row -->
+      
     </div>
   </div>
