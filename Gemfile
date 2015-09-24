@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
-# todo: Jessica will get this working so I can re-run the script
-# gem 'nokogiri' 
+gem 'nokogiri' 
 
 # Custom cdrh gem for solr
 gem 'rsolr_cdrh', :git => 'git://github.com/CDRH/rsolr_cdrh.git'
