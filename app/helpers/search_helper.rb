@@ -57,6 +57,15 @@ module SearchHelper
   #  Faceting  #
   ##############
 
+  def any_facets_selected?
+    selected = false
+    for key in Facets.facet_list do
+      if params.has_key?(key)
+        selected = true
+      end
+    end
+    return selected
+  end
 
   def facet_link(facet_type, facet)
     # make a new set of params and make sure not to alter the original ones
@@ -87,5 +96,10 @@ module SearchHelper
 
   def selected_class(selected)
     return "class=selected" if selected
+  end
+
+  def sort(sort_type)
+    params[:sort] = sort_type
+    return params
   end
 end
