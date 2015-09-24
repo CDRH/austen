@@ -59,6 +59,11 @@ code.austen_tei pre {
 .home_text {
   font-size: 1.5em;
   line-height: 1.4em; }
+  
+  .home_intro {
+    font-size: 1.8em;
+    margin-bottom: 1em;
+  }
 
 
 .home_text .initial_word {
@@ -66,6 +71,9 @@ code.austen_tei pre {
   font-size: 1.9em;
   color: #3c9d64; }
 
+.back_to_top {
+  font-size: .8em;
+}
 
 code {
   padding: 0;
@@ -222,19 +230,65 @@ body { }
 
 /* Page jump Navigation */
 
-.pagination {
+.pagination_container {
+  text-align: right;
+  padding:.4em 0 0 0;
   
 }
 
+.pagination {
+  margin:0 0 0 0;
+}
+
+.search_controls {
+  margin: .2em 0 1em 0;
+}
+
+.main_search_text {
+	width: 100% !important;
+	margin-right: -2.15em !important;
+	padding-right:2.6em;
+	
+	}
+
+
+.clear_main_search_text {
+
+}
+
+.submit_main_search_text {
+  	float: right;
+	width: 100%;
+}
+
+
+
+.search_results_text {
+//   font-size:1.1em
+}
+
+.search_results_info ul {
+  margin:0;
+  padding:0;
+  list-style-type: none;
+  font-size: .9em;
+}
+
+.search_results_info li {
+  padding-left: 1em ;
+  text-indent: -1em ;
+}
+
+
 .pagination, .searchSort {
-  padding:  10px 0;
+//   padding:  px 0;
 }
 
 .paginationJump {
   width: 3em;
   border: 1px solid #aaa;
   margin: 0;
-  padding: .2em;
+//   padding: .2em;
   border-radius: 0px;
 }
 
@@ -251,7 +305,8 @@ form.jumpForm {
 
 /* Temporary */
 .search_results {
-  border: solid #aaa 2px;
+  border-bottom: solid #f5efe6 2px;
+  
 padding-top: 10px;
 padding-bottom: 10px;
 }
