@@ -103,7 +103,7 @@
   <div class="col-md-9">
     <div class="row search_controls">
       <div class="col-md-3 search_limit">
-        <% if @docs[:num_found] > 0 %>
+        <% if (@docs[:num_found] > 1) && params[:qtext] %>
           Sort by: <br/>
           <% score_selected = (params[:sort] == "score") || (!params[:sort]) %>
           <% novel_selected = params[:sort] == "novel" %>
