@@ -7,7 +7,7 @@ class SearchController < ApplicationController
     options = create_search_options(params)
 
     @docs = $solr.query(options)
-    @total_pages = (@docs[:num_found].to_f/rows).ceil
+    @total_pages = @docs[:pages]
     @facets = $solr.get_facets(options)
   end
 

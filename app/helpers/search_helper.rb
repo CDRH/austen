@@ -48,6 +48,11 @@ module SearchHelper
     return html
   end
 
+  def result_text(number)
+    text = number == 1 ? "result" : "results"
+    return text
+  end
+
   def to_page(page)
     merged = params.merge({:page => page.to_s})
     return merged
@@ -98,8 +103,13 @@ module SearchHelper
     return "class=selected" if selected
   end
 
+  ###########
+  #  Other  #
+  ###########
+
   def sort(sort_type)
     params[:sort] = sort_type
     return params
   end
+
 end

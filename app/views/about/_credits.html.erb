@@ -1,17 +1,3 @@
-<h2>About</h2>
-
-<!-- <div class="row">
-  <div class="col-md-6">
-    <ul class="list-group">
-    <%# link_to "Credits and Staff", {:name => "credits", :action => "sub"}, class: "list-group-item" %>
-    <%# link_to "Data Download", {:name => "download", :action => "sub"}, class: "list-group-item" %>
-    </ul>
-  </div>
-  <div class="col-md-6">
-  </div>
-</div> -->
-
-<%# could be moved to _credits.html.erb %>
 <h3>Project Team</h3>
 
 <p><strong><a href="http://www.unl.edu/english/laura-white">Laura White</a></strong>, Principal Investigator, John E. Weaver
@@ -46,20 +32,3 @@ Fellow, CDRH (on project 2013-present)</p>
   <li><strong>Samantha Adrales</strong>, B.A. student, English</li>
   <li><strong>Julie Ward</strong>, B.A. English</li>
 </ul>
-
-<%# could be moved to _download.html.erb %>
-<h3>Download the Data</h3>
-
-<h4>Novel TEI-XML</h4>
-<p>
-  The TEI below contains the markup that was used to power the <%= link_to "visualizations", visual_index_path %>.
-</p>
-<div class="list-group">
-  <a href="<%= "#{request.base_url}/aus.005.xml" %>" class="list-group-item">Emma</a>
-  <a href="<%= "#{request.base_url}/aus.006.xml" %>" class="list-group-item">Mansfield Park</a>
-  <a href="<%= "#{request.base_url}/aus.003.xml" %>" class="list-group-item">Northanger Abbey</a>
-  <a href="<%= "#{request.base_url}/aus.002.xml" %>" class="list-group-item">Persuasion</a>
-  <a href="<%= "#{request.base_url}/aus.001.xml" %>" class="list-group-item">Pride and Prejudice</a>
-  <a href="<%= "#{request.base_url}/aus.004.xml" %>" class="list-group-item">Sense and Sensibility</a>
-</div>
-

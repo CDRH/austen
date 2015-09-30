@@ -1,211 +1,156 @@
+<h2>Search</h2>
 
-  <h2>Search</h2>
-
-<!-- Jessica TODO: see issue for refinements -->
-  <h3>Your search returned <%= @docs[:num_found] %> result(s)</h3>
+<h3>Your search returned <%= @docs[:num_found] %> <%= result_text(@docs[:num_found]) %></h3>
 
 <br/>
 
-  <div class="row">
-    <div class="col-md-3">
-    
-    
-  
-      <%= form_tag(search_path, :method => "get", :class => "form-inline") do %>
-    <div class="form-group">
-      <%= hidden_field_tag(:qfield, "text") %>
-      <%= text_field_tag(:qtext, params[:qtext], :placeholder => "Search documents", :class => "form-control main_search_text") %><!-- Jessica TODO: add an if here to indicate some text has been searched for --><button class="btn btn-warning clear_main_search_text">x</button><!-- end if -->
-      <%= submit_tag("Search", :class => "btn btn-info submit_main_search_text") %>
-    </div>
-  <% end %>
-  
- 
-  <br/>
-    
+<div class="row">
+  <div class="col-md-3">
+    <%= form_tag(search_path, :method => "get", :class => "form-inline") do %>
+      <div class="form-group">
+        <%= hidden_field_tag(:qfield, "text") %>
+        <%= text_field_tag(:qtext, params[:qtext], :placeholder => "Search documents", :class => "form-control main_search_text") %>
+          <% if params[:qtext] %>
+            <%= link_to "x", search_path, :class => "btn btn-warning clear_main_search_text" %>
+          <% end %>
+        <%= submit_tag("Search", :class => "btn btn-info submit_main_search_text") %>
+      </div>
+    <% end %>
+
+    <br/>
+
     <% if any_facets_selected? %>
-    <div class="clear-filters-container">
-      <%= link_to search_path({:qfield => params[:qfield], :qtext => params[:qtext]}) do %>
-        Clear all filters 
-        <button class="btn btn-warning btn-xs">x</button>
-      <% end %>
-    
-
-
-  
-
-      <!--
-<#= link_to search_path do #>
-        Clear search and filters
-        <button class="btn btn-warning btn-xs">x</button>
-      <# end #>
--->
-    </div>
-  <% end %>
-    
-    
-    
-      <%= render partial: "facet_panel", locals: {
-        panel_type: "primary",
-        label: "novel",
-        facet_type: "novel",
-        results: @facets["novel"]
-      } %>
-
-      <%= render partial: "facet_panel", locals: {
-        panel_type: "default",
-        label: "sex",
-        facet_type: "sex",
-        results: @facets["sex"]
-      } %>
-     
-     <!-- Jessica TODO : there should be a character type facet panel --> 
-<!--
-      <# render partial: "facet_panel", locals: {
-        panel_type: "default",
-        label: "character_type",
-        facet_type: "character_type",
-        results: @facets["character_type"]
-      } #>
--->
-
-      <%= render partial: "facet_panel", locals: {
-        panel_type: "default",
-        label: "marriage status",
-        facet_type: "marriage_status",
-        results: @facets["marriage_status"]
-      } %>
-
-      <%= render partial: "facet_panel", locals: {
-        panel_type: "default",
-        label: "class status",
-        facet_type: "class_status",
-        results: @facets["class_status"]
-      } %>
-
-      <%= render partial: "facet_panel", locals: {
-        panel_type: "default",
-        label: "age",
-        facet_type: "age",
-        results: @facets["age"]
-      } %>
-
-      <%= render partial: "facet_panel", locals: {
-        panel_type: "default",
-        label: "occupation",
-        facet_type: "occupation",
-        results: @facets["occupation"]
-      } %>
-
-      <%= render partial: "facet_panel", locals: {
-        panel_type: "default",
-        label: "mode of speech",
-        facet_type: "mode_of_speech",
-        results: @facets["mode_of_speech"]
-      } %>
-
-      <%= render partial: "facet_panel", locals: {
-        panel_type: "default",
-        label: "speaker name",
-        facet_type: "speaker_name",
-        results: @facets["speaker_name"]
-      } %>
-
-      <%# render partial: "facet_panel", locals: {
-        panel_type: "default",
-        label: "speaker id",
-        facet_type: "speaker_id",
-        results: @facets["speaker_id"]
-      } %>
-
-    </div>
-
-
-    <div class="col-md-9">
-    
-    <div class="row search_controls">
-  <div class="col-md-3 search_limit">
-	  
-	   <!-- Jessica TODO make an if statement that only shows this if text has been searched for
-  	    Also TODO: Highlight the correct button when nothing has been set (relevancy by default?) -->
-	   Sort by: <br/>
-      <% score_selected = params[:sort] == "score" %>
-      <% novel_selected = params[:sort] == "novel" %>
-      <%= link_to search_path(sort("score")), :class => "#{score_selected == true  ? 'btn-info' : 'btn-default' } btn btn-xs" do %>
-        Relevancy
-      <% end %>
-      <%= link_to search_path(sort("novel")), :class => "#{novel_selected == true ? 'btn-info' : 'btn-default' } btn btn-xs" do %>
-        Novel Order
-      <% end %>
-      
-      <!-- END TODO -->
-	  
-  </div>
-  <div class="col-md-9 pagination_container">
-	  
-	  <%= render partial: "pagination" %>
-	  
-  </div>
-</div><!-- /row -->
-
-
-
-     
-      
-
-      <% if @docs && @docs[:docs].length > 0 %>
-        <% @docs[:docs].each do |doc| %>
-          <div class="search_results">
-          
-          <div class="row">
-  <div class="col-md-8 search_results_text">
-	  
-	  <%= doc['text'][0] %>
-	  
-  </div>
-  <div class="col-md-4 search_results_info">
-	  
-	  <ul>
-  	        <li><strong>Novel</strong>: <%= doc['novel'].titleize %></li>
-  	        <li><strong>Character</strong>: <%= doc['speaker_name'] %></li>
-            <li><%= link_to "Link to text in chapter #{doc['chapter']}", visual_chapter_path({:id => doc['novel'], :chapter => doc['chapter'], :anchor => "said_no_" + doc['said_no'] }) %> </li>
-            <!-- <li><strong>id</strong>: <#= doc['id'] #></li> -->
-            
-            <!-- <li><strong>chapter</strong>: <#= doc['chapter'] #></li> -->
-            <li><strong>Text ID</strong>: <%= doc['said_no'] %></li>
-            <!-- <li><strong>speaker_id</strong>: <#= doc['speaker_id'] #></li> -->
-            
-            
-            <!-- <li>highlight: </li> -->
-          </ul>
-	  
-  </div>
-</div>
-
-
-
-
-
-         
-          
-          </div>
+      <div class="clear-filters-container">
+        <%= link_to search_path({:qfield => params[:qfield], :qtext => params[:qtext]}) do %>
+          Clear all filters 
+          <button class="btn btn-warning btn-xs">x</button>
         <% end %>
-      <% else %>
-        <p>No results found!</p>
+      </div>
+    <% end %>
+
+    <%= render partial: "facet_panel", locals: {
+      panel_type: "primary",
+      label: "novel",
+      facet_type: "novel",
+      results: @facets["novel"]
+    } %>
+
+    <%= render partial: "facet_panel", locals: {
+      panel_type: "default",
+      label: "sex",
+      facet_type: "sex",
+      results: @facets["sex"]
+    } %>
+
+    <%= render partial: "facet_panel", locals: {
+      panel_type: "default",
+      label: "character_type",
+      facet_type: "character_type",
+      results: @facets["character_type"]
+    } %>
+
+    <%= render partial: "facet_panel", locals: {
+      panel_type: "default",
+      label: "marriage status",
+      facet_type: "marriage_status",
+      results: @facets["marriage_status"]
+    } %>
+
+    <%= render partial: "facet_panel", locals: {
+      panel_type: "default",
+      label: "class status",
+      facet_type: "class_status",
+      results: @facets["class_status"]
+    } %>
+
+    <%= render partial: "facet_panel", locals: {
+      panel_type: "default",
+      label: "age",
+      facet_type: "age",
+      results: @facets["age"]
+    } %>
+
+    <%= render partial: "facet_panel", locals: {
+      panel_type: "default",
+      label: "occupation",
+      facet_type: "occupation",
+      results: @facets["occupation"]
+    } %>
+
+    <%= render partial: "facet_panel", locals: {
+      panel_type: "default",
+      label: "mode of speech",
+      facet_type: "mode_of_speech",
+      results: @facets["mode_of_speech"]
+    } %>
+
+    <%= render partial: "facet_panel", locals: {
+      panel_type: "default",
+      label: "speaker name",
+      facet_type: "speaker_name",
+      results: @facets["speaker_name"]
+    } %>
+
+    <%# render partial: "facet_panel", locals: {
+      panel_type: "default",
+      label: "speaker id",
+      facet_type: "speaker_id",
+      results: @facets["speaker_id"]
+    } %>
+
+  </div>
+
+  <div class="col-md-9">
+    <div class="row search_controls">
+      <div class="col-md-3 search_limit">
+        <% if (@docs[:num_found] > 1) && params[:qtext] %>
+          Sort by: <br/>
+          <% score_selected = (params[:sort] == "score") || (!params[:sort]) %>
+          <% novel_selected = params[:sort] == "novel" %>
+          <%= link_to search_path(sort("score")), :class => "#{score_selected == true  ? 'btn-info' : 'btn-default' } btn btn-xs" do %>
+            Relevancy
+          <% end %>
+          <%= link_to search_path(sort("novel")), :class => "#{novel_selected == true ? 'btn-info' : 'btn-default' } btn btn-xs" do %>
+            Novel Order
+          <% end %>
+        <% end %>
+      </div>
+      <div class="col-md-9 pagination_container">
+        <%= render partial: "pagination" %>
+      </div>
+    </div> <!-- /row search controls-->
+
+    <% if @docs && @docs[:docs].length > 0 %>
+      <% @docs[:docs].each do |doc| %>
+        <div class="search_results">
+          <div class="row">
+            <div class="col-md-8 search_results_text">
+              <% text = doc['highlight'] ? doc['highlight'].html_safe : doc['text'][0] %>
+              <%= text %>
+            </div>
+            <div class="col-md-4 search_results_info">
+              <ul>
+                <li><strong>Novel</strong>: <%= doc['novel'].titleize %></li>
+                <li><strong>Character</strong>: <%= doc['speaker_name'] %></li>
+                <li><%= link_to "Link to text in chapter #{doc['chapter']}", visual_chapter_path({:id => doc['novel'], :chapter => doc['chapter'], :anchor => "said_no_" + doc['said_no'] }) %> </li>
+                <!-- <li><strong>id</strong>: <#= doc['id'] %></li> -->
+                <!-- <li><strong>chapter</strong>: <#= doc['chapter'] %></li> -->
+                <li><strong>Text ID</strong>: <%= doc['said_no'] %></li>
+                <!-- <li><strong>speaker_id</strong>: <#= doc['speaker_id'] %></li> -->
+              </ul>
+            </div>
+          </div>
+        </div>
       <% end %>
-      
-      
-         <div class="row search_controls">
-  <div class="col-md-3 search_limit">
-	  
-	  
-	  
-  </div>
-  <div class="col-md-9 pagination_container">
-	  
-	  <%= render partial: "pagination" %>
-	  
-  </div>
-</div><!-- /row -->
-      
+    <% else %>
+      <p>No results found!</p>
+    <% end %>
+
+    <div class="row search_controls">
+      <div class="col-md-3 search_limit">
+    </div>
+    <div class="col-md-9 pagination_container">
+      <%= render partial: "pagination" %>
     </div>
   </div>
+</div><!-- /row -->
