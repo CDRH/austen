@@ -7,20 +7,11 @@ class ApplicationController < ActionController::Base
   # set up SOLR configuration for the website
   solr_url = CONFIG['solr_url']
   if solr_url
-    $solr = RSolrCdrh::Query.new(solr_url, [
-      "novel", 
-      "speaker_name", 
-      "sex", 
-      "marriage_status",
-      "class_status",
-      "age",
-      "occupation",
-      "mode_of_speech",
-      "speaker_id"
-      ])
+    $solr = RSolrCdrh::Query.new(solr_url, Facets.facet_list_strings)
     # there is no title field to sort on
     $solr.set_default_query_params({
-      :sort => "id asc"
+      :sort => "id asc",
+      :hl => "true"
     })
     $solr.set_default_facet_params({
       "facet.limit" => "-1",

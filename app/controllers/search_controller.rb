@@ -7,7 +7,7 @@ class SearchController < ApplicationController
     options = create_search_options(params)
 
     @docs = $solr.query(options)
-    @total_pages = (@docs[:num_found].to_f/rows).ceil
+    @total_pages = @docs[:pages]
     @facets = $solr.get_facets(options)
   end
 
@@ -26,7 +26,7 @@ class SearchController < ApplicationController
       end
     end
     options[:fq] = fq
-    options[:sort] = "#{options[:sort]} asc" if options[:sort] == "novel"
+    options[:sort] = "#{options[:sort]} asc" if options[:sort] == "id"
     options[:sort] = "#{options[:sort]} desc" if options[:sort] == "score"
     return options
   end
