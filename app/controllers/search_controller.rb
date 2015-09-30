@@ -26,7 +26,7 @@ class SearchController < ApplicationController
       end
     end
     options[:fq] = fq
-    options[:sort] = "#{options[:sort]} asc" if options[:sort] == "novel"
+    options[:sort] = "#{options[:sort]} asc" if options[:sort] == "id"
     options[:sort] = "#{options[:sort]} desc" if options[:sort] == "score"
     return options
   end

@@ -12,7 +12,14 @@
 </div> -->
 
 <%# could be moved to _credits.html.erb %>
-<h3>Project Team</h3>
+
+<ul>
+  <li><a href="#team">Project Team</a></li>
+  <li><a href="#download">Download the Data</a></li>
+  <li><a href="#technical">Technical Information</a></li>
+</ul>
+
+<h3 id="team">Project Team</h3>
 
 <p><strong><a href="http://www.unl.edu/english/laura-white">Laura White</a></strong>, Principal Investigator, John E. Weaver
 Professor of English</p>
@@ -48,7 +55,7 @@ Fellow, CDRH (on project 2013-present)</p>
 </ul>
 
 <%# could be moved to _download.html.erb %>
-<h3>Download the Data</h3>
+<h3 id="download">Download the Data</h3>
 
 <h4>Novel TEI-XML</h4>
 <p>
@@ -62,4 +69,34 @@ Fellow, CDRH (on project 2013-present)</p>
   <a href="<%= "#{request.base_url}/aus.001.xml" %>" class="list-group-item">Pride and Prejudice</a>
   <a href="<%= "#{request.base_url}/aus.004.xml" %>" class="list-group-item">Sense and Sensibility</a>
 </div>
+
+
+<h3 id="technical">Technical Information</h3>
+<h4 id="data">Data</h4>
+
+<ul>
+<li>Documents follow the <a href="http://www.tei-c.org/Guidelines/P5/">Text Encoding initiative P5 standard</a>.</li>
+</ul>
+
+<h4 id="technologies">Technologies</h4>
+
+<ul>
+<li>Framework: <a href="http://rubyonrails.org/">Ruby on Rails 4</a></li>
+<li>Search and Browse functionality: <a href="http://lucene.apache.org/solr/">Apache Solr</a></li>
+<li>Data Querying and Transformation: XSLT Scripts (powered by <a href="http://saxon.sourceforge.net/#F9.6HE">Saxon 9 HE</a>)</li>
+<li>Data Indexing: Ruby Scripts</li>
+</ul>
+
+<h4 id="process">Process</h4>
+
+<h5 id="datacreation">Data Creation</h5>
+
+<p>First all documents were encoded following a sample encoding developed by Laura Weakly. More on this process can be found in the background section. XSLT was then used to transform the documents into HTML which preserved many of the elements of the TEI, including speaker and FID information. For the visualizations, CSS and Javascript was written to highlight various aspects of the markup. For the document search, an XSLT script was written to convert the TEI XML into the <a href="https://cwiki.apache.org/confluence/display/solr/Uploading+Data+with+Index+Handlers#UploadingDatawithIndexHandlers-XMLFormattedIndexUpdates">Solr XML ingest format</a>, with each &lt;said> tag representing one document in the Solr index. We automatically numbered the &lt;said> so that results can be viewed in document order. </p>
+
+<p>For the word frequencies, XSLT scripts were written to create a unique word list for each character and trait.</p>
+
+<h5 id="websitecreation">Website Creation</h5>
+
+<p>The first proof of concept version of Austen Said was developed in Apache Cocoon, before creating the current iteration in Ruby on Rails. Cocoon allowed for dynamic XSLT transformations, while files in the Ruby on Rails version are preprocessed whenever files change. </p>
+
 

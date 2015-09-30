@@ -10,7 +10,7 @@ class ApplicationController < ActionController::Base
     $solr = RSolrCdrh::Query.new(solr_url, Facets.facet_list_strings)
     # there is no title field to sort on
     $solr.set_default_query_params({
-      :sort => "score desc",
+      :sort => "id asc",
       :hl => "true"
     })
     $solr.set_default_facet_params({

@@ -246,9 +246,14 @@ body { }
 
 .main_search_text {
 	width: 100% !important;
-	margin-right: -2.15em !important;
+	margin-right: -2.15em;
 	padding-right:2.6em;
+	float:left;
 	
+}
+	
+	.panel-primary {
+  	clear:both;
 	}
 
 
