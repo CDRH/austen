@@ -42,42 +42,7 @@
 }
 
 
-pre {
-  font-size: 1em;
-  color: #000; }
 
-
-.tei_said {
-  font-weight: 800; }
-
-
-code.austen_tei pre {
-  border: none;
-  background: transparent; }
-
-
-.home_text {
-  font-size: 1.5em;
-  line-height: 1.4em; }
-  
-  .home_intro {
-    font-size: 1.8em;
-    margin-bottom: 1em;
-  }
-
-
-.home_text .initial_word {
-  font-family: 'Alice';
-  font-size: 1.9em;
-  color: #3c9d64; }
-
-.back_to_top {
-  font-size: .8em;
-}
-
-code {
-  padding: 0;
-  margin: 0; }
 
 
 body {
@@ -129,13 +94,31 @@ body {
 
 .footer .container {
   background-image: url(sample_bg.gif);
-  padding: 15px 50px; }
+  padding: 15px 50px;
+}
 
-
-.footer .container p {
+.footer .container .footer_info {
   background-color: RGBA(255, 255, 255, 0.9);
-  padding: 10px; }
+  padding: 10px;
+  overflow: auto;
+}
 
+.footer .container .footer_logo {
+	float: right;
+}
+
+.footer .container .footer_info p {
+	width: 60%;
+	float: left;
+}
+
+.footer {
+  margin-bottom: 400px;
+}
+
+#wrapper {
+  padding-bottom: 4em;
+}
 
 /*
 @media (max-width: 767px) {
@@ -537,6 +520,105 @@ padding-bottom: 10px;
 	margin: -.8em 0 0 0;
 	padding: 0;
 }
+
+
+.back_to_top {
+  font-size: .8em;
+}
+
+
+
+.home_text {
+  font-size: 1.5em;
+  line-height: 1.4em; }
+  
+.home_intro {
+    font-size: 1.8em;
+    margin-bottom: 1em;
+  }
+
+
+.home_text .initial_word {
+  font-family: 'Alice';
+  font-size: 1.9em;
+  color: #3c9d64; }
+
+.tei_said {
+  font-weight: 800; }
+
+div.austen_tei {
+  margin: 0;
+  padding:0;
+/*
+  white-space: pre-wrap;
+  word-break: normal;
+*/
+}
+
+div.austen_tei pre {
+  font-size: 1em;
+  color: #000;
+  border: none;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+/*
+  word-wrap: normal;
+  white-space: pre-wrap;
+*/
+  word-break: normal;
+   }
+
+
+
+/*
+code.austen_tei {
+  font-family: monospace,monospace;
+    font-size: 1em;
+    font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+    color: #c7254e;
+    font-size: 90%;
+    padding: 2px 4px;
+  
+}
+
+code.austen_tei pre {
+  overflow: auto;
+  background-color: whitesmoke;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    color: #506a6e;
+    display: block;
+    font-size: 15px;
+    line-height: 1.42857;
+    margin: 0 0 11px;
+    padding: 10.5px;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+pre code {
+    background-color: transparent;
+    border-radius: 0;
+    color: inherit;
+    font-size: inherit;
+    padding: 0;
+    white-space: pre-wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+*/
 
 
 
