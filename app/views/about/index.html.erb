@@ -62,12 +62,9 @@ Fellow, CDRH (on project 2013-present)</p>
   The TEI below contains the markup that was used to power the <%= link_to "visualizations", visual_index_path %>.
 </p>
 <div class="list-group">
-  <%= link_to "Emma", xml_path("aus.005.xml") %>
-  <%= link_to "Mansfield Park", xml_path("aus.006.xml") %>
-  <%= link_to "Northanger Abbey", xml_path("aus.003.xml") %>
-  <%= link_to "Persuasion", xml_path("aus.002.xml") %>
-  <%= link_to "Pride and Prejudice", xml_path("aus.001.xml") %>
-  <%= link_to "Sense and Sensibility", xml_path("aus.004.xml") %>
+  <% Books.book_list.each do |book, info| %>
+    <%= link_to info["title"], xml_path(info["xml"]), :class => "list-group-item" %>
+  <% end %>
 </div>
 
 
