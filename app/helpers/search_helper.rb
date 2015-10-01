@@ -107,6 +107,13 @@ module SearchHelper
   #  Other  #
   ###########
 
+  def clear_search
+    new_params = params.clone
+    new_params.delete(:qfield)
+    new_params.delete(:qtext)
+    return new_params
+  end
+
   def sort(sort_type)
     params[:sort] = sort_type
     return params
