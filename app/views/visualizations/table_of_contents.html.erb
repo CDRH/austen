@@ -9,7 +9,7 @@
         <span class="viz_warning">(warning: large page)</span>
       </p>
     </div>
-    <p>Download XML: <%= link_to @book["xml"], "/#{@book['xml']}" %> </p>
+    <p>Download XML: <%= link_to @book["xml"], xml_path(@book["xml"]) %> </p>
   </div>
   <div class="col-md-6 col-md-pull-6">
 

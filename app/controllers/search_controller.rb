@@ -26,8 +26,17 @@ class SearchController < ApplicationController
       end
     end
     options[:fq] = fq
-    options[:sort] = "#{options[:sort]} asc" if options[:sort] == "novel"
-    options[:sort] = "#{options[:sort]} desc" if options[:sort] == "score"
+    if options[:sort]
+      # sort normally if a sort is given
+      options[:sort] = "#{options[:sort]} asc" if (options[:sort] == "id")
+      options[:sort] = "#{options[:sort]} desc" if options[:sort] == "score"
+    else
+      # if sort is not given
+      #   default to id if no term searched
+      #   use relevancy if there is a term searched
+      options[:sort] = "score desc" if options[:qtext]
+      options[:sort] = "id asc" if !options[:qtext]
+    end
     return options
   end
 end

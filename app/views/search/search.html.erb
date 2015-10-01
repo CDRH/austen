@@ -9,9 +9,12 @@
     <%= form_tag(search_path, :method => "get", :class => "form-inline") do %>
       <div class="form-group">
         <%= hidden_field_tag(:qfield, "text") %>
+        <% Facets.facet_list.each do |facet| %>
+          <%= hidden_field_tag(facet, params[facet]) if params[facet] %>
+        <% end %>
         <%= text_field_tag(:qtext, params[:qtext], :placeholder => "Search documents", :class => "form-control main_search_text") %>
           <% if params[:qtext] %>
-            <%= link_to "x", search_path, :class => "btn btn-warning clear_main_search_text" %>
+            <%= link_to "x", clear_search, :class => "btn btn-warning clear_main_search_text" %>
           <% end %>
         <%= submit_tag("Search", :class => "btn btn-info submit_main_search_text") %>
       </div>
@@ -106,12 +109,12 @@
         <% if (@docs[:num_found] > 1) && params[:qtext] %>
           Sort by: <br/>
           <% score_selected = (params[:sort] == "score") || (!params[:sort]) %>
-          <% novel_selected = params[:sort] == "novel" %>
+          <% id_selected = params[:sort] == "id" %>
           <%= link_to search_path(sort("score")), :class => "#{score_selected == true  ? 'btn-info' : 'btn-default' } btn btn-xs" do %>
             Relevancy
           <% end %>
-          <%= link_to search_path(sort("novel")), :class => "#{novel_selected == true ? 'btn-info' : 'btn-default' } btn btn-xs" do %>
-            Novel Order
+          <%= link_to search_path(sort("id")), :class => "#{id_selected == true ? 'btn-info' : 'btn-default' } btn btn-xs" do %>
+            Novel Text Order
           <% end %>
         <% end %>
       </div>
