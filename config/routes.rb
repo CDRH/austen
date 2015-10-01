@@ -2,6 +2,7 @@ Rails.application.routes.draw do
 
   root 'static#index', as: :home
   get 'search' => 'search#search', as: :search
+  get 'xml/:id' => 'static#xml', as: :xml, :constraints => { :id => /[^\/]+/ }
 
   # frequencies
   get 'frequencies' => 'frequencies#index', as: :frequency
