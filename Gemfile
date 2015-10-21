@@ -4,6 +4,9 @@ gem 'nokogiri'
 
 # Custom cdrh gem for solr
 gem 'rsolr_cdrh', :git => 'git://github.com/CDRH/rsolr_cdrh.git', :tag => '0.1.0'
+gem 'solr_helpers', :git => 'git://github.com/CDRH/solr_helpers.git'
+# gem 'solr_helpers', :path => '/Users/jdussault2/Desktop/repos/solr_helpers'
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.10'
