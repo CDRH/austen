@@ -12,7 +12,7 @@
             <%= link_to display, search_path(facet_link(facet_type, label)) %> 
             <span class="badge"><%= num %></span>
             <% if selected %>
-                <%= link_to search_path(remove_facet(facet_type, label)) do %>
+                <%= link_to search_path(remove_facet(facet_type)) do %>
                   <button class="btn btn-warning btn-xs">x</button>
                 <% end %>
               </button>
