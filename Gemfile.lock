@@ -1,12 +1,20 @@
 GIT
   remote: git://github.com/CDRH/rsolr_cdrh.git
-  revision: c9e2bdeba67644cad98b1b58fd5cca25fcbedfe3
-  tag: 0.1.0
+  revision: a7151fc1bb450cf7f6d66fc95ed88f0eb73f06a9
+  tag: 1.0.0
   specs:
-    rsolr_cdrh (0.1.0)
+    rsolr_cdrh (1.0.0)
       bundler (~> 1.7)
       rake (~> 10.0)
       rsolr (~> 1.0)
+
+GIT
+  remote: git://github.com/CDRH/solr_helpers.git
+  revision: 30d0456c4e43c7a43c111b363b6a427ec654d136
+  tag: 0.0.1
+  specs:
+    solr_helpers (0.0.1)
+      rails (~> 4.1.10)
 
 GEM
   remote: https://rubygems.org/
@@ -117,6 +125,7 @@ DEPENDENCIES
   rsolr_cdrh!
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
+  solr_helpers!
   spring
   sqlite3
   uglifier (>= 1.3.0)

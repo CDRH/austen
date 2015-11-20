@@ -128,8 +128,13 @@
         <div class="search_results">
           <div class="row">
             <div class="col-md-8 search_results_text">
-              <% text = doc['highlight'] ? doc['highlight'].html_safe : doc['text'][0] %>
-              <%= text %>
+              <% if doc['highlights'] %>
+                <% doc['highlights'].each do |item| %>
+                  <%= item.html_safe %>
+                <% end %>
+              <% else %>
+                <%= doc['text'][0] %>
+              <% end %>
             </div>
             <div class="col-md-4 search_results_info">
               <ul>
