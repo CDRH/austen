@@ -41,7 +41,7 @@
             <xsl:with-param name="trait_title">Sex</xsl:with-param>
             <xsl:with-param name="trait_selector">sex</xsl:with-param>
         </xsl:call-template>
-        <!--<xsl:call-template name="trait_generator">
+        <xsl:call-template name="trait_generator">
             <xsl:with-param name="trait_type">main</xsl:with-param>
             <xsl:with-param name="trait_title">Marriage Status</xsl:with-param>
             <xsl:with-param name="trait_selector">state</xsl:with-param>
@@ -60,7 +60,7 @@
             <xsl:with-param name="trait_type">main</xsl:with-param>
             <xsl:with-param name="trait_title">Occupation</xsl:with-param>
             <xsl:with-param name="trait_selector">occupation</xsl:with-param>
-        </xsl:call-template>-->
+        </xsl:call-template>
         
         
         <!-- Listing all the traits by novel by person -->
@@ -88,15 +88,7 @@
 <!-- here, I will format the HTML I generated above -->
     <xsl:template match="/">
         
-        
-        
-        
-        
-        
-        
         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-           
-
         
         <xsl:for-each select="$generated_definition_lists" xpath-default-namespace="">
             <xsl:for-each select="//dl">
