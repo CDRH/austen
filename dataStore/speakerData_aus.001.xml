@@ -5946,7 +5946,7 @@
    </genderData>
    <traitData>
       <p n="heroine" speeches="725" condition="normalized" listOfWordsUniqueTo="heroine"
-         countOfWordsUniqueToThisTrait="671">
+         countOfUniqueWords="671">
          <w freq="6">goodness</w>
          <w freq="5">f</w>
          <w freq="4">anxiety</w>
@@ -6620,7 +6620,7 @@
          <w freq="1">wretchedness</w>
       </p>
       <p n="fool" speeches="700" condition="normalized" listOfWordsUniqueTo="fool"
-         countOfWordsUniqueToThisTrait="961">
+         countOfUniqueWords="961">
          <w freq="11">lord</w>
          <w freq="9">delighted</w>
          <w freq="9">haste</w>
@@ -7584,7 +7584,7 @@
          <w freq="1">youths</w>
       </p>
       <p n="hero" speeches="245" condition="normalized" listOfWordsUniqueTo="hero"
-         countOfWordsUniqueToThisTrait="343">
+         countOfUniqueWords="343">
          <w freq="3">abhorrence</w>
          <w freq="3">argument</w>
          <w freq="3">confession</w>
@@ -7930,7 +7930,7 @@
          <w freq="1">yielding</w>
       </p>
       <p n="neutral" speeches="210" condition="normalized" listOfWordsUniqueTo="neutral"
-         countOfWordsUniqueToThisTrait="178">
+         countOfUniqueWords="178">
          <w freq="4">reserve</w>
          <w freq="2">confessed</w>
          <w freq="2">creditors</w>
@@ -8111,7 +8111,7 @@
          <w freq="1">yielded</w>
       </p>
       <p n="cad" speeches="71" condition="normalized" listOfWordsUniqueTo="cad"
-         countOfWordsUniqueToThisTrait="83">
+         countOfUniqueWords="83">
          <w freq="2">brotherly</w>
          <w freq="2">deserts</w>
          <w freq="2">devoted</w>
@@ -8199,7 +8199,7 @@
    </traitData>
    <ageData>
       <p n="out" speeches="1201" condition="normalized" listOfWordsUniqueTo="out"
-         countOfWordsUniqueToThisAge="1807">
+         countOfUniqueWords="1807">
          <w freq="11">caroline</w>
          <w freq="11">indifferent</w>
          <w freq="10">accept</w>
@@ -10010,7 +10010,7 @@
       </p>
       <p n="middle-aged" speeches="499" condition="normalized"
          listOfWordsUniqueTo="middle-aged"
-         countOfWordsUniqueToThisAge="436">
+         countOfUniqueWords="436">
          <w freq="5">lucases</w>
          <w freq="4">nerves</w>
          <w freq="4">reserve</w>
@@ -10450,7 +10450,7 @@
       </p>
       <p n="young married" speeches="168" condition="normalized"
          listOfWordsUniqueTo="young married"
-         countOfWordsUniqueToThisAge="194">
+         countOfUniqueWords="194">
          <w freq="8">fun</w>
          <w freq="3">bought</w>
          <w freq="3">captain</w>
@@ -10647,7 +10647,7 @@
          <w freq="1">window</w>
       </p>
       <p n="old" speeches="87" condition="normalized" listOfWordsUniqueTo="old"
-         countOfWordsUniqueToThisAge="101">
+         countOfUniqueWords="101">
          <w freq="2">destined</w>
          <w freq="1">accidentally</w>
          <w freq="1">accustomed</w>
@@ -10751,7 +10751,7 @@
          <w freq="1">windows</w>
       </p>
       <p n="child" speeches="2" condition="normalized" listOfWordsUniqueTo="child"
-         countOfWordsUniqueToThisAge="2">
+         countOfUniqueWords="2">
          <w freq="1">foxhounds</w>
          <w freq="1">pack</w>
       </p>
@@ -10759,7 +10759,7 @@
    <socecStatusData>
       <p n="landed gentry" speeches="1343" condition="normalized"
          listOfWordsUniqueTo="landed gentry"
-         countOfWordsUniqueToThisSocecStatus="1724">
+         countOfUniqueWords="1724">
          <w freq="14">mine</w>
          <w freq="14">read</w>
          <w freq="11">liked</w>
@@ -12486,7 +12486,7 @@
          <w freq="1">youths</w>
       </p>
       <p n="gentry" speeches="317" condition="normalized" listOfWordsUniqueTo="gentry"
-         countOfWordsUniqueToThisSocecStatus="480">
+         countOfUniqueWords="480">
          <w freq="21">eliza</w>
          <w freq="7">charles</w>
          <w freq="7">humble</w>
@@ -12970,7 +12970,7 @@
       </p>
       <p n="professional class" speeches="137" condition="normalized"
          listOfWordsUniqueTo="professional class"
-         countOfWordsUniqueToThisSocecStatus="145">
+         countOfUniqueWords="145">
          <w freq="4">reserve</w>
          <w freq="2">confessed</w>
          <w freq="2">creditors</w>
@@ -13119,7 +13119,7 @@
       </p>
       <p n="aristocrat" speeches="68" condition="normalized"
          listOfWordsUniqueTo="aristocrat"
-         countOfWordsUniqueToThisSocecStatus="97">
+         countOfUniqueWords="97">
          <w freq="4">anne</w>
          <w freq="2">destined</w>
          <w freq="1">accidentally</w>
@@ -13220,7 +13220,7 @@
       </p>
       <p n="working class" speeches="23" condition="normalized"
          listOfWordsUniqueTo="working class"
-         countOfWordsUniqueToThisSocecStatus="12">
+         countOfUniqueWords="12">
          <w freq="1">affable</w>
          <w freq="1">boy</w>
          <w freq="1">copse</w>
@@ -13238,7 +13238,7 @@
    <maritalStateData>
       <p n="unmarried" speeches="1114" condition="normalized"
          listOfWordsUniqueTo="unmarried"
-         countOfWordsUniqueToThisMaritalState="1399">
+         countOfUniqueWords="1399">
          <w freq="11">caroline</w>
          <w freq="9">distance</w>
          <w freq="9">wrong</w>
@@ -14640,7 +14640,7 @@
          <w freq="1">yielding</w>
       </p>
       <p n="married" speeches="508" condition="normalized" listOfWordsUniqueTo="married"
-         countOfWordsUniqueToThisMaritalState="448">
+         countOfUniqueWords="448">
          <w freq="5">lucases</w>
          <w freq="4">nerves</w>
          <w freq="4">reserve</w>
@@ -15091,7 +15091,7 @@
          <w freq="1">youths</w>
       </p>
       <p n="mda" speeches="246" condition="normalized" listOfWordsUniqueTo="mda"
-         countOfWordsUniqueToThisMaritalState="442">
+         countOfUniqueWords="442">
          <w freq="8">fun</w>
          <w freq="7">humble</w>
          <w freq="7">parish</w>
@@ -15536,7 +15536,7 @@
          <w freq="1">wonderfully</w>
       </p>
       <p n="widowed" speeches="90" condition="normalized" listOfWordsUniqueTo="widowed"
-         countOfWordsUniqueToThisMaritalState="101">
+         countOfUniqueWords="101">
          <w freq="2">destined</w>
          <w freq="1">accidentally</w>
          <w freq="1">accustomed</w>
@@ -15642,7 +15642,7 @@
    </maritalStateData>
    <occupationData>
       <p n="soldier" speeches="97" condition="normalized" listOfWordsUniqueTo="soldier"
-         countOfWordsUniqueToThisOccupation="305">
+         countOfUniqueWords="305">
          <w freq="9">pride</w>
          <w freq="4">bingley</w>
          <w freq="4">remember</w>
@@ -15951,7 +15951,7 @@
       </p>
       <p n="clergyman" speeches="89" condition="normalized"
          listOfWordsUniqueTo="clergyman"
-         countOfWordsUniqueToThisOccupation="693">
+         countOfUniqueWords="693">
          <w freq="11">ladyship</w>
          <w freq="7">humble</w>
          <w freq="6">collins</w>
@@ -16647,7 +16647,7 @@
          <w freq="1">words</w>
       </p>
       <p n="lawyer" speeches="26" condition="normalized" listOfWordsUniqueTo="lawyer"
-         countOfWordsUniqueToThisOccupation="134">
+         countOfUniqueWords="134">
          <w freq="5">colonel</w>
          <w freq="5">niece</w>
          <w freq="4">forster</w>
@@ -16784,7 +16784,7 @@
          <w freq="1">worst</w>
       </p>
       <p n="servant" speeches="23" condition="normalized" listOfWordsUniqueTo="servant"
-         countOfWordsUniqueToThisOccupation="41">
+         countOfUniqueWords="41">
          <w freq="3">ma</w>
          <w freq="2">good-natured</w>
          <w freq="2">to-morrow</w>

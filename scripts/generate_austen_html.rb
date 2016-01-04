@@ -31,7 +31,12 @@ def run_chapter_xsl(input, output, chapter)
 end
 
 def run_frequency_xsl(input, output)
-  `saxon -s:public/#{input} -xsl:scripts/frequency_pages/austen_button_creator.xsl -o:app/views/frequencies/_#{output}.html.erb`
+  if input == "aus.999.xml"
+    puts "all novels"
+    `saxon -s:public/#{input} -xsl:scripts/frequency_pages/austen_button_creator.xsl -o:app/views/frequencies/_#{output}.html.erb all_novels=true`
+  else
+    `saxon -s:public/#{input} -xsl:scripts/frequency_pages/austen_button_creator.xsl -o:app/views/frequencies/_#{output}.html.erb`
+  end
 end
 
 def user_message(msg)
@@ -42,7 +47,7 @@ def frequency
   puts user_message("Generating frequency views and json")
 
   # push a new fake novel onto the hash for "all"
-  @novels["aus.999.joinedALL.xml"] = "all_novels"
+  @novels["aus.999.xml"] = "all_novels"
   @novels.each do |filename, title|
     # frequency button view
     puts "Creating the frequency buttons for #{title}"
@@ -55,7 +60,7 @@ def frequency
     categories = raw_xml.css("p[n]")
     categories.each do |category|
       type = category.attr('n').gsub(' ', '_')  # like fool, aus.001.charactername, female
-      unique_word_count = category.attr('countOfWordsUniqueToThisSpeaker')
+      unique_word_count = category.attr('countOfUniqueWords')
       speeches = category.attr('speeches')
       # TODO can also get the speeches from the top of the documents
       # and so should perhaps be pulling that if no info found for an

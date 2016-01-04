@@ -2,6 +2,8 @@
     xpath-default-namespace="http://www.tei-c.org/ns/1.0">
     <xsl:output indent="yes" omit-xml-declaration="yes"/>
     
+    <xsl:param name="all_novels">false</xsl:param> <!-- if all novels, will be true -->
+
     <xsl:variable name="title_slug">
         
         <xsl:value-of select="translate(lower-case(/TEI/teiHeader/fileDesc/titleStmt/title[@type='main']),' ','_')"></xsl:value-of>
@@ -31,11 +33,13 @@
             </xsl:for-each> 
         </dl>
         
-        <xsl:call-template name="trait_generator">
-            <xsl:with-param name="trait_type">main</xsl:with-param>
-            <xsl:with-param name="trait_title">Character Type</xsl:with-param>
-            <xsl:with-param name="trait_selector">trait</xsl:with-param>
-        </xsl:call-template>
+        <xsl:if test="$all_novels = 'true'">
+            <xsl:call-template name="trait_generator">
+                <xsl:with-param name="trait_type">main</xsl:with-param>
+                <xsl:with-param name="trait_title">Character Type</xsl:with-param>
+                <xsl:with-param name="trait_selector">trait</xsl:with-param>
+            </xsl:call-template>
+        </xsl:if>
         <xsl:call-template name="trait_generator">
             <xsl:with-param name="trait_type">main</xsl:with-param>
             <xsl:with-param name="trait_title">Sex</xsl:with-param>
@@ -87,7 +91,7 @@
 
 <!-- here, I will format the HTML I generated above -->
     <xsl:template match="/">
-        
+        <xsl:message><xsl:value-of select="$all_novels"/></xsl:message>
         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
         
         <xsl:for-each select="$generated_definition_lists" xpath-default-namespace="">
