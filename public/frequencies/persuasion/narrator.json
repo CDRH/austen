@@ -1,4 +1,6 @@
 {
+  "id": "narrator",
+  "display": "narrator",
   "unique_words": "2863",
   "speeches": "2041",
   "words": {

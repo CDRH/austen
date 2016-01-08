@@ -1,4 +1,6 @@
 {
+  "id": "hero",
+  "display": "hero",
   "unique_words": "306",
   "speeches": "157",
   "words": {

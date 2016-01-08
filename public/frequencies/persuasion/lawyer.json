@@ -1,4 +1,6 @@
 {
+  "id": "lawyer",
+  "display": "lawyer",
   "unique_words": "101",
   "speeches": "14",
   "words": {

@@ -1,4 +1,6 @@
 {
+  "id": "doctor",
+  "display": "doctor",
   "unique_words": "2",
   "speeches": "1",
   "words": {

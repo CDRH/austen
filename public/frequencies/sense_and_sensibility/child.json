@@ -1,4 +1,6 @@
 {
+  "id": "child",
+  "display": "child",
   "unique_words": "8",
   "speeches": "14",
   "words": {

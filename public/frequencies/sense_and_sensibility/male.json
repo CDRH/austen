@@ -1,4 +1,6 @@
 {
+  "id": "male",
+  "display": "male",
   "unique_words": "895",
   "speeches": "478",
   "words": {

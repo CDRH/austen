@@ -1,4 +1,6 @@
 {
+  "id": "female",
+  "display": "female",
   "unique_words": "1700",
   "speeches": "1568",
   "words": {

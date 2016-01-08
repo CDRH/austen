@@ -1,4 +1,6 @@
 {
+  "id": "waiter",
+  "display": "waiter",
   "unique_words": "7",
   "speeches": "5",
   "words": {
