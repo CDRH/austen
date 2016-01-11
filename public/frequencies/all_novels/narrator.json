@@ -1,6 +1,7 @@
 {
   "id": "narrator",
   "display": "narrator",
+  "novel": "All Novels",
   "unique_words": "2051",
   "speeches": "3617",
   "words": {

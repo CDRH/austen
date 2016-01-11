@@ -12,8 +12,8 @@ class FrequenciesController < ApplicationController
       puts "No data found for #{@novel} - #{@id}"
       @data = {
         "unique_words" => "0",
-        "speeches" => "???",
-        "words" => { "No unique words" => "Not. One." }
+        "speeches" => "Unknown",
+        "words" => { "0" => "No unique words found." }
       }
     end
     render :json => @data

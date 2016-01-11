@@ -1,6 +1,7 @@
 {
   "id": "hero",
   "display": "hero",
+  "novel": "Northanger Abbey",
   "unique_words": "265",
   "speeches": "159",
   "words": {

@@ -1,6 +1,7 @@
 {
   "id": "hero",
   "display": "hero",
+  "novel": "Mansfield Park",
   "unique_words": "609",
   "speeches": "375",
   "words": {

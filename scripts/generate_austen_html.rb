@@ -136,6 +136,7 @@ def generate_json(title, freq)
   json = {
     "id" => freq.attr('n'),
     "display" => freq.attr('display'),
+    "novel" => titleize(title),
     "unique_words" => freq.attr('countOfUniqueWords'),
     "speeches" => freq.attr('speeches'),
     "words" => {}
@@ -173,6 +174,9 @@ def populate_categories(freq)
   end
 end
 
+def titleize(title)
+  return title.gsub("_", " ").split.map(&:capitalize).join(' ')
+end
 
 #######################################
 #            Visualizations           #

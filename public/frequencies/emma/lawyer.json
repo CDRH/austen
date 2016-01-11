@@ -1,6 +1,7 @@
 {
   "id": "lawyer",
   "display": "lawyer",
+  "novel": "Emma",
   "unique_words": "226",
   "speeches": "53",
   "words": {

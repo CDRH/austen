@@ -1,6 +1,7 @@
 {
   "id": "doctor",
   "display": "doctor",
+  "novel": "Emma",
   "unique_words": "4",
   "speeches": "1",
   "words": {

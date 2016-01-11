@@ -1,6 +1,7 @@
 {
   "id": "hero",
   "display": "hero",
+  "novel": "Persuasion",
   "unique_words": "90",
   "speeches": "98",
   "words": {

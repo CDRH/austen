@@ -1,6 +1,7 @@
 {
   "id": "hero",
   "display": "hero",
+  "novel": "Emma",
   "unique_words": "325",
   "speeches": "341",
   "words": {

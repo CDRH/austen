@@ -1,6 +1,7 @@
 {
   "id": "narrator",
   "display": "narrator",
+  "novel": "Persuasion",
   "unique_words": "2863",
   "speeches": "2041",
   "words": {

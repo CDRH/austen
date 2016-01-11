@@ -1,6 +1,7 @@
 {
   "id": "lawyer",
   "display": "lawyer",
+  "novel": "Persuasion",
   "unique_words": "101",
   "speeches": "14",
   "words": {

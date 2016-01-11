@@ -32,11 +32,10 @@ $(document).ready(function() {
     var name = $(this).text();
     var id = $(this).attr("href").replace("#", "");
     var novel = $(this).attr("data");
-    var heading = novel.replace("_", " ") + " " + id;
     getJson(novel, id, function(data) {
       if (data) {
         removeExtraTextareas(function() {
-          var textarea = newTextArea(textarea_num, heading, data).hide();
+          var textarea = newTextArea(textarea_num, data).hide();
           container.append(textarea);
           textarea.show(600);
           textarea_num++;
@@ -91,11 +90,12 @@ $(document).ready(function() {
 
   // this should be pulled eventually from actual information
   // but for now using a placeholder as a ui proof of concept
-  function newTextArea(number, heading, data) {
-    var textarea = $('<textarea data-num="'+number+'" class="frequency_text" readonly=true rows=12></textarea>');
-    var text = heading + "\n";
+  function newTextArea(number, data) {
+    var textarea = $('<textarea data-num="'+number+'" class="frequency_text" readonly=true rows=12 contenteditable="true"></textarea>');
+    var text = data["novel"] + "\n";
+    text += data["display"] + "\n";
     text += "Unique words: " + data["unique_words"] + "\n";
-    text += "All speeches: " + data["speeches"] + "\n";
+    text += "All speeches: " + data["speeches"] + "\n===========\n";
     for (var key in data["words"]) {
       text += key + ": " + data["words"][key] + "\n";
     }

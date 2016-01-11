@@ -1,6 +1,7 @@
 {
   "id": "aus.003.nar",
   "display": "Narrator",
+  "novel": "Northanger Abbey",
   "unique_words": "2299",
   "speeches": "1201",
   "words": {
