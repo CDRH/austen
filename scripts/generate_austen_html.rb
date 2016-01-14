@@ -18,12 +18,12 @@ require 'json'
 #######################################
 
 @novels = {
-  "aus.001.xml" => "pride_and_prejudice",
-  "aus.002.xml" => "persuasion",
-  "aus.003.xml" => "northanger_abbey",
-  "aus.004.xml" => "sense_and_sensibility",
-  "aus.005.xml" => "emma",
-  "aus.006.xml" => "mansfield_park"
+  "aus.001" => "pride_and_prejudice",
+  "aus.002" => "persuasion",
+  "aus.003" => "northanger_abbey",
+  "aus.004" => "sense_and_sensibility",
+  "aus.005" => "emma",
+  "aus.006" => "mansfield_park"
 }
 
 @categories = nil  # will be created for each novel
@@ -72,10 +72,10 @@ def frequency
   puts user_message("Generating frequency views and json")
 
   # push a new fake novel onto the hash for "all"
-  @novels["aus.999.xml"] = "all_novels"
+  @novels["aus.999"] = "all_novels"
   @novels.each do |filename, title|
     puts "Creating the frequency buttons for #{title}"
-    raw_xml = read_novel("dataStore/speakerData_#{filename}")
+    raw_xml = read_novel("dataStore/speakerData_#{filename}.xml")
 
     # pull out all of the <p> tags that have an n id
     puts "Retrieving unique words for #{title} categories"
@@ -117,7 +117,8 @@ def generate_html(title, frequencies)
         buttons = ""
         items["data"].each do |item|
           href = item[0].gsub(" ", "_")
-          buttons += %{<a class='btn btn-default btn-xs' href='##{href}' role='button' data='#{title}'>#{item[1]}</a>\n}
+          label = make_label(item[0], item[1], title)
+          buttons += %{<a class='btn btn-default btn-xs' href='##{href}' role='button' data='#{title}'>#{label}</a>\n}
         end
         html += buttons
         html += %{</div>\n</div>\n</div>\n}
@@ -133,9 +134,11 @@ end
 # make a json file that has the list of unique words for each trait / character
 def generate_json(title, freq)
   type = freq.attr('n').gsub(' ', '_')  # like fool, aus.001.charactername, female
+  display = make_label(freq.attr('n'), freq.attr('display'), title)
+
   json = {
     "id" => freq.attr('n'),
-    "display" => freq.attr('display'),
+    "display" => display,
     "novel" => titleize(title),
     "unique_words" => freq.attr('countOfUniqueWords'),
     "speeches" => freq.attr('speeches'),
@@ -151,6 +154,18 @@ def generate_json(title, freq)
     end
   end  # end of children looping
   write_to_file("public/frequencies/#{title}/#{type}.json", JSON.pretty_generate(json))
+end
+
+def make_label(id, display, title)
+  # if narrator, add the title to them and uppercase it
+  if /aus\.[0-9]{3}\.nar$/.match(id)
+    # to get the title, will have to pull apart the id
+    book_id = id[0..6]  # should always be aus.###
+    novel = book_id ? titleize(@novels[book_id]) : "Unknown novel"
+    return "Narrator (#{novel})"
+  else
+    return display
+  end
 end
 
 def populate_categories(freq)
@@ -195,12 +210,13 @@ def views
   puts user_message("Generating novel views")
   @novels.each do |filename, title|
     puts "Working on #{title}"
-    run_all_xsl(filename, title)
-    novel_xml = read_novel("public/#{filename}")
+    run_all_xsl("#{filename}.xml", title)
+    novel_xml = read_novel("public/#{filename}.xml")
 
     # chapter generation
     chapters = novel_xml.css("div[type='chapter']")
     chapters.length.times do |index|
+      # northanger abbey has a chapter zero
       chapter_num = (title == "northanger_abbey") ? index : index+1
       puts "-- chapter #{chapter_num}"
       run_chapter_xsl(filename, title, chapter_num)
