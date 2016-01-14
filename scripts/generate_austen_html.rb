@@ -36,14 +36,14 @@ def fresh_categories
   # these are the categories that will be displayed by default
   # in the html view
   return {
-    "speakerData" => {"label" => "Characters", "data" => []},
-    "traitData" => {"label" => "Character Type", "data" => []}, 
-    "genderData" => {"label" => "Sex", "data" => []},
-    "maritalStateData" => {"label" => "Marriage Status", "data" => []},
-    "socecStatusData" => {"label" => "Class Status", "data" => []},
-    "ageData" => {"label" => "Age", "data" => []},
-    "occupationData" => {"label" => "Occupation", "data" => []},
-    "indirectData" => {"label" => "Indirect Diction", "data" => []},
+    "speakerData" => {"label" => "Character Direct Speech", "data" => []},
+    "indirectData" => {"label" => "Character Indirect Diction", "data" => []},
+    "traitData" => {"label" => "Trait: Character Type", "data" => []}, 
+    "genderData" => {"label" => "Trait: Character Sex", "data" => []},
+    "maritalStateData" => {"label" => "Trait: Character Marriage Status", "data" => []},
+    "socecStatusData" => {"label" => "Trait: Character Class Status", "data" => []},
+    "ageData" => {"label" => "Trait: Character Age", "data" => []},
+    "occupationData" => {"label" => "Trait: Character Occupation", "data" => []},
   }
 end
 
@@ -117,7 +117,7 @@ def generate_html(title, frequencies)
         buttons = ""
         items["data"].each do |item|
           href = item[0].gsub(" ", "_")
-          buttons += %{<a class='btn btn-default' href='##{href}' role='button' data='#{title}'>#{item[1]}</a>\n}
+          buttons += %{<a class='btn btn-default btn-xs' href='##{href}' role='button' data='#{title}'>#{item[1]}</a>\n}
         end
         html += buttons
         html += %{</div>\n</div>\n</div>\n}
