@@ -54,6 +54,10 @@ def read_novel(file_path_from_repo)
   return novel_xml
 end
 
+def titleize(title)
+  return title.gsub("_", " ").split.map(&:capitalize).join(' ')
+end
+
 def user_message(msg)
   return "======================== #{msg} ========================"
 end
@@ -90,51 +94,25 @@ end
 def generate_html(title, frequencies)
   # start off with a branch new copy of the categories
   @categories = fresh_categories
+  html = %{<div class='panel-group' id='accordion' role='tablist' aria-multiselectable='true'>\n}
 
   frequencies.each do |freq|
-    populate_categories(freq)
-    html = %{<div class='panel-group' id='accordion' role='tablist' aria-multiselectable='true'>\n}
-    @categories.each do |category, items|
-      # check if there is any data in the category
-      if items["data"] && items["data"].length > 0
-        collapsed = category == "speakerData" ? "in" : ""
-        html += %{<div class='panel panel-default'>
-          <div class='panel-heading' role='tab' id='#{title}_#{category}_heading'>
-            <h4 class='panel-title'>
-              <a class=''
-                 role='button'
-                 data-toggle='collapse'
-                 data-parent='#accordion'
-                 href='##{title}_#{category}_body'
-                 aria-expanded='true'
-                 aria-controls='#{title}_#{category}_body'>#{items["label"]}</a>
-            </h4>
-          </div>
-          <div id='#{title}_#{category}_body' class='panel-collapse collapse #{collapsed}'
-              role='tabpanel' aria-labelledby='#{title}_#{category}_heading'>
-            <div class='panel-body'>
-          }
-        buttons = ""
-        items["data"].each do |item|
-          href = item[0].gsub(" ", "_")
-          label = make_label(item[0], item[1], title)
-          buttons += %{<a class='btn btn-default btn-xs' href='##{href}' role='button' data='#{title}'>#{label}</a>\n}
-        end
-        html += buttons
-        html += %{</div>\n</div>\n</div>\n}
-      end
-    end
-    html += %{</div>\n}
-    # verify that it is valid xml, then write to file
-    output = Nokogiri::XML(html, &:noblanks)  # ignore whitespace
-    write_to_file("app/views/frequencies/_#{title}.html.erb", output.to_xml(indent:2))
+    _populate_categories(freq)
+    _sort_categories
   end
+  @categories.each do |category, items|
+    html += _generate_category_html(category, items, title)
+  end
+  html += %{</div>\n}
+  # verify that it is valid xml, then write to file
+  output = Nokogiri::XML(html, &:noblanks)  # ignore whitespace
+  write_to_file("app/views/frequencies/_#{title}.html.erb", output.to_xml(indent:2))
 end
 
 # make a json file that has the list of unique words for each trait / character
 def generate_json(title, freq)
   type = freq.attr('n').gsub(' ', '_')  # like fool, aus.001.charactername, female
-  display = make_label(freq.attr('n'), freq.attr('display'), title)
+  display = _make_label(freq.attr('n'), freq.attr('display'), title)
 
   json = {
     "id" => freq.attr('n'),
@@ -156,7 +134,41 @@ def generate_json(title, freq)
   write_to_file("public/frequencies/#{title}/#{type}.json", JSON.pretty_generate(json))
 end
 
-def make_label(id, display, title)
+
+def _generate_category_html(category, items, title)
+  html = ""
+  # check if there is any data in the category
+  if items["data"] && items["data"].length > 0
+    collapsed = category == "speakerData" ? "in" : ""
+    html += %{<div class='panel panel-default'>
+      <div class='panel-heading' role='tab' id='#{title}_#{category}_heading'>
+        <h4 class='panel-title'>
+          <a class=''
+            role='button'
+            data-toggle='collapse'
+            data-parent='#accordion'
+            href='##{title}_#{category}_body'
+            aria-expanded='true'
+            aria-controls='#{title}_#{category}_body'>#{items["label"]}</a>
+        </h4>
+      </div>
+      <div id='#{title}_#{category}_body' class='panel-collapse collapse #{collapsed}'
+          role='tabpanel' aria-labelledby='#{title}_#{category}_heading'>
+        <div class='panel-body'>
+      }
+    buttons = ""
+    items["data"].each do |item|
+      href = item[0].gsub(" ", "_")
+      label = _make_label(item[0], item[1], title)
+      buttons += %{<a class='btn btn-default btn-xs' href='##{href}' role='button' data='#{title}'>#{label}</a>\n}
+    end
+    html += buttons
+    html += %{</div>\n</div>\n</div>\n}
+  end
+  return html
+end
+
+def _make_label(id, display, title)
   # if narrator, add the title to them and uppercase it
   if /aus\.[0-9]{3}\.nar$/.match(id)
     # to get the title, will have to pull apart the id
@@ -168,7 +180,7 @@ def make_label(id, display, title)
   end
 end
 
-def populate_categories(freq)
+def _populate_categories(freq)
   # associate each frequency with a parent category (like speaker, occupation, etc)
   parent = freq.parent
   if parent && parent.name
@@ -189,9 +201,13 @@ def populate_categories(freq)
   end
 end
 
-def titleize(title)
-  return title.gsub("_", " ").split.map(&:capitalize).join(' ')
+def _sort_categories
+  @categories.each do |category, items|
+    sorted = items["data"].sort_by { |data| data[1].include?("Narrator as") ? "" : data[1] }
+    @categories[category]["data"] = sorted
+  end
 end
+
 
 #######################################
 #            Visualizations           #
