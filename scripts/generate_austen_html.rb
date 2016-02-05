@@ -177,7 +177,8 @@ def _make_label(id, display, title)
     novel = book_id ? titleize(@novels[book_id]) : "Unknown novel"
     return "Narrator (#{novel})"
   else
-    return display
+    # capitalize the first letter of the string only
+    return display.slice(0,1).upcase + display.slice(1..-1)
   end
 end
 
