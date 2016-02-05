@@ -85,9 +85,10 @@ def frequency
     puts "Retrieving unique words for #{title} categories"
     frequencies = raw_xml.css("p[n]")
     frequencies.each do |freq|
-      generate_json(title, freq)  # create json snippets with the frequencies
+      # create json snippets with the frequencies
+      generate_json(title, freq)  
     end
-    generate_html(title, frequencies)  # create html button view
+    generate_html(title, frequencies)  
   end
 end
 
@@ -203,7 +204,11 @@ end
 
 def _sort_categories
   @categories.each do |category, items|
-    sorted = items["data"].sort_by { |data| data[1].include?("Narrator as") ? "" : data[1] }
+    sorted = items["data"].sort_by do |data| 
+      # pretend everything is downcased for the purpose of sorting
+      downcased = data[1].downcase
+      downcased.include?("narrator") ? "" : downcased
+    end
     @categories[category]["data"] = sorted
   end
 end
@@ -235,7 +240,7 @@ def views
       # northanger abbey has a chapter zero
       chapter_num = (title == "northanger_abbey") ? index : index+1
       puts "-- chapter #{chapter_num}"
-      run_chapter_xsl(filename, title, chapter_num)
+      run_chapter_xsl("#{filename}.xml", title, chapter_num)
     end
   end
 end
