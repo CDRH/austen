@@ -952,12 +952,530 @@
             </state>
           </person>
         </listPerson>
+        
+        <listPerson type="character">
+          
+<!-- start character as character -->
+          
+          <person xml:id="aus.001.dar_darsr" role="char_char" corresp="aus.001.darsr">
+            <persName>Darcy as <roleName type="honorific">Mr.</roleName>
+              <surname>Darcy</surname>
+            </persName>
+            <sex>male</sex>
+            <age>old</age>
+            <socecStatus>landed gentry</socecStatus>
+            <state type="marital">
+              <p>widowed</p>
+            </state>
+            <trait type="char">
+              <p></p>
+            </trait>
+            <occupation>deceased</occupation>
+          </person>
+          <person xml:id="aus.001.wick_darsr" role="char_char" corresp="aus.001.darsr">
+            <persName>Wickham as <roleName type="honorific">Mr.</roleName>
+              <surname>Darcy</surname>
+            </persName>
+            <sex>male</sex>
+            <age>old</age>
+            <socecStatus>landed gentry</socecStatus>
+            <state type="marital">
+              <p>widowed</p>
+            </state>
+            <trait type="char">
+              <p></p>
+            </trait>
+            <occupation>deceased</occupation>
+          </person>
+          <person xml:id="aus.001.jane_colf_lyd" role="char_char" corresp="aus.001.lyd">
+            <persName>Jane as Colonel Forster as
+              <forename>Lydia</forename>
+              <surname>Bennet</surname>
+            </persName>
+            <sex>female</sex>
+            <socecStatus>landed gentry</socecStatus>
+            <age>young married</age>
+            <age>out</age>
+            <state type="marital">
+              <p>mda</p>
+            </state>
+            <trait type="char">
+              <p>fool</p>
+            </trait>
+          </person>
+          <person xml:id="aus.001.mrsg_dar_lyd" role="char_char" corresp="aus.001.lyd">
+            <persName>Mrs. Gardiner as Darcy as
+              <forename>Lydia</forename>
+              <surname>Bennet</surname>
+            </persName>
+            <sex>female</sex>
+            <socecStatus>landed gentry</socecStatus>
+            <age>young married</age>
+            <age>out</age>
+            <state type="marital">
+              <p>mda</p>
+            </state>
+            <trait type="char">
+              <p>fool</p>
+            </trait>
+          </person>
+          <person xml:id="aus.001.deb_lmet" role="char_char" corresp="aus.001.lmet">
+            <persName>Lady Catherine as <roleName type="honorific">Lady</roleName>
+              <surname>Metcalf</surname>
+            </persName>
+            <sex>female</sex>
+            <socecStatus>landed gentry</socecStatus>
+            <age>married</age>
+            <age>middle-aged</age>
+            <trait type="char">
+              <p></p>
+            </trait>
+          </person>
+          <person xml:id="aus.001.jane_msb" role="char_char" corresp="aus.001.msb">
+            <persName>Jane as
+              <roleName type="honorific">Miss</roleName>
+              <surname>Bingley</surname>
+            </persName>
+            <sex>female</sex>
+            <age>out</age>
+            <socecStatus>gentry</socecStatus>
+            <state type="marital">
+              <p>unmarried</p>
+            </state>
+            <trait type="char">
+              <p>fool</p>
+            </trait>
+          </person>
+          <person xml:id="aus.001.jane_msbmrsh" role="char_char">
+            <persName>Jane as
+              <roleName type="honorific">Miss and Mrs.</roleName>
+              <surname>Bingley and Hurst</surname>
+            </persName>
+            <sex>female</sex>
+            <age>young married</age>
+            <socecStatus>gentry</socecStatus>
+            <state type="marital">
+              <p>married and out</p>
+            </state>
+            <trait type="char">
+              <p>fool</p>
+            </trait>
+          </person>
+          <person xml:id="aus.001.wick_dar" role="char_char" corresp="aus.001.dar">
+            <persName>Wickham as
+              <roleName type="honorific">Mr.</roleName>
+              <surname>Darcy</surname>
+            </persName>
+            <sex>male</sex>
+            <age>out</age>
+            <socecStatus>landed gentry</socecStatus>
+            <state type="marital">
+              <p>unmarried</p>
+            </state>
+            <trait type="char">
+              <p>hero</p>
+            </trait>
+          </person>
+          <person xml:id="aus.001.eliz_dar" role="char_char" corresp="aus.001.dar">
+            <persName>Elizabeth as
+              <roleName type="honorific">Mr.</roleName>
+              <surname>Darcy</surname>
+            </persName>
+            <sex>male</sex>
+            <age>out</age>
+            <socecStatus>landed gentry</socecStatus>
+            <state type="marital">
+              <p>unmarried</p>
+            </state>
+            <trait type="char">
+              <p>hero</p>
+            </trait>
+          </person>
+          <person xml:id="aus.001.coll_dar" role="char_char" corresp="aus.001.dar">
+            <persName>Collins as
+              <roleName type="honorific">Mr.</roleName>
+              <surname>Darcy</surname>
+            </persName>
+            <sex>male</sex>
+            <age>out</age>
+            <socecStatus>landed gentry</socecStatus>
+            <state type="marital">
+              <p>unmarried</p>
+            </state>
+            <trait type="char">
+              <p>hero</p>
+            </trait>
+          </person>
+          <person xml:id="aus.001.mrsb_dar" role="char_char" corresp="aus.001.dar">
+            <persName>Mrs. Bennet as
+              <roleName type="honorific">Mr.</roleName>
+              <surname>Darcy</surname>
+            </persName>
+            <sex>male</sex>
+            <age>out</age>
+            <socecStatus>landed gentry</socecStatus>
+            <state type="marital">
+              <p>unmarried</p>
+            </state>
+            <trait type="char">
+              <p>hero</p>
+            </trait>
+          </person>
+          <person xml:id="aus.001.mrsg_dar" role="char_char" corresp="aus.001.dar">
+            <persName>Mrs. Gardiner as
+              <roleName type="honorific">Mr.</roleName>
+              <surname>Darcy</surname>
+            </persName>
+            <sex>male</sex>
+            <age>out</age>
+            <socecStatus>landed gentry</socecStatus>
+            <state type="marital">
+              <p>unmarried</p>
+            </state>
+            <trait type="char">
+              <p>hero</p>
+            </trait>
+          </person>
+          <person xml:id="aus.001.bing_soc" role="char_char" corresp="aus.001.soc">
+            <persName>Bingley as
+              <roleName type="honorific"></roleName>
+              <surname>"society"</surname>
+            </persName>
+            <sex></sex>
+            <age></age>
+            <socecStatus></socecStatus>
+            <state type="marital">
+              <p></p>
+            </state>
+            <trait type="char">
+              <p></p>
+            </trait>
+          </person>
+          <person xml:id="aus.001.wick_soc" role="char_char" corresp="aus.001.soc">
+            <persName>Wickham as
+              <roleName type="honorific"></roleName>
+              <surname>"society"</surname>
+            </persName>
+            <sex></sex>
+            <age></age>
+            <socecStatus></socecStatus>
+            <state type="marital">
+              <p></p>
+            </state>
+            <trait type="char">
+              <p></p>
+            </trait>
+          </person>
+          <person xml:id="aus.001.dar_fri" role="char_char" corresp="aus.001.fri">
+            <persName>Darcy as
+              <roleName type="honorific"></roleName>
+              <surname>"friend"</surname>
+            </persName>
+            <sex>male</sex>
+            <age></age>
+            <socecStatus></socecStatus>
+            <state type="marital">
+              <p></p>
+            </state>
+            <trait type="char">
+              <p></p>
+            </trait>
+          </person>
+          <person xml:id="aus.001.dar_eliz" role="char_char" corresp="aus.001.eliz">
+            <persName>Darcy as
+              <forename>Elizabeth</forename>
+              <surname>Bennet</surname>
+            </persName>
+            <sex>female</sex>
+            <socecStatus>landed gentry</socecStatus>
+            <age>out</age>
+            <state type="marital">
+              <p>unmarried</p>
+            </state>
+            <trait type="char">
+              <p>heroine</p>
+            </trait>
+          </person>
+          <person xml:id="aus.001.coll_deb" role="char_char" corresp="aus.001.deb">
+            <persName>Mr. Collins as
+              <roleName type="nobility">Lady</roleName>
+              <forename>Catherine</forename>
+              <surname>de Bourgh</surname>
+            </persName>
+            <sex>female</sex>
+            <age>old</age>
+            <socecStatus>aristocrat</socecStatus>
+            <state type="marital">
+              <p>widowed</p>
+            </state>
+            <trait type="char">
+              <p>fool</p>
+            </trait>
+          </person>
+          <person xml:id="aus.001.dar_bing" role="char_char" corresp="aus.001.bing">
+            <persName>Darcy as
+              <roleName type="honorific">Mr.</roleName>
+              <surname>Bingley</surname>
+            </persName>
+            <sex>male</sex>
+            <age>out</age>
+            <socecStatus>gentry</socecStatus>
+            <state type="marital">
+              <p>unmarried</p>
+            </state>
+            <trait type="char">
+              <p>hero</p>
+            </trait>
+          </person>
+          <person xml:id="aus.001.eliz_bing" role="char_char" corresp="aus.001.bing">
+            <persName>Elizabeth as
+              <roleName type="honorific">Mr.</roleName>
+              <surname>Bingley</surname>
+            </persName>
+            <sex>male</sex>
+            <age>out</age>
+            <socecStatus>gentry</socecStatus>
+            <state type="marital">
+              <p>unmarried</p>
+            </state>
+            <trait type="char">
+              <p>hero</p>
+            </trait>
+          </person>
+          <person xml:id="aus.001.jane_bing" role="char_char" corresp="aus.001.bing">
+            <persName>Jane as
+              <roleName type="honorific">Mr.</roleName>
+              <surname>Bingley</surname>
+            </persName>
+            <sex>male</sex>
+            <age>out</age>
+            <socecStatus>gentry</socecStatus>
+            <state type="marital">
+              <p>unmarried</p>
+            </state>
+            <trait type="char">
+              <p>hero</p>
+            </trait>
+          </person>
+          <person xml:id="aus.001.jane_colf" role="char_char" corresp="aus.001.colf">
+            <persName>Jane as
+              <roleName type="honorific">Colonel</roleName>
+              <surname>Forster</surname>
+            </persName>
+            <sex>male</sex>
+            <age>middle-aged</age>
+            <socecStatus></socecStatus>
+            <state type="marital">
+              <p></p>
+            </state>
+            <trait type="char">
+              <p></p>
+            </trait>
+          </person>
+          <person xml:id="aus.001.mrsg_colf" role="char_char" corresp="aus.001.colf">
+            <persName>Mrs. Gardiner as
+              <roleName type="honorific">Colonel</roleName>
+              <surname>Forster</surname>
+            </persName>
+            <sex>male</sex>
+            <age>middle-aged</age>
+            <socecStatus></socecStatus>
+            <state type="marital">
+              <p></p>
+            </state>
+            <trait type="char">
+              <p></p>
+            </trait>
+          </person>
+          <person xml:id="aus.001.eliz_mrr" role="char_char" corresp="aus.001.mrr">
+            <persName>Elizabeth as
+              <roleName type="honorific">Mr.</roleName>
+              <surname>Robinson</surname>
+            </persName>
+            <sex>male</sex>
+            <age>middle-aged</age>
+            <socecStatus></socecStatus>
+            <state type="marital">
+              <p></p>
+            </state>
+            <trait type="char">
+              <p></p>
+            </trait>
+          </person>
+          <person xml:id="aus.001.deb_mys" role="char_char" corresp="aus.001.mys">
+            <persName>Lady Catherine as
+              <roleName type="honorific"></roleName>
+              <surname>mystery person</surname>
+            </persName>
+            <sex></sex>
+            <age></age>
+            <socecStatus></socecStatus>
+            <state type="marital">
+              <p></p>
+            </state>
+            <trait type="char">
+              <p></p>
+            </trait>
+          </person>
+          <person xml:id="aus.001.coll_jenk" role="char_char" corresp="aus.001.jenk">
+            <persName>Mr. Collins
+              <roleName type="honorific">Mrs.</roleName>
+              <surname>Jenkinson</surname>
+            </persName>
+            <sex>female</sex>
+            <age></age>
+            <socecStatus></socecStatus>
+            <state type="marital">
+              <p></p>
+            </state>
+            <trait type="char">
+              <p></p>
+            </trait>
+          </person>
+          <person xml:id="aus.001.mrsb_mrsl" role="char_char" corresp="aus.001.mrsl">
+            <persName>Mrs. Bennet as
+              <roleName type="honorific">Mrs.</roleName>
+              <surname>Long</surname>
+            </persName>
+            <sex>female</sex>
+            <age></age>
+            <socecStatus></socecStatus>
+            <state type="marital">
+              <p></p>
+            </state>
+            <trait type="char">
+              <p></p>
+            </trait>
+          </person>
+          <person xml:id="aus.001.jane_colf_mrd" role="char_char" corresp="aus.001.mrd">
+            <persName>Jane as Colonel Forster as
+              <roleName type="honorific">Mr.</roleName>
+              <surname>Denny</surname>
+            </persName>
+            <sex>male</sex>
+            <age>out</age>
+            <socecStatus>professional class</socecStatus>
+            <state type="marital">
+              <p>unmarried</p>
+            </state>
+          </person>
+          <person xml:id="aus.001.lyd_mrsp" role="char_char" corresp="aus.001.mrsp">
+            <persName>Lydia as
+              <roleName type="honorific">Mrs.</roleName>
+              <surname>Phillips</surname>
+            </persName>
+            <sex>female</sex>
+            <age/>
+            <socecStatus>professional class</socecStatus>
+            <state type="marital">
+              <p>married</p>
+            </state>
+          </person>
+          <person xml:id="aus.001.marl_char" role="char_char" corresp="aus.001.char">
+            <persName>Maria as
+              <forename>Charlotte</forename>
+              <surname>Lucas</surname>
+            </persName>
+            <sex>female</sex>
+            <socecStatus>gentry</socecStatus>
+            <age>young married</age>
+            <age>out</age>
+            <state type="marital">
+              <p>mda</p>
+            </state>
+            <trait type="char">
+              <p>neutral</p>
+            </trait>
+          </person>
+          <person xml:id="aus.001.dar_wick" role="char_char" corresp="aus.001.wick">
+            <persName>Darcy as
+              <roleName type="honorific">Mr.</roleName>
+              <surname>Wickham</surname>
+            </persName>
+            <sex>male</sex>
+            <age>young married</age>
+            <age>out</age>
+            <state type="marital">
+              <p>mda</p>
+            </state>
+            <trait type="char">
+              <p>cad</p>
+            </trait>
+            <occupation>soldier</occupation>
+          </person>
+          <person xml:id="aus.001.mrsg_dar_wick" role="char_char" corresp="aus.001.wick">
+            <persName>Darcy as
+              <roleName type="honorific">Mr.</roleName>
+              <surname>Wickham</surname>
+            </persName>
+            <sex>male</sex>
+            <age>young married</age>
+            <age>out</age>
+            <state type="marital">
+              <p>mda</p>
+            </state>
+            <trait type="char">
+              <p>cad</p>
+            </trait>
+            <occupation>soldier</occupation>
+          </person>
+          <person xml:id="aus.001.wick_mrgmrsg" role="char_char" corresp="aus.001.mrgmrsg">
+            <persName>Wickham as
+              <roleName type="honorific">Mr. and Mrs.</roleName>
+              <surname>Gardiner</surname>
+            </persName>
+            <sex></sex>
+            <age>middle-aged</age>
+            <socecStatus>professional class</socecStatus>
+            <state type="marital">
+              <p>married</p>
+            </state>
+            <trait type="char">
+              <p>neutral</p>
+            </trait>
+          </person>
+          <person xml:id="aus.001.eliz_rey" role="char_char" corresp="aus.001.rey">
+            <persName>Elizabeth as
+              <roleName type="honorific">Mrs.</roleName>
+              <surname>Reynolds</surname>
+            </persName>
+            <sex>female</sex>
+            <age>old</age>
+            <socecStatus>working class</socecStatus>
+            <state type="marital">
+              <p>widowed</p>
+            </state>
+            <trait type="char">
+              <p>neutral</p>
+            </trait>
+            <occupation>servant</occupation>
+          </person>
+          <person xml:id="aus.001.dar_sirl" role="char" corresp="aus.001.sirl">
+            <persName>
+              <roleName type="nobility">Sir</roleName>
+              <forename>William</forename>
+              <surname>Lucas</surname>
+            </persName>
+            <sex>male</sex>
+            <socecStatus>gentry</socecStatus>
+            <age>middle-aged</age>
+            <state type="marital">
+              <p>married</p>
+            </state>
+            <trait type="char">
+              <p>fool</p>
+            </trait>
+          </person>
+<!-- end character as character personography -->
+        </listPerson>
+        
       </particDesc>
     </profileDesc>
     <revisionDesc>
+      <change when="2016-02"><name>Smith, Carmen</name> Added character-as-character speakers to personography</change>
       <change when="2015-02"><name>Weakly, Laura</name> Added roles to personography</change>
       <change when="2012-11"><name>Weakly, Laura</name> Normalization and proofreading</change>
-      <change when="2012"><name xml:id="cm">McCue, Carmen</name> Encoding of free indirect discourse</change>
+      <change when="2012"><name xml:id="cm">Smith, Carmen</name> Encoding of free indirect discourse</change>
       <change when="2011-12-02">
         <name xml:id="lkw">Weakly, Laura K.</name>
         <name xml:id="bpz">Pytlik Zillig, Brian</name> Encoding of narration</change>
@@ -1792,13 +2310,13 @@
             <said who="aus.001.eliz" direct="true" aloud="true" prev="her">“Perhaps you mean what I overheard between him and Mr. Robinson; did not I mention it
               to you?</said>
             <said who="aus.001.eliz" direct="false" aloud="true" prev="her">Mr. Robinson's asking him</said>
-            <said who="aus.001.#eliz_mrr" direct="false" aloud="true"><certainty locus="name" target="aus.001.#eliz_mrr" degree="1"/> how he liked our Meryton
+            <said who="aus.001.eliz_mrr" direct="false" aloud="true"><certainty locus="name" target="aus.001.eliz_mrr" degree="1"/> how he liked our Meryton
               assemblies,</said>
             <said who="aus.001.eliz" direct="true" aloud="true" prev="her">and</said>
-            <said who="aus.001.#eliz_mrr" direct="false" aloud="true"><certainty locus="name" target="aus.001.#eliz_mrr" degree="1"/> whether he did not think
+            <said who="aus.001.eliz_mrr" direct="false" aloud="true"><certainty locus="name" target="aus.001.eliz_mrr" degree="1"/> whether he did not think
               there were a great many pretty women in the room, and <hi rend="i(1)">which</hi> he thought the prettiest?</said>
             <said who="aus.001.eliz" direct="true" aloud="true" prev="her">and his answering immediately to the last question &#8212;</said>
-            <said who="aus.001.#eliz_bing" direct="false" aloud="true"><certainty locus="name" target="aus.001.#eliz_bing" degree="1"/> 'Oh! the eldest Miss
+            <said who="aus.001.eliz_bing" direct="false" aloud="true"><certainty locus="name" target="aus.001.eliz_bing" degree="1"/> 'Oh! the eldest Miss
               Bennet, beyond a doubt; there cannot be two opinions on that point.'”</said>
           </seg>
         </p>
@@ -1822,7 +2340,7 @@
             <said who="aus.001.mrsb" direct="true" aloud="true" prev="moth" next="fool">“I beg you would not put it into Lizzy's head to be vexed by his
               ill-treatment, for he is such a disagreeable man, that it would be quite a misfortune to be liked by him.</said>
             <said who="aus.001.mrsb" direct="false" aloud="true" prev="moth" next="fool">Mrs. Long told me last night that</said>
-            <said who="aus.001.#mrsb_mrsl" direct="false" aloud="true"><certainty locus="name" target="aus.001.#mrsb_mrsl" degree=".5"/> he sat close to her for
+            <said who="aus.001.mrsb_mrsl" direct="false" aloud="true"><certainty locus="name" target="aus.001.mrsb_mrsl" degree=".5"/> he sat close to her for
               half-an-hour without once opening his lips.”</said>
           </seg>
         </p>
@@ -1838,7 +2356,7 @@
           <seg>
             <said who="aus.001.mrsb" direct="true" aloud="true" prev="moth" next="fool">“Aye &#8212; because</said>
             <said who="aus.001.mrsb" direct="false" aloud="true" prev="moth" next="fool">she asked him at last</said>
-            <said who="aus.001.#mrsb_mrsl" direct="false" aloud="true"><certainty locus="name" target="aus.001.#mrsb_mrsl" degree="1"/> how he liked
+            <said who="aus.001.mrsb_mrsl" direct="false" aloud="true"><certainty locus="name" target="aus.001.mrsb_mrsl" degree="1"/> how he liked
               Netherfield,</said>
             <said who="aus.001.mrsb" direct="true" aloud="true" prev="moth" next="fool">and he could not help answering her; but she said he seemed quite angry
               at being spoke to.”</said>
@@ -1849,7 +2367,7 @@
             <said who="aus.001.jane" direct="false" aloud="true" prev="her">“Miss Bingley told me,”</said>
             <said who="aus.001.nar" direct="true" aloud="false"> said Jane, </said>
             <said who="aus.001.jane" direct="false" aloud="true" prev="her">“that</said>
-            <said who="aus.001.#jane_msb" direct="false" aloud="true"><certainty locus="name" target="aus.001.#jane_msb" degree=".7"/> he never speaks much,
+            <said who="aus.001.jane_msb" direct="false" aloud="true"><certainty locus="name" target="aus.001.jane_msb" degree=".7"/> he never speaks much,
               unless among his intimate acquaintances. With <hi rend="i(1)"> them</hi> he is remarkably agreeable.”</said>
           </seg>
         </p>
@@ -2606,7 +3124,7 @@
                 <said who="aus.001.jane" direct="true" aloud="false" prev="her">“<hi rend="sc(1)">I find</hi> myself very unwell this morning, which, I suppose,
                   is to be imputed to my getting wet through yesterday.</said>
                 <said who="aus.001.jane" direct="false" aloud="false" prev="her">My kind friends will not hear of</said>
-                <said who="aus.001.#jane_msbmrsh" direct="false" aloud="true"><certainty locus="name" target="aus.001.#jane_msbmrsh" degree=".3"/> my returning
+                <said who="aus.001.jane_msbmrsh" direct="false" aloud="true"><certainty locus="name" target="aus.001.jane_msbmrsh" degree=".3"/> my returning
                   home till I am better.</said>
                 <said who="aus.001.jane" direct="true" aloud="false">They insist also on my seeing Mr. Jones &#8212; therefore do not be alarmed if you should
                   hear of his having been to me &#8212; and, excepting a sore throat and headache there is not much the matter with me. &#8212;</said>
@@ -3080,7 +3598,7 @@
             <said who="aus.001.bing" direct="true" aloud="true" prev="hero">“Yes, all of them, I think. They all paint tables, cover screens, and net purses. I
               scarcely know anyone who cannot do all this, and I am sure</said>
             <said who="aus.001.bing" direct="false" aloud="true">I never heard a young lady spoken of for the first time, without being informed that</said>
-            <said who="aus.001.#bing_soc" direct="false" aloud="true">she was very accomplished.” </said>
+            <said who="aus.001.bing_soc" direct="false" aloud="true">she was very accomplished.” </said>
           </seg>
         </p>
         <p>
@@ -3695,7 +4213,7 @@
               interesting. The power of doing anything with quickness is always prized much by the possessor, and often without any attention to the
               imperfection of the performance.</said>
             <said who="aus.001.dar" direct="false" aloud="true" prev="hero">When you told Mrs. Bennet this morning that</said>
-            <said who="aus.001.#dar_bing" direct="false" aloud="true"><certainty locus="name" target="aus.001.#dar_bing" degree=".7"/> if you ever resolved upon
+            <said who="aus.001.dar_bing" direct="false" aloud="true"><certainty locus="name" target="aus.001.dar_bing" degree=".7"/> if you ever resolved upon
               quitting Netherfield you should be gone in five minutes,</said>
             <said who="aus.001.dar" direct="true" aloud="true">you meant it to be a sort of panegyric, of compliment to yourself &#8212; and yet what is there
               so very laudable in a precipitance which must leave very necessary business undone, and can be of no real advantage to yourself or anyone
@@ -3716,7 +4234,7 @@
             <said who="aus.001.dar" direct="true" aloud="true" prev="hero">“I dare say you believed it; but I am by no means convinced that you would be gone
               with such celerity. Your conduct would be quite as dependent on chance as that of any man I know; and if, as you were mounting your horse,</said>
             <said who="aus.001.dar" direct="false" aloud="true" prev="hero">a friend were to say,</said>
-            <said who="aus.001.#dar_fri">‘Bingley, you had better stay till next week,’</said>
+            <said who="aus.001.dar_fri">‘Bingley, you had better stay till next week,’</said>
             <said who="aus.001.dar" direct="true" aloud="true" prev="hero">you would probably do it, you would probably not go &#8212; and, at another word,
               might stay a month.”</said>
           </seg>
@@ -9016,7 +9534,7 @@
               Collins, did I tell you of Lady Metcalf's calling yesterday to thank me? She finds Miss Pope a treasure.</said>
             <said who="aus.001.deb_lmet" direct="false" aloud="true"><certainty locus="name" target="aus.001.deb_lmet" degree="1"/>'Lady Catherine,'</said>
             <said who="aus.001.deb" direct="false" aloud="true" prev="fool">said she,</said>
-            <said who="aus.001.deb.lmet" direct="false" aloud="true"><certainty locus="name" target="aus.001.deb_lmet" degree="1"/>'you have given me a
+            <said who="aus.001.deb_lmet" direct="false" aloud="true"><certainty locus="name" target="aus.001.deb_lmet" degree="1"/>'you have given me a
               treasure.'</said>
             <said who="aus.001.deb" direct="true" aloud="true" prev="fool">Are any of your younger sisters out, Miss Bennet?” </said>
           </seg>
@@ -10437,7 +10955,7 @@
                   of dancing with you, I was first made acquainted, by Sir William Lucas's accidental information, that Bingley's attentions to your sister had
                   given rise to a general expectation of their marriage.</said>
                 <said who="aus.001.dar" direct="false" aloud="false">He spoke of it</said>
-                <said who="aus.001.#dar_sirl" direct="false" aloud="false"><certainty locus="name" target="aus.001.#dar_sirl" degree=".1"/> as a certain event,
+                <said who="aus.001.dar_sirl" direct="false" aloud="false"><certainty locus="name" target="aus.001.dar_sirl" degree=".1"/> as a certain event,
                   of which the time alone could be undecided.</said>
                 <said who="aus.001.dar" direct="true" aloud="false">From that moment I observed my friend's behaviour attentively; and I could then perceive
                   that his partiality for Miss Bennet was beyond what I had ever witnessed in him. Your sister I also watched. Her look and manners were open,
@@ -10489,17 +11007,17 @@
                   not prevent me from unfolding his real character &#8212; it adds even another motive. "My excellent father died about five years ago; and his
                   attachment to Mr. Wickham was to the last so steady, that in his will </said>
                 <said who="aus.001.dar" direct="false" aloud="false" prev="hero">he particularly recommended it to me,</said>
-                <said who="aus.001.#dar_darsr" direct="false" aloud="false"><certainty locus="name" target="aus.001.#dar_darsr" degree=".5"/> to promote his
+                <said who="aus.001.dar_darsr" direct="false" aloud="false"><certainty locus="name" target="aus.001.dar_darsr" degree=".5"/> to promote his
                   advancement in the best manner that his profession might allow &#8212; and if he took orders, desired that a valuable family living might be
                   his as soon as it became vacant.</said>
                 <said who="aus.001.dar" direct="true" aloud="false" prev="hero"> There was also a legacy of one thousand pounds. His own father did not long
                   survive mine, and within half a year from these events,</said>
                 <said who="aus.001.dar" direct="false" aloud="false" prev="hero"> Mr. Wickham wrote to inform me that, </said>
-                <said who="aus.001.#dar_wick" direct="false" aloud="false"><certainty locus="name" target="aus.001.#dar_wick" degree=".7"/> having finally
+                <said who="aus.001.dar_wick" direct="false" aloud="false"><certainty locus="name" target="aus.001.dar_wick" degree=".7"/> having finally
                   resolved against taking orders, he hoped I should not think it unreasonable for him to expect some more immediate pecuniary advantage, in lieu
                   of the preferment, by which he could not be benefited.</said>
                 <said who="aus.001.dar" direct="false" aloud="false" prev="hero"> He had some intention, he added,</said>
-                <said who="aus.001.#dar_wick" direct="false" aloud="false"><certainty locus="name" target="aus.001.#dar_wick" degree="1"/> of studying the law,
+                <said who="aus.001.dar_wick" direct="false" aloud="false"><certainty locus="name" target="aus.001.dar_wick" degree="1"/> of studying the law,
                   and I must be aware that the interest of one thousand pounds would be a very insufficient support therein.</said>
                 <said who="aus.001.dar" direct="true" aloud="false"> I rather wished, than believed him to be sincere; but, at any rate, was perfectly ready to
                   accede to his proposal. I knew that Mr. Wickham ought not to be a clergyman; the business was therefore soon settled &#8212; he resigned all
@@ -10508,13 +11026,13 @@
                   town I believe he chiefly lived, but his studying the law was a mere pretence, and being now free from all restraint, his life was a life of
                   idleness and dissipation. For about three years I heard little of him; but on the decease of the incumbent of the living which had been
                   designed for him, he applied to me again by letter for the presentation.</said>
-                <said who="aus.001.#dar_wick" direct="false" aloud="false"><certainty locus="name" target="aus.001.#dar_wick" degree=".5"/> His
+                <said who="aus.001.dar_wick" direct="false" aloud="false"><certainty locus="name" target="aus.001.dar_wick" degree=".5"/> His
                   circumstances,</said>
                 <said who="aus.001.dar" direct="false" aloud="false" prev="hero"> he assured me,</said>
                 <said who="aus.001.dar" direct="true" aloud="false" prev="hero"> and I had no difficulty in believing it,</said>
-                <said who="aus.001.#dar_wick" direct="false" aloud="false"><certainty locus="name" target="aus.001.#dar_wick" degree=".5"/> were exceedingly
+                <said who="aus.001.dar_wick" direct="false" aloud="false"><certainty locus="name" target="aus.001.dar_wick" degree=".5"/> were exceedingly
                   bad.</said>
-                <said who="aus.001.#dar_wick" direct="false" aloud="false"><certainty locus="name" target="aus.001.nar_eliz" degree=".7"/> He had found the law
+                <said who="aus.001.dar_wick" direct="false" aloud="false"><certainty locus="name" target="aus.001.nar_eliz" degree=".7"/> He had found the law
                   a most unprofitable study, and was now absolutely resolved on being ordained, if I would present him to the living in question &#8212; of
                   which he trusted there could be little doubt, as he was well assured that I had no other person to provide for, and I could not have forgotten
                   my revered father's intentions.</said>
@@ -11275,7 +11793,7 @@
               before you came back. Jane will be quite an old maid soon, I declare. She is almost three-and-twenty! Lord, how ashamed I should be of not being
               married before three-and-twenty! My aunt Phillips wants you so to get husbands, you can't think.</said>
             <said who="aus.001.lyd" direct="false" aloud="true">She says</said>
-            <said who="aus.001.#lyd_mrsp" direct="false" aloud="true"><certainty locus="name" target="aus.001.#lyd_mrsp" degree=".5"/>
+            <said who="aus.001.lyd_mrsp" direct="false" aloud="true"><certainty locus="name" target="aus.001.lyd_mrsp" degree=".5"/>
               <!-- -->Lizzy had better have taken Mr. Collins;</said>
             <said who="aus.001.lyd" direct="true" aloud="true" prev="fool">but <hi rend="i(1)">I</hi> do not think there would have been any fun in it. Lord!
               how I should like to be married before any of you; and then I would chaperon you about to all the balls. Dear me! we had such a good piece of fun
@@ -15750,56 +16268,56 @@
                   Longbourn, your uncle had a most unexpected visitor. Mr. Darcy called, and was shut up with him several hours. It was all over before I
                   arrived; so my curiosity was not so dreadfully racked as <hi rend="i(1)">yours</hi> seems to have been.</said>
                 <said who="aus.001.mrsg" direct="false" aloud="false" prev="neut"> He came to tell Mr. Gardiner that</said>
-                <said who="aus.001.#mrsg_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.#mrsg_dar" degree=".5"/> he had found out
+                <said who="aus.001.mrsg_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.mrsg_dar" degree=".5"/> he had found out
                   where your sister and Mr. Wickham were,</said>
                 <said who="aus.001.mrsg" direct="false" aloud="false" prev="neut">and that</said>
-                <said who="aus.001.#mrsg_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.#mrsg_dar" degree=".5"/> he had seen and
+                <said who="aus.001.mrsg_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.mrsg_dar" degree=".5"/> he had seen and
                   talked with them both; Wickham repeatedly, Lydia once.</said>
                 <said who="aus.001.mrsg" direct="true" aloud="false" prev="neut">From what I can collect,</said>
-                <said who="aus.001.#mrsg_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.#mrsg_dar" degree=".1"/> he left Derbyshire
+                <said who="aus.001.mrsg_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.mrsg_dar" degree=".1"/> he left Derbyshire
                   only one day after ourselves, and came to town with the resolution of hunting for them.</said>
                 <said who="aus.001.mrsg" direct="false" aloud="false" prev="neut">The motive professed was his conviction of</said>
-                <said who="aus.001.#mrsg_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.#mrsg_dar" degree=".5"/> its being owing to
+                <said who="aus.001.mrsg_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.mrsg_dar" degree=".5"/> its being owing to
                   himself that Wickham's worthlessness had not been so well known as to make it impossible for any young woman of character to love or confide
                   in him.</said>
                 <said who="aus.001.mrsg" direct="false" aloud="false" prev="neut">He generously imputed</said>
-                <said who="aus.001.#mrsg_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.#mrsg_dar" degree=".5"/> the whole to his
+                <said who="aus.001.mrsg_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.mrsg_dar" degree=".5"/> the whole to his
                   mistaken pride,</said>
                 <said who="aus.001.mrsg" direct="false" aloud="false" prev="neut">and confessed that</said>
-                <said who="aus.001.#mrsg_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.#mrsg_dar" degree=".5"/> he had before thought
+                <said who="aus.001.mrsg_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.mrsg_dar" degree=".5"/> he had before thought
                   it beneath him to lay his private actions open to the world.</said>
-                <said who="aus.001.#mrsg_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.#mrsg_dar" degree=".7"/> His character was to
+                <said who="aus.001.mrsg_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.mrsg_dar" degree=".7"/> His character was to
                   speak for itself.</said>
                 <said who="aus.001.mrsg" direct="false" aloud="false" prev="neut">He called it, therefore,</said>
-                <said who="aus.001.#mrsg_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.#mrsg_dar" degree="1"/> his duty to step
+                <said who="aus.001.mrsg_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.mrsg_dar" degree="1"/> his duty to step
                   forward, and endeavour to remedy an evil which had been brought on by himself.</said>
                 <said who="aus.001.mrsg" direct="true" aloud="false" prev="neut">If he <hi rend="i(1)">had another</hi> motive, I am sure it would never
                   disgrace him.</said>
-                <said who="aus.001.#mrsg_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.#mrsg_dar" degree=".5"/> He had been some days
+                <said who="aus.001.mrsg_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.mrsg_dar" degree=".5"/> He had been some days
                   in town, before he was able to discover them; but he had something to direct his search, which was more than <hi rend="i(1)">we</hi> had; and
                   the consciousness of this was another reason for his resolving to follow us. "There is a lady,</said>
                 <said who="aus.001.mrsg" direct="false" aloud="false" prev="neut">it seems,</said>
-                <said who="aus.001.#mrsg_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.#mrsg_dar" degree=".5"/> a Mrs. Younge, who
+                <said who="aus.001.mrsg_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.mrsg_dar" degree=".5"/> a Mrs. Younge, who
                   was some time ago governess to Miss Darcy, and was dismissed from her charge on some cause of disapprobation,</said>
                 <said who="aus.001.mrsg" direct="true" aloud="false" prev="neut">though he did not say what.</said>
-                <said who="aus.001.#mrsg_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.#mrsg_dar" degree=".5"/> She then took a large
+                <said who="aus.001.mrsg_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.mrsg_dar" degree=".5"/> She then took a large
                   house in Edward-street, and has since maintained herself by letting lodgings. This Mrs. Younge was,</said>
                 <said who="aus.001.mrsg" direct="false" aloud="false" prev="neut">he knew,</said>
-                <said who="aus.001.#mrsg_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.#mrsg_dar" degree=".5"/> intimately acquainted
+                <said who="aus.001.mrsg_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.mrsg_dar" degree=".5"/> intimately acquainted
                   with Wickham; and he went to her for intelligence of him as soon as he got to town. But it was two or three days before he could get from her
                   what he wanted. She would not betray her trust,</said>
                 <said who="aus.001.mrsg" direct="false" aloud="false" prev="neut">I suppose,</said>
-                <said who="aus.001.#mrsg_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.#mrsg_dar" degree=".5"/> without bribery and
+                <said who="aus.001.mrsg_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.mrsg_dar" degree=".5"/> without bribery and
                   corruption, for she really did know where her friend was to to be found. Wickham indeed had gone to her on their first arrival in London, and
                   had she been able to receive them into her house, they would have taken up their abode with her.</said>
                 <said who="aus.001.mrsg" direct="true" aloud="false" prev="neut">At length, however, our kind friend procured the wished-for direction.</said>
-                <said who="aus.001.#mrsg_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.#mrsg_dar" degree=".5"/> They were in
+                <said who="aus.001.mrsg_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.mrsg_dar" degree=".5"/> They were in
                   &#8212;&#8212;street. He saw Wickham, and afterwards insisted on seeing Lydia. His first object with her,</said>
                 <said who="aus.001.mrsg" direct="false" aloud="false" prev="neut">he acknowledged,</said>
-                <said who="aus.001.#mrsg_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.#mrsg_dar" degree=".5"/> had been to persuade
+                <said who="aus.001.mrsg_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.mrsg_dar" degree=".5"/> had been to persuade
                   her to quit her present disgraceful situation, and return to her friends as soon as they could be prevailed on to receive her, offering his
                   assistance, as far as it would go. But he found Lydia absolutely resolved on remaining where she was.</said>
-                <said who="aus.001.#mrsg_dar_lyd" direct="false" aloud="true"><certainty locus="name" target="aus.001.#mrsg_dar_lyd" degree=".7"/> She cared for
+                <said who="aus.001.mrsg_dar_lyd" direct="false" aloud="true"><certainty locus="name" target="aus.001.mrsg_dar_lyd" degree=".7"/> She cared for
                   none of her friends; she wanted no help of his; she would not hear of leaving Wickham. She was sure they should be married some time or other,
                   and it did not much signify when.</said>
                 <said who="aus.001.mrsg" direct="true" aloud="false" prev="neut">Since such were her feelings, it only remained,</said>
@@ -15809,22 +16327,22 @@
                 <said who="aus.001.mrsg" direct="false" aloud="false" prev="neut">he easily learnt</said>
                 <said who="aus.001.mrsg" direct="true" aloud="false" prev="neut">had never been<hi rend="i(1)">his</hi> design.</said>
                 <said who="aus.001.mrsg" direct="false" aloud="false" prev="neut">He confessed</said>
-                <said who="aus.001.#mrsg_dar_wick" direct="false" aloud="true"><certainty locus="name" target="aus.001.#mrsg_dar_wick" degree=".7"/> himself
+                <said who="aus.001.mrsg_dar_wick" direct="false" aloud="true"><certainty locus="name" target="aus.001.mrsg_dar_wick" degree=".7"/> himself
                   obliged to leave the regiment, on account of some debts of honour, which were very pressing;</said>
                 <said who="aus.001.mrsg" direct="true" aloud="false" prev="neut">and scrupled not to lay all the ill-consequences of Lydia's flight on her own
                   folly alone.</said>
-                <said who="aus.001.#mrsg_dar_wick" direct="false" aloud="true"><certainty locus="name" target="aus.001.#mrsg_dar_wick" degree=".7"/> He meant to
+                <said who="aus.001.mrsg_dar_wick" direct="false" aloud="true"><certainty locus="name" target="aus.001.mrsg_dar_wick" degree=".7"/> He meant to
                   resign his commission immediately; and as to his future situation, he could conjecture very little about it. He must go somewhere, but he did
                   not know where, and he knew he should have nothing to live on.</said>
                 <said who="aus.001.mrsg" direct="false" aloud="false" prev="neut">"Mr. Darcy asked him</said>
-                <said who="aus.001.#mrsg_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.#mrsg_dar" degree=".5"/> why he had not
+                <said who="aus.001.mrsg_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.mrsg_dar" degree=".5"/> why he had not
                   married your sister at once. Though Mr. Bennet was not imagined to be very rich, he would have been able to do something for him, and his
                   situation must have been benefited by marriage.</said>
                 <said who="aus.001.mrsg" direct="true" aloud="false" prev="neut">But</said>
                 <said who="aus.001.mrsg" direct="false" aloud="false" prev="neut">he found,</said>
                 <said who="aus.001.mrsg" direct="true" aloud="false" prev="neut">in reply to this question,</said>
                 <said who="aus.001.mrsg" direct="false" aloud="false" prev="neut">that</said>
-                <said who="aus.001.#mrsg_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.#mrsg_dar" degree=".7"/> Wickham still
+                <said who="aus.001.mrsg_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.mrsg_dar" degree=".7"/> Wickham still
                   cherished the hope of more effectually making his fortune by marriage in some other country. Under such circumstances, however, he was not
                   likely to be proof against the temptation of immediate relief. "They met several times, for there was much to be discussed. Wickham of course
                   wanted more than he could get; but at length was reduced to be reasonable. "Every thing being settled between <hi rend="i(1)">them</hi>, Mr.
@@ -15834,7 +16352,7 @@
                 <said who="aus.001.mrsg" direct="false" aloud="false" prev="neut">Mr. Darcy found,</said>
                 <said who="aus.001.mrsg" direct="true" aloud="false" prev="neut">on further inquiry,</said>
                 <said who="aus.001.mrsg" direct="false" aloud="false" prev="neut">that</said>
-                <said who="aus.001.#mrsg_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.#mrsg_dar" degree=".3"/> your father was still
+                <said who="aus.001.mrsg_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.mrsg_dar" degree=".3"/> your father was still
                   with him, but would quit town the next morning. He did not judge your father to be a person whom he could so properly consult as your uncle,
                   and therefore readily postponed seeing him till after the departure of the former.</said>
                 <said who="aus.001.mrsg" direct="true" aloud="false" prev="neut"> He did not leave his name, and till the next day it was only known that a
@@ -15851,7 +16369,7 @@
                   debts are to be paid, amounting, I believe, to considerably more than a thousand pounds, another thousand in addition to her own settled upon
                     <hi rend="i(1)">her</hi>, and his commission purchased. The reason why all this was to be done by him alone, was such as I have given
                   above.</said>
-                <said who="aus.001.#mrsg_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.#mrsg_dar" degree=".5"/> It was owing to him,
+                <said who="aus.001.mrsg_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.mrsg_dar" degree=".5"/> It was owing to him,
                   to his reserve and want of proper consideration, that Wickham's character had been so misunderstood, and consequently that he had been
                   received and noticed as he was.</said>
                 <said who="aus.001.mrsg" direct="true" aloud="false" prev="neut">Perhaps there was some truth in <hi rend="i(1)">this</hi>; though I doubt
@@ -15971,7 +16489,7 @@
             <said who="aus.001.wick" direct="false" aloud="true" prev="cad">I find,</said>
             <said who="aus.001.wick" direct="true" aloud="true" prev="cad">from our uncle and aunt,</said>
             <said who="aus.001.wick" direct="false" aloud="true">that</said>
-            <said who="aus.001.#wick_mrgmrsg" direct="false" aloud="true"><certainty locus="name" target="aus.001.#wick_mrgmrsg" degree=".1"/> you have actually
+            <said who="aus.001.wick_mrgmrsg" direct="false" aloud="true"><certainty locus="name" target="aus.001.wick_mrgmrsg" degree=".1"/> you have actually
               seen Pemberley.” </said>
           </seg>
         </p>
@@ -16001,11 +16519,11 @@
         <p>
           <seg>
             <said who="aus.001.eliz" direct="false" aloud="true" prev="her">“That</said>
-            <said who="aus.001.#eliz_rey" direct="false" aloud="true"><certainty locus="name" target="aus.001.#eliz_rey" degree=".1"/> you were gone into the
+            <said who="aus.001.eliz_rey" direct="false" aloud="true"><certainty locus="name" target="aus.001.eliz_rey" degree=".1"/> you were gone into the
               army,</said>
             <said who="aus.001.eliz" direct="true" aloud="true" prev="her">and</said>
             <said who="aus.001.eliz" direct="false" aloud="true" prev="her">she was afraid</said>
-            <said who="aus.001.#eliz_rey" direct="false" aloud="true"><certainty locus="name" target="aus.001.#eliz_rey" degree=".1"/> had &#8212; not turned
+            <said who="aus.001.eliz_rey" direct="false" aloud="true"><certainty locus="name" target="aus.001.eliz_rey" degree=".1"/> had &#8212; not turned
               out well.</said>
             <said who="aus.001.eliz" direct="true" aloud="true" prev="her">At such a distance as <hi rend="i(1)">that</hi>, you know, things are strangely
               misrepresented.” </said>
@@ -16054,7 +16572,7 @@
             <said who="aus.001.wick" direct="false" aloud="true" prev="cad">“I have heard,</said>
             <said who="aus.001.wick" direct="true" aloud="true" prev="cad">indeed,</said>
             <said who="aus.001.wick" direct="false" aloud="true" prev="cad">that</said>
-            <said who="aus.001.#wick_soc" direct="false" aloud="true"><certainty locus="name" target="aus.001.#wick_soc" degree=".1"/> she is uncommonly
+            <said who="aus.001.wick_soc" direct="false" aloud="true"><certainty locus="name" target="aus.001.wick_soc" degree=".1"/> she is uncommonly
               improved within this year or two.</said>
             <said who="aus.001.wick" direct="true" aloud="true" prev="cad">When I last saw her, she was not very promising. I am very glad you liked her. I hope
               she will turn out well.” </said>
@@ -16099,7 +16617,7 @@
             <said who="aus.001.eliz" direct="false" aloud="true" prev="her">“I <hi rend="i(1)">have</hi> heard</said>
             <said who="aus.001.eliz" direct="true" aloud="true" prev="her">from authority, which I thought <hi rend="i(1)">as good</hi>,</said>
             <said who="aus.001.eliz" direct="false" aloud="true" prev="her">that</said>
-            <said who="aus.001.#eliz_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.#eliz_dar" degree=".2"/> it was left you
+            <said who="aus.001.eliz_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.eliz_dar" degree=".2"/> it was left you
               conditionally only, and at the will of the present patron.”</said>
           </seg>
         </p>
@@ -16114,14 +16632,14 @@
             <said who="aus.001.eliz" direct="false" aloud="true" prev="her">“I <hi rend="i(1)">did</hi> hear,</said>
             <said who="aus.001.eliz" direct="true" aloud="true" prev="her">too,</said>
             <said who="aus.001.eliz" direct="false" aloud="true" prev="her">that</said>
-            <said who="aus.001.#eliz_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.#eliz_dar" degree=".5"/> there was a time, when
+            <said who="aus.001.eliz_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.eliz_dar" degree=".5"/> there was a time, when
               sermon-making was not so palatable to you as it seems to be at present;</said>
             <said who="aus.001.eliz" direct="false" aloud="true" prev="her">that</said>
-            <said who="aus.001.#eliz_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.#eliz_dar" degree=".5"/> you actually declared
+            <said who="aus.001.eliz_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.eliz_dar" degree=".5"/> you actually declared
               your resolution of never taking orders,</said>
             <said who="aus.001.eliz" direct="true" aloud="true" prev="her">and</said>
             <said who="aus.001.eliz" direct="false" aloud="true" prev="her">that</said>
-            <said who="aus.001.#eliz_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.#eliz_dar" degree=".5"/> the business had been
+            <said who="aus.001.eliz_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.eliz_dar" degree=".5"/> the business had been
               compromised accordingly.” </said>
           </seg>
         </p>
@@ -16901,12 +17419,12 @@
               well, I assure you. The dinner was as well dressed as any I ever saw. The venison was roasted to a turn &#8212; and everybody said they never saw
               so fat a haunch. The soup was fifty times better than what we had at the Lucases' last week; and even</said>
             <said who="aus.001.mrsb" direct="false" aloud="true" prev="fool" next="moth">Mr. Darcy acknowledged, that</said>
-            <said who="aus.001.#mrsb_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.#mrsb_dar" degree=".1"/> the partridges were
+            <said who="aus.001.mrsb_dar" direct="false" aloud="true"><certainty locus="name" target="aus.001.mrsb_dar" degree=".1"/> the partridges were
               remarkably well done;</said>
             <said who="aus.001.mrsb" direct="true" aloud="true" prev="fool" next="moth">and I suppose he has two or three French cooks at least. And, my dear
               Jane, I never saw you look in greater beauty. Mrs. Long said so too, for I asked her whether you did not. And what do you think she said
               besides?</said>
-            <said who="aus.001.#mrsb_mrsl" direct="false" aloud="true"><certainty locus="name" target="aus.001.#mrsb_mrsl" degree="1"/> 'Ah! Mrs. Bennet, we
+            <said who="aus.001.mrsb_mrsl" direct="false" aloud="true"><certainty locus="name" target="aus.001.mrsb_mrsl" degree="1"/> 'Ah! Mrs. Bennet, we
               shall have her at Netherfield at last.'</said>
             <said who="aus.001.mrsb" direct="true" aloud="true" prev="fool" next="moth">She did indeed. I do think Mrs. Long is as good a creature as ever lived
               &#8212; and her nieces are very pretty behaved girls, and not at all handsome: I like them prodigiously.” </said>
@@ -17603,13 +18121,13 @@
               and frankness, and in a cause of such moment as this, I shall certainly not depart from it. A report of a most alarming nature reached me two days
               ago.</said>
             <said who="aus.001.deb" direct="false" aloud="true">I was told that</said>
-            <said who="aus.001.#deb_mys" direct="false" aloud="true"><certainty locus="name" target="aus.001.#deb_mys" degree=".7"/> not only your sister was on
+            <said who="aus.001.deb_mys" direct="false" aloud="true"><certainty locus="name" target="aus.001.deb_mys" degree=".7"/> not only your sister was on
               the point of being most advantageously married, but</said>
             <said who="aus.001.deb" direct="false" aloud="true">that</said>
-            <said who="aus.001.#deb_mys" direct="false" aloud="true"><certainty locus="name" target="aus.001.#deb_mys" degree=".7"/>
+            <said who="aus.001.deb_mys" direct="false" aloud="true"><certainty locus="name" target="aus.001.deb_mys" degree=".7"/>
               <hi rend="i(1)">you</hi>,</said>
             <said who="aus.001.deb" direct="false" aloud="true">that</said>
-            <said who="aus.001.#deb_mys" direct="false" aloud="true"><certainty locus="name" target="aus.001.#deb_mys" degree=".7"/> Miss Elizabeth Bennet,
+            <said who="aus.001.deb_mys" direct="false" aloud="true"><certainty locus="name" target="aus.001.deb_mys" degree=".7"/> Miss Elizabeth Bennet,
               would, in all likelihood, be soon afterwards united to my nephew, my own nephew, Mr. Darcy.</said>
             <said who="aus.001.deb" direct="true" aloud="true">Though I <hi rend="i(1)">know</hi> it must be a scandalous falsehood, though I would not injure
               him so much as to suppose the truth of it possible, I instantly resolved on setting off for this place, that I might make my sentiments known to
@@ -18142,7 +18660,7 @@
               immediately, with her usual condescension, expressed what she felt on the occasion; when it became apparent, that on the score of some family
               objections on the part of my cousin, she would never give her consent</said>
             <said who="aus.001.coll" direct="false" aloud="false">to what she termed</said>
-            <said who="aus.001.#coll_deb" direct="false" aloud="true"><certainty locus="name" target="aus.001.#coll_deb" degree="1"/> so disgraceful a
+            <said who="aus.001.coll_deb" direct="false" aloud="true"><certainty locus="name" target="aus.001.coll_deb" degree="1"/> so disgraceful a
               match.</said>
             <said who="aus.001.coll" direct="true" aloud="false">I thought it my duty to give the speediest intelligence of this to my cousin, that she and her
               noble admirer may be aware of what they are about, and not run hastily into a marriage which has not been properly sanctioned.'</said>
@@ -18329,7 +18847,7 @@
             <said who="aus.001.dar" direct="true" aloud="true" prev="hero">“I cannot be so easily reconciled to myself. The recollection of what I then said, of
               my conduct, my manners, my expressions during the whole of it, is now, and has been many months, inexpressibly painful to me. Your reproof, so
               well applied, I shall never forget:</said>
-            <said who="aus.001.#dar_eliz" direct="false" aloud="true"><certainty locus="name" target="aus.001.#dar_eliz" degree="1"/> ‘had you behaved in a more
+            <said who="aus.001.dar_eliz" direct="false" aloud="true"><certainty locus="name" target="aus.001.dar_eliz" degree="1"/> ‘had you behaved in a more
               gentlemanlike manner.’</said>
             <said who="aus.001.dar" direct="true" aloud="true" prev="hero">Those were your words. You know not, you can scarcely conceive, how they have
               tortured me &#8212; though it was some time, I confess, before I was reasonable enough to allow their justice."</said>
@@ -18347,7 +18865,7 @@
             <said who="aus.001.dar" direct="true" aloud="true" prev="hero">“I can easily believe it. You thought me then devoid of every proper feeling, I am
               sure you did. The turn of your countenance I shall never forget,</said>
             <said who="aus.001.dar" direct="false" aloud="true" prev="hero">as you said that</said>
-            <said who="aus.001.#dar_eliz" direct="false" aloud="true"><certainty locus="name" target="aus.001.#dar_eliz" degree=".7"/> I could not have
+            <said who="aus.001.dar_eliz" direct="false" aloud="true"><certainty locus="name" target="aus.001.dar_eliz" degree=".7"/> I could not have
               addressed you in any possible way that would induce you to accept me.” </said>
           </seg>
         </p>
