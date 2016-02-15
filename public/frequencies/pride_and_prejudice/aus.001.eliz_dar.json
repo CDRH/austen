@@ -1,11 +1,14 @@
 {
   "id": "aus.001.eliz_dar",
-  "display": "N/A",
+  "display": "Elizabeth as Mr. Darcy",
   "novel": "Pride And Prejudice",
-  "unique_words": "2",
-  "speeches": "2",
+  "unique_words": "5",
+  "speeches": "6",
   "words": {
+    "compromised": "1",
     "forgave": "1",
+    "palatable": "1",
+    "sermon-making": "1",
     "unappeasable": "1"
   }
 }

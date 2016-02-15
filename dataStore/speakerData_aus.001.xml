@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aus.001">
    <head>Pride and Prejudice</head>
-   <p>Count of speakers: 115</p>
+   <p>Count of speakers: 108</p>
    <p>Count of speeches:  5165</p>
    <p>List of speakers and individual counts: </p>
    <p>
       <list>
          <speaker speeches="2431" position="1">Aus.001.nar</speaker>
-         <speaker speeches="535" position="2">Aus.001.eliz</speaker>
+         <speaker speeches="537" position="2">Aus.001.eliz</speaker>
          <speaker speeches="401" position="3">Aus.001.nar_eliz</speaker>
          <speaker speeches="201" position="4">Aus.001.mrsb</speaker>
          <speaker speeches="181" position="5">Aus.001.dar</speaker>
@@ -28,7 +28,7 @@
          <speaker speeches="25" position="20">Aus.001.mrg</speaker>
          <speaker speeches="21" position="21">Aus.001.nar_bing</speaker>
          <speaker speeches="20" position="22">Aus.001.nar_jane</speaker>
-         <speaker speeches="19" position="23">Aus.001.#mrsg_dar</speaker>
+         <speaker speeches="19" position="23">Aus.001.mrsg_dar</speaker>
          <speaker speeches="19" position="24">Aus.001.rey</speaker>
          <speaker speeches="17" position="25">Aus.001.nar_mrb</speaker>
          <speaker speeches="16" position="26">Aus.001.nar_mrg</speaker>
@@ -41,35 +41,35 @@
          <speaker speeches="11" position="33">Aus.001.nar_msb</speaker>
          <speaker speeches="10" position="34">Aus.001.mary</speaker>
          <speaker speeches="10" position="35">Aus.001.nar_msbmrsh</speaker>
-         <speaker speeches="9" position="36">Aus.001.mrsh</speaker>
-         <speaker speeches="9" position="37">Aus.001.nar_mrsg</speaker>
-         <speaker speeches="9" position="38">Aus.001.nar_mrsp</speaker>
-         <speaker speeches="9" position="39">Aus.001.nar_wick</speaker>
-         <speaker speeches="7" position="40">Aus.001.marl</speaker>
-         <speaker speeches="6" position="41">Aus.001.nar_mersoc</speaker>
-         <speaker speeches="5" position="42">Aus.001.#dar_wick</speaker>
-         <speaker speeches="5" position="43">Aus.001.jane_colf</speaker>
-         <speaker speeches="5" position="44">Aus.001.nar_rey</speaker>
-         <speaker speeches="4" position="45">Aus.001.#eliz_dar</speaker>
-         <speaker speeches="4" position="46">Aus.001.coll_deb</speaker>
-         <speaker speeches="4" position="47">Aus.001.nar_elizjane</speaker>
-         <speaker speeches="3" position="48">Aus.001.#deb_mys</speaker>
-         <speaker speeches="3" position="49">Aus.001.#mrsb_mrsl</speaker>
+         <speaker speeches="9" position="36">Aus.001.nar_mrsg</speaker>
+         <speaker speeches="9" position="37">Aus.001.nar_mrsp</speaker>
+         <speaker speeches="9" position="38">Aus.001.nar_wick</speaker>
+         <speaker speeches="7" position="39">Aus.001.marl</speaker>
+         <speaker speeches="7" position="40">Aus.001.mrsh</speaker>
+         <speaker speeches="6" position="41">Aus.001.eliz_dar</speaker>
+         <speaker speeches="6" position="42">Aus.001.mrsb_mrsl</speaker>
+         <speaker speeches="6" position="43">Aus.001.nar_mersoc</speaker>
+         <speaker speeches="5" position="44">Aus.001.coll_deb</speaker>
+         <speaker speeches="5" position="45">Aus.001.dar_wick</speaker>
+         <speaker speeches="5" position="46">Aus.001.jane_colf</speaker>
+         <speaker speeches="5" position="47">Aus.001.nar_rey</speaker>
+         <speaker speeches="4" position="48">Aus.001.nar_elizjane</speaker>
+         <speaker speeches="3" position="49">Aus.001.deb_mys</speaker>
          <speaker speeches="3" position="50">Aus.001.dk2</speaker>
          <speaker speeches="3" position="51">Aus.001.hill</speaker>
          <speaker speeches="3" position="52">Aus.001.jane_bing</speaker>
-         <speaker speeches="3" position="53">Aus.001.mrsb_mrsl</speaker>
+         <speaker speeches="3" position="53">Aus.001.jane_msb</speaker>
          <speaker speeches="3" position="54">Aus.001.nar_apo</speaker>
          <speaker speeches="3" position="55">Aus.001.nar_jenk</speaker>
          <speaker speeches="3" position="56">Aus.001.nar_mary</speaker>
-         <speaker speeches="2" position="57">Aus.001.#dar_eliz</speaker>
-         <speaker speeches="2" position="58">Aus.001.#eliz_mrr</speaker>
-         <speaker speeches="2" position="59">Aus.001.#eliz_rey</speaker>
-         <speaker speeches="2" position="60">Aus.001.#mrsg_dar_wick</speaker>
-         <speaker speeches="2" position="61">Aus.001.boyl</speaker>
-         <speaker speeches="2" position="62">Aus.001.eliz_dar</speaker>
-         <speaker speeches="2" position="63">Aus.001.jane_msb</speaker>
-         <speaker speeches="2" position="64">Aus.001.mrh</speaker>
+         <speaker speeches="2" position="57">Aus.001.boyl</speaker>
+         <speaker speeches="2" position="58">Aus.001.dar_eliz</speaker>
+         <speaker speeches="2" position="59">Aus.001.deb_lmet</speaker>
+         <speaker speeches="2" position="60">Aus.001.eliz_mrr</speaker>
+         <speaker speeches="2" position="61">Aus.001.eliz_rey</speaker>
+         <speaker speeches="2" position="62">Aus.001.lyd_mrsp</speaker>
+         <speaker speeches="2" position="63">Aus.001.mrh</speaker>
+         <speaker speeches="2" position="64">Aus.001.mrsg_dar_wick</speaker>
          <speaker speeches="2" position="65">Aus.001.mrsp</speaker>
          <speaker speeches="2" position="66">Aus.001.nar_elizdar</speaker>
          <speaker speeches="2" position="67">Aus.001.nar_fitz</speaker>
@@ -78,49 +78,42 @@
          <speaker speeches="2" position="70">Aus.001.nar_lambsoc</speaker>
          <speaker speeches="2" position="71">Aus.001.nar_mrd</speaker>
          <speaker speeches="2" position="72">Aus.001.nar_sirl</speaker>
-         <speaker speeches="1" position="73">Aus.001.#bing_soc</speaker>
-         <speaker speeches="1" position="74">Aus.001.#coll_deb</speaker>
-         <speaker speeches="1" position="75">Aus.001.#dar_bing</speaker>
-         <speaker speeches="1" position="76">Aus.001.#dar_darsr</speaker>
-         <speaker speeches="1" position="77">Aus.001.#dar_fri</speaker>
-         <speaker speeches="1" position="78">Aus.001.#dar_sirl</speaker>
-         <speaker speeches="1" position="79">Aus.001.#eliz_bing</speaker>
-         <speaker speeches="1" position="80">Aus.001.#jane_msb</speaker>
-         <speaker speeches="1" position="81">Aus.001.#jane_msbmrsh</speaker>
-         <speaker speeches="1" position="82">Aus.001.#lyd_mrsp</speaker>
-         <speaker speeches="1" position="83">Aus.001.#mrsb_dar</speaker>
-         <speaker speeches="1" position="84">Aus.001.#mrsg_dar_lyd</speaker>
-         <speaker speeches="1" position="85">Aus.001.#wick_mrgmrsg</speaker>
-         <speaker speeches="1" position="86">Aus.001.#wick_soc</speaker>
-         <speaker speeches="1" position="87">Aus.001.butler</speaker>
-         <speaker speeches="1" position="88">Aus.001.coll_dar</speaker>
-         <speaker speeches="1" position="89">Aus.001.coll_jenk</speaker>
-         <speaker speeches="1" position="90">Aus.001.deb.lmet</speaker>
-         <speaker speeches="1" position="91">Aus.001.deb_lmet</speaker>
-         <speaker speeches="1" position="92">Aus.001.eli</speaker>
-         <speaker speeches="1" position="93">Aus.001.jane_colf_lyd</speaker>
-         <speaker speeches="1" position="94">Aus.001.jane_colf_mrd</speaker>
-         <speaker speeches="1" position="95">Aus.001.lyd_mrsp</speaker>
-         <speaker speeches="1" position="96">Aus.001.marl_char</speaker>
-         <speaker speeches="1" position="97">Aus.001.mersoc</speaker>
-         <speaker speeches="1" position="98">Aus.001.mrd</speaker>
-         <speaker speeches="1" position="99">Aus.001.mrg_colf</speaker>
-         <speaker speeches="1" position="100">Aus.001.nar_boyl</speaker>
-         <speaker speeches="1" position="101">Aus.001.nar_eliz_fitz</speaker>
-         <speaker speeches="1" position="102">Aus.001.nar_elizmrsg</speaker>
-         <speaker speeches="1" position="103">Aus.001.nar_gar</speaker>
-         <speaker speeches="1" position="104">Aus.001.nar_hill</speaker>
-         <speaker speeches="1" position="105">Aus.001.nar_kit</speaker>
-         <speaker speeches="1" position="106">Aus.001.nar_long</speaker>
-         <speaker speeches="1" position="107">Aus.001.nar_mrsbjaneelizcatlydmary</speaker>
-         <speaker speeches="1" position="108">Aus.001.nar_mrsp_shopb</speaker>
-         <speaker speeches="1" position="109">Aus.001.nar_msb_bing</speaker>
-         <speaker speeches="1" position="110">Aus.001.nar_off</speaker>
-         <speaker speeches="1" position="111">Aus.001.ug</speaker>
-         <speaker speeches="1" position="112">Aus.001.wick_dar</speaker>
-         <speaker speeches="1" position="113">Aus.001.wick_darsr</speaker>
-         <speaker speeches="1" position="114">Aus.001.wick_soc</speaker>
-         <speaker speeches="1" position="115">Narrator</speaker>
+         <speaker speeches="2" position="73">Aus.001.wick_soc</speaker>
+         <speaker speeches="1" position="74">Aus.001.bing_soc</speaker>
+         <speaker speeches="1" position="75">Aus.001.butler</speaker>
+         <speaker speeches="1" position="76">Aus.001.coll_dar</speaker>
+         <speaker speeches="1" position="77">Aus.001.coll_jenk</speaker>
+         <speaker speeches="1" position="78">Aus.001.dar_bing</speaker>
+         <speaker speeches="1" position="79">Aus.001.dar_darsr</speaker>
+         <speaker speeches="1" position="80">Aus.001.dar_fri</speaker>
+         <speaker speeches="1" position="81">Aus.001.dar_sirl</speaker>
+         <speaker speeches="1" position="82">Aus.001.eli</speaker>
+         <speaker speeches="1" position="83">Aus.001.eliz_bing</speaker>
+         <speaker speeches="1" position="84">Aus.001.jane_colf_lyd</speaker>
+         <speaker speeches="1" position="85">Aus.001.jane_colf_mrd</speaker>
+         <speaker speeches="1" position="86">Aus.001.jane_msbmrsh</speaker>
+         <speaker speeches="1" position="87">Aus.001.marl_char</speaker>
+         <speaker speeches="1" position="88">Aus.001.mersoc</speaker>
+         <speaker speeches="1" position="89">Aus.001.mrd</speaker>
+         <speaker speeches="1" position="90">Aus.001.mrg_colf</speaker>
+         <speaker speeches="1" position="91">Aus.001.mrsb_dar</speaker>
+         <speaker speeches="1" position="92">Aus.001.mrsg_dar_lyd</speaker>
+         <speaker speeches="1" position="93">Aus.001.nar_boyl</speaker>
+         <speaker speeches="1" position="94">Aus.001.nar_eliz_fitz</speaker>
+         <speaker speeches="1" position="95">Aus.001.nar_elizmrsg</speaker>
+         <speaker speeches="1" position="96">Aus.001.nar_gar</speaker>
+         <speaker speeches="1" position="97">Aus.001.nar_hill</speaker>
+         <speaker speeches="1" position="98">Aus.001.nar_kit</speaker>
+         <speaker speeches="1" position="99">Aus.001.nar_long</speaker>
+         <speaker speeches="1" position="100">Aus.001.nar_mrsbjaneelizcatlydmary</speaker>
+         <speaker speeches="1" position="101">Aus.001.nar_mrsp_shopb</speaker>
+         <speaker speeches="1" position="102">Aus.001.nar_msb_bing</speaker>
+         <speaker speeches="1" position="103">Aus.001.nar_off</speaker>
+         <speaker speeches="1" position="104">Aus.001.ug</speaker>
+         <speaker speeches="1" position="105">Aus.001.wick_dar</speaker>
+         <speaker speeches="1" position="106">Aus.001.wick_darsr</speaker>
+         <speaker speeches="1" position="107">Aus.001.wick_mrgmrsg</speaker>
+         <speaker speeches="1" position="108">Narrator</speaker>
       </list>
    </p>
    <speakerData>
@@ -1706,7 +1699,7 @@
          <w freq="1">yawned</w>
          <w freq="1">yawning</w>
       </p>
-      <p n="aus.001.eliz" speeches="535" position="2" condition="normalized"
+      <p n="aus.001.eliz" speeches="537" position="2" condition="normalized"
          category="characters"
          display="Elizabeth Bennet"
          listOfWordsUniqueTo="aus.001.eliz"
@@ -3126,10 +3119,10 @@
          countOfUniqueWords="1">
          <w freq="1">explanatory</w>
       </p>
-      <p n="aus.001.#mrsg_dar" speeches="19" position="23" condition="normalized"
+      <p n="aus.001.mrsg_dar" speeches="19" position="23" condition="normalized"
          category="characters"
-         display="N/A"
-         listOfWordsUniqueTo="aus.001.#mrsg_dar"
+         display="Mrs. Gardiner as Mr. Darcy"
+         listOfWordsUniqueTo="aus.001.mrsg_dar"
          countOfUniqueWords="8">
          <w freq="1">bribery</w>
          <w freq="1">confide</w>
@@ -3292,15 +3285,7 @@
          <w freq="1">eminent</w>
          <w freq="1">physicians</w>
       </p>
-      <p n="aus.001.mrsh" speeches="9" position="36" condition="normalized"
-         category="characters"
-         display="Mrs. Hurst"
-         listOfWordsUniqueTo="aus.001.mrsh"
-         countOfUniqueWords="2">
-         <w freq="1">inches</w>
-         <w freq="1">mud</w>
-      </p>
-      <p n="aus.001.nar_mrsg" speeches="9" position="37" condition="normalized"
+      <p n="aus.001.nar_mrsg" speeches="9" position="36" condition="normalized"
          category="characters"
          display="Narrator as Mrs. Gardiner"
          listOfWordsUniqueTo="aus.001.nar_mrsg"
@@ -3310,7 +3295,7 @@
          <w freq="1">northwards</w>
          <w freq="1">substitute</w>
       </p>
-      <p n="aus.001.nar_mrsp" speeches="9" position="38" condition="normalized"
+      <p n="aus.001.nar_mrsp" speeches="9" position="37" condition="normalized"
          category="characters"
          display="Narrator as Mrs. Phillips"
          listOfWordsUniqueTo="aus.001.nar_mrsp"
@@ -3320,7 +3305,7 @@
          <w freq="1">lieutenant</w>
          <w freq="1">shop-boy</w>
       </p>
-      <p n="aus.001.nar_wick" speeches="9" position="39" condition="normalized"
+      <p n="aus.001.nar_wick" speeches="9" position="38" condition="normalized"
          category="characters"
          display="Narrator as Mr. Wickham"
          listOfWordsUniqueTo="aus.001.nar_wick"
@@ -3328,7 +3313,33 @@
          <w freq="1">coincide</w>
          <w freq="1">self-imposed</w>
       </p>
-      <p n="aus.001.nar_mersoc" speeches="6" position="41" condition="normalized"
+      <p n="aus.001.mrsh" speeches="7" position="40" condition="normalized"
+         category="characters"
+         display="Mrs. Hurst"
+         listOfWordsUniqueTo="aus.001.mrsh"
+         countOfUniqueWords="2">
+         <w freq="1">inches</w>
+         <w freq="1">mud</w>
+      </p>
+      <p n="aus.001.eliz_dar" speeches="6" position="41" condition="normalized"
+         category="characters"
+         display="Elizabeth as Mr. Darcy"
+         listOfWordsUniqueTo="aus.001.eliz_dar"
+         countOfUniqueWords="5">
+         <w freq="1">compromised</w>
+         <w freq="1">forgave</w>
+         <w freq="1">palatable</w>
+         <w freq="1">sermon-making</w>
+         <w freq="1">unappeasable</w>
+      </p>
+      <p n="aus.001.mrsb_mrsl" speeches="6" position="42" condition="normalized"
+         category="characters"
+         display="Mrs. Bennet as Mrs. Long"
+         listOfWordsUniqueTo="aus.001.mrsb_mrsl"
+         countOfUniqueWords="1">
+         <w freq="1">morris</w>
+      </p>
+      <p n="aus.001.nar_mersoc" speeches="6" position="43" condition="normalized"
          category="characters"
          display="N/A"
          listOfWordsUniqueTo="aus.001.nar_mersoc"
@@ -3342,81 +3353,66 @@
          <w freq="1">title</w>
          <w freq="1">wickedest</w>
       </p>
-      <p n="aus.001.#dar_wick" speeches="5" position="42" condition="normalized"
+      <p n="aus.001.coll_deb" speeches="5" position="44" condition="normalized"
          category="characters"
-         display="N/A"
-         listOfWordsUniqueTo="aus.001.#dar_wick"
+         display="Mr. Collins as Lady Catherine de Bourgh"
+         listOfWordsUniqueTo="aus.001.coll_deb"
+         countOfUniqueWords="1">
+         <w freq="1">gentlewoman</w>
+      </p>
+      <p n="aus.001.dar_wick" speeches="5" position="45" condition="normalized"
+         category="characters"
+         display="Darcy as Mr. Wickham"
+         listOfWordsUniqueTo="aus.001.dar_wick"
          countOfUniqueWords="4">
          <w freq="1">ordained</w>
          <w freq="1">revered</w>
          <w freq="1">therein</w>
          <w freq="1">unprofitable</w>
       </p>
-      <p n="aus.001.nar_rey" speeches="5" position="44" condition="normalized"
+      <p n="aus.001.nar_rey" speeches="5" position="47" condition="normalized"
          category="characters"
          display="Narrator as Mrs. Reynolds"
          listOfWordsUniqueTo="aus.001.nar_rey"
          countOfUniqueWords="1">
          <w freq="1">lifetime</w>
       </p>
-      <p n="aus.001.#eliz_dar" speeches="4" position="45" condition="normalized"
-         category="characters"
-         display="N/A"
-         listOfWordsUniqueTo="aus.001.#eliz_dar"
-         countOfUniqueWords="3">
-         <w freq="1">compromised</w>
-         <w freq="1">palatable</w>
-         <w freq="1">sermon-making</w>
-      </p>
-      <p n="aus.001.coll_deb" speeches="4" position="46" condition="normalized"
-         category="characters"
-         display="N/A"
-         listOfWordsUniqueTo="aus.001.coll_deb"
-         countOfUniqueWords="1">
-         <w freq="1">gentlewoman</w>
-      </p>
       <p n="aus.001.jane_bing" speeches="3" position="52" condition="normalized"
          category="characters"
-         display="N/A"
+         display="Jane as Mr. Bingley"
          listOfWordsUniqueTo="aus.001.jane_bing"
          countOfUniqueWords="1">
          <w freq="1">probity</w>
       </p>
-      <p n="aus.001.mrsb_mrsl" speeches="3" position="53" condition="normalized"
-         category="characters"
-         display="N/A"
-         listOfWordsUniqueTo="aus.001.mrsb_mrsl"
-         countOfUniqueWords="1">
-         <w freq="1">morris</w>
-      </p>
-      <p n="aus.001.#eliz_mrr" speeches="2" position="58" condition="normalized"
-         category="characters"
-         display="N/A"
-         listOfWordsUniqueTo="aus.001.#eliz_mrr"
-         countOfUniqueWords="1">
-         <w freq="1">prettiest</w>
-      </p>
-      <p n="aus.001.#mrsg_dar_wick" speeches="2" position="60" condition="normalized"
-         category="characters"
-         display="N/A"
-         listOfWordsUniqueTo="aus.001.#mrsg_dar_wick"
-         countOfUniqueWords="1">
-         <w freq="1">resign</w>
-      </p>
-      <p n="aus.001.boyl" speeches="2" position="61" condition="normalized"
+      <p n="aus.001.boyl" speeches="2" position="57" condition="normalized"
          category="characters"
          display="A young Lucas boy"
          listOfWordsUniqueTo="aus.001.boyl"
          countOfUniqueWords="1">
          <w freq="1">foxhounds</w>
       </p>
-      <p n="aus.001.eliz_dar" speeches="2" position="62" condition="normalized"
+      <p n="aus.001.eliz_mrr" speeches="2" position="60" condition="normalized"
          category="characters"
-         display="N/A"
-         listOfWordsUniqueTo="aus.001.eliz_dar"
-         countOfUniqueWords="2">
-         <w freq="1">forgave</w>
-         <w freq="1">unappeasable</w>
+         display="Elizabeth as Mr. Robinson"
+         listOfWordsUniqueTo="aus.001.eliz_mrr"
+         countOfUniqueWords="1">
+         <w freq="1">prettiest</w>
+      </p>
+      <p n="aus.001.lyd_mrsp" speeches="2" position="62" condition="normalized"
+         category="characters"
+         display="Lydia as Mrs. Phillips"
+         listOfWordsUniqueTo="aus.001.lyd_mrsp"
+         countOfUniqueWords="3">
+         <w freq="1">hire</w>
+         <w freq="1">richard</w>
+         <w freq="1">talks</w>
+      </p>
+      <p n="aus.001.mrsg_dar_wick" speeches="2" position="64" condition="normalized"
+         category="characters"
+         display="Darcy as Mr. Wickham"
+         listOfWordsUniqueTo="aus.001.mrsg_dar_wick"
+         countOfUniqueWords="1">
+         <w freq="1">resign</w>
       </p>
       <p n="aus.001.mrsp" speeches="2" position="65" condition="normalized"
          category="characters"
@@ -3442,51 +3438,42 @@
          countOfUniqueWords="1">
          <w freq="1">crown</w>
       </p>
-      <p n="aus.001.#dar_darsr" speeches="1" position="76" condition="normalized"
+      <p n="aus.001.coll_dar" speeches="1" position="76" condition="normalized"
          category="characters"
-         display="N/A"
-         listOfWordsUniqueTo="aus.001.#dar_darsr"
-         countOfUniqueWords="1">
-         <w freq="1">advancement</w>
-      </p>
-      <p n="aus.001.#dar_sirl" speeches="1" position="78" condition="normalized"
-         category="characters"
-         display="N/A"
-         listOfWordsUniqueTo="aus.001.#dar_sirl"
-         countOfUniqueWords="1">
-         <w freq="1">undecided</w>
-      </p>
-      <p n="aus.001.#mrsb_dar" speeches="1" position="83" condition="normalized"
-         category="characters"
-         display="N/A"
-         listOfWordsUniqueTo="aus.001.#mrsb_dar"
-         countOfUniqueWords="1">
-         <w freq="1">partridges</w>
-      </p>
-      <p n="aus.001.coll_dar" speeches="1" position="88" condition="normalized"
-         category="characters"
-         display="N/A"
+         display="Collins as Mr. Darcy"
          listOfWordsUniqueTo="aus.001.coll_dar"
          countOfUniqueWords="1">
          <w freq="1">unworthily</w>
       </p>
-      <p n="aus.001.coll_jenk" speeches="1" position="89" condition="normalized"
+      <p n="aus.001.coll_jenk" speeches="1" position="77" condition="normalized"
          category="characters"
-         display="N/A"
+         display="Mr. Collins Mrs. Jenkinson"
          listOfWordsUniqueTo="aus.001.coll_jenk"
          countOfUniqueWords="1">
          <w freq="1">constitution</w>
       </p>
-      <p n="aus.001.lyd_mrsp" speeches="1" position="95" condition="normalized"
+      <p n="aus.001.dar_darsr" speeches="1" position="79" condition="normalized"
          category="characters"
-         display="N/A"
-         listOfWordsUniqueTo="aus.001.lyd_mrsp"
-         countOfUniqueWords="3">
-         <w freq="1">hire</w>
-         <w freq="1">richard</w>
-         <w freq="1">talks</w>
+         display="Darcy as Mr. Darcy"
+         listOfWordsUniqueTo="aus.001.dar_darsr"
+         countOfUniqueWords="1">
+         <w freq="1">advancement</w>
       </p>
-      <p n="aus.001.nar_elizmrsg" speeches="1" position="102" condition="normalized"
+      <p n="aus.001.dar_sirl" speeches="1" position="81" condition="normalized"
+         category="characters"
+         display="Sir William Lucas"
+         listOfWordsUniqueTo="aus.001.dar_sirl"
+         countOfUniqueWords="1">
+         <w freq="1">undecided</w>
+      </p>
+      <p n="aus.001.mrsb_dar" speeches="1" position="91" condition="normalized"
+         category="characters"
+         display="Mrs. Bennet as Mr. Darcy"
+         listOfWordsUniqueTo="aus.001.mrsb_dar"
+         countOfUniqueWords="1">
+         <w freq="1">partridges</w>
+      </p>
+      <p n="aus.001.nar_elizmrsg" speeches="1" position="95" condition="normalized"
          category="characters"
          display="N/A"
          listOfWordsUniqueTo="aus.001.nar_elizmrsg"
@@ -3494,7 +3481,7 @@
          <w freq="1">equalled</w>
          <w freq="1">imitated</w>
       </p>
-      <p n="aus.001.nar_mrsbjaneelizcatlydmary" speeches="1" position="107"
+      <p n="aus.001.nar_mrsbjaneelizcatlydmary" speeches="1" position="100"
          condition="normalized"
          category="characters"
          display="N/A"
@@ -3502,21 +3489,21 @@
          countOfUniqueWords="1">
          <w freq="1">resume</w>
       </p>
-      <p n="aus.001.wick_dar" speeches="1" position="112" condition="normalized"
+      <p n="aus.001.wick_dar" speeches="1" position="105" condition="normalized"
          category="characters"
-         display="N/A"
+         display="Wickham as Mr. Darcy"
          listOfWordsUniqueTo="aus.001.wick_dar"
          countOfUniqueWords="1">
          <w freq="1">forfeited</w>
       </p>
-      <p n="aus.001.wick_darsr" speeches="1" position="113" condition="normalized"
+      <p n="aus.001.wick_darsr" speeches="1" position="106" condition="normalized"
          category="characters"
-         display="N/A"
+         display="Wickham as Mr. Darcy"
          listOfWordsUniqueTo="aus.001.wick_darsr"
          countOfUniqueWords="1">
          <w freq="1">superintendence</w>
       </p>
-      <p n="narrator" speeches="1" position="115" condition="normalized"
+      <p n="narrator" speeches="1" position="108" condition="normalized"
          category="characters"
          display="N/A"
          listOfWordsUniqueTo="narrator"
@@ -3526,7 +3513,1003 @@
       </p>
    </speakerData>
    <genderData>
-      <p n="female" speeches="1343" sex="female" position="1" condition="normalized"
+      <p n="male" speeches="616" sex="male" position="1" condition="normalized"
+         category="characterType"
+         display="male"
+         listOfWordsUniqueTo="male"
+         countOfUniqueWords="990">
+         <w freq="7">during</w>
+         <w freq="7">humble</w>
+         <w freq="7">moreover</w>
+         <w freq="7">rank</w>
+         <w freq="6">clergyman</w>
+         <w freq="6">study</w>
+         <w freq="5">agree</w>
+         <w freq="5">honoured</w>
+         <w freq="5">valuable</w>
+         <w freq="4">affability</w>
+         <w freq="4">blessing</w>
+         <w freq="4">condescended</w>
+         <w freq="4">condescension</w>
+         <w freq="4">congratulations</w>
+         <w freq="4">highest</w>
+         <w freq="4">inducement</w>
+         <w freq="4">laid</w>
+         <w freq="4">law</w>
+         <w freq="4">matrimony</w>
+         <w freq="4">parsonage</w>
+         <w freq="4">perform</w>
+         <w freq="4">reject</w>
+         <w freq="4">relationship</w>
+         <w freq="3">abhorrence</w>
+         <w freq="3">absurd</w>
+         <w freq="3">acceptable</w>
+         <w freq="3">addresses</w>
+         <w freq="3">adds</w>
+         <w freq="3">advisable</w>
+         <w freq="3">allowing</w>
+         <w freq="3">appears</w>
+         <w freq="3">argument</w>
+         <w freq="3">assembly</w>
+         <w freq="3">careful</w>
+         <w freq="3">confession</w>
+         <w freq="3">cousins</w>
+         <w freq="3">decease</w>
+         <w freq="3">defer</w>
+         <w freq="3">demand</w>
+         <w freq="3">escape</w>
+         <w freq="3">estimation</w>
+         <w freq="3">extensive</w>
+         <w freq="3">friendly</w>
+         <w freq="3">gentlemanlike</w>
+         <w freq="3">insufficient</w>
+         <w freq="3">joined</w>
+         <w freq="3">kingdom</w>
+         <w freq="3">led</w>
+         <w freq="3">list</w>
+         <w freq="3">offenses</w>
+         <w freq="3">parents</w>
+         <w freq="3">patronage</w>
+         <w freq="3">per</w>
+         <w freq="3">preferment</w>
+         <w freq="3">reflect</w>
+         <w freq="3">resigned</w>
+         <w freq="3">th</w>
+         <w freq="3">uneasiness</w>
+         <w freq="3">unhappily</w>
+         <w freq="3">uniformly</w>
+         <w freq="2">accusations</w>
+         <w freq="2">acquit</w>
+         <w freq="2">active</w>
+         <w freq="2">admirer</w>
+         <w freq="2">advantageous</w>
+         <w freq="2">annum</w>
+         <w freq="2">appeal</w>
+         <w freq="2">arranging</w>
+         <w freq="2">assume</w>
+         <w freq="2">born</w>
+         <w freq="2">briefly</w>
+         <w freq="2">brotherly</w>
+         <w freq="2">carelessness</w>
+         <w freq="2">catch</w>
+         <w freq="2">chief</w>
+         <w freq="2">christian</w>
+         <w freq="2">circle</w>
+         <w freq="2">concealment</w>
+         <w freq="2">conceive</w>
+         <w freq="2">conscious</w>
+         <w freq="2">console</w>
+         <w freq="2">consulting</w>
+         <w freq="2">contents</w>
+         <w freq="2">creditors</w>
+         <w freq="2">crossed</w>
+         <w freq="2">cruelty</w>
+         <w freq="2">defiance</w>
+         <w freq="2">dependent</w>
+         <w freq="2">deserts</w>
+         <w freq="2">desirous</w>
+         <w freq="2">devoted</w>
+         <w freq="2">disrespect</w>
+         <w freq="2">doubts</w>
+         <w freq="2">duties</w>
+         <w freq="2">dwelling</w>
+         <w freq="2">economy</w>
+         <w freq="2">encourage</w>
+         <w freq="2">existing</w>
+         <w freq="2">explaining</w>
+         <w freq="2">extravagance</w>
+         <w freq="2">faithful</w>
+         <w freq="2">filial</w>
+         <w freq="2">flow</w>
+         <w freq="2">forgiveness</w>
+         <w freq="2">forms</w>
+         <w freq="2">free</w>
+         <w freq="2">gratifying</w>
+         <w freq="2">guardianship</w>
+         <w freq="2">guide</w>
+         <w freq="2">haggerston</w>
+         <w freq="2">hands</w>
+         <w freq="2">height</w>
+         <w freq="2">hesitation</w>
+         <w freq="2">hint</w>
+         <w freq="2">honours</w>
+         <w freq="2">hopeless</w>
+         <w freq="2">hoping</w>
+         <w freq="2">hospitality</w>
+         <w freq="2">impudence</w>
+         <w freq="2">increasing</w>
+         <w freq="2">indebted</w>
+         <w freq="2">indirect</w>
+         <w freq="2">intend</w>
+         <w freq="2">interrupt</w>
+         <w freq="2">introduction</w>
+         <w freq="2">joining</w>
+         <w freq="2">judged</w>
+         <w freq="2">liable</w>
+         <w freq="2">liberally</w>
+         <w freq="2">lovers</w>
+         <w freq="2">meanly</w>
+         <w freq="2">motives</w>
+         <w freq="2">offensive</w>
+         <w freq="2">offers</w>
+         <w freq="2">overlooked</w>
+         <w freq="2">peace</w>
+         <w freq="2">pitiful</w>
+         <w freq="2">plead</w>
+         <w freq="2">pleases</w>
+         <w freq="2">polished</w>
+         <w freq="2">polite</w>
+         <w freq="2">precipitance</w>
+         <w freq="2">precipitate</w>
+         <w freq="2">preferred</w>
+         <w freq="2">presentation</w>
+         <w freq="2">preserve</w>
+         <w freq="2">preserved</w>
+         <w freq="2">proceeding</w>
+         <w freq="2">purposely</w>
+         <w freq="2">quadrille</w>
+         <w freq="2">quickness</w>
+         <w freq="2">quiet</w>
+         <w freq="2">reception</w>
+         <w freq="2">recommendation</w>
+         <w freq="2">rector</w>
+         <w freq="2">reflection</w>
+         <w freq="2">removal</w>
+         <w freq="2">repetition</w>
+         <w freq="2">requiring</w>
+         <w freq="2">residence</w>
+         <w freq="2">resignation</w>
+         <w freq="2">respected</w>
+         <w freq="2">sanctioned</w>
+         <w freq="2">school</w>
+         <w freq="2">scruples</w>
+         <w freq="2">se</w>
+         <w freq="2">secondly</w>
+         <w freq="2">secured</w>
+         <w freq="2">settlement</w>
+         <w freq="2">singular</w>
+         <w freq="2">son-in-law</w>
+         <w freq="2">sport</w>
+         <w freq="2">stands</w>
+         <w freq="2">subsisting</w>
+         <w freq="2">support</w>
+         <w freq="2">talent</w>
+         <w freq="2">tendency</w>
+         <w freq="2">total</w>
+         <w freq="2">unfortunately</w>
+         <w freq="2">unworthy</w>
+         <w freq="2">various</w>
+         <w freq="2">village</w>
+         <w freq="2">visits</w>
+         <w freq="2">weight</w>
+         <w freq="2">wide</w>
+         <w freq="2">wine</w>
+         <w freq="2">witnessed</w>
+         <w freq="2">worthy</w>
+         <w freq="1">abiding</w>
+         <w freq="1">abominate</w>
+         <w freq="1">absolute</w>
+         <w freq="1">absurdity</w>
+         <w freq="1">abundant</w>
+         <w freq="1">accede</w>
+         <w freq="1">acceptance</w>
+         <w freq="1">accidental</w>
+         <w freq="1">accusation</w>
+         <w freq="1">accusing</w>
+         <w freq="1">acquire</w>
+         <w freq="1">acute</w>
+         <w freq="1">adapted</w>
+         <w freq="1">addressed</w>
+         <w freq="1">adept</w>
+         <w freq="1">adequate</w>
+         <w freq="1">adjusting</w>
+         <w freq="1">admirable</w>
+         <w freq="1">admittance</w>
+         <w freq="1">admitted</w>
+         <w freq="1">adopted</w>
+         <w freq="1">adorned</w>
+         <w freq="1">advancement</w>
+         <w freq="1">advertised</w>
+         <w freq="1">affinity</w>
+         <w freq="1">afflicting</w>
+         <w freq="1">affliction</w>
+         <w freq="1">affront</w>
+         <w freq="1">affronted</w>
+         <w freq="1">agreeably</w>
+         <w freq="1">agreement</w>
+         <w freq="1">aid</w>
+         <w freq="1">alleviate</w>
+         <w freq="1">allude</w>
+         <w freq="1">alluding</w>
+         <w freq="1">aloof</w>
+         <w freq="1">altar</w>
+         <w freq="1">alterations</w>
+         <w freq="1">alternative</w>
+         <w freq="1">amazement</w>
+         <w freq="1">amazes</w>
+         <w freq="1">amazing</w>
+         <w freq="1">amidst</w>
+         <w freq="1">amply</w>
+         <w freq="1">amuse</w>
+         <w freq="1">amusements</w>
+         <w freq="1">animated</w>
+         <w freq="1">ankle</w>
+         <w freq="1">annesley</w>
+         <w freq="1">anywhere</w>
+         <w freq="1">apparel</w>
+         <w freq="1">apparent</w>
+         <w freq="1">appearing</w>
+         <w freq="1">appertain</w>
+         <w freq="1">applies</w>
+         <w freq="1">applying</w>
+         <w freq="1">apprehending</w>
+         <w freq="1">approaching</w>
+         <w freq="1">approved</w>
+         <w freq="1">ardently</w>
+         <w freq="1">arising</w>
+         <w freq="1">arrange</w>
+         <w freq="1">arrangements</w>
+         <w freq="1">arranges</w>
+         <w freq="1">aside</w>
+         <w freq="1">assertion</w>
+         <w freq="1">astonish</w>
+         <w freq="1">attentively</w>
+         <w freq="1">attractions</w>
+         <w freq="1">audience</w>
+         <w freq="1">aught</w>
+         <w freq="1">augmented</w>
+         <w freq="1">august</w>
+         <w freq="1">authorising</w>
+         <w freq="1">authoritative</w>
+         <w freq="1">avail</w>
+         <w freq="1">avenue</w>
+         <w freq="1">avoiding</w>
+         <w freq="1">awe</w>
+         <w freq="1">awful</w>
+         <w freq="1">begs</w>
+         <w freq="1">begun</w>
+         <w freq="1">beheld</w>
+         <w freq="1">belong</w>
+         <w freq="1">beneficence</w>
+         <w freq="1">beneficial</w>
+         <w freq="1">benevolent</w>
+         <w freq="1">bequeathed</w>
+         <w freq="1">bequest</w>
+         <w freq="1">bewitching</w>
+         <w freq="1">bitter</w>
+         <w freq="1">bitterest</w>
+         <w freq="1">blasted</w>
+         <w freq="1">blemish</w>
+         <w freq="1">bound</w>
+         <w freq="1">bounty</w>
+         <w freq="1">branch</w>
+         <w freq="1">breathed</w>
+         <w freq="1">bright</w>
+         <w freq="1">brightened</w>
+         <w freq="1">brightest</w>
+         <w freq="1">bringing</w>
+         <w freq="1">brink</w>
+         <w freq="1">british</w>
+         <w freq="1">calculation</w>
+         <w freq="1">calm</w>
+         <w freq="1">cambridge</w>
+         <w freq="1">captivation</w>
+         <w freq="1">card-table</w>
+         <w freq="1">cast</w>
+         <w freq="1">caution</w>
+         <w freq="1">cautioning</w>
+         <w freq="1">cautiousness</w>
+         <w freq="1">celerity</w>
+         <w freq="1">cents</w>
+         <w freq="1">ceremonies</w>
+         <w freq="1">chances</w>
+         <w freq="1">cheat</w>
+         <w freq="1">cheerful</w>
+         <w freq="1">circles</w>
+         <w freq="1">civilities</w>
+         <w freq="1">class</w>
+         <w freq="1">clergy</w>
+         <w freq="1">clerical</w>
+         <w freq="1">closet</w>
+         <w freq="1">closure</w>
+         <w freq="1">clue</w>
+         <w freq="1">coincided</w>
+         <w freq="1">coincidence</w>
+         <w freq="1">colour</w>
+         <w freq="1">commendable</w>
+         <w freq="1">companions</w>
+         <w freq="1">compare</w>
+         <w freq="1">compatible</w>
+         <w freq="1">competition</w>
+         <w freq="1">complaisance</w>
+         <w freq="1">completed</w>
+         <w freq="1">comply</w>
+         <w freq="1">concerning</w>
+         <w freq="1">conciliatory</w>
+         <w freq="1">concurrence</w>
+         <w freq="1">condescend</w>
+         <w freq="1">condescendingly</w>
+         <w freq="1">condescends</w>
+         <w freq="1">conditional</w>
+         <w freq="1">conditions</w>
+         <w freq="1">conducted</w>
+         <w freq="1">confidential</w>
+         <w freq="1">confirmed</w>
+         <w freq="1">congratulated</w>
+         <w freq="1">connect</w>
+         <w freq="1">connivance</w>
+         <w freq="1">conquest</w>
+         <w freq="1">conscientious</w>
+         <w freq="1">constantly</w>
+         <w freq="1">constitution</w>
+         <w freq="1">containing</w>
+         <w freq="1">contentment</w>
+         <w freq="1">contribute</w>
+         <w freq="1">conversible</w>
+         <w freq="1">converting</w>
+         <w freq="1">convey</w>
+         <w freq="1">copied</w>
+         <w freq="1">copse</w>
+         <w freq="1">correct</w>
+         <w freq="1">correspondents</w>
+         <w freq="1">coughs</w>
+         <w freq="1">cover</w>
+         <w freq="1">covering</w>
+         <w freq="1">creditably</w>
+         <w freq="1">cunning</w>
+         <w freq="1">custom</w>
+         <w freq="1">dangerous</w>
+         <w freq="1">decisions</w>
+         <w freq="1">declaring</w>
+         <w freq="1">degenerate</w>
+         <w freq="1">degrees</w>
+         <w freq="1">deigned</w>
+         <w freq="1">delivered</w>
+         <w freq="1">demean</w>
+         <w freq="1">denial</w>
+         <w freq="1">denying</w>
+         <w freq="1">depending</w>
+         <w freq="1">depravity</w>
+         <w freq="1">derives</w>
+         <w freq="1">described</w>
+         <w freq="1">desiring</w>
+         <w freq="1">despicable</w>
+         <w freq="1">destroyed</w>
+         <w freq="1">detached</w>
+         <w freq="1">detaching</w>
+         <w freq="1">detain</w>
+         <w freq="1">detaining</w>
+         <w freq="1">deter</w>
+         <w freq="1">determination</w>
+         <w freq="1">devoid</w>
+         <w freq="1">devoting</w>
+         <w freq="1">dictates</w>
+         <w freq="1">dictatorial</w>
+         <w freq="1">differ</w>
+         <w freq="1">diffidence</w>
+         <w freq="1">diligence</w>
+         <w freq="1">directed</w>
+         <w freq="1">dirty</w>
+         <w freq="1">disadvantages</w>
+         <w freq="1">disagreeably</w>
+         <w freq="1">disagreement</w>
+         <w freq="1">disapprove</w>
+         <w freq="1">discharge</w>
+         <w freq="1">discouraged</w>
+         <w freq="1">discourse</w>
+         <w freq="1">discourses</w>
+         <w freq="1">discredit</w>
+         <w freq="1">disgracing</w>
+         <w freq="1">disgusting</w>
+         <w freq="1">dislikes</w>
+         <w freq="1">dismission</w>
+         <w freq="1">display</w>
+         <w freq="1">disputes</w>
+         <w freq="1">disrespectful</w>
+         <w freq="1">dissemble</w>
+         <w freq="1">disservice</w>
+         <w freq="1">dissipation</w>
+         <w freq="1">dissolved</w>
+         <w freq="1">diversion</w>
+         <w freq="1">domestic</w>
+         <w freq="1">domestics</w>
+         <w freq="1">doubted</w>
+         <w freq="1">dress</w>
+         <w freq="1">duchess</w>
+         <w freq="1">dull</w>
+         <w freq="1">dutifully</w>
+         <w freq="1">e</w>
+         <w freq="1">eastbourne</w>
+         <w freq="1">easter</w>
+         <w freq="1">economically</w>
+         <w freq="1">edw</w>
+         <w freq="1">effort</w>
+         <w freq="1">elevated</w>
+         <w freq="1">emphatic</w>
+         <w freq="1">employ</w>
+         <w freq="1">employment</w>
+         <w freq="1">endeavours</w>
+         <w freq="1">energetic</w>
+         <w freq="1">energy</w>
+         <w freq="1">enforced</w>
+         <w freq="1">ennight</w>
+         <w freq="1">enormity</w>
+         <w freq="1">ensigncy</w>
+         <w freq="1">ensuing</w>
+         <w freq="1">ensure</w>
+         <w freq="1">entreaty</w>
+         <w freq="1">equals</w>
+         <w freq="1">ere</w>
+         <w freq="1">errand</w>
+         <w freq="1">escaped</w>
+         <w freq="1">establish</w>
+         <w freq="1">estimated</w>
+         <w freq="1">etiquette</w>
+         <w freq="1">exact</w>
+         <w freq="1">exceptional</w>
+         <w freq="1">exclamation</w>
+         <w freq="1">excused</w>
+         <w freq="1">executors</w>
+         <w freq="1">exercise</w>
+         <w freq="1">exhibit</w>
+         <w freq="1">expeditiously</w>
+         <w freq="1">explicitly</w>
+         <w freq="1">exposed</w>
+         <w freq="1">exposure</w>
+         <w freq="1">extent</w>
+         <w freq="1">extinguished</w>
+         <w freq="1">extracts</w>
+         <w freq="1">eyelashes</w>
+         <w freq="1">fail</w>
+         <w freq="1">failed</w>
+         <w freq="1">fairly</w>
+         <w freq="1">farthing</w>
+         <w freq="1">fastidious</w>
+         <w freq="1">fate</w>
+         <w freq="1">faulty</w>
+         <w freq="1">favor</w>
+         <w freq="1">fearing</w>
+         <w freq="1">feelingly</w>
+         <w freq="1">fell</w>
+         <w freq="1">fellows</w>
+         <w freq="1">females</w>
+         <w freq="1">figure</w>
+         <w freq="1">figures</w>
+         <w freq="1">fill</w>
+         <w freq="1">fire</w>
+         <w freq="1">fishing</w>
+         <w freq="1">fitted</w>
+         <w freq="1">fix</w>
+         <w freq="1">flat</w>
+         <w freq="1">flattering</w>
+         <w freq="1">food</w>
+         <w freq="1">footstool</w>
+         <w freq="1">foreseen</w>
+         <w freq="1">forfeited</w>
+         <w freq="1">forgetting</w>
+         <w freq="1">forgiven</w>
+         <w freq="1">formation</w>
+         <w freq="1">fortunately</w>
+         <w freq="1">fortunes</w>
+         <w freq="1">forwarding</w>
+         <w freq="1">foul</w>
+         <w freq="1">foxhounds</w>
+         <w freq="1">frankly</w>
+         <w freq="1">freedom</w>
+         <w freq="1">friendless</w>
+         <w freq="1">fruits</w>
+         <w freq="1">fully</w>
+         <w freq="1">gaining</w>
+         <w freq="1">game</w>
+         <w freq="1">gardiners</w>
+         <w freq="1">generations</w>
+         <w freq="1">gentlewoman</w>
+         <w freq="1">gift</w>
+         <w freq="1">glancing</w>
+         <w freq="1">glass</w>
+         <w freq="1">gloomy</w>
+         <w freq="1">godfather</w>
+         <w freq="1">gossiping</w>
+         <w freq="1">governed</w>
+         <w freq="1">graciously</w>
+         <w freq="1">greatness</w>
+         <w freq="1">grief</w>
+         <w freq="1">grieving</w>
+         <w freq="1">grievously</w>
+         <w freq="1">growth</w>
+         <w freq="1">guardian</w>
+         <w freq="1">habits</w>
+         <w freq="1">habitual</w>
+         <w freq="1">half-a-dozen</w>
+         <w freq="1">hardship</w>
+         <w freq="1">hardships</w>
+         <w freq="1">hastily</w>
+         <w freq="1">heal</w>
+         <w freq="1">hearty</w>
+         <w freq="1">heinous</w>
+         <w freq="1">heiress</w>
+         <w freq="1">henceforth</w>
+         <w freq="1">hesitated</w>
+         <w freq="1">honest</w>
+         <w freq="1">horse</w>
+         <w freq="1">howsoever</w>
+         <w freq="1">humbled</w>
+         <w freq="1">humbling</w>
+         <w freq="1">hushed</w>
+         <w freq="1">hypocrisy</w>
+         <w freq="1">idleness</w>
+         <w freq="1">ill-founded</w>
+         <w freq="1">ill-qualified</w>
+         <w freq="1">ill-usage</w>
+         <w freq="1">ill-will</w>
+         <w freq="1">illness</w>
+         <w freq="1">illustrious</w>
+         <w freq="1">imitation</w>
+         <w freq="1">impatience</w>
+         <w freq="1">impelled</w>
+         <w freq="1">imperfection</w>
+         <w freq="1">importune</w>
+         <w freq="1">imposing</w>
+         <w freq="1">impulses</w>
+         <w freq="1">include</w>
+         <w freq="1">inconsiderable</w>
+         <w freq="1">inconveniences</w>
+         <w freq="1">increased</w>
+         <w freq="1">incur</w>
+         <w freq="1">inducements</w>
+         <w freq="1">indulgence</w>
+         <w freq="1">indulgent</w>
+         <w freq="1">inevitable</w>
+         <w freq="1">inevitably</w>
+         <w freq="1">inexpressibly</w>
+         <w freq="1">inferiority</w>
+         <w freq="1">inflict</w>
+         <w freq="1">influenced</w>
+         <w freq="1">informality</w>
+         <w freq="1">informs</w>
+         <w freq="1">inherit</w>
+         <w freq="1">inheriting</w>
+         <w freq="1">iniquitous</w>
+         <w freq="1">injuring</w>
+         <w freq="1">injurious</w>
+         <w freq="1">inmates</w>
+         <w freq="1">innocence</w>
+         <w freq="1">insists</w>
+         <w freq="1">instituted</w>
+         <w freq="1">interpose</w>
+         <w freq="1">intimates</w>
+         <w freq="1">intrude</w>
+         <w freq="1">inured</w>
+         <w freq="1">investigation</w>
+         <w freq="1">irksome</w>
+         <w freq="1">irrevocably</w>
+         <w freq="1">irritated</w>
+         <w freq="1">james</w>
+         <w freq="1">jealousy</w>
+         <w freq="1">jilt</w>
+         <w freq="1">jot</w>
+         <w freq="1">judgment</w>
+         <w freq="1">jumps</w>
+         <w freq="1">junior</w>
+         <w freq="1">justly</w>
+         <w freq="1">kinder</w>
+         <w freq="1">kindred</w>
+         <w freq="1">kympton</w>
+         <w freq="1">laity</w>
+         <w freq="1">lamented</w>
+         <w freq="1">land</w>
+         <w freq="1">lane</w>
+         <w freq="1">lanes</w>
+         <w freq="1">lasted</w>
+         <w freq="1">latter</w>
+         <w freq="1">laudable</w>
+         <w freq="1">laying</w>
+         <w freq="1">legacy</w>
+         <w freq="1">lessening</w>
+         <w freq="1">lest</w>
+         <w freq="1">liberal-minded</w>
+         <w freq="1">licentiousness</w>
+         <w freq="1">lie</w>
+         <w freq="1">lieu</w>
+         <w freq="1">local</w>
+         <w freq="1">lock</w>
+         <w freq="1">lot</w>
+         <w freq="1">loveliest</w>
+         <w freq="1">magnitude</w>
+         <w freq="1">manifold</w>
+         <w freq="1">material</w>
+         <w freq="1">materially</w>
+         <w freq="1">meanness</w>
+         <w freq="1">measures</w>
+         <w freq="1">melancholy</w>
+         <w freq="1">mere</w>
+         <w freq="1">merited</w>
+         <w freq="1">middle</w>
+         <w freq="1">military</w>
+         <w freq="1">minute</w>
+         <w freq="1">mischief</w>
+         <w freq="1">misconduct</w>
+         <w freq="1">misled</w>
+         <w freq="1">missish</w>
+         <w freq="1">mite</w>
+         <w freq="1">mixture</w>
+         <w freq="1">modest</w>
+         <w freq="1">moments</w>
+         <w freq="1">mortal</w>
+         <w freq="1">mounting</w>
+         <w freq="1">narrative</w>
+         <w freq="1">narrowly</w>
+         <w freq="1">net</w>
+         <w freq="1">netting</w>
+         <w freq="1">nightcap</w>
+         <w freq="1">nnight</w>
+         <w freq="1">nuptials</w>
+         <w freq="1">nursing</w>
+         <w freq="1">obeyed</w>
+         <w freq="1">objects</w>
+         <w freq="1">obligations</w>
+         <w freq="1">obliging</w>
+         <w freq="1">observer</w>
+         <w freq="1">obtain</w>
+         <w freq="1">obtruded</w>
+         <w freq="1">occasional</w>
+         <w freq="1">occupies</w>
+         <w freq="1">occur</w>
+         <w freq="1">october</w>
+         <w freq="1">offence</w>
+         <w freq="1">offense</w>
+         <w freq="1">officer</w>
+         <w freq="1">oftener</w>
+         <w freq="1">olive</w>
+         <w freq="1">omit</w>
+         <w freq="1">operated</w>
+         <w freq="1">opportunities</w>
+         <w freq="1">ordained</w>
+         <w freq="1">ordination</w>
+         <w freq="1">ornament</w>
+         <w freq="1">outdone</w>
+         <w freq="1">overbearing</w>
+         <w freq="1">overhear</w>
+         <w freq="1">overpowered</w>
+         <w freq="1">overtures</w>
+         <w freq="1">owed</w>
+         <w freq="1">pack</w>
+         <w freq="1">painfully</w>
+         <w freq="1">paining</w>
+         <w freq="1">paint</w>
+         <w freq="1">panegyric</w>
+         <w freq="1">paper</w>
+         <w freq="1">parade</w>
+         <w freq="1">parent</w>
+         <w freq="1">parental</w>
+         <w freq="1">parted</w>
+         <w freq="1">participation</w>
+         <w freq="1">payment</w>
+         <w freq="1">peace-making</w>
+         <w freq="1">peculiarly</w>
+         <w freq="1">pecuniary</w>
+         <w freq="1">penetration</w>
+         <w freq="1">perfections</w>
+         <w freq="1">performs</w>
+         <w freq="1">permit</w>
+         <w freq="1">persists</w>
+         <w freq="1">personages</w>
+         <w freq="1">perusal</w>
+         <w freq="1">pitched</w>
+         <w freq="1">pointed</w>
+         <w freq="1">pointing</w>
+         <w freq="1">points</w>
+         <w freq="1">policy</w>
+         <w freq="1">pool</w>
+         <w freq="1">pools</w>
+         <w freq="1">popular</w>
+         <w freq="1">portrait</w>
+         <w freq="1">positive</w>
+         <w freq="1">possessor</w>
+         <w freq="1">powdering</w>
+         <w freq="1">powerful</w>
+         <w freq="1">powers</w>
+         <w freq="1">precision</w>
+         <w freq="1">premises</w>
+         <w freq="1">presided</w>
+         <w freq="1">presumed</w>
+         <w freq="1">pretence</w>
+         <w freq="1">pretension</w>
+         <w freq="1">prevents</w>
+         <w freq="1">previous</w>
+         <w freq="1">previously</w>
+         <w freq="1">prey</w>
+         <w freq="1">principles</w>
+         <w freq="1">prior</w>
+         <w freq="1">privileged</w>
+         <w freq="1">prized</w>
+         <w freq="1">probabe</w>
+         <w freq="1">probability</w>
+         <w freq="1">proceeded</w>
+         <w freq="1">proclaim</w>
+         <w freq="1">professing</w>
+         <w freq="1">profit</w>
+         <w freq="1">progress</w>
+         <w freq="1">prohibited</w>
+         <w freq="1">propensities</w>
+         <w freq="1">prospects</w>
+         <w freq="1">prosperity</w>
+         <w freq="1">prosperous</w>
+         <w freq="1">providing</w>
+         <w freq="1">puffed</w>
+         <w freq="1">purport</w>
+         <w freq="1">purse</w>
+         <w freq="1">purses</w>
+         <w freq="1">pursuit</w>
+         <w freq="1">putting</w>
+         <w freq="1">qualification</w>
+         <w freq="1">qualifications</w>
+         <w freq="1">quarters</w>
+         <w freq="1">raised</w>
+         <w freq="1">ramble</w>
+         <w freq="1">range</w>
+         <w freq="1">rant</w>
+         <w freq="1">rapid</w>
+         <w freq="1">rapidly</w>
+         <w freq="1">readiness</w>
+         <w freq="1">reap</w>
+         <w freq="1">recall</w>
+         <w freq="1">recent</w>
+         <w freq="1">reckon</w>
+         <w freq="1">reckoned</w>
+         <w freq="1">recollection</w>
+         <w freq="1">reconciled</w>
+         <w freq="1">recover</w>
+         <w freq="1">recovered</w>
+         <w freq="1">rectory</w>
+         <w freq="1">refinements</w>
+         <w freq="1">refute</w>
+         <w freq="1">regarding</w>
+         <w freq="1">regardless</w>
+         <w freq="1">regrets</w>
+         <w freq="1">regularly</w>
+         <w freq="1">regulate</w>
+         <w freq="1">regulation</w>
+         <w freq="1">rejected</w>
+         <w freq="1">rejecting</w>
+         <w freq="1">rejection</w>
+         <w freq="1">relating</w>
+         <w freq="1">reliance</w>
+         <w freq="1">relieve</w>
+         <w freq="1">remembered</w>
+         <w freq="1">remonstrance</w>
+         <w freq="1">remove</w>
+         <w freq="1">render</w>
+         <w freq="1">rendered</w>
+         <w freq="1">repelled</w>
+         <w freq="1">reports</w>
+         <w freq="1">reprehensible</w>
+         <w freq="1">repressed</w>
+         <w freq="1">reproaches</w>
+         <w freq="1">repugnance</w>
+         <w freq="1">resentful</w>
+         <w freq="1">resides</w>
+         <w freq="1">resisting</w>
+         <w freq="1">respectful</w>
+         <w freq="1">respecting</w>
+         <w freq="1">retained</w>
+         <w freq="1">retaining</w>
+         <w freq="1">retirement</w>
+         <w freq="1">retrospections</w>
+         <w freq="1">revealed</w>
+         <w freq="1">revenging</w>
+         <w freq="1">revered</w>
+         <w freq="1">reverse</w>
+         <w freq="1">review</w>
+         <w freq="1">reynolds</w>
+         <w freq="1">rise</w>
+         <w freq="1">rites</w>
+         <w freq="1">ruined</w>
+         <w freq="1">runs</w>
+         <w freq="1">sagacity</w>
+         <w freq="1">savage</w>
+         <w freq="1">scarborough</w>
+         <w freq="1">science</w>
+         <w freq="1">scope</w>
+         <w freq="1">scrape</w>
+         <w freq="1">screen</w>
+         <w freq="1">screens</w>
+         <w freq="1">scrupulous</w>
+         <w freq="1">scrutiny</w>
+         <w freq="1">seconded</w>
+         <w freq="1">secretly</w>
+         <w freq="1">seize</w>
+         <w freq="1">selecting</w>
+         <w freq="1">sell</w>
+         <w freq="1">sentiment</w>
+         <w freq="1">separated</w>
+         <w freq="1">serenity</w>
+         <w freq="1">servility</w>
+         <w freq="1">serving</w>
+         <w freq="1">settling</w>
+         <w freq="1">severest</w>
+         <w freq="1">severity</w>
+         <w freq="1">shape</w>
+         <w freq="1">sharers</w>
+         <w freq="1">sharing</w>
+         <w freq="1">sheet</w>
+         <w freq="1">shelves</w>
+         <w freq="1">shillings</w>
+         <w freq="1">shortly</w>
+         <w freq="1">silliest</w>
+         <w freq="1">simpers</w>
+         <w freq="1">simply</w>
+         <w freq="1">sink</w>
+         <w freq="1">sketch</w>
+         <w freq="1">slowly</w>
+         <w freq="1">smirks</w>
+         <w freq="1">societies</w>
+         <w freq="1">solely</w>
+         <w freq="1">solicit</w>
+         <w freq="1">soliciting</w>
+         <w freq="1">solitary</w>
+         <w freq="1">solitude</w>
+         <w freq="1">somewhat</w>
+         <w freq="1">sons</w>
+         <w freq="1">sons-in-law</w>
+         <w freq="1">sorrow</w>
+         <w freq="1">sought</w>
+         <w freq="1">south</w>
+         <w freq="1">speediest</w>
+         <w freq="1">speedily</w>
+         <w freq="1">speedy</w>
+         <w freq="1">spending</w>
+         <w freq="1">spot</w>
+         <w freq="1">sprained</w>
+         <w freq="1">squeamish</w>
+         <w freq="1">staggered</w>
+         <w freq="1">stamp</w>
+         <w freq="1">stated</w>
+         <w freq="1">stating</w>
+         <w freq="1">station</w>
+         <w freq="1">stir</w>
+         <w freq="1">stood</w>
+         <w freq="1">stopping</w>
+         <w freq="1">storm</w>
+         <w freq="1">stress</w>
+         <w freq="1">strike</w>
+         <w freq="1">striking</w>
+         <w freq="1">struggled</w>
+         <w freq="1">struggles</w>
+         <w freq="1">studier</w>
+         <w freq="1">subjoin</w>
+         <w freq="1">substantial</w>
+         <w freq="1">suffering</w>
+         <w freq="1">suggest</w>
+         <w freq="1">suggesting</w>
+         <w freq="1">suited</w>
+         <w freq="1">summon</w>
+         <w freq="1">superintended</w>
+         <w freq="1">superintendence</w>
+         <w freq="1">superintends</w>
+         <w freq="1">superiority</w>
+         <w freq="1">supply</w>
+         <w freq="1">suppressed</w>
+         <w freq="1">surmise</w>
+         <w freq="1">survive</w>
+         <w freq="1">survivor</w>
+         <w freq="1">suspend</w>
+         <w freq="1">suspense</w>
+         <w freq="1">syllables</w>
+         <w freq="1">sympathise</w>
+         <w freq="1">symptom</w>
+         <w freq="1">tables</w>
+         <w freq="1">talents</w>
+         <w freq="1">taller</w>
+         <w freq="1">tempered</w>
+         <w freq="1">tempers</w>
+         <w freq="1">temptations</w>
+         <w freq="1">tend</w>
+         <w freq="1">tender</w>
+         <w freq="1">termed</w>
+         <w freq="1">testifying</w>
+         <w freq="1">testimony</w>
+         <w freq="1">therein</w>
+         <w freq="1">thirdly</w>
+         <w freq="1">thirty</w>
+         <w freq="1">throughout</w>
+         <w freq="1">tidings</w>
+         <w freq="1">tithes</w>
+         <w freq="1">torment</w>
+         <w freq="1">tortured</w>
+         <w freq="1">touched</w>
+         <w freq="1">tour</w>
+         <w freq="1">transactions</w>
+         <w freq="1">truest</w>
+         <w freq="1">ultimately</w>
+         <w freq="1">unabated</w>
+         <w freq="1">unaffectedly</w>
+         <w freq="1">unalloyed</w>
+         <w freq="1">unasked</w>
+         <w freq="1">unassuming</w>
+         <w freq="1">unavailing</w>
+         <w freq="1">unavoidably</w>
+         <w freq="1">undecided</w>
+         <w freq="1">undo</w>
+         <w freq="1">undone</w>
+         <w freq="1">undoubted</w>
+         <w freq="1">unequal</w>
+         <w freq="1">unexpectedly</w>
+         <w freq="1">unfold</w>
+         <w freq="1">unfolding</w>
+         <w freq="1">unite</w>
+         <w freq="1">unjustly</w>
+         <w freq="1">unknowingly</w>
+         <w freq="1">unnatural</w>
+         <w freq="1">unpleasantly</w>
+         <w freq="1">unprofitable</w>
+         <w freq="1">unprotected</w>
+         <w freq="1">unqualified</w>
+         <w freq="1">unquestionably</w>
+         <w freq="1">unstudied</w>
+         <w freq="1">until</w>
+         <w freq="1">unvarying</w>
+         <w freq="1">unwillingness</w>
+         <w freq="1">unworthily</w>
+         <w freq="1">upbraiding</w>
+         <w freq="1">valueless</w>
+         <w freq="1">variance</w>
+         <w freq="1">vary</w>
+         <w freq="1">ventured</w>
+         <w freq="1">veracity</w>
+         <w freq="1">verily</w>
+         <w freq="1">vice</w>
+         <w freq="1">vices</w>
+         <w freq="1">vicious</w>
+         <w freq="1">views</w>
+         <w freq="1">violence</w>
+         <w freq="1">visiting</w>
+         <w freq="1">vivacity</w>
+         <w freq="1">vogue</w>
+         <w freq="1">void</w>
+         <w freq="1">voluntary</w>
+         <w freq="1">vouchsafed</w>
+         <w freq="1">wantonly</w>
+         <w freq="1">warm</w>
+         <w freq="1">wasting</w>
+         <w freq="1">watched</w>
+         <w freq="1">weaknesses</w>
+         <w freq="1">weighty</w>
+         <w freq="1">well-wisher</w>
+         <w freq="1">westerham</w>
+         <w freq="1">whichever</w>
+         <w freq="1">whimsical</w>
+         <w freq="1">white</w>
+         <w freq="1">willfully</w>
+         <w freq="1">withdrawing</w>
+         <w freq="1">won</w>
+         <w freq="1">wondered</w>
+         <w freq="1">wonderfully</w>
+         <w freq="1">wonders</w>
+         <w freq="1">yielding</w>
+         <w freq="1">youths</w>
+      </p>
+      <p n="female" speeches="1344" sex="female" position="2" condition="normalized"
          category="characterType"
          display="female"
          listOfWordsUniqueTo="female"
@@ -3935,6 +4918,7 @@
          <w freq="2">trace</w>
          <w freq="2">travellers</w>
          <w freq="2">travelling</w>
+         <w freq="2">treasure</w>
          <w freq="2">tried</w>
          <w freq="2">trifle</w>
          <w freq="2">twelve</w>
@@ -4977,7 +5961,6 @@
          <w freq="1">traces</w>
          <w freq="1">tractable</w>
          <w freq="1">transport</w>
-         <w freq="1">treasure</w>
          <w freq="1">treating</w>
          <w freq="1">tremblings</w>
          <w freq="1">tricks</w>
@@ -5079,1008 +6062,12 @@
          <w freq="1">yielded</w>
          <w freq="1">york</w>
       </p>
-      <p n="male" speeches="616" sex="male" position="2" condition="normalized"
-         category="characterType"
-         display="male"
-         listOfWordsUniqueTo="male"
-         countOfUniqueWords="990">
-         <w freq="7">during</w>
-         <w freq="7">humble</w>
-         <w freq="7">moreover</w>
-         <w freq="7">rank</w>
-         <w freq="6">clergyman</w>
-         <w freq="6">study</w>
-         <w freq="5">agree</w>
-         <w freq="5">honoured</w>
-         <w freq="5">valuable</w>
-         <w freq="4">affability</w>
-         <w freq="4">blessing</w>
-         <w freq="4">condescended</w>
-         <w freq="4">condescension</w>
-         <w freq="4">congratulations</w>
-         <w freq="4">highest</w>
-         <w freq="4">inducement</w>
-         <w freq="4">laid</w>
-         <w freq="4">law</w>
-         <w freq="4">matrimony</w>
-         <w freq="4">parsonage</w>
-         <w freq="4">perform</w>
-         <w freq="4">reject</w>
-         <w freq="4">relationship</w>
-         <w freq="3">abhorrence</w>
-         <w freq="3">absurd</w>
-         <w freq="3">acceptable</w>
-         <w freq="3">addresses</w>
-         <w freq="3">adds</w>
-         <w freq="3">advisable</w>
-         <w freq="3">allowing</w>
-         <w freq="3">appears</w>
-         <w freq="3">argument</w>
-         <w freq="3">assembly</w>
-         <w freq="3">careful</w>
-         <w freq="3">confession</w>
-         <w freq="3">cousins</w>
-         <w freq="3">decease</w>
-         <w freq="3">defer</w>
-         <w freq="3">demand</w>
-         <w freq="3">escape</w>
-         <w freq="3">estimation</w>
-         <w freq="3">extensive</w>
-         <w freq="3">friendly</w>
-         <w freq="3">gentlemanlike</w>
-         <w freq="3">insufficient</w>
-         <w freq="3">joined</w>
-         <w freq="3">kingdom</w>
-         <w freq="3">led</w>
-         <w freq="3">list</w>
-         <w freq="3">offenses</w>
-         <w freq="3">parents</w>
-         <w freq="3">patronage</w>
-         <w freq="3">per</w>
-         <w freq="3">preferment</w>
-         <w freq="3">reflect</w>
-         <w freq="3">resigned</w>
-         <w freq="3">th</w>
-         <w freq="3">uneasiness</w>
-         <w freq="3">unhappily</w>
-         <w freq="3">uniformly</w>
-         <w freq="2">accusations</w>
-         <w freq="2">acquit</w>
-         <w freq="2">active</w>
-         <w freq="2">admirer</w>
-         <w freq="2">advantageous</w>
-         <w freq="2">annum</w>
-         <w freq="2">appeal</w>
-         <w freq="2">arranging</w>
-         <w freq="2">assume</w>
-         <w freq="2">born</w>
-         <w freq="2">briefly</w>
-         <w freq="2">brotherly</w>
-         <w freq="2">carelessness</w>
-         <w freq="2">catch</w>
-         <w freq="2">chief</w>
-         <w freq="2">christian</w>
-         <w freq="2">circle</w>
-         <w freq="2">concealment</w>
-         <w freq="2">conceive</w>
-         <w freq="2">conscious</w>
-         <w freq="2">console</w>
-         <w freq="2">consulting</w>
-         <w freq="2">contents</w>
-         <w freq="2">creditors</w>
-         <w freq="2">crossed</w>
-         <w freq="2">cruelty</w>
-         <w freq="2">defiance</w>
-         <w freq="2">dependent</w>
-         <w freq="2">deserts</w>
-         <w freq="2">desirous</w>
-         <w freq="2">devoted</w>
-         <w freq="2">disrespect</w>
-         <w freq="2">doubts</w>
-         <w freq="2">duties</w>
-         <w freq="2">dwelling</w>
-         <w freq="2">economy</w>
-         <w freq="2">encourage</w>
-         <w freq="2">existing</w>
-         <w freq="2">explaining</w>
-         <w freq="2">extravagance</w>
-         <w freq="2">faithful</w>
-         <w freq="2">filial</w>
-         <w freq="2">flow</w>
-         <w freq="2">forgiveness</w>
-         <w freq="2">forms</w>
-         <w freq="2">free</w>
-         <w freq="2">gratifying</w>
-         <w freq="2">guardianship</w>
-         <w freq="2">guide</w>
-         <w freq="2">haggerston</w>
-         <w freq="2">hands</w>
-         <w freq="2">height</w>
-         <w freq="2">hesitation</w>
-         <w freq="2">hint</w>
-         <w freq="2">honours</w>
-         <w freq="2">hopeless</w>
-         <w freq="2">hoping</w>
-         <w freq="2">hospitality</w>
-         <w freq="2">impudence</w>
-         <w freq="2">increasing</w>
-         <w freq="2">indebted</w>
-         <w freq="2">indirect</w>
-         <w freq="2">intend</w>
-         <w freq="2">interrupt</w>
-         <w freq="2">introduction</w>
-         <w freq="2">joining</w>
-         <w freq="2">judged</w>
-         <w freq="2">liable</w>
-         <w freq="2">liberally</w>
-         <w freq="2">lovers</w>
-         <w freq="2">meanly</w>
-         <w freq="2">motives</w>
-         <w freq="2">offensive</w>
-         <w freq="2">offers</w>
-         <w freq="2">overlooked</w>
-         <w freq="2">peace</w>
-         <w freq="2">pitiful</w>
-         <w freq="2">plead</w>
-         <w freq="2">pleases</w>
-         <w freq="2">polished</w>
-         <w freq="2">polite</w>
-         <w freq="2">precipitance</w>
-         <w freq="2">precipitate</w>
-         <w freq="2">preferred</w>
-         <w freq="2">presentation</w>
-         <w freq="2">preserve</w>
-         <w freq="2">preserved</w>
-         <w freq="2">proceeding</w>
-         <w freq="2">purposely</w>
-         <w freq="2">quadrille</w>
-         <w freq="2">quickness</w>
-         <w freq="2">quiet</w>
-         <w freq="2">reception</w>
-         <w freq="2">recommendation</w>
-         <w freq="2">rector</w>
-         <w freq="2">reflection</w>
-         <w freq="2">removal</w>
-         <w freq="2">repetition</w>
-         <w freq="2">requiring</w>
-         <w freq="2">residence</w>
-         <w freq="2">resignation</w>
-         <w freq="2">respected</w>
-         <w freq="2">sanctioned</w>
-         <w freq="2">school</w>
-         <w freq="2">scruples</w>
-         <w freq="2">se</w>
-         <w freq="2">secondly</w>
-         <w freq="2">secured</w>
-         <w freq="2">settlement</w>
-         <w freq="2">singular</w>
-         <w freq="2">son-in-law</w>
-         <w freq="2">sport</w>
-         <w freq="2">stands</w>
-         <w freq="2">subsisting</w>
-         <w freq="2">support</w>
-         <w freq="2">talent</w>
-         <w freq="2">tendency</w>
-         <w freq="2">total</w>
-         <w freq="2">unfortunately</w>
-         <w freq="2">unworthy</w>
-         <w freq="2">various</w>
-         <w freq="2">village</w>
-         <w freq="2">visits</w>
-         <w freq="2">weight</w>
-         <w freq="2">wide</w>
-         <w freq="2">wine</w>
-         <w freq="2">witnessed</w>
-         <w freq="2">worthy</w>
-         <w freq="1">abiding</w>
-         <w freq="1">abominate</w>
-         <w freq="1">absolute</w>
-         <w freq="1">absurdity</w>
-         <w freq="1">abundant</w>
-         <w freq="1">accede</w>
-         <w freq="1">acceptance</w>
-         <w freq="1">accidental</w>
-         <w freq="1">accusation</w>
-         <w freq="1">accusing</w>
-         <w freq="1">acquire</w>
-         <w freq="1">acute</w>
-         <w freq="1">adapted</w>
-         <w freq="1">addressed</w>
-         <w freq="1">adept</w>
-         <w freq="1">adequate</w>
-         <w freq="1">adjusting</w>
-         <w freq="1">admirable</w>
-         <w freq="1">admittance</w>
-         <w freq="1">admitted</w>
-         <w freq="1">adopted</w>
-         <w freq="1">adorned</w>
-         <w freq="1">advancement</w>
-         <w freq="1">advertised</w>
-         <w freq="1">affinity</w>
-         <w freq="1">afflicting</w>
-         <w freq="1">affliction</w>
-         <w freq="1">affront</w>
-         <w freq="1">affronted</w>
-         <w freq="1">agreeably</w>
-         <w freq="1">agreement</w>
-         <w freq="1">aid</w>
-         <w freq="1">alleviate</w>
-         <w freq="1">allude</w>
-         <w freq="1">alluding</w>
-         <w freq="1">aloof</w>
-         <w freq="1">altar</w>
-         <w freq="1">alterations</w>
-         <w freq="1">alternative</w>
-         <w freq="1">amazement</w>
-         <w freq="1">amazes</w>
-         <w freq="1">amazing</w>
-         <w freq="1">amidst</w>
-         <w freq="1">amply</w>
-         <w freq="1">amuse</w>
-         <w freq="1">amusements</w>
-         <w freq="1">animated</w>
-         <w freq="1">ankle</w>
-         <w freq="1">annesley</w>
-         <w freq="1">anywhere</w>
-         <w freq="1">apparel</w>
-         <w freq="1">apparent</w>
-         <w freq="1">appearing</w>
-         <w freq="1">appertain</w>
-         <w freq="1">applies</w>
-         <w freq="1">applying</w>
-         <w freq="1">apprehending</w>
-         <w freq="1">approaching</w>
-         <w freq="1">approved</w>
-         <w freq="1">ardently</w>
-         <w freq="1">arising</w>
-         <w freq="1">arrange</w>
-         <w freq="1">arrangements</w>
-         <w freq="1">arranges</w>
-         <w freq="1">aside</w>
-         <w freq="1">assertion</w>
-         <w freq="1">astonish</w>
-         <w freq="1">attentively</w>
-         <w freq="1">attractions</w>
-         <w freq="1">audience</w>
-         <w freq="1">aught</w>
-         <w freq="1">augmented</w>
-         <w freq="1">august</w>
-         <w freq="1">authorising</w>
-         <w freq="1">authoritative</w>
-         <w freq="1">avail</w>
-         <w freq="1">avenue</w>
-         <w freq="1">avoiding</w>
-         <w freq="1">awe</w>
-         <w freq="1">awful</w>
-         <w freq="1">begs</w>
-         <w freq="1">begun</w>
-         <w freq="1">beheld</w>
-         <w freq="1">belong</w>
-         <w freq="1">beneficence</w>
-         <w freq="1">beneficial</w>
-         <w freq="1">benevolent</w>
-         <w freq="1">bequeathed</w>
-         <w freq="1">bequest</w>
-         <w freq="1">bewitching</w>
-         <w freq="1">bitter</w>
-         <w freq="1">bitterest</w>
-         <w freq="1">blasted</w>
-         <w freq="1">blemish</w>
-         <w freq="1">bound</w>
-         <w freq="1">bounty</w>
-         <w freq="1">branch</w>
-         <w freq="1">breathed</w>
-         <w freq="1">bright</w>
-         <w freq="1">brightened</w>
-         <w freq="1">brightest</w>
-         <w freq="1">bringing</w>
-         <w freq="1">brink</w>
-         <w freq="1">british</w>
-         <w freq="1">calculation</w>
-         <w freq="1">calm</w>
-         <w freq="1">cambridge</w>
-         <w freq="1">captivation</w>
-         <w freq="1">card-table</w>
-         <w freq="1">cast</w>
-         <w freq="1">caution</w>
-         <w freq="1">cautioning</w>
-         <w freq="1">cautiousness</w>
-         <w freq="1">celerity</w>
-         <w freq="1">cents</w>
-         <w freq="1">ceremonies</w>
-         <w freq="1">chances</w>
-         <w freq="1">cheat</w>
-         <w freq="1">cheerful</w>
-         <w freq="1">circles</w>
-         <w freq="1">civilities</w>
-         <w freq="1">class</w>
-         <w freq="1">clergy</w>
-         <w freq="1">clerical</w>
-         <w freq="1">closet</w>
-         <w freq="1">closure</w>
-         <w freq="1">clue</w>
-         <w freq="1">coincided</w>
-         <w freq="1">coincidence</w>
-         <w freq="1">colour</w>
-         <w freq="1">commendable</w>
-         <w freq="1">companions</w>
-         <w freq="1">compare</w>
-         <w freq="1">compatible</w>
-         <w freq="1">competition</w>
-         <w freq="1">complaisance</w>
-         <w freq="1">completed</w>
-         <w freq="1">comply</w>
-         <w freq="1">concerning</w>
-         <w freq="1">conciliatory</w>
-         <w freq="1">concurrence</w>
-         <w freq="1">condescend</w>
-         <w freq="1">condescendingly</w>
-         <w freq="1">condescends</w>
-         <w freq="1">conditional</w>
-         <w freq="1">conditions</w>
-         <w freq="1">conducted</w>
-         <w freq="1">confidential</w>
-         <w freq="1">confirmed</w>
-         <w freq="1">congratulated</w>
-         <w freq="1">connect</w>
-         <w freq="1">connivance</w>
-         <w freq="1">conquest</w>
-         <w freq="1">conscientious</w>
-         <w freq="1">constantly</w>
-         <w freq="1">constitution</w>
-         <w freq="1">containing</w>
-         <w freq="1">contentment</w>
-         <w freq="1">contribute</w>
-         <w freq="1">conversible</w>
-         <w freq="1">converting</w>
-         <w freq="1">convey</w>
-         <w freq="1">copied</w>
-         <w freq="1">copse</w>
-         <w freq="1">correct</w>
-         <w freq="1">correspondents</w>
-         <w freq="1">coughs</w>
-         <w freq="1">cover</w>
-         <w freq="1">covering</w>
-         <w freq="1">creditably</w>
-         <w freq="1">cunning</w>
-         <w freq="1">custom</w>
-         <w freq="1">dangerous</w>
-         <w freq="1">decisions</w>
-         <w freq="1">declaring</w>
-         <w freq="1">degenerate</w>
-         <w freq="1">degrees</w>
-         <w freq="1">deigned</w>
-         <w freq="1">delivered</w>
-         <w freq="1">demean</w>
-         <w freq="1">denial</w>
-         <w freq="1">denying</w>
-         <w freq="1">depending</w>
-         <w freq="1">depravity</w>
-         <w freq="1">derives</w>
-         <w freq="1">described</w>
-         <w freq="1">desiring</w>
-         <w freq="1">despicable</w>
-         <w freq="1">destroyed</w>
-         <w freq="1">detached</w>
-         <w freq="1">detaching</w>
-         <w freq="1">detain</w>
-         <w freq="1">detaining</w>
-         <w freq="1">deter</w>
-         <w freq="1">determination</w>
-         <w freq="1">devoid</w>
-         <w freq="1">devoting</w>
-         <w freq="1">dictates</w>
-         <w freq="1">dictatorial</w>
-         <w freq="1">differ</w>
-         <w freq="1">diffidence</w>
-         <w freq="1">diligence</w>
-         <w freq="1">directed</w>
-         <w freq="1">dirty</w>
-         <w freq="1">disadvantages</w>
-         <w freq="1">disagreeably</w>
-         <w freq="1">disagreement</w>
-         <w freq="1">disapprove</w>
-         <w freq="1">discharge</w>
-         <w freq="1">discouraged</w>
-         <w freq="1">discourse</w>
-         <w freq="1">discourses</w>
-         <w freq="1">discredit</w>
-         <w freq="1">disgracing</w>
-         <w freq="1">disgusting</w>
-         <w freq="1">dislikes</w>
-         <w freq="1">dismission</w>
-         <w freq="1">display</w>
-         <w freq="1">disputes</w>
-         <w freq="1">disrespectful</w>
-         <w freq="1">dissemble</w>
-         <w freq="1">disservice</w>
-         <w freq="1">dissipation</w>
-         <w freq="1">dissolved</w>
-         <w freq="1">diversion</w>
-         <w freq="1">domestic</w>
-         <w freq="1">domestics</w>
-         <w freq="1">doubted</w>
-         <w freq="1">dress</w>
-         <w freq="1">duchess</w>
-         <w freq="1">dull</w>
-         <w freq="1">dutifully</w>
-         <w freq="1">e</w>
-         <w freq="1">eastbourne</w>
-         <w freq="1">easter</w>
-         <w freq="1">economically</w>
-         <w freq="1">edw</w>
-         <w freq="1">effort</w>
-         <w freq="1">elevated</w>
-         <w freq="1">emphatic</w>
-         <w freq="1">employ</w>
-         <w freq="1">employment</w>
-         <w freq="1">endeavours</w>
-         <w freq="1">energetic</w>
-         <w freq="1">energy</w>
-         <w freq="1">enforced</w>
-         <w freq="1">ennight</w>
-         <w freq="1">enormity</w>
-         <w freq="1">ensigncy</w>
-         <w freq="1">ensuing</w>
-         <w freq="1">ensure</w>
-         <w freq="1">entreaty</w>
-         <w freq="1">equals</w>
-         <w freq="1">ere</w>
-         <w freq="1">errand</w>
-         <w freq="1">escaped</w>
-         <w freq="1">establish</w>
-         <w freq="1">estimated</w>
-         <w freq="1">etiquette</w>
-         <w freq="1">exact</w>
-         <w freq="1">exceptional</w>
-         <w freq="1">exclamation</w>
-         <w freq="1">excused</w>
-         <w freq="1">executors</w>
-         <w freq="1">exercise</w>
-         <w freq="1">exhibit</w>
-         <w freq="1">expeditiously</w>
-         <w freq="1">explicitly</w>
-         <w freq="1">exposed</w>
-         <w freq="1">exposure</w>
-         <w freq="1">extent</w>
-         <w freq="1">extinguished</w>
-         <w freq="1">extracts</w>
-         <w freq="1">eyelashes</w>
-         <w freq="1">fail</w>
-         <w freq="1">failed</w>
-         <w freq="1">fairly</w>
-         <w freq="1">farthing</w>
-         <w freq="1">fastidious</w>
-         <w freq="1">fate</w>
-         <w freq="1">faulty</w>
-         <w freq="1">favor</w>
-         <w freq="1">fearing</w>
-         <w freq="1">feelingly</w>
-         <w freq="1">fell</w>
-         <w freq="1">fellows</w>
-         <w freq="1">females</w>
-         <w freq="1">figure</w>
-         <w freq="1">figures</w>
-         <w freq="1">fill</w>
-         <w freq="1">fire</w>
-         <w freq="1">fishing</w>
-         <w freq="1">fitted</w>
-         <w freq="1">fix</w>
-         <w freq="1">flat</w>
-         <w freq="1">flattering</w>
-         <w freq="1">food</w>
-         <w freq="1">footstool</w>
-         <w freq="1">foreseen</w>
-         <w freq="1">forfeited</w>
-         <w freq="1">forgetting</w>
-         <w freq="1">forgiven</w>
-         <w freq="1">formation</w>
-         <w freq="1">fortunately</w>
-         <w freq="1">fortunes</w>
-         <w freq="1">forwarding</w>
-         <w freq="1">foul</w>
-         <w freq="1">foxhounds</w>
-         <w freq="1">frankly</w>
-         <w freq="1">freedom</w>
-         <w freq="1">friendless</w>
-         <w freq="1">fruits</w>
-         <w freq="1">fully</w>
-         <w freq="1">gaining</w>
-         <w freq="1">game</w>
-         <w freq="1">gardiners</w>
-         <w freq="1">generations</w>
-         <w freq="1">gentlewoman</w>
-         <w freq="1">gift</w>
-         <w freq="1">glancing</w>
-         <w freq="1">glass</w>
-         <w freq="1">gloomy</w>
-         <w freq="1">godfather</w>
-         <w freq="1">gossiping</w>
-         <w freq="1">governed</w>
-         <w freq="1">graciously</w>
-         <w freq="1">greatness</w>
-         <w freq="1">grief</w>
-         <w freq="1">grieving</w>
-         <w freq="1">grievously</w>
-         <w freq="1">growth</w>
-         <w freq="1">guardian</w>
-         <w freq="1">habits</w>
-         <w freq="1">habitual</w>
-         <w freq="1">half-a-dozen</w>
-         <w freq="1">hardship</w>
-         <w freq="1">hardships</w>
-         <w freq="1">hastily</w>
-         <w freq="1">heal</w>
-         <w freq="1">hearty</w>
-         <w freq="1">heinous</w>
-         <w freq="1">heiress</w>
-         <w freq="1">henceforth</w>
-         <w freq="1">hesitated</w>
-         <w freq="1">honest</w>
-         <w freq="1">horse</w>
-         <w freq="1">howsoever</w>
-         <w freq="1">humbled</w>
-         <w freq="1">humbling</w>
-         <w freq="1">hushed</w>
-         <w freq="1">hypocrisy</w>
-         <w freq="1">idleness</w>
-         <w freq="1">ill-founded</w>
-         <w freq="1">ill-qualified</w>
-         <w freq="1">ill-usage</w>
-         <w freq="1">ill-will</w>
-         <w freq="1">illness</w>
-         <w freq="1">illustrious</w>
-         <w freq="1">imitation</w>
-         <w freq="1">impatience</w>
-         <w freq="1">impelled</w>
-         <w freq="1">imperfection</w>
-         <w freq="1">importune</w>
-         <w freq="1">imposing</w>
-         <w freq="1">impulses</w>
-         <w freq="1">include</w>
-         <w freq="1">inconsiderable</w>
-         <w freq="1">inconveniences</w>
-         <w freq="1">increased</w>
-         <w freq="1">incur</w>
-         <w freq="1">inducements</w>
-         <w freq="1">indulgence</w>
-         <w freq="1">indulgent</w>
-         <w freq="1">inevitable</w>
-         <w freq="1">inevitably</w>
-         <w freq="1">inexpressibly</w>
-         <w freq="1">inferiority</w>
-         <w freq="1">inflict</w>
-         <w freq="1">influenced</w>
-         <w freq="1">informality</w>
-         <w freq="1">informs</w>
-         <w freq="1">inherit</w>
-         <w freq="1">inheriting</w>
-         <w freq="1">iniquitous</w>
-         <w freq="1">injuring</w>
-         <w freq="1">injurious</w>
-         <w freq="1">inmates</w>
-         <w freq="1">innocence</w>
-         <w freq="1">insists</w>
-         <w freq="1">instituted</w>
-         <w freq="1">interpose</w>
-         <w freq="1">intimates</w>
-         <w freq="1">intrude</w>
-         <w freq="1">inured</w>
-         <w freq="1">investigation</w>
-         <w freq="1">irksome</w>
-         <w freq="1">irrevocably</w>
-         <w freq="1">irritated</w>
-         <w freq="1">james</w>
-         <w freq="1">jealousy</w>
-         <w freq="1">jilt</w>
-         <w freq="1">jot</w>
-         <w freq="1">judgment</w>
-         <w freq="1">jumps</w>
-         <w freq="1">junior</w>
-         <w freq="1">justly</w>
-         <w freq="1">kinder</w>
-         <w freq="1">kindred</w>
-         <w freq="1">kympton</w>
-         <w freq="1">laity</w>
-         <w freq="1">lamented</w>
-         <w freq="1">land</w>
-         <w freq="1">lane</w>
-         <w freq="1">lanes</w>
-         <w freq="1">lasted</w>
-         <w freq="1">latter</w>
-         <w freq="1">laudable</w>
-         <w freq="1">laying</w>
-         <w freq="1">legacy</w>
-         <w freq="1">lessening</w>
-         <w freq="1">lest</w>
-         <w freq="1">liberal-minded</w>
-         <w freq="1">licentiousness</w>
-         <w freq="1">lie</w>
-         <w freq="1">lieu</w>
-         <w freq="1">local</w>
-         <w freq="1">lock</w>
-         <w freq="1">lot</w>
-         <w freq="1">loveliest</w>
-         <w freq="1">magnitude</w>
-         <w freq="1">manifold</w>
-         <w freq="1">material</w>
-         <w freq="1">materially</w>
-         <w freq="1">meanness</w>
-         <w freq="1">measures</w>
-         <w freq="1">melancholy</w>
-         <w freq="1">mere</w>
-         <w freq="1">merited</w>
-         <w freq="1">middle</w>
-         <w freq="1">military</w>
-         <w freq="1">minute</w>
-         <w freq="1">mischief</w>
-         <w freq="1">misconduct</w>
-         <w freq="1">misled</w>
-         <w freq="1">missish</w>
-         <w freq="1">mite</w>
-         <w freq="1">mixture</w>
-         <w freq="1">modest</w>
-         <w freq="1">moments</w>
-         <w freq="1">mortal</w>
-         <w freq="1">mounting</w>
-         <w freq="1">narrative</w>
-         <w freq="1">narrowly</w>
-         <w freq="1">net</w>
-         <w freq="1">netting</w>
-         <w freq="1">nightcap</w>
-         <w freq="1">nnight</w>
-         <w freq="1">nuptials</w>
-         <w freq="1">nursing</w>
-         <w freq="1">obeyed</w>
-         <w freq="1">objects</w>
-         <w freq="1">obligations</w>
-         <w freq="1">obliging</w>
-         <w freq="1">observer</w>
-         <w freq="1">obtain</w>
-         <w freq="1">obtruded</w>
-         <w freq="1">occasional</w>
-         <w freq="1">occupies</w>
-         <w freq="1">occur</w>
-         <w freq="1">october</w>
-         <w freq="1">offence</w>
-         <w freq="1">offense</w>
-         <w freq="1">officer</w>
-         <w freq="1">oftener</w>
-         <w freq="1">olive</w>
-         <w freq="1">omit</w>
-         <w freq="1">operated</w>
-         <w freq="1">opportunities</w>
-         <w freq="1">ordained</w>
-         <w freq="1">ordination</w>
-         <w freq="1">ornament</w>
-         <w freq="1">outdone</w>
-         <w freq="1">overbearing</w>
-         <w freq="1">overhear</w>
-         <w freq="1">overpowered</w>
-         <w freq="1">overtures</w>
-         <w freq="1">owed</w>
-         <w freq="1">pack</w>
-         <w freq="1">painfully</w>
-         <w freq="1">paining</w>
-         <w freq="1">paint</w>
-         <w freq="1">panegyric</w>
-         <w freq="1">paper</w>
-         <w freq="1">parade</w>
-         <w freq="1">parent</w>
-         <w freq="1">parental</w>
-         <w freq="1">parted</w>
-         <w freq="1">participation</w>
-         <w freq="1">payment</w>
-         <w freq="1">peace-making</w>
-         <w freq="1">peculiarly</w>
-         <w freq="1">pecuniary</w>
-         <w freq="1">penetration</w>
-         <w freq="1">perfections</w>
-         <w freq="1">performs</w>
-         <w freq="1">permit</w>
-         <w freq="1">persists</w>
-         <w freq="1">personages</w>
-         <w freq="1">perusal</w>
-         <w freq="1">pitched</w>
-         <w freq="1">pointed</w>
-         <w freq="1">pointing</w>
-         <w freq="1">points</w>
-         <w freq="1">policy</w>
-         <w freq="1">pool</w>
-         <w freq="1">pools</w>
-         <w freq="1">popular</w>
-         <w freq="1">portrait</w>
-         <w freq="1">positive</w>
-         <w freq="1">possessor</w>
-         <w freq="1">powdering</w>
-         <w freq="1">powerful</w>
-         <w freq="1">powers</w>
-         <w freq="1">precision</w>
-         <w freq="1">premises</w>
-         <w freq="1">presided</w>
-         <w freq="1">presumed</w>
-         <w freq="1">pretence</w>
-         <w freq="1">pretension</w>
-         <w freq="1">prevents</w>
-         <w freq="1">previous</w>
-         <w freq="1">previously</w>
-         <w freq="1">prey</w>
-         <w freq="1">principles</w>
-         <w freq="1">prior</w>
-         <w freq="1">privileged</w>
-         <w freq="1">prized</w>
-         <w freq="1">probabe</w>
-         <w freq="1">probability</w>
-         <w freq="1">proceeded</w>
-         <w freq="1">proclaim</w>
-         <w freq="1">professing</w>
-         <w freq="1">profit</w>
-         <w freq="1">progress</w>
-         <w freq="1">prohibited</w>
-         <w freq="1">propensities</w>
-         <w freq="1">prospects</w>
-         <w freq="1">prosperity</w>
-         <w freq="1">prosperous</w>
-         <w freq="1">providing</w>
-         <w freq="1">puffed</w>
-         <w freq="1">purport</w>
-         <w freq="1">purse</w>
-         <w freq="1">purses</w>
-         <w freq="1">pursuit</w>
-         <w freq="1">putting</w>
-         <w freq="1">qualification</w>
-         <w freq="1">qualifications</w>
-         <w freq="1">quarters</w>
-         <w freq="1">raised</w>
-         <w freq="1">ramble</w>
-         <w freq="1">range</w>
-         <w freq="1">rant</w>
-         <w freq="1">rapid</w>
-         <w freq="1">rapidly</w>
-         <w freq="1">readiness</w>
-         <w freq="1">reap</w>
-         <w freq="1">recall</w>
-         <w freq="1">recent</w>
-         <w freq="1">reckon</w>
-         <w freq="1">reckoned</w>
-         <w freq="1">recollection</w>
-         <w freq="1">reconciled</w>
-         <w freq="1">recover</w>
-         <w freq="1">recovered</w>
-         <w freq="1">rectory</w>
-         <w freq="1">refinements</w>
-         <w freq="1">refute</w>
-         <w freq="1">regarding</w>
-         <w freq="1">regardless</w>
-         <w freq="1">regrets</w>
-         <w freq="1">regularly</w>
-         <w freq="1">regulate</w>
-         <w freq="1">regulation</w>
-         <w freq="1">rejected</w>
-         <w freq="1">rejecting</w>
-         <w freq="1">rejection</w>
-         <w freq="1">relating</w>
-         <w freq="1">reliance</w>
-         <w freq="1">relieve</w>
-         <w freq="1">remembered</w>
-         <w freq="1">remonstrance</w>
-         <w freq="1">remove</w>
-         <w freq="1">render</w>
-         <w freq="1">rendered</w>
-         <w freq="1">repelled</w>
-         <w freq="1">reports</w>
-         <w freq="1">reprehensible</w>
-         <w freq="1">repressed</w>
-         <w freq="1">reproaches</w>
-         <w freq="1">repugnance</w>
-         <w freq="1">resentful</w>
-         <w freq="1">resides</w>
-         <w freq="1">resisting</w>
-         <w freq="1">respectful</w>
-         <w freq="1">respecting</w>
-         <w freq="1">retained</w>
-         <w freq="1">retaining</w>
-         <w freq="1">retirement</w>
-         <w freq="1">retrospections</w>
-         <w freq="1">revealed</w>
-         <w freq="1">revenging</w>
-         <w freq="1">revered</w>
-         <w freq="1">reverse</w>
-         <w freq="1">review</w>
-         <w freq="1">reynolds</w>
-         <w freq="1">rise</w>
-         <w freq="1">rites</w>
-         <w freq="1">ruined</w>
-         <w freq="1">runs</w>
-         <w freq="1">sagacity</w>
-         <w freq="1">savage</w>
-         <w freq="1">scarborough</w>
-         <w freq="1">science</w>
-         <w freq="1">scope</w>
-         <w freq="1">scrape</w>
-         <w freq="1">screen</w>
-         <w freq="1">screens</w>
-         <w freq="1">scrupulous</w>
-         <w freq="1">scrutiny</w>
-         <w freq="1">seconded</w>
-         <w freq="1">secretly</w>
-         <w freq="1">seize</w>
-         <w freq="1">selecting</w>
-         <w freq="1">sell</w>
-         <w freq="1">sentiment</w>
-         <w freq="1">separated</w>
-         <w freq="1">serenity</w>
-         <w freq="1">servility</w>
-         <w freq="1">serving</w>
-         <w freq="1">settling</w>
-         <w freq="1">severest</w>
-         <w freq="1">severity</w>
-         <w freq="1">shape</w>
-         <w freq="1">sharers</w>
-         <w freq="1">sharing</w>
-         <w freq="1">sheet</w>
-         <w freq="1">shelves</w>
-         <w freq="1">shillings</w>
-         <w freq="1">shortly</w>
-         <w freq="1">silliest</w>
-         <w freq="1">simpers</w>
-         <w freq="1">simply</w>
-         <w freq="1">sink</w>
-         <w freq="1">sketch</w>
-         <w freq="1">slowly</w>
-         <w freq="1">smirks</w>
-         <w freq="1">societies</w>
-         <w freq="1">solely</w>
-         <w freq="1">solicit</w>
-         <w freq="1">soliciting</w>
-         <w freq="1">solitary</w>
-         <w freq="1">solitude</w>
-         <w freq="1">somewhat</w>
-         <w freq="1">sons</w>
-         <w freq="1">sons-in-law</w>
-         <w freq="1">sorrow</w>
-         <w freq="1">sought</w>
-         <w freq="1">south</w>
-         <w freq="1">speediest</w>
-         <w freq="1">speedily</w>
-         <w freq="1">speedy</w>
-         <w freq="1">spending</w>
-         <w freq="1">spot</w>
-         <w freq="1">sprained</w>
-         <w freq="1">squeamish</w>
-         <w freq="1">staggered</w>
-         <w freq="1">stamp</w>
-         <w freq="1">stated</w>
-         <w freq="1">stating</w>
-         <w freq="1">station</w>
-         <w freq="1">stir</w>
-         <w freq="1">stood</w>
-         <w freq="1">stopping</w>
-         <w freq="1">storm</w>
-         <w freq="1">stress</w>
-         <w freq="1">strike</w>
-         <w freq="1">striking</w>
-         <w freq="1">struggled</w>
-         <w freq="1">struggles</w>
-         <w freq="1">studier</w>
-         <w freq="1">subjoin</w>
-         <w freq="1">substantial</w>
-         <w freq="1">suffering</w>
-         <w freq="1">suggest</w>
-         <w freq="1">suggesting</w>
-         <w freq="1">suited</w>
-         <w freq="1">summon</w>
-         <w freq="1">superintended</w>
-         <w freq="1">superintendence</w>
-         <w freq="1">superintends</w>
-         <w freq="1">superiority</w>
-         <w freq="1">supply</w>
-         <w freq="1">suppressed</w>
-         <w freq="1">surmise</w>
-         <w freq="1">survive</w>
-         <w freq="1">survivor</w>
-         <w freq="1">suspend</w>
-         <w freq="1">suspense</w>
-         <w freq="1">syllables</w>
-         <w freq="1">sympathise</w>
-         <w freq="1">symptom</w>
-         <w freq="1">tables</w>
-         <w freq="1">talents</w>
-         <w freq="1">taller</w>
-         <w freq="1">tempered</w>
-         <w freq="1">tempers</w>
-         <w freq="1">temptations</w>
-         <w freq="1">tend</w>
-         <w freq="1">tender</w>
-         <w freq="1">termed</w>
-         <w freq="1">testifying</w>
-         <w freq="1">testimony</w>
-         <w freq="1">therein</w>
-         <w freq="1">thirdly</w>
-         <w freq="1">thirty</w>
-         <w freq="1">throughout</w>
-         <w freq="1">tidings</w>
-         <w freq="1">tithes</w>
-         <w freq="1">torment</w>
-         <w freq="1">tortured</w>
-         <w freq="1">touched</w>
-         <w freq="1">tour</w>
-         <w freq="1">transactions</w>
-         <w freq="1">truest</w>
-         <w freq="1">ultimately</w>
-         <w freq="1">unabated</w>
-         <w freq="1">unaffectedly</w>
-         <w freq="1">unalloyed</w>
-         <w freq="1">unasked</w>
-         <w freq="1">unassuming</w>
-         <w freq="1">unavailing</w>
-         <w freq="1">unavoidably</w>
-         <w freq="1">undecided</w>
-         <w freq="1">undo</w>
-         <w freq="1">undone</w>
-         <w freq="1">undoubted</w>
-         <w freq="1">unequal</w>
-         <w freq="1">unexpectedly</w>
-         <w freq="1">unfold</w>
-         <w freq="1">unfolding</w>
-         <w freq="1">unite</w>
-         <w freq="1">unjustly</w>
-         <w freq="1">unknowingly</w>
-         <w freq="1">unnatural</w>
-         <w freq="1">unpleasantly</w>
-         <w freq="1">unprofitable</w>
-         <w freq="1">unprotected</w>
-         <w freq="1">unqualified</w>
-         <w freq="1">unquestionably</w>
-         <w freq="1">unstudied</w>
-         <w freq="1">until</w>
-         <w freq="1">unvarying</w>
-         <w freq="1">unwillingness</w>
-         <w freq="1">unworthily</w>
-         <w freq="1">upbraiding</w>
-         <w freq="1">valueless</w>
-         <w freq="1">variance</w>
-         <w freq="1">vary</w>
-         <w freq="1">ventured</w>
-         <w freq="1">veracity</w>
-         <w freq="1">verily</w>
-         <w freq="1">vice</w>
-         <w freq="1">vices</w>
-         <w freq="1">vicious</w>
-         <w freq="1">views</w>
-         <w freq="1">violence</w>
-         <w freq="1">visiting</w>
-         <w freq="1">vivacity</w>
-         <w freq="1">vogue</w>
-         <w freq="1">void</w>
-         <w freq="1">voluntary</w>
-         <w freq="1">vouchsafed</w>
-         <w freq="1">wantonly</w>
-         <w freq="1">warm</w>
-         <w freq="1">wasting</w>
-         <w freq="1">watched</w>
-         <w freq="1">weaknesses</w>
-         <w freq="1">weighty</w>
-         <w freq="1">well-wisher</w>
-         <w freq="1">westerham</w>
-         <w freq="1">whichever</w>
-         <w freq="1">whimsical</w>
-         <w freq="1">white</w>
-         <w freq="1">willfully</w>
-         <w freq="1">withdrawing</w>
-         <w freq="1">won</w>
-         <w freq="1">wondered</w>
-         <w freq="1">wonderfully</w>
-         <w freq="1">wonders</w>
-         <w freq="1">yielding</w>
-         <w freq="1">youths</w>
-      </p>
    </genderData>
    <traitData>
-      <p n="heroine" speeches="725" condition="normalized" category="characterType"
+      <p n="heroine" speeches="727" condition="normalized" category="characterType"
          display="heroine"
          listOfWordsUniqueTo="heroine"
-         countOfUniqueWords="671">
+         countOfUniqueWords="672">
          <w freq="6">goodness</w>
          <w freq="5">f</w>
          <w freq="4">anxiety</w>
@@ -6316,6 +6303,7 @@
          <w freq="1">custody</w>
          <w freq="1">daily</w>
          <w freq="1">dared</w>
+         <w freq="1">daring</w>
          <w freq="1">date</w>
          <w freq="1">deceives</w>
          <w freq="1">deception</w>
@@ -6753,10 +6741,10 @@
          <w freq="1">wretchedly</w>
          <w freq="1">wretchedness</w>
       </p>
-      <p n="fool" speeches="700" condition="normalized" category="characterType"
+      <p n="fool" speeches="699" condition="normalized" category="characterType"
          display="fool"
          listOfWordsUniqueTo="fool"
-         countOfUniqueWords="961">
+         countOfUniqueWords="960">
          <w freq="11">lord</w>
          <w freq="9">delighted</w>
          <w freq="9">haste</w>
@@ -6921,6 +6909,7 @@
          <w freq="2">sweetest</w>
          <w freq="2">three-and-twenty</w>
          <w freq="2">tiresome</w>
+         <w freq="2">treasure</w>
          <w freq="2">trespass</w>
          <w freq="2">unworthy</w>
          <w freq="2">vast</w>
@@ -7113,7 +7102,6 @@
          <w freq="1">curricle</w>
          <w freq="1">custom</w>
          <w freq="1">dangerous</w>
-         <w freq="1">daring</w>
          <w freq="1">dawson</w>
          <w freq="1">declares</w>
          <w freq="1">declaring</w>
@@ -7651,7 +7639,6 @@
          <w freq="1">to-night</w>
          <w freq="1">tongue</w>
          <w freq="1">tongues</w>
-         <w freq="1">treasure</w>
          <w freq="1">tremblings</w>
          <w freq="1">trifled</w>
          <w freq="1">trim</w>
@@ -8340,15 +8327,16 @@
       </p>
    </traitData>
    <ageData>
-      <p n="out" speeches="1201" condition="normalized" category="characterType"
+      <p n="out" speeches="1203" condition="normalized" category="characterType"
          display="out"
          listOfWordsUniqueTo="out"
-         countOfUniqueWords="1807">
+         countOfUniqueWords="1811">
          <w freq="11">caroline</w>
          <w freq="11">indifferent</w>
          <w freq="10">accept</w>
          <w freq="9">distance</w>
          <w freq="9">light</w>
+         <w freq="9">persuaded</w>
          <w freq="9">wrong</w>
          <w freq="8">silent</w>
          <w freq="7">aware</w>
@@ -8444,6 +8432,7 @@
          <w freq="4">plan</w>
          <w freq="4">proposals</w>
          <w freq="4">proved</w>
+         <w freq="4">refusal</w>
          <w freq="4">reject</w>
          <w freq="4">relate</w>
          <w freq="4">remain</w>
@@ -8644,6 +8633,7 @@
          <w freq="2">dearly</w>
          <w freq="2">deceitful</w>
          <w freq="2">deceiving</w>
+         <w freq="2">declaration</w>
          <w freq="2">declared</w>
          <w freq="2">defend</w>
          <w freq="2">defiance</w>
@@ -9168,6 +9158,7 @@
          <w freq="1">custom</w>
          <w freq="1">daily</w>
          <w freq="1">dared</w>
+         <w freq="1">daring</w>
          <w freq="1">date</w>
          <w freq="1">deceives</w>
          <w freq="1">deception</w>
@@ -10593,11 +10584,11 @@
          <w freq="1">york</w>
          <w freq="1">youths</w>
       </p>
-      <p n="young married" speeches="168" condition="normalized"
+      <p n="young married" speeches="166" condition="normalized"
          category="characterType"
          display="young married"
          listOfWordsUniqueTo="young married"
-         countOfUniqueWords="194">
+         countOfUniqueWords="193">
          <w freq="8">fun</w>
          <w freq="3">bought</w>
          <w freq="3">captain</w>
@@ -10656,7 +10647,6 @@
          <w freq="1">crammed</w>
          <w freq="1">curious</w>
          <w freq="1">curricle</w>
-         <w freq="1">daring</w>
          <w freq="1">dark</w>
          <w freq="1">degenerate</w>
          <w freq="1">deigned</w>
@@ -10793,11 +10783,12 @@
          <w freq="1">wears</w>
          <w freq="1">window</w>
       </p>
-      <p n="old" speeches="87" condition="normalized" category="characterType"
+      <p n="old" speeches="88" condition="normalized" category="characterType"
          display="old"
          listOfWordsUniqueTo="old"
          countOfUniqueWords="101">
          <w freq="2">destined</w>
+         <w freq="2">treasure</w>
          <w freq="1">accidentally</w>
          <w freq="1">accustomed</w>
          <w freq="1">acquired</w>
@@ -10885,7 +10876,6 @@
          <w freq="1">supplying</w>
          <w freq="1">sweetest-tempered</w>
          <w freq="1">tacit</w>
-         <w freq="1">treasure</w>
          <w freq="1">trifled</w>
          <w freq="1">unallied</w>
          <w freq="1">unfeeling</w>
@@ -10908,11 +10898,11 @@
       </p>
    </ageData>
    <socecStatusData>
-      <p n="landed gentry" speeches="1343" condition="normalized"
+      <p n="landed gentry" speeches="1345" condition="normalized"
          category="characterType"
          display="landed gentry"
          listOfWordsUniqueTo="landed gentry"
-         countOfUniqueWords="1724">
+         countOfUniqueWords="1727">
          <w freq="14">mine</w>
          <w freq="14">read</w>
          <w freq="11">liked</w>
@@ -11190,6 +11180,7 @@
          <w freq="2">debt</w>
          <w freq="2">deceitful</w>
          <w freq="2">deceiving</w>
+         <w freq="2">declaration</w>
          <w freq="2">declared</w>
          <w freq="2">decline</w>
          <w freq="2">defend</w>
@@ -11345,6 +11336,7 @@
          <w freq="2">purposely</w>
          <w freq="2">pursue</w>
          <w freq="2">puzzle</w>
+         <w freq="2">qualified</w>
          <w freq="2">quality</w>
          <w freq="2">quarreling</w>
          <w freq="2">quick</w>
@@ -11671,6 +11663,7 @@
          <w freq="1">daily</w>
          <w freq="1">dangerous</w>
          <w freq="1">dared</w>
+         <w freq="1">daring</w>
          <w freq="1">date</w>
          <w freq="1">deceives</w>
          <w freq="1">deception</w>
@@ -12638,10 +12631,10 @@
          <w freq="1">york</w>
          <w freq="1">youths</w>
       </p>
-      <p n="gentry" speeches="317" condition="normalized" category="characterType"
+      <p n="gentry" speeches="315" condition="normalized" category="characterType"
          display="gentry"
          listOfWordsUniqueTo="gentry"
-         countOfUniqueWords="480">
+         countOfUniqueWords="479">
          <w freq="21">eliza</w>
          <w freq="7">charles</w>
          <w freq="7">humble</w>
@@ -12800,7 +12793,6 @@
          <w freq="1">crowd</w>
          <w freq="1">cure</w>
          <w freq="1">custom</w>
-         <w freq="1">daring</w>
          <w freq="1">dark</w>
          <w freq="1">declaring</w>
          <w freq="1">delivered</w>
@@ -13274,12 +13266,13 @@
          <w freq="1">worthlessness</w>
          <w freq="1">yielded</w>
       </p>
-      <p n="aristocrat" speeches="68" condition="normalized" category="characterType"
+      <p n="aristocrat" speeches="69" condition="normalized" category="characterType"
          display="aristocrat"
          listOfWordsUniqueTo="aristocrat"
          countOfUniqueWords="97">
          <w freq="4">anne</w>
          <w freq="2">destined</w>
+         <w freq="2">treasure</w>
          <w freq="1">accidentally</w>
          <w freq="1">accustomed</w>
          <w freq="1">acquired</w>
@@ -13361,7 +13354,6 @@
          <w freq="1">submit</w>
          <w freq="1">supplying</w>
          <w freq="1">tacit</w>
-         <w freq="1">treasure</w>
          <w freq="1">trifled</w>
          <w freq="1">unallied</w>
          <w freq="1">unfeeling</w>
@@ -13395,10 +13387,10 @@
       </p>
    </socecStatusData>
    <maritalStateData>
-      <p n="unmarried" speeches="1114" condition="normalized" category="characterType"
+      <p n="unmarried" speeches="1116" condition="normalized" category="characterType"
          display="unmarried"
          listOfWordsUniqueTo="unmarried"
-         countOfUniqueWords="1399">
+         countOfUniqueWords="1401">
          <w freq="11">caroline</w>
          <w freq="9">distance</w>
          <w freq="9">wrong</w>
@@ -13580,6 +13572,7 @@
          <w freq="2">dearly</w>
          <w freq="2">deceitful</w>
          <w freq="2">deceiving</w>
+         <w freq="2">declaration</w>
          <w freq="2">declared</w>
          <w freq="2">defend</w>
          <w freq="2">defiance</w>
@@ -13986,6 +13979,7 @@
          <w freq="1">custody</w>
          <w freq="1">daily</w>
          <w freq="1">dared</w>
+         <w freq="1">daring</w>
          <w freq="1">date</w>
          <w freq="1">deceives</w>
          <w freq="1">deception</w>
@@ -14799,14 +14793,13 @@
          <w freq="1">writes</w>
          <w freq="1">yielding</w>
       </p>
-      <p n="married" speeches="508" condition="normalized" category="characterType"
+      <p n="married" speeches="506" condition="normalized" category="characterType"
          display="married"
          listOfWordsUniqueTo="married"
-         countOfUniqueWords="448">
+         countOfUniqueWords="446">
          <w freq="5">lucases</w>
          <w freq="4">nerves</w>
          <w freq="4">reserve</w>
-         <w freq="4">risk</w>
          <w freq="4">somewhere</w>
          <w freq="3">addition</w>
          <w freq="3">agreed</w>
@@ -14947,7 +14940,6 @@
          <w freq="1">covies</w>
          <w freq="1">creditably</w>
          <w freq="1">dangerous</w>
-         <w freq="1">daring</w>
          <w freq="1">declares</w>
          <w freq="1">degrees</w>
          <w freq="1">departure</w>
@@ -15699,11 +15691,12 @@
          <w freq="1">withdrawing</w>
          <w freq="1">wonderfully</w>
       </p>
-      <p n="widowed" speeches="90" condition="normalized" category="characterType"
+      <p n="widowed" speeches="91" condition="normalized" category="characterType"
          display="widowed"
          listOfWordsUniqueTo="widowed"
          countOfUniqueWords="101">
          <w freq="2">destined</w>
+         <w freq="2">treasure</w>
          <w freq="1">accidentally</w>
          <w freq="1">accustomed</w>
          <w freq="1">acquired</w>
@@ -15791,7 +15784,6 @@
          <w freq="1">supplying</w>
          <w freq="1">sweetest-tempered</w>
          <w freq="1">tacit</w>
-         <w freq="1">treasure</w>
          <w freq="1">trifled</w>
          <w freq="1">unallied</w>
          <w freq="1">unfeeling</w>

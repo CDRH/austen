@@ -1,10 +1,10 @@
 {
-  "id": "aus.001.wick_darsr",
-  "display": "Wickham as Mr. Darcy",
+  "id": "aus.001.mrsb_dar",
+  "display": "Mrs. Bennet as Mr. Darcy",
   "novel": "Pride And Prejudice",
   "unique_words": "1",
   "speeches": "1",
   "words": {
-    "superintendence": "1"
+    "partridges": "1"
   }
 }

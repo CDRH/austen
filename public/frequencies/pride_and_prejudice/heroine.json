@@ -2,8 +2,8 @@
   "id": "heroine",
   "display": "Heroine",
   "novel": "Pride And Prejudice",
-  "unique_words": "671",
-  "speeches": "725",
+  "unique_words": "672",
+  "speeches": "727",
   "words": {
     "goodness": "6",
     "f": "5",
@@ -240,6 +240,7 @@
     "custody": "1",
     "daily": "1",
     "dared": "1",
+    "daring": "1",
     "date": "1",
     "deceives": "1",
     "deception": "1",

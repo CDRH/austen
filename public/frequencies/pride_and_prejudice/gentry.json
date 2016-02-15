@@ -2,8 +2,8 @@
   "id": "gentry",
   "display": "Gentry",
   "novel": "Pride And Prejudice",
-  "unique_words": "480",
-  "speeches": "317",
+  "unique_words": "479",
+  "speeches": "315",
   "words": {
     "eliza": "21",
     "charles": "7",
@@ -163,7 +163,6 @@
     "crowd": "1",
     "cure": "1",
     "custom": "1",
-    "daring": "1",
     "dark": "1",
     "declaring": "1",
     "delivered": "1",

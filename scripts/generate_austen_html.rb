@@ -89,6 +89,8 @@ def frequency
       generate_json(title, freq)  
     end
     generate_html(title, frequencies)  
+    # remove the fake novel from the hash
+    @novels.delete("aus.999")
   end
 end
 
