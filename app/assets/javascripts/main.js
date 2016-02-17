@@ -106,10 +106,14 @@ $(document).ready(function() {
   };
 });
 
+// code specific to "visualization/novel_view/all"
 $(document).ready(function() {
-  $('.panel-novel-overview').affix({
-  offset: {
-  top: $('.panel-novel-overview').offset().top
+  var panel = $('.panel-novel-overview')
+  if (panel[0]) {
+    panel.affix({
+      offset: {
+        top: panel.offset().top
+      }
+    });
   }
-  });
 });
