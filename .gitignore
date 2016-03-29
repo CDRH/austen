@@ -23,3 +23,8 @@ Ignore config files
 /config/database.yml
 /config/config.yml
 /scripts/config.xsl
+
+# stupid ds store files
+*/.DS_Store
+.DS_Store
+**/.DS_Store
