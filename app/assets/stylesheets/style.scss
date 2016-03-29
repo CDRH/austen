@@ -49,7 +49,7 @@
 
 
 body {
-  /*background-image: url(image-url("sample_bg.jpg"));*/
+  /*background-image: image-url("sample_bg.jpg");*/
   /*  background-color: #f1e0b4; */ 
 }
 
@@ -98,12 +98,12 @@ body {
   border: none;
   border-right: none;
   border-left: none;
-  background-image: url(image-url("sample_bg.gif")); 
+  background-image: image-url("sample_bg.gif"); 
 }
 
 
 .footer .container {
-  background-image: url(image-url("sample_bg.gif"));
+  background-image: image-url("sample_bg.gif");
   padding: 15px 50px;
 }
 
@@ -163,39 +163,39 @@ body {
 }
 
 .certainty_1 {
-  background-image: url(image-url("certainty.1.png"));
+  background-image: image-url("certainty.1.png");
 }
 
 .certainty_2 {
-  background-image: url(image-url("certainty.2.png"));
+  background-image: image-url("certainty.2.png");
 }
 
 .certainty_3 {
-  background-image: url(image-url("certainty.3.png"));
+  background-image: image-url("certainty.3.png");
 }
 
 .certainty_4 {
-  background-image: url(image-url("certainty.4.png"));
+  background-image: image-url("certainty.4.png");
 }
 
 .certainty_5 {
-  background-image: url(image-url("certainty.5.png"));
+  background-image: image-url("certainty.5.png");
 }
 
 .certainty_6 {
-  background-image: url(image-url("certainty.6.png"));
+  background-image: image-url("certainty.6.png");
 }
 
 .certainty_7 {
-  background-image: url(image-url("certainty.7.png"));
+  background-image: image-url("certainty.7.png");
 }
 
 .certainty_8 {
-  background-image: url(image-url("certainty.8.png"));
+  background-image: image-url("certainty.8.png");
 }
 
 .certainty_9 {
-  background-image: url(image-url("certainty.9.png"));
+  background-image: image-url("certainty.9.png");
 }
 
 .certainty_1 {
@@ -395,7 +395,7 @@ form.jumpForm {
   display: block;
   padding: 1px;
   margin: .3em;
-  background: url(image-path("pattern_002.png"));
+  background: image-path("pattern_002.png");
 }
 
 .visualizations_list li a {
@@ -438,26 +438,26 @@ form.jumpForm {
   }*/
 
 /*.pap {
-  background: url(image-url("pattern_001.png"));
+  background: image-url("pattern_001.png");
 }
 
 .p {
-  background: url(image-url("pattern_002.png"));  
+  background: image-url("pattern_002.png");  
 }
  .na {
-  background: url(image-url("pattern_009.png"));  
+  background: image-url("pattern_009.png");  
 }
 
 .sas {
-  background: url(image-url("pattern_004.png"));  
+  background: image-url("pattern_004.png");  
 }
 
 .e {
-  background: url(image-url("pattern_005.png"));  
+  background: image-url("pattern_005.png");  
 }
 
 .mp {
-  background: url(image-url("pattern_006.png"));  
+  background: image-url("pattern_006.png");  
   }*/
 
 .view_chapter {
