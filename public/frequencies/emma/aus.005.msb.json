@@ -2,7 +2,7 @@
   "id": "aus.005.msb",
   "display": "Miss Bates",
   "novel": "Emma",
-  "unique_words": "91",
+  "unique_words": "90",
   "speeches": "170",
   "words": {
     "asparagus": "3",
@@ -69,7 +69,6 @@
     "lighted": "1",
     "lot": "1",
     "mat": "1",
-    "mustall": "1",
     "narrower": "1",
     "overtake": "1",
     "partners": "1",

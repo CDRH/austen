@@ -2,7 +2,7 @@
   "id": "aus.006.rush",
   "display": "Mr. Rushworth",
   "novel": "Mansfield Park",
-  "unique_words": "12",
+  "unique_words": "11",
   "speeches": "35",
   "words": {
     "compton": "2",
@@ -15,7 +15,6 @@
     "opens": "1",
     "reckoning": "1",
     "relish": "1",
-    "shooting-dress": "1",
-    "thecount": "1"
+    "shooting-dress": "1"
   }
 }

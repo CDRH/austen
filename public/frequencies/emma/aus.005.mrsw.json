@@ -2,7 +2,7 @@
   "id": "aus.005.mrsw",
   "display": "Mrs. Weston",
   "novel": "Emma",
-  "unique_words": "43",
+  "unique_words": "42",
   "speeches": "141",
   "words": {
     "rules": "3",
@@ -40,7 +40,6 @@
     "quarrels": "1",
     "quits": "1",
     "silversmith": "1",
-    "somepart": "1",
     "stays": "1",
     "survive": "1",
     "undue": "1",

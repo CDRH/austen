@@ -2,7 +2,7 @@
   "id": "aus.006.nar_henry",
   "display": "Narrator as Henry Crawford",
   "novel": "Mansfield Park",
-  "unique_words": "39",
+  "unique_words": "36",
   "speeches": "60",
   "words": {
     "accommodated": "1",
@@ -10,7 +10,6 @@
     "ardours": "1",
     "blooming": "1",
     "dealing": "1",
-    "deepestinterest": "1",
     "deliver": "1",
     "desist": "1",
     "dinner-hour": "1",
@@ -35,14 +34,12 @@
     "shoe": "1",
     "suddenness": "1",
     "tenants": "1",
-    "twofoldmotives": "1",
     "uncongenial": "1",
     "underhand": "1",
     "undescribable": "1",
     "unequalled": "1",
     "unfriendly": "1",
     "unsophisticated": "1",
-    "viewsandwishesmorethancouldbetold": "1",
     "well-grounded": "1"
   }
 }

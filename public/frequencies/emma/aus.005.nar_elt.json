@@ -2,13 +2,12 @@
   "id": "aus.005.nar_elt",
   "display": "Narrator as Mr. Elton",
   "novel": "Emma",
-  "unique_words": "6",
+  "unique_words": "5",
   "speeches": "17",
   "words": {
     "messenger": "2",
     "conditionally": "1",
     "executing": "1",
-    "promisehim": "1",
     "sick-chamber": "1",
     "tom": "1"
   }

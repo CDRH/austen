@@ -2,7 +2,7 @@
   "id": "mda",
   "display": "Mda",
   "novel": "Mansfield Park",
-  "unique_words": "46",
+  "unique_words": "45",
   "speeches": "81",
   "words": {
     "smith": "4",
@@ -44,7 +44,6 @@
     "shooting-dress": "1",
     "starling": "1",
     "strongly": "1",
-    "thecount": "1",
     "top": "1",
     "unmercifully": "1",
     "visitors": "1",

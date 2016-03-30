@@ -2,7 +2,7 @@
   "id": "married",
   "display": "Married",
   "novel": "Mansfield Park",
-  "unique_words": "272",
+  "unique_words": "271",
   "speeches": "246",
   "words": {
     "chapman": "5",
@@ -127,7 +127,6 @@
     "gathering": "1",
     "hardy": "1",
     "harrison": "1",
-    "hasbeen": "1",
     "heartfelt": "1",
     "heated": "1",
     "holla": "1",

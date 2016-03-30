@@ -2,18 +2,13 @@
   "id": "narrator",
   "display": "N/A",
   "novel": "Emma",
-  "unique_words": "10",
+  "unique_words": "5",
   "speeches": "18",
   "words": {
-    "thatshe": "2",
-    "butadded": "1",
-    "declaringsentiments": "1",
     "disperse": "1",
     "exchanged": "1",
     "gratifications": "1",
     "nonsenses": "1",
-    "uninterrupted": "1",
-    "westonagreed": "1",
-    "yetobserving": "1"
+    "uninterrupted": "1"
   }
 }

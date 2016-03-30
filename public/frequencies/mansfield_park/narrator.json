@@ -2,20 +2,9 @@
   "id": "narrator",
   "display": "N/A",
   "novel": "Mansfield Park",
-  "unique_words": "12",
+  "unique_words": "1",
   "speeches": "11",
   "words": {
-    "andthoughtit": "1",
-    "asmiss": "1",
-    "bertramcaught": "1",
-    "dropped": "1",
-    "knewher": "1",
-    "northamptonofher": "1",
-    "proposemr": "1",
-    "talkingto": "1",
-    "thatno": "1",
-    "thinka": "1",
-    "torequest": "1",
-    "wordmiserable": "1"
+    "dropped": "1"
   }
 }

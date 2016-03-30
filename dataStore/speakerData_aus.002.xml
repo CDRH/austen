@@ -3459,15 +3459,13 @@
          category="characters"
          display="N/A"
          listOfWordsUniqueTo="narrator"
-         countOfUniqueWords="8">
-         <w freq="1">feltan</w>
+         countOfUniqueWords="6">
          <w freq="1">gloucester</w>
          <w freq="1">issue</w>
          <w freq="1">march</w>
          <w freq="1">south</w>
          <w freq="1">stevenson</w>
          <w freq="1">still-born</w>
-         <w freq="1">thinkingthatit</w>
       </p>
       <p n="aus.002.nar_harvmrsharv" speeches="4" position="36" condition="normalized"
          category="characters"

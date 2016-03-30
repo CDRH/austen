@@ -2,7 +2,7 @@
   "id": "aus.006.nar_sirt",
   "display": "Narrator as Sir Thomas Bertram",
   "novel": "Mansfield Park",
-  "unique_words": "40",
+  "unique_words": "39",
   "speeches": "73",
   "words": {
     "abstinence": "1",
@@ -43,7 +43,6 @@
     "uprightness": "1",
     "whence": "1",
     "wipe": "1",
-    "wisdom": "1",
-    "wouldhavethought": "1"
+    "wisdom": "1"
   }
 }

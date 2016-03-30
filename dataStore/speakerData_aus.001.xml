@@ -2556,14 +2556,12 @@
          category="characters"
          display="Mrs. Gardiner"
          listOfWordsUniqueTo="aus.001.mrsg"
-         countOfUniqueWords="37">
+         countOfUniqueWords="35">
          <w freq="2">involve</w>
          <w freq="1">admission</w>
-         <w freq="1">alittle</w>
          <w freq="1">amounting</w>
          <w freq="1">bakewell</w>
          <w freq="1">battled</w>
-         <w freq="1">beenhis</w>
          <w freq="1">borrowed</w>
          <w freq="1">comprehends</w>
          <w freq="1">comprise</w>
@@ -4513,7 +4511,7 @@
          category="characterType"
          display="female"
          listOfWordsUniqueTo="female"
-         countOfUniqueWords="1547">
+         countOfUniqueWords="1545">
          <w freq="15">nobody</w>
          <w freq="13">fancy</w>
          <w freq="11">lord</w>
@@ -4976,7 +4974,6 @@
          <w freq="1">affording</w>
          <w freq="1">airing</w>
          <w freq="1">alienated</w>
-         <w freq="1">alittle</w>
          <w freq="1">alliance</w>
          <w freq="1">allowable</w>
          <w freq="1">allowance</w>
@@ -5044,7 +5041,6 @@
          <w freq="1">beauties</w>
          <w freq="1">beaux</w>
          <w freq="1">becoming</w>
-         <w freq="1">beenhis</w>
          <w freq="1">beforehand</w>
          <w freq="1">begged</w>
          <w freq="1">begging</w>
@@ -8057,7 +8053,7 @@
       <p n="neutral" speeches="210" condition="normalized" category="characterType"
          display="neutral"
          listOfWordsUniqueTo="neutral"
-         countOfUniqueWords="178">
+         countOfUniqueWords="176">
          <w freq="4">reserve</w>
          <w freq="2">confessed</w>
          <w freq="2">creditors</w>
@@ -8076,7 +8072,6 @@
          <w freq="1">admission</w>
          <w freq="1">affable</w>
          <w freq="1">affront</w>
-         <w freq="1">alittle</w>
          <w freq="1">amounting</w>
          <w freq="1">answerable</w>
          <w freq="1">appetite</w>
@@ -8086,7 +8081,6 @@
          <w freq="1">august</w>
          <w freq="1">bakewell</w>
          <w freq="1">battled</w>
-         <w freq="1">beenhis</w>
          <w freq="1">beforehand</w>
          <w freq="1">begs</w>
          <w freq="1">betray</w>
@@ -10146,7 +10140,7 @@
       <p n="middle-aged" speeches="499" condition="normalized" category="characterType"
          display="middle-aged"
          listOfWordsUniqueTo="middle-aged"
-         countOfUniqueWords="436">
+         countOfUniqueWords="434">
          <w freq="5">lucases</w>
          <w freq="4">nerves</w>
          <w freq="4">reserve</w>
@@ -10221,7 +10215,6 @@
          <w freq="1">affront</w>
          <w freq="1">affronted</w>
          <w freq="1">airing</w>
-         <w freq="1">alittle</w>
          <w freq="1">aloof</w>
          <w freq="1">alternative</w>
          <w freq="1">amounting</w>
@@ -10239,7 +10232,6 @@
          <w freq="1">battled</w>
          <w freq="1">beatings</w>
          <w freq="1">becoming</w>
-         <w freq="1">beenhis</w>
          <w freq="1">begs</w>
          <w freq="1">belong</w>
          <w freq="1">betray</w>
@@ -13119,7 +13111,7 @@
          category="characterType"
          display="professional class"
          listOfWordsUniqueTo="professional class"
-         countOfUniqueWords="145">
+         countOfUniqueWords="143">
          <w freq="4">reserve</w>
          <w freq="2">confessed</w>
          <w freq="2">creditors</w>
@@ -13138,7 +13130,6 @@
          <w freq="1">adequate</w>
          <w freq="1">admission</w>
          <w freq="1">affront</w>
-         <w freq="1">alittle</w>
          <w freq="1">amounting</w>
          <w freq="1">annum</w>
          <w freq="1">answerable</w>
@@ -13146,7 +13137,6 @@
          <w freq="1">august</w>
          <w freq="1">bakewell</w>
          <w freq="1">battled</w>
-         <w freq="1">beenhis</w>
          <w freq="1">begs</w>
          <w freq="1">betray</w>
          <w freq="1">bold</w>
@@ -14796,7 +14786,7 @@
       <p n="married" speeches="506" condition="normalized" category="characterType"
          display="married"
          listOfWordsUniqueTo="married"
-         countOfUniqueWords="446">
+         countOfUniqueWords="444">
          <w freq="5">lucases</w>
          <w freq="4">nerves</w>
          <w freq="4">reserve</w>
@@ -14873,7 +14863,6 @@
          <w freq="1">affront</w>
          <w freq="1">affronted</w>
          <w freq="1">airing</w>
-         <w freq="1">alittle</w>
          <w freq="1">aloof</w>
          <w freq="1">alternative</w>
          <w freq="1">amounting</w>
@@ -14891,7 +14880,6 @@
          <w freq="1">battled</w>
          <w freq="1">beatings</w>
          <w freq="1">becoming</w>
-         <w freq="1">beenhis</w>
          <w freq="1">begs</w>
          <w freq="1">belong</w>
          <w freq="1">betray</w>

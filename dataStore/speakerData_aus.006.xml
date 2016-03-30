@@ -95,7 +95,7 @@
          category="characters"
          display="Narrator"
          listOfWordsUniqueTo="aus.006.nar"
-         countOfUniqueWords="2519">
+         countOfUniqueWords="2512">
          <w freq="25">pause</w>
          <w freq="19">thus</w>
          <w freq="15">gradually</w>
@@ -430,6 +430,7 @@
          <w freq="2">akin</w>
          <w freq="2">alight</w>
          <w freq="2">amazement</w>
+         <w freq="2">amore</w>
          <w freq="2">animating</w>
          <w freq="2">announced</w>
          <w freq="2">anticipation</w>
@@ -494,7 +495,7 @@
          <w freq="2">communicative</w>
          <w freq="2">complacently</w>
          <w freq="2">complimentary</w>
-         <w freq="2">conamore</w>
+         <w freq="2">con</w>
          <w freq="2">conceived</w>
          <w freq="2">concluding</w>
          <w freq="2">conclusions</w>
@@ -855,7 +856,6 @@
          <w freq="1">ague</w>
          <w freq="1">aiming</w>
          <w freq="1">airy</w>
-         <w freq="1">alamortal</w>
          <w freq="1">alert</w>
          <w freq="1">alertness</w>
          <w freq="1">alienate</w>
@@ -1070,7 +1070,6 @@
          <w freq="1">colours</w>
          <w freq="1">combine</w>
          <w freq="1">comfortable-sized</w>
-         <w freq="1">comingout</w>
          <w freq="1">commanded</w>
          <w freq="1">commence</w>
          <w freq="1">commencement</w>
@@ -1184,7 +1183,6 @@
          <w freq="1">debility</w>
          <w freq="1">deception</w>
          <w freq="1">decisions</w>
-         <w freq="1">deepest</w>
          <w freq="1">defending</w>
          <w freq="1">defied</w>
          <w freq="1">defrauded</w>
@@ -1535,7 +1533,6 @@
          <w freq="1">helps</w>
          <w freq="1">hem</w>
          <w freq="1">heretofore</w>
-         <w freq="1">heruncle</w>
          <w freq="1">hiding</w>
          <w freq="1">high-fed</w>
          <w freq="1">higher-toned</w>
@@ -1687,6 +1684,7 @@
          <w freq="1">knelt</w>
          <w freq="1">knives</w>
          <w freq="1">knowingly</w>
+         <w freq="1">la</w>
          <w freq="1">labouring</w>
          <w freq="1">lad</w>
          <w freq="1">lain</w>
@@ -1771,6 +1769,7 @@
          <w freq="1">moderate</w>
          <w freq="1">moderated</w>
          <w freq="1">modes</w>
+         <w freq="1">mortal</w>
          <w freq="1">mortals</w>
          <w freq="1">motes</w>
          <w freq="1">motherbank</w>
@@ -1839,7 +1838,6 @@
          <w freq="1">originated</w>
          <w freq="1">orthography</w>
          <w freq="1">othello</w>
-         <w freq="1">oughttodo</w>
          <w freq="1">out-talk</w>
          <w freq="1">outline</w>
          <w freq="1">outlived</w>
@@ -2245,7 +2243,6 @@
          <w freq="1">sighs</w>
          <w freq="1">similarity</w>
          <w freq="1">simper</w>
-         <w freq="1">sincerelywishing</w>
          <w freq="1">singers</w>
          <w freq="1">singular</w>
          <w freq="1">sinned</w>
@@ -2407,11 +2404,8 @@
          <w freq="1">terrific</w>
          <w freq="1">thanking</w>
          <w freq="1">thankless</w>
-         <w freq="1">thatit</w>
-         <w freq="1">thatlooks</w>
          <w freq="1">thereby</w>
          <w freq="1">thereon</w>
-         <w freq="1">thetheatre</w>
          <w freq="1">thin</w>
          <w freq="1">thinner</w>
          <w freq="1">thinness</w>
@@ -2464,7 +2458,6 @@
          <w freq="1">turf</w>
          <w freq="1">twenty-first</w>
          <w freq="1">twilight</w>
-         <w freq="1">twofold</w>
          <w freq="1">ugly</w>
          <w freq="1">umbrella</w>
          <w freq="1">unabated</w>
@@ -2620,7 +2613,7 @@
          category="characters"
          display="Edmund Bertram"
          listOfWordsUniqueTo="aus.006.ed"
-         countOfUniqueWords="264">
+         countOfUniqueWords="261">
          <w freq="3">coolness</w>
          <w freq="3">disadvantages</w>
          <w freq="3">protest</w>
@@ -2654,13 +2647,11 @@
          <w freq="1">art</w>
          <w freq="1">assuming</w>
          <w freq="1">attentiveness</w>
-         <w freq="1">attimes</w>
          <w freq="1">battle</w>
          <w freq="1">befell</w>
          <w freq="1">biased</w>
          <w freq="1">blockhead</w>
          <w freq="1">blunted</w>
-         <w freq="1">bonmot</w>
          <w freq="1">borders</w>
          <w freq="1">brave</w>
          <w freq="1">bred</w>
@@ -2691,7 +2682,6 @@
          <w freq="1">consulting</w>
          <w freq="1">contradictory</w>
          <w freq="1">coolly</w>
-         <w freq="1">couldbe</w>
          <w freq="1">courtesy</w>
          <w freq="1">crabbe</w>
          <w freq="1">creating</w>
@@ -2756,7 +2746,6 @@
          <w freq="1">hindrance</w>
          <w freq="1">hornpipe</w>
          <w freq="1">idler</w>
-         <w freq="1">ifpossible</w>
          <w freq="1">ill-managed</w>
          <w freq="1">ill-suited</w>
          <w freq="1">including</w>
@@ -2790,6 +2779,7 @@
          <w freq="1">mobs</w>
          <w freq="1">monasteries</w>
          <w freq="1">morality</w>
+         <w freq="1">mot</w>
          <w freq="1">nominal</w>
          <w freq="1">oldest</w>
          <w freq="1">openness</w>
@@ -2890,7 +2880,7 @@
          category="characters"
          display="Narrator as Fanny Price"
          listOfWordsUniqueTo="aus.006.nar_fanny"
-         countOfUniqueWords="119">
+         countOfUniqueWords="118">
          <w freq="2">disgusted</w>
          <w freq="2">excesses</w>
          <w freq="2">fretfulness</w>
@@ -2948,7 +2938,6 @@
          <w freq="1">harmonised</w>
          <w freq="1">heightening</w>
          <w freq="1">humanity</w>
-         <w freq="1">hushedup</w>
          <w freq="1">ill-chosen</w>
          <w freq="1">ill-judged</w>
          <w freq="1">ill-written</w>
@@ -3107,12 +3096,11 @@
          category="characters"
          display="Mary Crawford"
          listOfWordsUniqueTo="aus.006.mary"
-         countOfUniqueWords="254">
+         countOfUniqueWords="247">
          <w freq="3">chairs</w>
          <w freq="3">sing</w>
          <w freq="2">aylmers</w>
          <w freq="2">blest</w>
-         <w freq="2">dispenseto</w>
          <w freq="2">dying</w>
          <w freq="2">flora</w>
          <w freq="2">fuss</w>
@@ -3151,7 +3139,6 @@
          <w freq="1">blair</w>
          <w freq="1">blotted</w>
          <w freq="1">blues</w>
-         <w freq="1">bonvivant</w>
          <w freq="1">breakfast-parlour</w>
          <w freq="1">bribed</w>
          <w freq="1">bridgets</w>
@@ -3236,7 +3223,6 @@
          <w freq="1">hired</w>
          <w freq="1">horrid</w>
          <w freq="1">housekeeping</w>
-         <w freq="1">hushed</w>
          <w freq="1">ill-tempered</w>
          <w freq="1">imitation</w>
          <w freq="1">immense</w>
@@ -3259,17 +3245,14 @@
          <w freq="1">manoeuvring</w>
          <w freq="1">maxim</w>
          <w freq="1">metropolis</w>
-         <w freq="1">missprice</w>
          <w freq="1">moderate-sized</w>
          <w freq="1">modestest</w>
          <w freq="1">mortify</w>
          <w freq="1">moves</w>
          <w freq="1">musical</w>
-         <w freq="1">myown</w>
          <w freq="1">myrtle</w>
          <w freq="1">names</w>
          <w freq="1">naming</w>
-         <w freq="1">notveryoften</w>
          <w freq="1">nuisances</w>
          <w freq="1">obscurity</w>
          <w freq="1">occasioning</w>
@@ -3323,7 +3306,6 @@
          <w freq="1">sample</w>
          <w freq="1">scorns</w>
          <w freq="1">sea-breezes</w>
-         <w freq="1">seemedvery</w>
          <w freq="1">self-possession</w>
          <w freq="1">serpentine</w>
          <w freq="1">settles</w>
@@ -3343,7 +3325,6 @@
          <w freq="1">supplicated</w>
          <w freq="1">surmises</w>
          <w freq="1">templars</w>
-         <w freq="1">thattable</w>
          <w freq="1">tobacco</w>
          <w freq="1">transport</w>
          <w freq="1">troubled</w>
@@ -3353,6 +3334,7 @@
          <w freq="1">uninfluenced</w>
          <w freq="1">vices</w>
          <w freq="1">virtuous</w>
+         <w freq="1">vivant</w>
          <w freq="1">vowel</w>
          <w freq="1">wagon</w>
          <w freq="1">warn</w>
@@ -3367,7 +3349,7 @@
          category="characters"
          display="Henry Crawford"
          listOfWordsUniqueTo="aus.006.henry"
-         countOfUniqueWords="161">
+         countOfUniqueWords="160">
          <w freq="3">dream</w>
          <w freq="2">brain</w>
          <w freq="2">composition</w>
@@ -3385,7 +3367,6 @@
          <w freq="1">apprehend</w>
          <w freq="1">approaches</w>
          <w freq="1">arbitrary</w>
-         <w freq="1">atfirst</w>
          <w freq="1">atlantic</w>
          <w freq="1">banbury</w>
          <w freq="1">banished</w>
@@ -3428,6 +3409,7 @@
          <w freq="1">embody</w>
          <w freq="1">employer</w>
          <w freq="1">englishman</w>
+         <w freq="1">ensemble</w>
          <w freq="1">equality</w>
          <w freq="1">equinox</w>
          <w freq="1">evanescent</w>
@@ -3515,14 +3497,13 @@
          <w freq="1">threadbare</w>
          <w freq="1">tinged</w>
          <w freq="1">toil</w>
-         <w freq="1">toutensemble</w>
+         <w freq="1">tout</w>
          <w freq="1">tremendous</w>
          <w freq="1">tricked</w>
          <w freq="1">understrappers</w>
          <w freq="1">unpretending</w>
          <w freq="1">unwell</w>
          <w freq="1">whim</w>
-         <w freq="1">willbe</w>
          <w freq="1">winds</w>
          <w freq="1">woe</w>
          <w freq="1">worships</w>
@@ -3534,7 +3515,7 @@
          category="characters"
          display="Mrs. Norris"
          listOfWordsUniqueTo="aus.006.mrsn"
-         countOfUniqueWords="115">
+         countOfUniqueWords="113">
          <w freq="3">whitaker</w>
          <w freq="2">basin</w>
          <w freq="2">dairymaid</w>
@@ -3587,10 +3568,8 @@
          <w freq="1">greediness</w>
          <w freq="1">half-crowns</w>
          <w freq="1">half-guineas</w>
-         <w freq="1">havebeen</w>
          <w freq="1">hen</w>
          <w freq="1">hence</w>
-         <w freq="1">hertime</w>
          <w freq="1">idling</w>
          <w freq="1">impassable</w>
          <w freq="1">jacksons</w>
@@ -3679,7 +3658,7 @@
          category="characters"
          display="Sir Thomas Bertram"
          listOfWordsUniqueTo="aus.006.sirt"
-         countOfUniqueWords="63">
+         countOfUniqueWords="62">
          <w freq="2">nobly</w>
          <w freq="1">ally</w>
          <w freq="1">arrogance</w>
@@ -3709,7 +3688,6 @@
          <w freq="1">failing</w>
          <w freq="1">fanciful</w>
          <w freq="1">hardy</w>
-         <w freq="1">hasbeen</w>
          <w freq="1">heated</w>
          <w freq="1">hypocrite</w>
          <w freq="1">imagines</w>
@@ -3779,7 +3757,7 @@
          category="characters"
          display="Narrator as Sir Thomas Bertram"
          listOfWordsUniqueTo="aus.006.nar_sirt"
-         countOfUniqueWords="40">
+         countOfUniqueWords="39">
          <w freq="1">abstinence</w>
          <w freq="1">advising</w>
          <w freq="1">alliances</w>
@@ -3819,13 +3797,12 @@
          <w freq="1">whence</w>
          <w freq="1">wipe</w>
          <w freq="1">wisdom</w>
-         <w freq="1">wouldhavethought</w>
       </p>
       <p n="aus.006.tom" speeches="67" position="12" condition="normalized"
          category="characters"
          display="Tom Bertram"
          listOfWordsUniqueTo="aus.006.tom"
-         countOfUniqueWords="76">
+         countOfUniqueWords="75">
          <w freq="1">abominably</w>
          <w freq="1">agathas</w>
          <w freq="1">albion</w>
@@ -3864,8 +3841,8 @@
          <w freq="1">maintain</w>
          <w freq="1">mob</w>
          <w freq="1">mourned</w>
-         <w freq="1">mynamewasnorval</w>
          <w freq="1">nail</w>
+         <w freq="1">norval</w>
          <w freq="1">oliver</w>
          <w freq="1">olivers</w>
          <w freq="1">paint</w>
@@ -3896,7 +3873,6 @@
          <w freq="1">spouting</w>
          <w freq="1">stared</w>
          <w freq="1">stocked</w>
-         <w freq="1">tobe</w>
          <w freq="1">tragedies</w>
          <w freq="1">unlocking</w>
          <w freq="1">veils</w>
@@ -3907,13 +3883,12 @@
          category="characters"
          display="Narrator as Henry Crawford"
          listOfWordsUniqueTo="aus.006.nar_henry"
-         countOfUniqueWords="39">
+         countOfUniqueWords="36">
          <w freq="1">accommodated</w>
          <w freq="1">agent</w>
          <w freq="1">ardours</w>
          <w freq="1">blooming</w>
          <w freq="1">dealing</w>
-         <w freq="1">deepestinterest</w>
          <w freq="1">deliver</w>
          <w freq="1">desist</w>
          <w freq="1">dinner-hour</w>
@@ -3938,14 +3913,12 @@
          <w freq="1">shoe</w>
          <w freq="1">suddenness</w>
          <w freq="1">tenants</w>
-         <w freq="1">twofoldmotives</w>
          <w freq="1">uncongenial</w>
          <w freq="1">underhand</w>
          <w freq="1">undescribable</w>
          <w freq="1">unequalled</w>
          <w freq="1">unfriendly</w>
          <w freq="1">unsophisticated</w>
-         <w freq="1">viewsandwishesmorethancouldbetold</w>
          <w freq="1">well-grounded</w>
       </p>
       <p n="aus.006.maria" speeches="46" position="14" condition="normalized"
@@ -4010,7 +3983,7 @@
          category="characters"
          display="Mr. Rushworth"
          listOfWordsUniqueTo="aus.006.rush"
-         countOfUniqueWords="12">
+         countOfUniqueWords="11">
          <w freq="2">compton</w>
          <w freq="2">undersized</w>
          <w freq="1">amazingly</w>
@@ -4022,13 +3995,12 @@
          <w freq="1">reckoning</w>
          <w freq="1">relish</w>
          <w freq="1">shooting-dress</w>
-         <w freq="1">thecount</w>
       </p>
       <p n="aus.006.mrsg" speeches="34" position="18" condition="normalized"
          category="characters"
          display="Mrs. Grant"
          listOfWordsUniqueTo="aus.006.mrsg"
-         countOfUniqueWords="28">
+         countOfUniqueWords="27">
          <w freq="2">robert</w>
          <w freq="1">blowing</w>
          <w freq="1">borough</w>
@@ -4050,7 +4022,6 @@
          <w freq="1">remoteness</w>
          <w freq="1">rubs</w>
          <w freq="1">suits</w>
-         <w freq="1">takenin</w>
          <w freq="1">tarts</w>
          <w freq="1">today</w>
          <w freq="1">tough</w>
@@ -4199,19 +4170,8 @@
          category="characters"
          display="N/A"
          listOfWordsUniqueTo="narrator"
-         countOfUniqueWords="12">
-         <w freq="1">andthoughtit</w>
-         <w freq="1">asmiss</w>
-         <w freq="1">bertramcaught</w>
+         countOfUniqueWords="1">
          <w freq="1">dropped</w>
-         <w freq="1">knewher</w>
-         <w freq="1">northamptonofher</w>
-         <w freq="1">proposemr</w>
-         <w freq="1">talkingto</w>
-         <w freq="1">thatno</w>
-         <w freq="1">thinka</w>
-         <w freq="1">torequest</w>
-         <w freq="1">wordmiserable</w>
       </p>
       <p n="aus.006.nar_tom" speeches="10" position="30" condition="normalized"
          category="characters"
@@ -4231,7 +4191,7 @@
          category="characters"
          display="Speaking together Maria Bertram and Julia Bertram"
          listOfWordsUniqueTo="aus.006.maju"
-         countOfUniqueWords="23">
+         countOfUniqueWords="22">
          <w freq="2">isle</w>
          <w freq="2">wight</w>
          <w freq="1">asia</w>
@@ -4253,7 +4213,6 @@
          <w freq="1">russia</w>
          <w freq="1">semi-metals</w>
          <w freq="1">severus</w>
-         <w freq="1">theisland</w>
          <w freq="1">water-colours</w>
       </p>
       <p n="aus.006.nar_mrsr" speeches="9" position="32" condition="normalized"
@@ -4322,8 +4281,7 @@
          category="characters"
          display="Narrator as Mr Harding"
          listOfWordsUniqueTo="aus.006.nar_mrh"
-         countOfUniqueWords="3">
-         <w freq="1">atleast</w>
+         countOfUniqueWords="2">
          <w freq="1">flagrant</w>
          <w freq="1">senior</w>
       </p>
@@ -4424,7 +4382,7 @@
          category="characterType"
          display="female"
          listOfWordsUniqueTo="female"
-         countOfUniqueWords="1247">
+         countOfUniqueWords="1238">
          <w freq="8">match</w>
          <w freq="7">delightful</w>
          <w freq="7">horses</w>
@@ -4562,7 +4520,7 @@
          <w freq="2">devotion</w>
          <w freq="2">dick</w>
          <w freq="2">dictated</w>
-         <w freq="2">dispenseto</w>
+         <w freq="2">dispense</w>
          <w freq="2">doings</w>
          <w freq="2">drawing</w>
          <w freq="2">dying</w>
@@ -4608,6 +4566,7 @@
          <w freq="2">intended</w>
          <w freq="2">intending</w>
          <w freq="2">invalid</w>
+         <w freq="2">island</w>
          <w freq="2">isle</w>
          <w freq="2">james</w>
          <w freq="2">janet</w>
@@ -4794,7 +4753,6 @@
          <w freq="1">boards</w>
          <w freq="1">bold</w>
          <w freq="1">bone</w>
-         <w freq="1">bonvivant</w>
          <w freq="1">borough</w>
          <w freq="1">borrow</w>
          <w freq="1">bottom</w>
@@ -5107,7 +5065,6 @@
          <w freq="1">harrison</w>
          <w freq="1">hated</w>
          <w freq="1">hates</w>
-         <w freq="1">havebeen</w>
          <w freq="1">havoc</w>
          <w freq="1">hawkins</w>
          <w freq="1">heartache</w>
@@ -5120,7 +5077,6 @@
          <w freq="1">hence</w>
          <w freq="1">hereabouts</w>
          <w freq="1">heroes</w>
-         <w freq="1">hertime</w>
          <w freq="1">hired</w>
          <w freq="1">holding</w>
          <w freq="1">horrid</w>
@@ -5170,7 +5126,6 @@
          <w freq="1">inventing</w>
          <w freq="1">ireland</w>
          <w freq="1">irritation</w>
-         <w freq="1">island</w>
          <w freq="1">jacksons</w>
          <w freq="1">jealousies</w>
          <w freq="1">jefferies</w>
@@ -5240,7 +5195,6 @@
          <w freq="1">minute</w>
          <w freq="1">misery</w>
          <w freq="1">missing</w>
-         <w freq="1">missprice</w>
          <w freq="1">moderate-sized</w>
          <w freq="1">modestest</w>
          <w freq="1">monarch</w>
@@ -5250,7 +5204,6 @@
          <w freq="1">mourn</w>
          <w freq="1">moves</w>
          <w freq="1">musical</w>
-         <w freq="1">myown</w>
          <w freq="1">myrtle</w>
          <w freq="1">mythology</w>
          <w freq="1">names</w>
@@ -5266,7 +5219,6 @@
          <w freq="1">noblest</w>
          <w freq="1">nothing-meaning</w>
          <w freq="1">notion</w>
-         <w freq="1">notveryoften</w>
          <w freq="1">nuisances</w>
          <w freq="1">numbers</w>
          <w freq="1">nurse</w>
@@ -5464,7 +5416,6 @@
          <w freq="1">seams</w>
          <w freq="1">seclusion</w>
          <w freq="1">security</w>
-         <w freq="1">seemedvery</w>
          <w freq="1">selected</w>
          <w freq="1">self-possession</w>
          <w freq="1">selfishness</w>
@@ -5564,7 +5515,6 @@
          <w freq="1">sympathetic</w>
          <w freq="1">system</w>
          <w freq="1">tack</w>
-         <w freq="1">takenin</w>
          <w freq="1">taller</w>
          <w freq="1">tarts</w>
          <w freq="1">tea-things</w>
@@ -5572,8 +5522,6 @@
          <w freq="1">terrors</w>
          <w freq="1">test</w>
          <w freq="1">tete-a-tete</w>
-         <w freq="1">thattable</w>
-         <w freq="1">theisland</w>
          <w freq="1">theoretically</w>
          <w freq="1">thereabouts</w>
          <w freq="1">third</w>
@@ -5636,6 +5584,7 @@
          <w freq="1">vinegar</w>
          <w freq="1">virtuous</w>
          <w freq="1">visitors</w>
+         <w freq="1">vivant</w>
          <w freq="1">vowel</w>
          <w freq="1">wagon</w>
          <w freq="1">wainscot</w>
@@ -5677,7 +5626,7 @@
          category="characterType"
          display="male"
          listOfWordsUniqueTo="male"
-         countOfUniqueWords="1568">
+         countOfUniqueWords="1561">
          <w freq="11">cottager</w>
          <w freq="9">interest</w>
          <w freq="7">circumstance</w>
@@ -5704,6 +5653,7 @@
          <w freq="4">admitted</w>
          <w freq="4">anger</w>
          <w freq="4">clergy</w>
+         <w freq="4">count</w>
          <w freq="4">d</w>
          <w freq="4">employed</w>
          <w freq="4">endeavour</w>
@@ -5747,7 +5697,6 @@
          <w freq="3">companions</w>
          <w freq="3">consistent</w>
          <w freq="3">coolness</w>
-         <w freq="3">count</w>
          <w freq="3">decorum</w>
          <w freq="3">desires</w>
          <w freq="3">devil</w>
@@ -6134,11 +6083,9 @@
          <w freq="1">association</w>
          <w freq="1">assumed</w>
          <w freq="1">assuming</w>
-         <w freq="1">atfirst</w>
          <w freq="1">atlantic</w>
          <w freq="1">attachments</w>
          <w freq="1">attentiveness</w>
-         <w freq="1">attimes</w>
          <w freq="1">attractive</w>
          <w freq="1">attributed</w>
          <w freq="1">author</w>
@@ -6181,7 +6128,6 @@
          <w freq="1">blushes</w>
          <w freq="1">boat</w>
          <w freq="1">boatswain</w>
-         <w freq="1">bonmot</w>
          <w freq="1">borders</w>
          <w freq="1">bow</w>
          <w freq="1">boxes</w>
@@ -6296,7 +6242,6 @@
          <w freq="1">copses</w>
          <w freq="1">cordiality</w>
          <w freq="1">correspondent</w>
-         <w freq="1">couldbe</w>
          <w freq="1">council</w>
          <w freq="1">countenances</w>
          <w freq="1">counteract</w>
@@ -6434,6 +6379,7 @@
          <w freq="1">engagement</w>
          <w freq="1">englishman</w>
          <w freq="1">enhance</w>
+         <w freq="1">ensemble</w>
          <w freq="1">entrance</w>
          <w freq="1">entreaty</w>
          <w freq="1">equality</w>
@@ -6562,7 +6508,6 @@
          <w freq="1">hardy</w>
          <w freq="1">harsh</w>
          <w freq="1">harsher</w>
-         <w freq="1">hasbeen</w>
          <w freq="1">hasty</w>
          <w freq="1">hat</w>
          <w freq="1">hears</w>
@@ -6594,7 +6539,6 @@
          <w freq="1">hunting-box</w>
          <w freq="1">hypocrite</w>
          <w freq="1">idler</w>
-         <w freq="1">ifpossible</w>
          <w freq="1">iii</w>
          <w freq="1">ill-humour</w>
          <w freq="1">ill-managed</w>
@@ -6760,9 +6704,9 @@
          <w freq="1">moral</w>
          <w freq="1">morality</w>
          <w freq="1">morals</w>
+         <w freq="1">mot</w>
          <w freq="1">mourned</w>
          <w freq="1">mutton</w>
-         <w freq="1">mynamewasnorval</w>
          <w freq="1">nail</w>
          <w freq="1">neatly</w>
          <w freq="1">needs</w>
@@ -6772,6 +6716,7 @@
          <w freq="1">nicety</w>
          <w freq="1">nominal</w>
          <w freq="1">north-east</w>
+         <w freq="1">norval</w>
          <w freq="1">noses</w>
          <w freq="1">nuisance</w>
          <w freq="1">observance</w>
@@ -7117,7 +7062,6 @@
          <w freq="1">tenth</w>
          <w freq="1">terrible</w>
          <w freq="1">texel</w>
-         <w freq="1">thecount</w>
          <w freq="1">theirs</w>
          <w freq="1">theoretical</w>
          <w freq="1">thoughtless</w>
@@ -7127,7 +7071,6 @@
          <w freq="1">tightened</w>
          <w freq="1">tinge</w>
          <w freq="1">tinged</w>
-         <w freq="1">tobe</w>
          <w freq="1">toil</w>
          <w freq="1">token</w>
          <w freq="1">tolerate</w>
@@ -7135,7 +7078,7 @@
          <w freq="1">top</w>
          <w freq="1">torn</w>
          <w freq="1">torturing</w>
-         <w freq="1">toutensemble</w>
+         <w freq="1">tout</w>
          <w freq="1">traced</w>
          <w freq="1">trade</w>
          <w freq="1">tragedies</w>
@@ -7223,7 +7166,6 @@
          <w freq="1">wholesome</w>
          <w freq="1">wilful</w>
          <w freq="1">wilfulness</w>
-         <w freq="1">willbe</w>
          <w freq="1">willing</w>
          <w freq="1">windows</w>
          <w freq="1">winds</w>
@@ -7252,7 +7194,7 @@
       <p n="fool" speeches="764" condition="normalized" category="characterType"
          display="fool"
          listOfWordsUniqueTo="fool"
-         countOfUniqueWords="1273">
+         countOfUniqueWords="1264">
          <w freq="7">fire</w>
          <w freq="6">inconvenience</w>
          <w freq="5">chapman</w>
@@ -7403,7 +7345,7 @@
          <w freq="2">devotion</w>
          <w freq="2">dick</w>
          <w freq="2">dictated</w>
-         <w freq="2">dispenseto</w>
+         <w freq="2">dispense</w>
          <w freq="2">distant</w>
          <w freq="2">doings</w>
          <w freq="2">dowager</w>
@@ -7643,7 +7585,6 @@
          <w freq="1">boatswain</w>
          <w freq="1">bold</w>
          <w freq="1">bone</w>
-         <w freq="1">bonvivant</w>
          <w freq="1">borrow</w>
          <w freq="1">bottom</w>
          <w freq="1">boxed</w>
@@ -7961,10 +7902,8 @@
          <w freq="1">happiest</w>
          <w freq="1">hardy</w>
          <w freq="1">harrison</w>
-         <w freq="1">hasbeen</w>
          <w freq="1">hated</w>
          <w freq="1">hates</w>
-         <w freq="1">havebeen</w>
          <w freq="1">havoc</w>
          <w freq="1">hawkins</w>
          <w freq="1">heartache</w>
@@ -7979,7 +7918,6 @@
          <w freq="1">hence</w>
          <w freq="1">hereabouts</w>
          <w freq="1">heroes</w>
-         <w freq="1">hertime</w>
          <w freq="1">hired</w>
          <w freq="1">holding</w>
          <w freq="1">holla</w>
@@ -8106,7 +8044,6 @@
          <w freq="1">misery</w>
          <w freq="1">misplaced</w>
          <w freq="1">missing</w>
-         <w freq="1">missprice</w>
          <w freq="1">moderate-sized</w>
          <w freq="1">modestest</w>
          <w freq="1">moonlight</w>
@@ -8116,7 +8053,6 @@
          <w freq="1">moves</w>
          <w freq="1">musical</w>
          <w freq="1">mutton</w>
-         <w freq="1">myown</w>
          <w freq="1">myrtle</w>
          <w freq="1">names</w>
          <w freq="1">naming</w>
@@ -8129,7 +8065,6 @@
          <w freq="1">newspaper</w>
          <w freq="1">nieces</w>
          <w freq="1">noblest</w>
-         <w freq="1">notveryoften</w>
          <w freq="1">nuisances</w>
          <w freq="1">numbers</w>
          <w freq="1">nurse</w>
@@ -8335,7 +8270,6 @@
          <w freq="1">seclusion</w>
          <w freq="1">security</w>
          <w freq="1">seeking</w>
-         <w freq="1">seemedvery</w>
          <w freq="1">selected</w>
          <w freq="1">self-conceit</w>
          <w freq="1">self-possession</w>
@@ -8429,8 +8363,6 @@
          <w freq="1">test</w>
          <w freq="1">tete-a-tete</w>
          <w freq="1">texel</w>
-         <w freq="1">thattable</w>
-         <w freq="1">thecount</w>
          <w freq="1">theirs</w>
          <w freq="1">theoretically</w>
          <w freq="1">third</w>
@@ -8485,6 +8417,7 @@
          <w freq="1">virtuous</w>
          <w freq="1">visitors</w>
          <w freq="1">visits</w>
+         <w freq="1">vivant</w>
          <w freq="1">vowel</w>
          <w freq="1">vulgarity</w>
          <w freq="1">wagon</w>
@@ -8530,7 +8463,7 @@
       <p n="hero" speeches="375" condition="normalized" category="characterType"
          display="hero"
          listOfWordsUniqueTo="hero"
-         countOfUniqueWords="609">
+         countOfUniqueWords="606">
          <w freq="5">justified</w>
          <w freq="4">anger</w>
          <w freq="4">clergy</w>
@@ -8651,7 +8584,6 @@
          <w freq="1">assuming</w>
          <w freq="1">attachments</w>
          <w freq="1">attentiveness</w>
-         <w freq="1">attimes</w>
          <w freq="1">attractive</w>
          <w freq="1">attributed</w>
          <w freq="1">authorised</w>
@@ -8669,7 +8601,6 @@
          <w freq="1">blundered</w>
          <w freq="1">blunders</w>
          <w freq="1">blunted</w>
-         <w freq="1">bonmot</w>
          <w freq="1">borders</w>
          <w freq="1">boxes</w>
          <w freq="1">brave</w>
@@ -8726,7 +8657,6 @@
          <w freq="1">coolly</w>
          <w freq="1">cordiality</w>
          <w freq="1">correspondent</w>
-         <w freq="1">couldbe</w>
          <w freq="1">counteract</w>
          <w freq="1">counteraction</w>
          <w freq="1">courtesy</w>
@@ -8856,7 +8786,6 @@
          <w freq="1">hornpipe</w>
          <w freq="1">horror</w>
          <w freq="1">idler</w>
-         <w freq="1">ifpossible</w>
          <w freq="1">ill-humour</w>
          <w freq="1">ill-managed</w>
          <w freq="1">ill-suited</w>
@@ -8931,6 +8860,7 @@
          <w freq="1">moral</w>
          <w freq="1">morality</w>
          <w freq="1">morals</w>
+         <w freq="1">mot</w>
          <w freq="1">nicely</w>
          <w freq="1">nominal</w>
          <w freq="1">obtaining</w>
@@ -9320,7 +9250,7 @@
       <p n="cad" speeches="155" condition="normalized" category="characterType"
          display="cad"
          listOfWordsUniqueTo="cad"
-         countOfUniqueWords="327">
+         countOfUniqueWords="326">
          <w freq="3">dream</w>
          <w freq="3">laid</w>
          <w freq="2">attentive</w>
@@ -9365,7 +9295,6 @@
          <w freq="1">arrangements</w>
          <w freq="1">aside</w>
          <w freq="1">aspect</w>
-         <w freq="1">atfirst</w>
          <w freq="1">atlantic</w>
          <w freq="1">authority</w>
          <w freq="1">banbury</w>
@@ -9449,6 +9378,7 @@
          <w freq="1">endangered</w>
          <w freq="1">englishman</w>
          <w freq="1">enhance</w>
+         <w freq="1">ensemble</w>
          <w freq="1">entrance</w>
          <w freq="1">entreaty</w>
          <w freq="1">equality</w>
@@ -9623,7 +9553,7 @@
          <w freq="1">threadbare</w>
          <w freq="1">tinged</w>
          <w freq="1">toil</w>
-         <w freq="1">toutensemble</w>
+         <w freq="1">tout</w>
          <w freq="1">tremendous</w>
          <w freq="1">tricked</w>
          <w freq="1">understrappers</w>
@@ -9638,7 +9568,6 @@
          <w freq="1">welfare</w>
          <w freq="1">whim</w>
          <w freq="1">wholesome</w>
-         <w freq="1">willbe</w>
          <w freq="1">windows</w>
          <w freq="1">winds</w>
          <w freq="1">wisest</w>
@@ -9652,7 +9581,7 @@
       <p n="heir" speeches="67" condition="normalized" category="characterType"
          display="heir"
          listOfWordsUniqueTo="heir"
-         countOfUniqueWords="121">
+         countOfUniqueWords="120">
          <w freq="3">butler</w>
          <w freq="3">comic</w>
          <w freq="2">billiard-room</w>
@@ -9723,8 +9652,8 @@
          <w freq="1">maintain</w>
          <w freq="1">mob</w>
          <w freq="1">mourned</w>
-         <w freq="1">mynamewasnorval</w>
          <w freq="1">nail</w>
+         <w freq="1">norval</w>
          <w freq="1">oliver</w>
          <w freq="1">olivers</w>
          <w freq="1">origin</w>
@@ -9763,7 +9692,6 @@
          <w freq="1">stared</w>
          <w freq="1">stocked</w>
          <w freq="1">suggesting</w>
-         <w freq="1">tobe</w>
          <w freq="1">tragedies</w>
          <w freq="1">treading</w>
          <w freq="1">undertaking</w>
@@ -9778,7 +9706,7 @@
       <p n="neutral" speeches="61" condition="normalized" category="characterType"
          display="neutral"
          listOfWordsUniqueTo="neutral"
-         countOfUniqueWords="67">
+         countOfUniqueWords="66">
          <w freq="2">dancer</w>
          <w freq="2">midshipman</w>
          <w freq="2">robert</w>
@@ -9835,7 +9763,6 @@
          <w freq="1">staircase</w>
          <w freq="1">stayed</w>
          <w freq="1">suits</w>
-         <w freq="1">takenin</w>
          <w freq="1">tarts</w>
          <w freq="1">tender</w>
          <w freq="1">toast</w>
@@ -9852,7 +9779,7 @@
       <p n="out" speeches="1228" condition="normalized" category="characterType"
          display="out"
          listOfWordsUniqueTo="out"
-         countOfUniqueWords="2480">
+         countOfUniqueWords="2471">
          <w freq="20">business</w>
          <w freq="19">letter</w>
          <w freq="19">whom</w>
@@ -10281,6 +10208,7 @@
          <w freq="2">bless</w>
          <w freq="2">blest</w>
          <w freq="2">blunder</w>
+         <w freq="2">bon</w>
          <w freq="2">bonnet</w>
          <w freq="2">bookcase</w>
          <w freq="2">bore</w>
@@ -10354,7 +10282,7 @@
          <w freq="2">disapprobation</w>
          <w freq="2">discovered</w>
          <w freq="2">discreet</w>
-         <w freq="2">dispenseto</w>
+         <w freq="2">dispense</w>
          <w freq="2">displace</w>
          <w freq="2">distinct</w>
          <w freq="2">distinguished</w>
@@ -10484,6 +10412,7 @@
          <w freq="2">interfere</w>
          <w freq="2">interference</w>
          <w freq="2">irish</w>
+         <w freq="2">island</w>
          <w freq="2">isle</w>
          <w freq="2">janet</w>
          <w freq="2">jealous</w>
@@ -10517,7 +10446,7 @@
          <w freq="2">maternal</w>
          <w freq="2">meanwhile</w>
          <w freq="2">melancholy</w>
-         <w freq="2">menusplaisirs</w>
+         <w freq="2">menus</w>
          <w freq="2">mercenary</w>
          <w freq="2">midshipman</w>
          <w freq="2">miller</w>
@@ -10541,6 +10470,7 @@
          <w freq="2">parsons</w>
          <w freq="2">pianoforte</w>
          <w freq="2">picture</w>
+         <w freq="2">plaisirs</w>
          <w freq="2">playful</w>
          <w freq="2">practice</w>
          <w freq="2">prayer</w>
@@ -10791,14 +10721,12 @@
          <w freq="1">assurances</w>
          <w freq="1">astonishing</w>
          <w freq="1">astonishment</w>
-         <w freq="1">atfirst</w>
          <w freq="1">atlantic</w>
          <w freq="1">attachments</w>
          <w freq="1">attack</w>
          <w freq="1">attempts</w>
          <w freq="1">attendance</w>
          <w freq="1">attentiveness</w>
-         <w freq="1">attimes</w>
          <w freq="1">attraction</w>
          <w freq="1">attractive</w>
          <w freq="1">attributed</w>
@@ -10862,8 +10790,6 @@
          <w freq="1">blushes</w>
          <w freq="1">boat</w>
          <w freq="1">bold</w>
-         <w freq="1">bonmot</w>
-         <w freq="1">bonvivant</w>
          <w freq="1">borders</w>
          <w freq="1">bow</w>
          <w freq="1">boxed</w>
@@ -11021,7 +10947,6 @@
          <w freq="1">correspondent</w>
          <w freq="1">corrupting</w>
          <w freq="1">cottages</w>
-         <w freq="1">couldbe</w>
          <w freq="1">council</w>
          <w freq="1">countenances</w>
          <w freq="1">counteract</w>
@@ -11201,6 +11126,7 @@
          <w freq="1">englishman</w>
          <w freq="1">engross</w>
          <w freq="1">enhance</w>
+         <w freq="1">ensemble</w>
          <w freq="1">entrance</w>
          <w freq="1">entreated</w>
          <w freq="1">entreaty</w>
@@ -11429,7 +11355,6 @@
          <w freq="1">hunting-box</w>
          <w freq="1">hushed</w>
          <w freq="1">idler</w>
-         <w freq="1">ifpossible</w>
          <w freq="1">ignorant</w>
          <w freq="1">iii</w>
          <w freq="1">ill-bred</w>
@@ -11521,7 +11446,6 @@
          <w freq="1">irresistible</w>
          <w freq="1">irreverently</w>
          <w freq="1">irritation</w>
-         <w freq="1">island</w>
          <w freq="1">jealousies</w>
          <w freq="1">jealousy</w>
          <w freq="1">jest</w>
@@ -11630,7 +11554,6 @@
          <w freq="1">misfortune</w>
          <w freq="1">misleads</w>
          <w freq="1">missionary</w>
-         <w freq="1">missprice</w>
          <w freq="1">misunderstand</w>
          <w freq="1">mix</w>
          <w freq="1">mixture</w>
@@ -11645,12 +11568,11 @@
          <w freq="1">morality</w>
          <w freq="1">morals</w>
          <w freq="1">mortify</w>
+         <w freq="1">mot</w>
          <w freq="1">mourn</w>
          <w freq="1">mourned</w>
          <w freq="1">moves</w>
          <w freq="1">musical</w>
-         <w freq="1">mynamewasnorval</w>
-         <w freq="1">myown</w>
          <w freq="1">myrtle</w>
          <w freq="1">mythology</w>
          <w freq="1">nail</w>
@@ -11664,10 +11586,10 @@
          <w freq="1">nobleness</w>
          <w freq="1">nominal</w>
          <w freq="1">north-east</w>
+         <w freq="1">norval</w>
          <w freq="1">noses</w>
          <w freq="1">nothing-meaning</w>
          <w freq="1">notion</w>
-         <w freq="1">notveryoften</w>
          <w freq="1">nuisance</w>
          <w freq="1">nuisances</w>
          <w freq="1">nurse</w>
@@ -12010,7 +11932,6 @@
          <w freq="1">secretary</w>
          <w freq="1">security</w>
          <w freq="1">seduction</w>
-         <w freq="1">seemedvery</w>
          <w freq="1">seize</w>
          <w freq="1">seizing</w>
          <w freq="1">selected</w>
@@ -12164,8 +12085,6 @@
          <w freq="1">terrible</w>
          <w freq="1">terrors</w>
          <w freq="1">tete-a-tete</w>
-         <w freq="1">thattable</w>
-         <w freq="1">theisland</w>
          <w freq="1">theoretical</w>
          <w freq="1">theoretically</w>
          <w freq="1">thereabouts</w>
@@ -12183,7 +12102,6 @@
          <w freq="1">tiresome</w>
          <w freq="1">toast</w>
          <w freq="1">tobacco</w>
-         <w freq="1">tobe</w>
          <w freq="1">toil</w>
          <w freq="1">token</w>
          <w freq="1">tolerate</w>
@@ -12192,7 +12110,7 @@
          <w freq="1">tongue</w>
          <w freq="1">torn</w>
          <w freq="1">torturing</w>
-         <w freq="1">toutensemble</w>
+         <w freq="1">tout</w>
          <w freq="1">traced</w>
          <w freq="1">trade</w>
          <w freq="1">tragedies</w>
@@ -12268,6 +12186,7 @@
          <w freq="1">virtuous</w>
          <w freq="1">vista</w>
          <w freq="1">vitiated</w>
+         <w freq="1">vivant</w>
          <w freq="1">volume</w>
          <w freq="1">voluntary</w>
          <w freq="1">vowel</w>
@@ -12302,7 +12221,6 @@
          <w freq="1">wicked</w>
          <w freq="1">wickedness</w>
          <w freq="1">wildenheim</w>
-         <w freq="1">willbe</w>
          <w freq="1">winding</w>
          <w freq="1">windows</w>
          <w freq="1">winds</w>
@@ -12337,7 +12255,7 @@
       <p n="middle-aged" speeches="406" condition="normalized" category="characterType"
          display="middle-aged"
          listOfWordsUniqueTo="middle-aged"
-         countOfUniqueWords="569">
+         countOfUniqueWords="565">
          <w freq="5">chapman</w>
          <w freq="5">servants</w>
          <w freq="4">apricot</w>
@@ -12624,16 +12542,13 @@
          <w freq="1">hall-door</w>
          <w freq="1">hardy</w>
          <w freq="1">harrison</w>
-         <w freq="1">hasbeen</w>
          <w freq="1">hated</w>
-         <w freq="1">havebeen</w>
          <w freq="1">heartfelt</w>
          <w freq="1">heated</w>
          <w freq="1">heath</w>
          <w freq="1">helping</w>
          <w freq="1">hen</w>
          <w freq="1">hence</w>
-         <w freq="1">hertime</w>
          <w freq="1">holla</w>
          <w freq="1">hoping</w>
          <w freq="1">hospitality</w>
@@ -12848,7 +12763,6 @@
          <w freq="1">sweet-tempered</w>
          <w freq="1">syllable</w>
          <w freq="1">tack</w>
-         <w freq="1">takenin</w>
          <w freq="1">tarts</w>
          <w freq="1">tea-things</w>
          <w freq="1">tenth</w>
@@ -12911,7 +12825,7 @@
       <p n="young married" speeches="81" condition="normalized" category="characterType"
          display="young married"
          listOfWordsUniqueTo="young married"
-         countOfUniqueWords="46">
+         countOfUniqueWords="45">
          <w freq="4">smith</w>
          <w freq="2">blue</w>
          <w freq="2">compton</w>
@@ -12951,7 +12865,6 @@
          <w freq="1">shooting-dress</w>
          <w freq="1">starling</w>
          <w freq="1">strongly</w>
-         <w freq="1">thecount</w>
          <w freq="1">top</w>
          <w freq="1">unmercifully</w>
          <w freq="1">visitors</w>
@@ -12964,7 +12877,7 @@
       <p n="gentry" speeches="714" condition="normalized" category="characterType"
          display="gentry"
          listOfWordsUniqueTo="gentry"
-         countOfUniqueWords="1132">
+         countOfUniqueWords="1124">
          <w freq="7">delightful</w>
          <w freq="7">particular</w>
          <w freq="6">ah</w>
@@ -13080,7 +12993,7 @@
          <w freq="2">devotion</w>
          <w freq="2">dick</w>
          <w freq="2">dictated</w>
-         <w freq="2">dispenseto</w>
+         <w freq="2">dispense</w>
          <w freq="2">doings</w>
          <w freq="2">dowager</w>
          <w freq="2">dying</w>
@@ -13291,7 +13204,6 @@
          <w freq="1">boards</w>
          <w freq="1">bold</w>
          <w freq="1">bonnet</w>
-         <w freq="1">bonvivant</w>
          <w freq="1">bore</w>
          <w freq="1">borough</w>
          <w freq="1">borrow</w>
@@ -13586,7 +13498,6 @@
          <w freq="1">hardships</w>
          <w freq="1">hated</w>
          <w freq="1">hates</w>
-         <w freq="1">havebeen</w>
          <w freq="1">havoc</w>
          <w freq="1">hawkins</w>
          <w freq="1">heartache</w>
@@ -13600,7 +13511,6 @@
          <w freq="1">hence</w>
          <w freq="1">hereabouts</w>
          <w freq="1">heroes</w>
-         <w freq="1">hertime</w>
          <w freq="1">hired</w>
          <w freq="1">holding</w>
          <w freq="1">horrid</w>
@@ -13705,7 +13615,6 @@
          <w freq="1">minding</w>
          <w freq="1">minute</w>
          <w freq="1">misery</w>
-         <w freq="1">missprice</w>
          <w freq="1">moderate-sized</w>
          <w freq="1">modestest</w>
          <w freq="1">monarch</w>
@@ -13716,7 +13625,6 @@
          <w freq="1">moves</w>
          <w freq="1">musical</w>
          <w freq="1">mutton</w>
-         <w freq="1">myown</w>
          <w freq="1">myrtle</w>
          <w freq="1">names</w>
          <w freq="1">naming</w>
@@ -13728,7 +13636,6 @@
          <w freq="1">nobleness</w>
          <w freq="1">noblest</w>
          <w freq="1">nothing-meaning</w>
-         <w freq="1">notveryoften</w>
          <w freq="1">nuisances</w>
          <w freq="1">numbers</w>
          <w freq="1">nurse</w>
@@ -13904,7 +13811,6 @@
          <w freq="1">seams</w>
          <w freq="1">seclusion</w>
          <w freq="1">security</w>
-         <w freq="1">seemedvery</w>
          <w freq="1">selected</w>
          <w freq="1">self-possession</w>
          <w freq="1">selfishness</w>
@@ -13996,7 +13902,6 @@
          <w freq="1">syllable</w>
          <w freq="1">sympathetic</w>
          <w freq="1">system</w>
-         <w freq="1">takenin</w>
          <w freq="1">tall</w>
          <w freq="1">taller</w>
          <w freq="1">tarts</w>
@@ -14005,7 +13910,6 @@
          <w freq="1">terrors</w>
          <w freq="1">test</w>
          <w freq="1">tete-a-tete</w>
-         <w freq="1">thattable</w>
          <w freq="1">theoretically</w>
          <w freq="1">thereabouts</w>
          <w freq="1">third</w>
@@ -14064,6 +13968,7 @@
          <w freq="1">vile</w>
          <w freq="1">vinegar</w>
          <w freq="1">virtuous</w>
+         <w freq="1">vivant</w>
          <w freq="1">vowel</w>
          <w freq="1">wagon</w>
          <w freq="1">warn</w>
@@ -14102,7 +14007,7 @@
          category="characterType"
          display="landed gentry"
          listOfWordsUniqueTo="landed gentry"
-         countOfUniqueWords="1151">
+         countOfUniqueWords="1146">
          <w freq="10">lively</w>
          <w freq="6">knowing</w>
          <w freq="5">despair</w>
@@ -14136,6 +14041,7 @@
          <w freq="3">careless</w>
          <w freq="3">certainty</w>
          <w freq="3">coolness</w>
+         <w freq="3">count</w>
          <w freq="3">decorum</w>
          <w freq="3">desires</w>
          <w freq="3">disadvantages</w>
@@ -14191,7 +14097,6 @@
          <w freq="2">consequently</w>
          <w freq="2">constitution</w>
          <w freq="2">contributing</w>
-         <w freq="2">count</w>
          <w freq="2">crime</w>
          <w freq="2">cruelly</w>
          <w freq="2">deceive</w>
@@ -14391,12 +14296,10 @@
          <w freq="1">aside</w>
          <w freq="1">aspect</w>
          <w freq="1">assuming</w>
-         <w freq="1">atfirst</w>
          <w freq="1">atlantic</w>
          <w freq="1">attachments</w>
          <w freq="1">attempting</w>
          <w freq="1">attentiveness</w>
-         <w freq="1">attimes</w>
          <w freq="1">attractive</w>
          <w freq="1">attributed</w>
          <w freq="1">authorised</w>
@@ -14427,7 +14330,6 @@
          <w freq="1">blunders</w>
          <w freq="1">blunted</w>
          <w freq="1">blushes</w>
-         <w freq="1">bonmot</w>
          <w freq="1">borders</w>
          <w freq="1">boxed</w>
          <w freq="1">boxes</w>
@@ -14517,7 +14419,6 @@
          <w freq="1">cordiality</w>
          <w freq="1">corner</w>
          <w freq="1">correspondent</w>
-         <w freq="1">couldbe</w>
          <w freq="1">council</w>
          <w freq="1">countenances</w>
          <w freq="1">counteract</w>
@@ -14621,6 +14522,7 @@
          <w freq="1">enduring</w>
          <w freq="1">englishman</w>
          <w freq="1">enhance</w>
+         <w freq="1">ensemble</w>
          <w freq="1">enter</w>
          <w freq="1">entertained</w>
          <w freq="1">entrance</w>
@@ -14752,7 +14654,6 @@
          <w freq="1">hunt</w>
          <w freq="1">hunting-box</w>
          <w freq="1">idler</w>
-         <w freq="1">ifpossible</w>
          <w freq="1">iii</w>
          <w freq="1">ill-humour</w>
          <w freq="1">ill-managed</w>
@@ -14881,6 +14782,7 @@
          <w freq="1">moral</w>
          <w freq="1">morality</w>
          <w freq="1">morals</w>
+         <w freq="1">mot</w>
          <w freq="1">mouth</w>
          <w freq="1">neatly</w>
          <w freq="1">necessarily</w>
@@ -15151,7 +15053,6 @@
          <w freq="1">tender-hearted</w>
          <w freq="1">tenderness</w>
          <w freq="1">terrible</w>
-         <w freq="1">thecount</w>
          <w freq="1">theoretical</w>
          <w freq="1">thoughtless</w>
          <w freq="1">thousands</w>
@@ -15167,7 +15068,7 @@
          <w freq="1">top</w>
          <w freq="1">torn</w>
          <w freq="1">torturing</w>
-         <w freq="1">toutensemble</w>
+         <w freq="1">tout</w>
          <w freq="1">traced</w>
          <w freq="1">trade</w>
          <w freq="1">tremble</w>
@@ -15234,7 +15135,6 @@
          <w freq="1">well-looking</w>
          <w freq="1">whim</w>
          <w freq="1">wholesome</w>
-         <w freq="1">willbe</w>
          <w freq="1">willingly</w>
          <w freq="1">windows</w>
          <w freq="1">winds</w>
@@ -15258,7 +15158,7 @@
       <p n="aristocrat" speeches="204" condition="normalized" category="characterType"
          display="aristocrat"
          listOfWordsUniqueTo="aristocrat"
-         countOfUniqueWords="208">
+         countOfUniqueWords="207">
          <w freq="5">chapman</w>
          <w freq="4">distressing</w>
          <w freq="3">pug</w>
@@ -15350,7 +15250,6 @@
          <w freq="1">gathered</w>
          <w freq="1">hardy</w>
          <w freq="1">harrison</w>
-         <w freq="1">hasbeen</w>
          <w freq="1">heartfelt</w>
          <w freq="1">heated</w>
          <w freq="1">hoping</w>
@@ -15576,7 +15475,7 @@
       <p n="unmarried" speeches="1228" condition="normalized" category="characterType"
          display="unmarried"
          listOfWordsUniqueTo="unmarried"
-         countOfUniqueWords="2480">
+         countOfUniqueWords="2471">
          <w freq="20">business</w>
          <w freq="19">letter</w>
          <w freq="19">whom</w>
@@ -16005,6 +15904,7 @@
          <w freq="2">bless</w>
          <w freq="2">blest</w>
          <w freq="2">blunder</w>
+         <w freq="2">bon</w>
          <w freq="2">bonnet</w>
          <w freq="2">bookcase</w>
          <w freq="2">bore</w>
@@ -16078,7 +15978,7 @@
          <w freq="2">disapprobation</w>
          <w freq="2">discovered</w>
          <w freq="2">discreet</w>
-         <w freq="2">dispenseto</w>
+         <w freq="2">dispense</w>
          <w freq="2">displace</w>
          <w freq="2">distinct</w>
          <w freq="2">distinguished</w>
@@ -16208,6 +16108,7 @@
          <w freq="2">interfere</w>
          <w freq="2">interference</w>
          <w freq="2">irish</w>
+         <w freq="2">island</w>
          <w freq="2">isle</w>
          <w freq="2">janet</w>
          <w freq="2">jealous</w>
@@ -16241,7 +16142,7 @@
          <w freq="2">maternal</w>
          <w freq="2">meanwhile</w>
          <w freq="2">melancholy</w>
-         <w freq="2">menusplaisirs</w>
+         <w freq="2">menus</w>
          <w freq="2">mercenary</w>
          <w freq="2">midshipman</w>
          <w freq="2">miller</w>
@@ -16265,6 +16166,7 @@
          <w freq="2">parsons</w>
          <w freq="2">pianoforte</w>
          <w freq="2">picture</w>
+         <w freq="2">plaisirs</w>
          <w freq="2">playful</w>
          <w freq="2">practice</w>
          <w freq="2">prayer</w>
@@ -16515,14 +16417,12 @@
          <w freq="1">assurances</w>
          <w freq="1">astonishing</w>
          <w freq="1">astonishment</w>
-         <w freq="1">atfirst</w>
          <w freq="1">atlantic</w>
          <w freq="1">attachments</w>
          <w freq="1">attack</w>
          <w freq="1">attempts</w>
          <w freq="1">attendance</w>
          <w freq="1">attentiveness</w>
-         <w freq="1">attimes</w>
          <w freq="1">attraction</w>
          <w freq="1">attractive</w>
          <w freq="1">attributed</w>
@@ -16586,8 +16486,6 @@
          <w freq="1">blushes</w>
          <w freq="1">boat</w>
          <w freq="1">bold</w>
-         <w freq="1">bonmot</w>
-         <w freq="1">bonvivant</w>
          <w freq="1">borders</w>
          <w freq="1">bow</w>
          <w freq="1">boxed</w>
@@ -16745,7 +16643,6 @@
          <w freq="1">correspondent</w>
          <w freq="1">corrupting</w>
          <w freq="1">cottages</w>
-         <w freq="1">couldbe</w>
          <w freq="1">council</w>
          <w freq="1">countenances</w>
          <w freq="1">counteract</w>
@@ -16925,6 +16822,7 @@
          <w freq="1">englishman</w>
          <w freq="1">engross</w>
          <w freq="1">enhance</w>
+         <w freq="1">ensemble</w>
          <w freq="1">entrance</w>
          <w freq="1">entreated</w>
          <w freq="1">entreaty</w>
@@ -17153,7 +17051,6 @@
          <w freq="1">hunting-box</w>
          <w freq="1">hushed</w>
          <w freq="1">idler</w>
-         <w freq="1">ifpossible</w>
          <w freq="1">ignorant</w>
          <w freq="1">iii</w>
          <w freq="1">ill-bred</w>
@@ -17245,7 +17142,6 @@
          <w freq="1">irresistible</w>
          <w freq="1">irreverently</w>
          <w freq="1">irritation</w>
-         <w freq="1">island</w>
          <w freq="1">jealousies</w>
          <w freq="1">jealousy</w>
          <w freq="1">jest</w>
@@ -17354,7 +17250,6 @@
          <w freq="1">misfortune</w>
          <w freq="1">misleads</w>
          <w freq="1">missionary</w>
-         <w freq="1">missprice</w>
          <w freq="1">misunderstand</w>
          <w freq="1">mix</w>
          <w freq="1">mixture</w>
@@ -17369,12 +17264,11 @@
          <w freq="1">morality</w>
          <w freq="1">morals</w>
          <w freq="1">mortify</w>
+         <w freq="1">mot</w>
          <w freq="1">mourn</w>
          <w freq="1">mourned</w>
          <w freq="1">moves</w>
          <w freq="1">musical</w>
-         <w freq="1">mynamewasnorval</w>
-         <w freq="1">myown</w>
          <w freq="1">myrtle</w>
          <w freq="1">mythology</w>
          <w freq="1">nail</w>
@@ -17388,10 +17282,10 @@
          <w freq="1">nobleness</w>
          <w freq="1">nominal</w>
          <w freq="1">north-east</w>
+         <w freq="1">norval</w>
          <w freq="1">noses</w>
          <w freq="1">nothing-meaning</w>
          <w freq="1">notion</w>
-         <w freq="1">notveryoften</w>
          <w freq="1">nuisance</w>
          <w freq="1">nuisances</w>
          <w freq="1">nurse</w>
@@ -17734,7 +17628,6 @@
          <w freq="1">secretary</w>
          <w freq="1">security</w>
          <w freq="1">seduction</w>
-         <w freq="1">seemedvery</w>
          <w freq="1">seize</w>
          <w freq="1">seizing</w>
          <w freq="1">selected</w>
@@ -17888,8 +17781,6 @@
          <w freq="1">terrible</w>
          <w freq="1">terrors</w>
          <w freq="1">tete-a-tete</w>
-         <w freq="1">thattable</w>
-         <w freq="1">theisland</w>
          <w freq="1">theoretical</w>
          <w freq="1">theoretically</w>
          <w freq="1">thereabouts</w>
@@ -17907,7 +17798,6 @@
          <w freq="1">tiresome</w>
          <w freq="1">toast</w>
          <w freq="1">tobacco</w>
-         <w freq="1">tobe</w>
          <w freq="1">toil</w>
          <w freq="1">token</w>
          <w freq="1">tolerate</w>
@@ -17916,7 +17806,7 @@
          <w freq="1">tongue</w>
          <w freq="1">torn</w>
          <w freq="1">torturing</w>
-         <w freq="1">toutensemble</w>
+         <w freq="1">tout</w>
          <w freq="1">traced</w>
          <w freq="1">trade</w>
          <w freq="1">tragedies</w>
@@ -17992,6 +17882,7 @@
          <w freq="1">virtuous</w>
          <w freq="1">vista</w>
          <w freq="1">vitiated</w>
+         <w freq="1">vivant</w>
          <w freq="1">volume</w>
          <w freq="1">voluntary</w>
          <w freq="1">vowel</w>
@@ -18026,7 +17917,6 @@
          <w freq="1">wicked</w>
          <w freq="1">wickedness</w>
          <w freq="1">wildenheim</w>
-         <w freq="1">willbe</w>
          <w freq="1">winding</w>
          <w freq="1">windows</w>
          <w freq="1">winds</w>
@@ -18061,7 +17951,7 @@
       <p n="married" speeches="246" condition="normalized" category="characterType"
          display="married"
          listOfWordsUniqueTo="married"
-         countOfUniqueWords="272">
+         countOfUniqueWords="271">
          <w freq="5">chapman</w>
          <w freq="4">distressing</w>
          <w freq="4">g</w>
@@ -18184,7 +18074,6 @@
          <w freq="1">gathering</w>
          <w freq="1">hardy</w>
          <w freq="1">harrison</w>
-         <w freq="1">hasbeen</w>
          <w freq="1">heartfelt</w>
          <w freq="1">heated</w>
          <w freq="1">holla</w>
@@ -18338,7 +18227,7 @@
       <p n="widowed" speeches="158" condition="normalized" category="characterType"
          display="widowed"
          listOfWordsUniqueTo="widowed"
-         countOfUniqueWords="270">
+         countOfUniqueWords="267">
          <w freq="4">coachman</w>
          <w freq="3">baddeley</w>
          <w freq="3">horseback</w>
@@ -18477,12 +18366,10 @@
          <w freq="1">half-guineas</w>
          <w freq="1">hall-door</w>
          <w freq="1">hated</w>
-         <w freq="1">havebeen</w>
          <w freq="1">heath</w>
          <w freq="1">helping</w>
          <w freq="1">hen</w>
          <w freq="1">hence</w>
-         <w freq="1">hertime</w>
          <w freq="1">hospitality</w>
          <w freq="1">husbands</w>
          <w freq="1">idling</w>
@@ -18578,7 +18465,6 @@
          <w freq="1">superintend</w>
          <w freq="1">sweet-tempered</w>
          <w freq="1">syllable</w>
-         <w freq="1">takenin</w>
          <w freq="1">tarts</w>
          <w freq="1">test</w>
          <w freq="1">thursday</w>
@@ -18613,7 +18499,7 @@
       <p n="mda" speeches="81" condition="normalized" category="characterType"
          display="mda"
          listOfWordsUniqueTo="mda"
-         countOfUniqueWords="46">
+         countOfUniqueWords="45">
          <w freq="4">smith</w>
          <w freq="2">blue</w>
          <w freq="2">compton</w>
@@ -18653,7 +18539,6 @@
          <w freq="1">shooting-dress</w>
          <w freq="1">starling</w>
          <w freq="1">strongly</w>
-         <w freq="1">thecount</w>
          <w freq="1">top</w>
          <w freq="1">unmercifully</w>
          <w freq="1">visitors</w>
@@ -18666,7 +18551,7 @@
       <p n="clergyman" speeches="381" condition="normalized" category="characterType"
          display="clergyman"
          listOfWordsUniqueTo="clergyman"
-         countOfUniqueWords="1920">
+         countOfUniqueWords="1919">
          <w freq="85">must</w>
          <w freq="68">on</w>
          <w freq="52">from</w>
@@ -18927,6 +18812,7 @@
          <w freq="4">plans</w>
          <w freq="4">pleased</w>
          <w freq="4">points</w>
+         <w freq="4">possible</w>
          <w freq="4">prevented</w>
          <w freq="4">probably</w>
          <w freq="4">reading</w>
@@ -19046,7 +18932,6 @@
          <w freq="3">order</w>
          <w freq="3">persuade</w>
          <w freq="3">pleasant</w>
-         <w freq="3">possible</w>
          <w freq="3">possibly</w>
          <w freq="3">praise</w>
          <w freq="3">preaching</w>
@@ -19515,7 +19400,6 @@
          <w freq="1">attended</w>
          <w freq="1">attentions</w>
          <w freq="1">attentiveness</w>
-         <w freq="1">attimes</w>
          <w freq="1">attractive</w>
          <w freq="1">attributed</w>
          <w freq="1">authorise</w>
@@ -19550,7 +19434,7 @@
          <w freq="1">blunders</w>
          <w freq="1">blunted</w>
          <w freq="1">body</w>
-         <w freq="1">bonmot</w>
+         <w freq="1">bon</w>
          <w freq="1">book</w>
          <w freq="1">books</w>
          <w freq="1">borders</w>
@@ -19674,7 +19558,6 @@
          <w freq="1">correspondent</w>
          <w freq="1">corrupted</w>
          <w freq="1">cost</w>
-         <w freq="1">couldbe</w>
          <w freq="1">counteract</w>
          <w freq="1">counteraction</w>
          <w freq="1">courtesy</w>
@@ -19968,7 +19851,6 @@
          <w freq="1">hurry</w>
          <w freq="1">hurt</w>
          <w freq="1">idler</w>
-         <w freq="1">ifpossible</w>
          <w freq="1">ignorance</w>
          <w freq="1">ill-humour</w>
          <w freq="1">ill-managed</w>
@@ -20118,6 +20000,7 @@
          <w freq="1">moral</w>
          <w freq="1">morality</w>
          <w freq="1">morals</w>
+         <w freq="1">mot</w>
          <w freq="1">mothers</w>
          <w freq="1">moved</w>
          <w freq="1">mutton</w>
@@ -20484,6 +20367,7 @@
          <w freq="1">throwing</w>
          <w freq="1">thrown</w>
          <w freq="1">tightened</w>
+         <w freq="1">times</w>
          <w freq="1">tinge</w>
          <w freq="1">tis</w>
          <w freq="1">token</w>

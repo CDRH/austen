@@ -3546,15 +3546,13 @@
          category="characters"
          display="N/A"
          listOfWordsUniqueTo="narrator"
-         countOfUniqueWords="19">
+         countOfUniqueWords="17">
          <w freq="1">assent</w>
          <w freq="1">best-chosen</w>
          <w freq="1">cant</w>
          <w freq="1">comfortably</w>
          <w freq="1">displayed</w>
          <w freq="1">gray</w>
-         <w freq="1">hughesnow</w>
-         <w freq="1">ifshe</w>
          <w freq="1">incoherent</w>
          <w freq="1">irritations</w>
          <w freq="1">miserly</w>

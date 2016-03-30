@@ -2,7 +2,7 @@
   "id": "neutral",
   "display": "Neutral",
   "novel": "Mansfield Park",
-  "unique_words": "67",
+  "unique_words": "66",
   "speeches": "61",
   "words": {
     "dancer": "2",
@@ -61,7 +61,6 @@
     "staircase": "1",
     "stayed": "1",
     "suits": "1",
-    "takenin": "1",
     "tarts": "1",
     "tender": "1",
     "toast": "1",

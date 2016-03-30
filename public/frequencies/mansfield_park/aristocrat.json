@@ -2,7 +2,7 @@
   "id": "aristocrat",
   "display": "Aristocrat",
   "novel": "Mansfield Park",
-  "unique_words": "208",
+  "unique_words": "207",
   "speeches": "204",
   "words": {
     "chapman": "5",
@@ -96,7 +96,6 @@
     "gathered": "1",
     "hardy": "1",
     "harrison": "1",
-    "hasbeen": "1",
     "heartfelt": "1",
     "heated": "1",
     "hoping": "1",

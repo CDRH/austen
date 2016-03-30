@@ -2,7 +2,7 @@
   "id": "aus.006.sirt",
   "display": "Sir Thomas Bertram",
   "novel": "Mansfield Park",
-  "unique_words": "63",
+  "unique_words": "62",
   "speeches": "92",
   "words": {
     "nobly": "2",
@@ -34,7 +34,6 @@
     "failing": "1",
     "fanciful": "1",
     "hardy": "1",
-    "hasbeen": "1",
     "heated": "1",
     "hypocrite": "1",
     "imagines": "1",
