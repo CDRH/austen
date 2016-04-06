@@ -240,7 +240,7 @@
 
                     <person xml:id="aus.004.jenn" role="main">
                         <persName>
-                            <roleName type="honorific" full="abb">Mrs</roleName>
+                            <roleName type="honorific" full="abb">Mrs.</roleName>
                             <surname>Jennings</surname>
                         </persName>
                         <sex>female</sex>
@@ -385,7 +385,6 @@
 
                     <person xml:id="aus.004.rob" role="main">
                         <persName>
-                            <roleName>Mr</roleName>
                             <forename>Robert</forename> 
                             <surname>Ferrars</surname>
                         </persName>
