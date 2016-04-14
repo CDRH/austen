@@ -2,7 +2,7 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="aus.001">
    <head>Pride and Prejudice</head>
    <p>Count of speakers: 108</p>
-   <p>Count of speeches:  5165</p>
+   <p>Count of speeches: 5165</p>
    <p>List of speakers and individual counts: </p>
    <p>
       <list>
@@ -117,11 +117,8 @@
       </list>
    </p>
    <speakerData>
-      <p n="aus.001.nar" speeches="2431" position="1" condition="normalized"
-         category="characters"
-         display="Narrator"
-         listOfWordsUniqueTo="aus.001.nar"
-         countOfUniqueWords="1576">
+      <p n="aus.001.nar" speeches="2431" position="1" condition="normalized" category="characters"
+         display="Narrator" listOfWordsUniqueTo="aus.001.nar" countOfUniqueWords="1576">
          <w freq="21">listened</w>
          <w freq="14">eagerly</w>
          <w freq="13">ran</w>
@@ -1699,11 +1696,8 @@
          <w freq="1">yawned</w>
          <w freq="1">yawning</w>
       </p>
-      <p n="aus.001.eliz" speeches="537" position="2" condition="normalized"
-         category="characters"
-         display="Elizabeth Bennet"
-         listOfWordsUniqueTo="aus.001.eliz"
-         countOfUniqueWords="272">
+      <p n="aus.001.eliz" speeches="537" position="2" condition="normalized" category="characters"
+         display="Elizabeth Bennet" listOfWordsUniqueTo="aus.001.eliz" countOfUniqueWords="272">
          <w freq="3">fingers</w>
          <w freq="3">relative</w>
          <w freq="2">ball-room</w>
@@ -1978,10 +1972,8 @@
          <w freq="1">wretchedly</w>
       </p>
       <p n="aus.001.nar_eliz" speeches="401" position="3" condition="normalized"
-         category="characters"
-         display="Narrator as Elizabeth Bennet"
-         listOfWordsUniqueTo="aus.001.nar_eliz"
-         countOfUniqueWords="196">
+         category="characters" display="Narrator as Elizabeth Bennet"
+         listOfWordsUniqueTo="aus.001.nar_eliz" countOfUniqueWords="196">
          <w freq="3">attach</w>
          <w freq="3">dignified</w>
          <w freq="2">coarseness</w>
@@ -2179,11 +2171,8 @@
          <w freq="1">weakest</w>
          <w freq="1">wearied</w>
       </p>
-      <p n="aus.001.mrsb" speeches="201" position="4" condition="normalized"
-         category="characters"
-         display="Mrs. Bennet"
-         listOfWordsUniqueTo="aus.001.mrsb"
-         countOfUniqueWords="93">
+      <p n="aus.001.mrsb" speeches="201" position="4" condition="normalized" category="characters"
+         display="Mrs. Bennet" listOfWordsUniqueTo="aus.001.mrsb" countOfUniqueWords="93">
          <w freq="2">fight</w>
          <w freq="2">gouldings</w>
          <w freq="2">hypocritical</w>
@@ -2278,11 +2267,8 @@
          <w freq="1">wits</w>
          <w freq="1">york</w>
       </p>
-      <p n="aus.001.dar" speeches="181" position="5" condition="normalized"
-         category="characters"
-         display="Mr. Darcy"
-         listOfWordsUniqueTo="aus.001.dar"
-         countOfUniqueWords="145">
+      <p n="aus.001.dar" speeches="181" position="5" condition="normalized" category="characters"
+         display="Mr. Darcy" listOfWordsUniqueTo="aus.001.dar" countOfUniqueWords="145">
          <w freq="3">confession</w>
          <w freq="3">offenses</w>
          <w freq="2">carelessness</w>
@@ -2429,11 +2415,8 @@
          <w freq="1">weighty</w>
          <w freq="1">willfully</w>
       </p>
-      <p n="aus.001.jane" speeches="165" position="6" condition="normalized"
-         category="characters"
-         display="Jane Bennet"
-         listOfWordsUniqueTo="aus.001.jane"
-         countOfUniqueWords="59">
+      <p n="aus.001.jane" speeches="165" position="6" condition="normalized" category="characters"
+         display="Jane Bennet" listOfWordsUniqueTo="aus.001.jane" countOfUniqueWords="59">
          <w freq="2">deceiving</w>
          <w freq="2">fare</w>
          <w freq="2">persist</w>
@@ -2494,11 +2477,8 @@
          <w freq="1">undeserved</w>
          <w freq="1">unnaturally</w>
       </p>
-      <p n="aus.001.mrb" speeches="140" position="7" condition="normalized"
-         category="characters"
-         display="Mr. Bennet"
-         listOfWordsUniqueTo="aus.001.mrb"
-         countOfUniqueWords="52">
+      <p n="aus.001.mrb" speeches="140" position="7" condition="normalized" category="characters"
+         display="Mr. Bennet" listOfWordsUniqueTo="aus.001.mrb" countOfUniqueWords="52">
          <w freq="1">absurdity</w>
          <w freq="1">adjusting</w>
          <w freq="1">admittance</w>
@@ -2552,11 +2532,8 @@
          <w freq="1">tempers</w>
          <w freq="1">youths</w>
       </p>
-      <p n="aus.001.mrsg" speeches="86" position="8" condition="normalized"
-         category="characters"
-         display="Mrs. Gardiner"
-         listOfWordsUniqueTo="aus.001.mrsg"
-         countOfUniqueWords="35">
+      <p n="aus.001.mrsg" speeches="86" position="8" condition="normalized" category="characters"
+         display="Mrs. Gardiner" listOfWordsUniqueTo="aus.001.mrsg" countOfUniqueWords="35">
          <w freq="2">involve</w>
          <w freq="1">admission</w>
          <w freq="1">amounting</w>
@@ -2593,11 +2570,8 @@
          <w freq="1">unbecoming</w>
          <w freq="1">warned</w>
       </p>
-      <p n="aus.001.msb" speeches="83" position="9" condition="normalized"
-         category="characters"
-         display="Miss Bingley"
-         listOfWordsUniqueTo="aus.001.msb"
-         countOfUniqueWords="63">
+      <p n="aus.001.msb" speeches="83" position="9" condition="normalized" category="characters"
+         display="Miss Bingley" listOfWordsUniqueTo="aus.001.msb" countOfUniqueWords="63">
          <w freq="7">charles</w>
          <w freq="2">mother-in-law</w>
          <w freq="2">presume</w>
@@ -2662,11 +2636,8 @@
          <w freq="1">waking</w>
          <w freq="1">writes</w>
       </p>
-      <p n="aus.001.coll" speeches="82" position="10" condition="normalized"
-         category="characters"
-         display="Mr. Collins"
-         listOfWordsUniqueTo="aus.001.coll"
-         countOfUniqueWords="142">
+      <p n="aus.001.coll" speeches="82" position="10" condition="normalized" category="characters"
+         display="Mr. Collins" listOfWordsUniqueTo="aus.001.coll" countOfUniqueWords="142">
          <w freq="4">affability</w>
          <w freq="4">blessing</w>
          <w freq="2">arranging</w>
@@ -2810,11 +2781,8 @@
          <w freq="1">westerham</w>
          <w freq="1">withdrawing</w>
       </p>
-      <p n="aus.001.wick" speeches="66" position="11" condition="normalized"
-         category="characters"
-         display="Mr. Wickham"
-         listOfWordsUniqueTo="aus.001.wick"
-         countOfUniqueWords="40">
+      <p n="aus.001.wick" speeches="66" position="11" condition="normalized" category="characters"
+         display="Mr. Wickham" listOfWordsUniqueTo="aus.001.wick" countOfUniqueWords="40">
          <w freq="2">brotherly</w>
          <w freq="2">deserts</w>
          <w freq="1">adopted</w>
@@ -2856,10 +2824,8 @@
          <w freq="1">truest</w>
          <w freq="1">verily</w>
       </p>
-      <p n="aus.001.deb" speeches="64" position="12" condition="normalized"
-         category="characters"
-         display="Lady Catherine de Bourgh"
-         listOfWordsUniqueTo="aus.001.deb"
+      <p n="aus.001.deb" speeches="64" position="12" condition="normalized" category="characters"
+         display="Lady Catherine de Bourgh" listOfWordsUniqueTo="aus.001.deb"
          countOfUniqueWords="49">
          <w freq="1">allurements</w>
          <w freq="1">ambition</w>
@@ -2912,10 +2878,8 @@
          <w freq="1">wilderness</w>
       </p>
       <p n="aus.001.nar_mrsb" speeches="64" position="13" condition="normalized"
-         category="characters"
-         display="Narrator as Mrs. Bennet"
-         listOfWordsUniqueTo="aus.001.nar_mrsb"
-         countOfUniqueWords="17">
+         category="characters" display="Narrator as Mrs. Bennet"
+         listOfWordsUniqueTo="aus.001.nar_mrsb" countOfUniqueWords="17">
          <w freq="1">barbarous</w>
          <w freq="1">barbarously</w>
          <w freq="1">calico</w>
@@ -2934,11 +2898,8 @@
          <w freq="1">troublesome</w>
          <w freq="1">troubling</w>
       </p>
-      <p n="aus.001.lyd" speeches="53" position="14" condition="normalized"
-         category="characters"
-         display="Lydia Bennet"
-         listOfWordsUniqueTo="aus.001.lyd"
-         countOfUniqueWords="48">
+      <p n="aus.001.lyd" speeches="53" position="14" condition="normalized" category="characters"
+         display="Lydia Bennet" listOfWordsUniqueTo="aus.001.lyd" countOfUniqueWords="48">
          <w freq="2">harriet</w>
          <w freq="2">pratt</w>
          <w freq="1">bandbox</w>
@@ -2988,11 +2949,8 @@
          <w freq="1">watson</w>
          <w freq="1">wears</w>
       </p>
-      <p n="aus.001.bing" speeches="52" position="15" condition="normalized"
-         category="characters"
-         display="Mr. Bingley"
-         listOfWordsUniqueTo="aus.001.bing"
-         countOfUniqueWords="17">
+      <p n="aus.001.bing" speeches="52" position="15" condition="normalized" category="characters"
+         display="Mr. Bingley" listOfWordsUniqueTo="aus.001.bing" countOfUniqueWords="17">
          <w freq="1">converting</w>
          <w freq="1">correspondents</w>
          <w freq="1">cover</w>
@@ -3012,9 +2970,7 @@
          <w freq="1">syllables</w>
       </p>
       <p n="aus.001.nar_dar" speeches="44" position="16" condition="normalized"
-         category="characters"
-         display="Narrator as Mr. Darcy"
-         listOfWordsUniqueTo="aus.001.nar_dar"
+         category="characters" display="Narrator as Mr. Darcy" listOfWordsUniqueTo="aus.001.nar_dar"
          countOfUniqueWords="10">
          <w freq="1">choosing</w>
          <w freq="1">crushing</w>
@@ -3028,10 +2984,8 @@
          <w freq="1">tanned</w>
       </p>
       <p n="aus.001.nar_coll" speeches="36" position="17" condition="normalized"
-         category="characters"
-         display="Narrator as Mr. Collins"
-         listOfWordsUniqueTo="aus.001.nar_coll"
-         countOfUniqueWords="12">
+         category="characters" display="Narrator as Mr. Collins"
+         listOfWordsUniqueTo="aus.001.nar_coll" countOfUniqueWords="12">
          <w freq="1">although</w>
          <w freq="1">bashful</w>
          <w freq="1">cooking</w>
@@ -3045,11 +2999,8 @@
          <w freq="1">unanswerable</w>
          <w freq="1">utterly</w>
       </p>
-      <p n="aus.001.char" speeches="31" position="18" condition="normalized"
-         category="characters"
-         display="Charlotte Lucas"
-         listOfWordsUniqueTo="aus.001.char"
-         countOfUniqueWords="6">
+      <p n="aus.001.char" speeches="31" position="18" condition="normalized" category="characters"
+         display="Charlotte Lucas" listOfWordsUniqueTo="aus.001.char" countOfUniqueWords="6">
          <w freq="1">beforehand</w>
          <w freq="1">conceals</w>
          <w freq="1">dispositions</w>
@@ -3057,11 +3008,8 @@
          <w freq="1">procure</w>
          <w freq="1">romantic</w>
       </p>
-      <p n="aus.001.fitz" speeches="26" position="19" condition="normalized"
-         category="characters"
-         display="Colonel Fitzwilliam"
-         listOfWordsUniqueTo="aus.001.fitz"
-         countOfUniqueWords="7">
+      <p n="aus.001.fitz" speeches="26" position="19" condition="normalized" category="characters"
+         display="Colonel Fitzwilliam" listOfWordsUniqueTo="aus.001.fitz" countOfUniqueWords="7">
          <w freq="1">arranges</w>
          <w freq="1">feelingly</w>
          <w freq="1">hardships</w>
@@ -3070,11 +3018,8 @@
          <w freq="1">scrape</w>
          <w freq="1">sons</w>
       </p>
-      <p n="aus.001.mrg" speeches="25" position="20" condition="normalized"
-         category="characters"
-         display="Mr. Gardiner"
-         listOfWordsUniqueTo="aus.001.mrg"
-         countOfUniqueWords="24">
+      <p n="aus.001.mrg" speeches="25" position="20" condition="normalized" category="characters"
+         display="Mr. Gardiner" listOfWordsUniqueTo="aus.001.mrg" countOfUniqueWords="24">
          <w freq="2">creditors</w>
          <w freq="2">haggerston</w>
          <w freq="2">settlement</w>
@@ -3101,27 +3046,21 @@
          <w freq="1">whimsical</w>
       </p>
       <p n="aus.001.nar_bing" speeches="21" position="21" condition="normalized"
-         category="characters"
-         display="Narrator as Mr. Bingley"
-         listOfWordsUniqueTo="aus.001.nar_bing"
-         countOfUniqueWords="4">
+         category="characters" display="Narrator as Mr. Bingley"
+         listOfWordsUniqueTo="aus.001.nar_bing" countOfUniqueWords="4">
          <w freq="1">chatty</w>
          <w freq="1">confinement</w>
          <w freq="1">natured</w>
          <w freq="1">prettier</w>
       </p>
       <p n="aus.001.nar_jane" speeches="20" position="22" condition="normalized"
-         category="characters"
-         display="Narrator as Jane Bennet"
-         listOfWordsUniqueTo="aus.001.nar_jane"
-         countOfUniqueWords="1">
+         category="characters" display="Narrator as Jane Bennet"
+         listOfWordsUniqueTo="aus.001.nar_jane" countOfUniqueWords="1">
          <w freq="1">explanatory</w>
       </p>
       <p n="aus.001.mrsg_dar" speeches="19" position="23" condition="normalized"
-         category="characters"
-         display="Mrs. Gardiner as Mr. Darcy"
-         listOfWordsUniqueTo="aus.001.mrsg_dar"
-         countOfUniqueWords="8">
+         category="characters" display="Mrs. Gardiner as Mr. Darcy"
+         listOfWordsUniqueTo="aus.001.mrsg_dar" countOfUniqueWords="8">
          <w freq="1">bribery</w>
          <w freq="1">confide</w>
          <w freq="1">corruption</w>
@@ -3131,11 +3070,8 @@
          <w freq="1">postponed</w>
          <w freq="1">worthlessness</w>
       </p>
-      <p n="aus.001.rey" speeches="19" position="24" condition="normalized"
-         category="characters"
-         display="Mrs. Reynolds"
-         listOfWordsUniqueTo="aus.001.rey"
-         countOfUniqueWords="6">
+      <p n="aus.001.rey" speeches="19" position="24" condition="normalized" category="characters"
+         display="Mrs. Reynolds" listOfWordsUniqueTo="aus.001.rey" countOfUniqueWords="6">
          <w freq="1">affable</w>
          <w freq="1">generous-hearted</w>
          <w freq="1">nowadays</w>
@@ -3144,10 +3080,8 @@
          <w freq="1">sweetest-tempered</w>
       </p>
       <p n="aus.001.nar_mrb" speeches="17" position="25" condition="normalized"
-         category="characters"
-         display="Narrator as Mr. Bennet"
-         listOfWordsUniqueTo="aus.001.nar_mrb"
-         countOfUniqueWords="7">
+         category="characters" display="Narrator as Mr. Bennet"
+         listOfWordsUniqueTo="aus.001.nar_mrb" countOfUniqueWords="7">
          <w freq="1">board</w>
          <w freq="1">britain</w>
          <w freq="1">guinea</w>
@@ -3157,10 +3091,8 @@
          <w freq="1">submitted</w>
       </p>
       <p n="aus.001.nar_mrg" speeches="16" position="26" condition="normalized"
-         category="characters"
-         display="Narrator as Mr. Gardiner"
-         listOfWordsUniqueTo="aus.001.nar_mrg"
-         countOfUniqueWords="5">
+         category="characters" display="Narrator as Mr. Gardiner"
+         listOfWordsUniqueTo="aus.001.nar_mrg" countOfUniqueWords="5">
          <w freq="1">disinclined</w>
          <w freq="1">finances</w>
          <w freq="1">gaming</w>
@@ -3168,40 +3100,31 @@
          <w freq="1">transpired</w>
       </p>
       <p n="aus.001.nar_char" speeches="15" position="27" condition="normalized"
-         category="characters"
-         display="Narrator as Charlotte Lucas"
-         listOfWordsUniqueTo="aus.001.nar_char"
-         countOfUniqueWords="5">
+         category="characters" display="Narrator as Charlotte Lucas"
+         listOfWordsUniqueTo="aus.001.nar_char" countOfUniqueWords="5">
          <w freq="1">counterbalance</w>
          <w freq="1">disputable</w>
          <w freq="1">gaze</w>
          <w freq="1">stedfast</w>
          <w freq="1">vanish</w>
       </p>
-      <p n="aus.001.kit" speeches="13" position="28" condition="normalized"
-         category="characters"
-         display="Kitty Bennet"
-         listOfWordsUniqueTo="aus.001.kit"
-         countOfUniqueWords="4">
+      <p n="aus.001.kit" speeches="13" position="28" condition="normalized" category="characters"
+         display="Kitty Bennet" listOfWordsUniqueTo="aus.001.kit" countOfUniqueWords="4">
          <w freq="1">discovering</w>
          <w freq="1">mortifications</w>
          <w freq="1">s-his-name</w>
          <w freq="1">unexampled</w>
       </p>
       <p n="aus.001.nar_deb" speeches="13" position="29" condition="normalized"
-         category="characters"
-         display="Narrator as Lady Catherine de Bourgh"
-         listOfWordsUniqueTo="aus.001.nar_deb"
-         countOfUniqueWords="3">
+         category="characters" display="Narrator as Lady Catherine de Bourgh"
+         listOfWordsUniqueTo="aus.001.nar_deb" countOfUniqueWords="3">
          <w freq="1">joints</w>
          <w freq="1">maiden</w>
          <w freq="1">packing</w>
       </p>
       <p n="aus.001.nar_lyd" speeches="13" position="30" condition="normalized"
-         category="characters"
-         display="Narrator as Lydia Bennet"
-         listOfWordsUniqueTo="aus.001.nar_lyd"
-         countOfUniqueWords="15">
+         category="characters" display="Narrator as Lydia Bennet"
+         listOfWordsUniqueTo="aus.001.nar_lyd" countOfUniqueWords="15">
          <w freq="2">gay</w>
          <w freq="1">bathing-place</w>
          <w freq="1">beauteous</w>
@@ -3218,11 +3141,8 @@
          <w freq="1">tents</w>
          <w freq="1">uniformity</w>
       </p>
-      <p n="aus.001.sirl" speeches="13" position="31" condition="normalized"
-         category="characters"
-         display="Sir William Lucas"
-         listOfWordsUniqueTo="aus.001.sirl"
-         countOfUniqueWords="11">
+      <p n="aus.001.sirl" speeches="13" position="31" condition="normalized" category="characters"
+         display="Sir William Lucas" listOfWordsUniqueTo="aus.001.sirl" countOfUniqueWords="11">
          <w freq="1">acquire</w>
          <w freq="1">adept</w>
          <w freq="1">bewitching</w>
@@ -3236,9 +3156,7 @@
          <w freq="1">upbraiding</w>
       </p>
       <p n="aus.001.nar_mrgmrsg" speeches="11" position="32" condition="normalized"
-         category="characters"
-         display="N/A"
-         listOfWordsUniqueTo="aus.001.nar_mrgmrsg"
+         category="characters" display="N/A" listOfWordsUniqueTo="aus.001.nar_mrgmrsg"
          countOfUniqueWords="5">
          <w freq="1">household</w>
          <w freq="1">indicated</w>
@@ -3247,17 +3165,12 @@
          <w freq="1">seclusion</w>
       </p>
       <p n="aus.001.nar_msb" speeches="11" position="33" condition="normalized"
-         category="characters"
-         display="Narrator as Miss Bingley"
-         listOfWordsUniqueTo="aus.001.nar_msb"
-         countOfUniqueWords="1">
+         category="characters" display="Narrator as Miss Bingley"
+         listOfWordsUniqueTo="aus.001.nar_msb" countOfUniqueWords="1">
          <w freq="1">inspiring</w>
       </p>
-      <p n="aus.001.mary" speeches="10" position="34" condition="normalized"
-         category="characters"
-         display="Mary Bennet"
-         listOfWordsUniqueTo="aus.001.mary"
-         countOfUniqueWords="16">
+      <p n="aus.001.mary" speeches="10" position="34" condition="normalized" category="characters"
+         display="Mary Bennet" listOfWordsUniqueTo="aus.001.mary" countOfUniqueWords="16">
          <w freq="1">balm</w>
          <w freq="1">bosoms</w>
          <w freq="1">brittle</w>
@@ -3276,54 +3189,41 @@
          <w freq="1">synonymously</w>
       </p>
       <p n="aus.001.nar_msbmrsh" speeches="10" position="35" condition="normalized"
-         category="characters"
-         display="N/A"
-         listOfWordsUniqueTo="aus.001.nar_msbmrsh"
+         category="characters" display="N/A" listOfWordsUniqueTo="aus.001.nar_msbmrsh"
          countOfUniqueWords="2">
          <w freq="1">eminent</w>
          <w freq="1">physicians</w>
       </p>
       <p n="aus.001.nar_mrsg" speeches="9" position="36" condition="normalized"
-         category="characters"
-         display="Narrator as Mrs. Gardiner"
-         listOfWordsUniqueTo="aus.001.nar_mrsg"
-         countOfUniqueWords="4">
+         category="characters" display="Narrator as Mrs. Gardiner"
+         listOfWordsUniqueTo="aus.001.nar_mrsg" countOfUniqueWords="4">
          <w freq="1">july</w>
          <w freq="1">lad</w>
          <w freq="1">northwards</w>
          <w freq="1">substitute</w>
       </p>
       <p n="aus.001.nar_mrsp" speeches="9" position="37" condition="normalized"
-         category="characters"
-         display="Narrator as Mrs. Phillips"
-         listOfWordsUniqueTo="aus.001.nar_mrsp"
-         countOfUniqueWords="4">
+         category="characters" display="Narrator as Mrs. Phillips"
+         listOfWordsUniqueTo="aus.001.nar_mrsp" countOfUniqueWords="4">
          <w freq="1">fetched</w>
          <w freq="1">heartening</w>
          <w freq="1">lieutenant</w>
          <w freq="1">shop-boy</w>
       </p>
       <p n="aus.001.nar_wick" speeches="9" position="38" condition="normalized"
-         category="characters"
-         display="Narrator as Mr. Wickham"
-         listOfWordsUniqueTo="aus.001.nar_wick"
-         countOfUniqueWords="2">
+         category="characters" display="Narrator as Mr. Wickham"
+         listOfWordsUniqueTo="aus.001.nar_wick" countOfUniqueWords="2">
          <w freq="1">coincide</w>
          <w freq="1">self-imposed</w>
       </p>
-      <p n="aus.001.mrsh" speeches="7" position="40" condition="normalized"
-         category="characters"
-         display="Mrs. Hurst"
-         listOfWordsUniqueTo="aus.001.mrsh"
-         countOfUniqueWords="2">
+      <p n="aus.001.mrsh" speeches="7" position="40" condition="normalized" category="characters"
+         display="Mrs. Hurst" listOfWordsUniqueTo="aus.001.mrsh" countOfUniqueWords="2">
          <w freq="1">inches</w>
          <w freq="1">mud</w>
       </p>
       <p n="aus.001.eliz_dar" speeches="6" position="41" condition="normalized"
-         category="characters"
-         display="Elizabeth as Mr. Darcy"
-         listOfWordsUniqueTo="aus.001.eliz_dar"
-         countOfUniqueWords="5">
+         category="characters" display="Elizabeth as Mr. Darcy"
+         listOfWordsUniqueTo="aus.001.eliz_dar" countOfUniqueWords="5">
          <w freq="1">compromised</w>
          <w freq="1">forgave</w>
          <w freq="1">palatable</w>
@@ -3331,16 +3231,12 @@
          <w freq="1">unappeasable</w>
       </p>
       <p n="aus.001.mrsb_mrsl" speeches="6" position="42" condition="normalized"
-         category="characters"
-         display="Mrs. Bennet as Mrs. Long"
-         listOfWordsUniqueTo="aus.001.mrsb_mrsl"
-         countOfUniqueWords="1">
+         category="characters" display="Mrs. Bennet as Mrs. Long"
+         listOfWordsUniqueTo="aus.001.mrsb_mrsl" countOfUniqueWords="1">
          <w freq="1">morris</w>
       </p>
       <p n="aus.001.nar_mersoc" speeches="6" position="43" condition="normalized"
-         category="characters"
-         display="N/A"
-         listOfWordsUniqueTo="aus.001.nar_mersoc"
+         category="characters" display="N/A" listOfWordsUniqueTo="aus.001.nar_mersoc"
          countOfUniqueWords="8">
          <w freq="2">tradesman</w>
          <w freq="1">distrusted</w>
@@ -3352,170 +3248,121 @@
          <w freq="1">wickedest</w>
       </p>
       <p n="aus.001.coll_deb" speeches="5" position="44" condition="normalized"
-         category="characters"
-         display="Mr. Collins as Lady Catherine de Bourgh"
-         listOfWordsUniqueTo="aus.001.coll_deb"
-         countOfUniqueWords="1">
+         category="characters" display="Mr. Collins as Lady Catherine de Bourgh"
+         listOfWordsUniqueTo="aus.001.coll_deb" countOfUniqueWords="1">
          <w freq="1">gentlewoman</w>
       </p>
       <p n="aus.001.dar_wick" speeches="5" position="45" condition="normalized"
-         category="characters"
-         display="Darcy as Mr. Wickham"
-         listOfWordsUniqueTo="aus.001.dar_wick"
+         category="characters" display="Darcy as Mr. Wickham" listOfWordsUniqueTo="aus.001.dar_wick"
          countOfUniqueWords="4">
          <w freq="1">ordained</w>
          <w freq="1">revered</w>
          <w freq="1">therein</w>
          <w freq="1">unprofitable</w>
       </p>
-      <p n="aus.001.nar_rey" speeches="5" position="47" condition="normalized"
-         category="characters"
-         display="Narrator as Mrs. Reynolds"
-         listOfWordsUniqueTo="aus.001.nar_rey"
+      <p n="aus.001.nar_rey" speeches="5" position="47" condition="normalized" category="characters"
+         display="Narrator as Mrs. Reynolds" listOfWordsUniqueTo="aus.001.nar_rey"
          countOfUniqueWords="1">
          <w freq="1">lifetime</w>
       </p>
       <p n="aus.001.jane_bing" speeches="3" position="52" condition="normalized"
-         category="characters"
-         display="Jane as Mr. Bingley"
-         listOfWordsUniqueTo="aus.001.jane_bing"
+         category="characters" display="Jane as Mr. Bingley" listOfWordsUniqueTo="aus.001.jane_bing"
          countOfUniqueWords="1">
          <w freq="1">probity</w>
       </p>
-      <p n="aus.001.boyl" speeches="2" position="57" condition="normalized"
-         category="characters"
-         display="A young Lucas boy"
-         listOfWordsUniqueTo="aus.001.boyl"
-         countOfUniqueWords="1">
+      <p n="aus.001.boyl" speeches="2" position="57" condition="normalized" category="characters"
+         display="A young Lucas boy" listOfWordsUniqueTo="aus.001.boyl" countOfUniqueWords="1">
          <w freq="1">foxhounds</w>
       </p>
       <p n="aus.001.eliz_mrr" speeches="2" position="60" condition="normalized"
-         category="characters"
-         display="Elizabeth as Mr. Robinson"
-         listOfWordsUniqueTo="aus.001.eliz_mrr"
-         countOfUniqueWords="1">
+         category="characters" display="Elizabeth as Mr. Robinson"
+         listOfWordsUniqueTo="aus.001.eliz_mrr" countOfUniqueWords="1">
          <w freq="1">prettiest</w>
       </p>
       <p n="aus.001.lyd_mrsp" speeches="2" position="62" condition="normalized"
-         category="characters"
-         display="Lydia as Mrs. Phillips"
-         listOfWordsUniqueTo="aus.001.lyd_mrsp"
-         countOfUniqueWords="3">
+         category="characters" display="Lydia as Mrs. Phillips"
+         listOfWordsUniqueTo="aus.001.lyd_mrsp" countOfUniqueWords="3">
          <w freq="1">hire</w>
          <w freq="1">richard</w>
          <w freq="1">talks</w>
       </p>
       <p n="aus.001.mrsg_dar_wick" speeches="2" position="64" condition="normalized"
-         category="characters"
-         display="Darcy as Mr. Wickham"
-         listOfWordsUniqueTo="aus.001.mrsg_dar_wick"
-         countOfUniqueWords="1">
+         category="characters" display="Darcy as Mr. Wickham"
+         listOfWordsUniqueTo="aus.001.mrsg_dar_wick" countOfUniqueWords="1">
          <w freq="1">resign</w>
       </p>
-      <p n="aus.001.mrsp" speeches="2" position="65" condition="normalized"
-         category="characters"
-         display="Mrs. Phillips"
-         listOfWordsUniqueTo="aus.001.mrsp"
-         countOfUniqueWords="3">
+      <p n="aus.001.mrsp" speeches="2" position="65" condition="normalized" category="characters"
+         display="Mrs. Phillips" listOfWordsUniqueTo="aus.001.mrsp" countOfUniqueWords="3">
          <w freq="1">butcher</w>
          <w freq="1">ducks</w>
          <w freq="1">latest</w>
       </p>
       <p n="aus.001.nar_kitlyd" speeches="2" position="68" condition="normalized"
-         category="characters"
-         display="N/A"
-         listOfWordsUniqueTo="aus.001.nar_kitlyd"
+         category="characters" display="N/A" listOfWordsUniqueTo="aus.001.nar_kitlyd"
          countOfUniqueWords="2">
          <w freq="1">flogged</w>
          <w freq="1">hinted</w>
       </p>
       <p n="aus.001.nar_ladyl" speeches="2" position="69" condition="normalized"
-         category="characters"
-         display="Narrator as Lady Lucas"
-         listOfWordsUniqueTo="aus.001.nar_ladyl"
-         countOfUniqueWords="1">
+         category="characters" display="Narrator as Lady Lucas"
+         listOfWordsUniqueTo="aus.001.nar_ladyl" countOfUniqueWords="1">
          <w freq="1">crown</w>
       </p>
       <p n="aus.001.coll_dar" speeches="1" position="76" condition="normalized"
-         category="characters"
-         display="Collins as Mr. Darcy"
-         listOfWordsUniqueTo="aus.001.coll_dar"
+         category="characters" display="Collins as Mr. Darcy" listOfWordsUniqueTo="aus.001.coll_dar"
          countOfUniqueWords="1">
          <w freq="1">unworthily</w>
       </p>
       <p n="aus.001.coll_jenk" speeches="1" position="77" condition="normalized"
-         category="characters"
-         display="Mr. Collins Mrs. Jenkinson"
-         listOfWordsUniqueTo="aus.001.coll_jenk"
-         countOfUniqueWords="1">
+         category="characters" display="Mr. Collins as Mrs. Jenkinson"
+         listOfWordsUniqueTo="aus.001.coll_jenk" countOfUniqueWords="1">
          <w freq="1">constitution</w>
       </p>
       <p n="aus.001.dar_darsr" speeches="1" position="79" condition="normalized"
-         category="characters"
-         display="Darcy as Mr. Darcy"
-         listOfWordsUniqueTo="aus.001.dar_darsr"
+         category="characters" display="Darcy as Mr. Darcy" listOfWordsUniqueTo="aus.001.dar_darsr"
          countOfUniqueWords="1">
          <w freq="1">advancement</w>
       </p>
       <p n="aus.001.dar_sirl" speeches="1" position="81" condition="normalized"
-         category="characters"
-         display="Sir William Lucas"
-         listOfWordsUniqueTo="aus.001.dar_sirl"
+         category="characters" display="Sir William Lucas" listOfWordsUniqueTo="aus.001.dar_sirl"
          countOfUniqueWords="1">
          <w freq="1">undecided</w>
       </p>
       <p n="aus.001.mrsb_dar" speeches="1" position="91" condition="normalized"
-         category="characters"
-         display="Mrs. Bennet as Mr. Darcy"
-         listOfWordsUniqueTo="aus.001.mrsb_dar"
-         countOfUniqueWords="1">
+         category="characters" display="Mrs. Bennet as Mr. Darcy"
+         listOfWordsUniqueTo="aus.001.mrsb_dar" countOfUniqueWords="1">
          <w freq="1">partridges</w>
       </p>
       <p n="aus.001.nar_elizmrsg" speeches="1" position="95" condition="normalized"
-         category="characters"
-         display="N/A"
-         listOfWordsUniqueTo="aus.001.nar_elizmrsg"
+         category="characters" display="N/A" listOfWordsUniqueTo="aus.001.nar_elizmrsg"
          countOfUniqueWords="2">
          <w freq="1">equalled</w>
          <w freq="1">imitated</w>
       </p>
-      <p n="aus.001.nar_mrsbjaneelizcatlydmary" speeches="1" position="100"
-         condition="normalized"
-         category="characters"
-         display="N/A"
-         listOfWordsUniqueTo="aus.001.nar_mrsbjaneelizcatlydmary"
-         countOfUniqueWords="1">
+      <p n="aus.001.nar_mrsbjaneelizcatlydmary" speeches="1" position="100" condition="normalized"
+         category="characters" display="N/A"
+         listOfWordsUniqueTo="aus.001.nar_mrsbjaneelizcatlydmary" countOfUniqueWords="1">
          <w freq="1">resume</w>
       </p>
       <p n="aus.001.wick_dar" speeches="1" position="105" condition="normalized"
-         category="characters"
-         display="Wickham as Mr. Darcy"
-         listOfWordsUniqueTo="aus.001.wick_dar"
+         category="characters" display="Wickham as Mr. Darcy" listOfWordsUniqueTo="aus.001.wick_dar"
          countOfUniqueWords="1">
          <w freq="1">forfeited</w>
       </p>
       <p n="aus.001.wick_darsr" speeches="1" position="106" condition="normalized"
-         category="characters"
-         display="Wickham as Mr. Darcy"
-         listOfWordsUniqueTo="aus.001.wick_darsr"
-         countOfUniqueWords="1">
+         category="characters" display="Wickham as Mr. Darcy"
+         listOfWordsUniqueTo="aus.001.wick_darsr" countOfUniqueWords="1">
          <w freq="1">superintendence</w>
       </p>
-      <p n="narrator" speeches="1" position="108" condition="normalized"
-         category="characters"
-         display="N/A"
-         listOfWordsUniqueTo="narrator"
-         countOfUniqueWords="2">
+      <p n="narrator" speeches="1" position="108" condition="normalized" category="characters"
+         display="N/A" listOfWordsUniqueTo="narrator" countOfUniqueWords="2">
          <w freq="1">exhausted</w>
          <w freq="1">win</w>
       </p>
    </speakerData>
    <genderData>
       <p n="male" speeches="616" sex="male" position="1" condition="normalized"
-         category="characterType"
-         display="male"
-         listOfWordsUniqueTo="male"
-         countOfUniqueWords="990">
+         category="characterType" display="male" listOfWordsUniqueTo="male" countOfUniqueWords="990">
          <w freq="7">during</w>
          <w freq="7">humble</w>
          <w freq="7">moreover</w>
@@ -4508,9 +4355,7 @@
          <w freq="1">youths</w>
       </p>
       <p n="female" speeches="1344" sex="female" position="2" condition="normalized"
-         category="characterType"
-         display="female"
-         listOfWordsUniqueTo="female"
+         category="characterType" display="female" listOfWordsUniqueTo="female"
          countOfUniqueWords="1545">
          <w freq="15">nobody</w>
          <w freq="13">fancy</w>
@@ -6061,9 +5906,7 @@
    </genderData>
    <traitData>
       <p n="heroine" speeches="727" condition="normalized" category="characterType"
-         display="heroine"
-         listOfWordsUniqueTo="heroine"
-         countOfUniqueWords="672">
+         display="heroine" listOfWordsUniqueTo="heroine" countOfUniqueWords="672">
          <w freq="6">goodness</w>
          <w freq="5">f</w>
          <w freq="4">anxiety</w>
@@ -6737,10 +6580,8 @@
          <w freq="1">wretchedly</w>
          <w freq="1">wretchedness</w>
       </p>
-      <p n="fool" speeches="699" condition="normalized" category="characterType"
-         display="fool"
-         listOfWordsUniqueTo="fool"
-         countOfUniqueWords="960">
+      <p n="fool" speeches="699" condition="normalized" category="characterType" display="fool"
+         listOfWordsUniqueTo="fool" countOfUniqueWords="960">
          <w freq="11">lord</w>
          <w freq="9">delighted</w>
          <w freq="9">haste</w>
@@ -7702,10 +7543,8 @@
          <w freq="1">york</w>
          <w freq="1">youths</w>
       </p>
-      <p n="hero" speeches="245" condition="normalized" category="characterType"
-         display="hero"
-         listOfWordsUniqueTo="hero"
-         countOfUniqueWords="343">
+      <p n="hero" speeches="245" condition="normalized" category="characterType" display="hero"
+         listOfWordsUniqueTo="hero" countOfUniqueWords="343">
          <w freq="3">abhorrence</w>
          <w freq="3">argument</w>
          <w freq="3">confession</w>
@@ -8051,9 +7890,7 @@
          <w freq="1">yielding</w>
       </p>
       <p n="neutral" speeches="210" condition="normalized" category="characterType"
-         display="neutral"
-         listOfWordsUniqueTo="neutral"
-         countOfUniqueWords="176">
+         display="neutral" listOfWordsUniqueTo="neutral" countOfUniqueWords="176">
          <w freq="4">reserve</w>
          <w freq="2">confessed</w>
          <w freq="2">creditors</w>
@@ -8231,10 +8068,8 @@
          <w freq="1">worthlessness</w>
          <w freq="1">yielded</w>
       </p>
-      <p n="cad" speeches="71" condition="normalized" category="characterType"
-         display="cad"
-         listOfWordsUniqueTo="cad"
-         countOfUniqueWords="83">
+      <p n="cad" speeches="71" condition="normalized" category="characterType" display="cad"
+         listOfWordsUniqueTo="cad" countOfUniqueWords="83">
          <w freq="2">brotherly</w>
          <w freq="2">deserts</w>
          <w freq="2">devoted</w>
@@ -8321,10 +8156,8 @@
       </p>
    </traitData>
    <ageData>
-      <p n="out" speeches="1203" condition="normalized" category="characterType"
-         display="out"
-         listOfWordsUniqueTo="out"
-         countOfUniqueWords="1811">
+      <p n="out" speeches="1203" condition="normalized" category="characterType" display="out"
+         listOfWordsUniqueTo="out" countOfUniqueWords="1811">
          <w freq="11">caroline</w>
          <w freq="11">indifferent</w>
          <w freq="10">accept</w>
@@ -10138,9 +9971,7 @@
          <w freq="1">yielding</w>
       </p>
       <p n="middle-aged" speeches="499" condition="normalized" category="characterType"
-         display="middle-aged"
-         listOfWordsUniqueTo="middle-aged"
-         countOfUniqueWords="434">
+         display="middle-aged" listOfWordsUniqueTo="middle-aged" countOfUniqueWords="434">
          <w freq="5">lucases</w>
          <w freq="4">nerves</w>
          <w freq="4">reserve</w>
@@ -10576,11 +10407,8 @@
          <w freq="1">york</w>
          <w freq="1">youths</w>
       </p>
-      <p n="young married" speeches="166" condition="normalized"
-         category="characterType"
-         display="young married"
-         listOfWordsUniqueTo="young married"
-         countOfUniqueWords="193">
+      <p n="young married" speeches="166" condition="normalized" category="characterType"
+         display="young married" listOfWordsUniqueTo="young married" countOfUniqueWords="193">
          <w freq="8">fun</w>
          <w freq="3">bought</w>
          <w freq="3">captain</w>
@@ -10775,10 +10603,8 @@
          <w freq="1">wears</w>
          <w freq="1">window</w>
       </p>
-      <p n="old" speeches="88" condition="normalized" category="characterType"
-         display="old"
-         listOfWordsUniqueTo="old"
-         countOfUniqueWords="101">
+      <p n="old" speeches="88" condition="normalized" category="characterType" display="old"
+         listOfWordsUniqueTo="old" countOfUniqueWords="101">
          <w freq="2">destined</w>
          <w freq="2">treasure</w>
          <w freq="1">accidentally</w>
@@ -10881,20 +10707,15 @@
          <w freq="1">wilderness</w>
          <w freq="1">windows</w>
       </p>
-      <p n="child" speeches="2" condition="normalized" category="characterType"
-         display="child"
-         listOfWordsUniqueTo="child"
-         countOfUniqueWords="2">
+      <p n="child" speeches="2" condition="normalized" category="characterType" display="child"
+         listOfWordsUniqueTo="child" countOfUniqueWords="2">
          <w freq="1">foxhounds</w>
          <w freq="1">pack</w>
       </p>
    </ageData>
    <socecStatusData>
-      <p n="landed gentry" speeches="1345" condition="normalized"
-         category="characterType"
-         display="landed gentry"
-         listOfWordsUniqueTo="landed gentry"
-         countOfUniqueWords="1727">
+      <p n="landed gentry" speeches="1345" condition="normalized" category="characterType"
+         display="landed gentry" listOfWordsUniqueTo="landed gentry" countOfUniqueWords="1727">
          <w freq="14">mine</w>
          <w freq="14">read</w>
          <w freq="11">liked</w>
@@ -12623,10 +12444,8 @@
          <w freq="1">york</w>
          <w freq="1">youths</w>
       </p>
-      <p n="gentry" speeches="315" condition="normalized" category="characterType"
-         display="gentry"
-         listOfWordsUniqueTo="gentry"
-         countOfUniqueWords="479">
+      <p n="gentry" speeches="315" condition="normalized" category="characterType" display="gentry"
+         listOfWordsUniqueTo="gentry" countOfUniqueWords="479">
          <w freq="21">eliza</w>
          <w freq="7">charles</w>
          <w freq="7">humble</w>
@@ -13107,10 +12926,8 @@
          <w freq="1">wonderfully</w>
          <w freq="1">writes</w>
       </p>
-      <p n="professional class" speeches="137" condition="normalized"
-         category="characterType"
-         display="professional class"
-         listOfWordsUniqueTo="professional class"
+      <p n="professional class" speeches="137" condition="normalized" category="characterType"
+         display="professional class" listOfWordsUniqueTo="professional class"
          countOfUniqueWords="143">
          <w freq="4">reserve</w>
          <w freq="2">confessed</w>
@@ -13257,9 +13074,7 @@
          <w freq="1">yielded</w>
       </p>
       <p n="aristocrat" speeches="69" condition="normalized" category="characterType"
-         display="aristocrat"
-         listOfWordsUniqueTo="aristocrat"
-         countOfUniqueWords="97">
+         display="aristocrat" listOfWordsUniqueTo="aristocrat" countOfUniqueWords="97">
          <w freq="4">anne</w>
          <w freq="2">destined</w>
          <w freq="2">treasure</w>
@@ -13359,9 +13174,7 @@
          <w freq="1">wonderful</w>
       </p>
       <p n="working class" speeches="23" condition="normalized" category="characterType"
-         display="working class"
-         listOfWordsUniqueTo="working class"
-         countOfUniqueWords="12">
+         display="working class" listOfWordsUniqueTo="working class" countOfUniqueWords="12">
          <w freq="1">affable</w>
          <w freq="1">boy</w>
          <w freq="1">copse</w>
@@ -13378,9 +13191,7 @@
    </socecStatusData>
    <maritalStateData>
       <p n="unmarried" speeches="1116" condition="normalized" category="characterType"
-         display="unmarried"
-         listOfWordsUniqueTo="unmarried"
-         countOfUniqueWords="1401">
+         display="unmarried" listOfWordsUniqueTo="unmarried" countOfUniqueWords="1401">
          <w freq="11">caroline</w>
          <w freq="9">distance</w>
          <w freq="9">wrong</w>
@@ -14784,9 +14595,7 @@
          <w freq="1">yielding</w>
       </p>
       <p n="married" speeches="506" condition="normalized" category="characterType"
-         display="married"
-         listOfWordsUniqueTo="married"
-         countOfUniqueWords="444">
+         display="married" listOfWordsUniqueTo="married" countOfUniqueWords="444">
          <w freq="5">lucases</w>
          <w freq="4">nerves</w>
          <w freq="4">reserve</w>
@@ -15232,10 +15041,8 @@
          <w freq="1">york</w>
          <w freq="1">youths</w>
       </p>
-      <p n="mda" speeches="246" condition="normalized" category="characterType"
-         display="mda"
-         listOfWordsUniqueTo="mda"
-         countOfUniqueWords="442">
+      <p n="mda" speeches="246" condition="normalized" category="characterType" display="mda"
+         listOfWordsUniqueTo="mda" countOfUniqueWords="442">
          <w freq="8">fun</w>
          <w freq="7">humble</w>
          <w freq="7">parish</w>
@@ -15679,10 +15486,8 @@
          <w freq="1">withdrawing</w>
          <w freq="1">wonderfully</w>
       </p>
-      <p n="widowed" speeches="91" condition="normalized" category="characterType"
-         display="widowed"
-         listOfWordsUniqueTo="widowed"
-         countOfUniqueWords="101">
+      <p n="widowed" speeches="91" condition="normalized" category="characterType" display="widowed"
+         listOfWordsUniqueTo="widowed" countOfUniqueWords="101">
          <w freq="2">destined</w>
          <w freq="2">treasure</w>
          <w freq="1">accidentally</w>
@@ -15787,10 +15592,8 @@
       </p>
    </maritalStateData>
    <occupationData>
-      <p n="soldier" speeches="97" condition="normalized" category="characterType"
-         display="soldier"
-         listOfWordsUniqueTo="soldier"
-         countOfUniqueWords="305">
+      <p n="soldier" speeches="97" condition="normalized" category="characterType" display="soldier"
+         listOfWordsUniqueTo="soldier" countOfUniqueWords="305">
          <w freq="9">pride</w>
          <w freq="4">bingley</w>
          <w freq="4">remember</w>
@@ -16098,9 +15901,7 @@
          <w freq="1">youth</w>
       </p>
       <p n="clergyman" speeches="89" condition="normalized" category="characterType"
-         display="clergyman"
-         listOfWordsUniqueTo="clergyman"
-         countOfUniqueWords="693">
+         display="clergyman" listOfWordsUniqueTo="clergyman" countOfUniqueWords="693">
          <w freq="11">ladyship</w>
          <w freq="7">humble</w>
          <w freq="6">collins</w>
@@ -16795,10 +16596,8 @@
          <w freq="1">wonderfully</w>
          <w freq="1">words</w>
       </p>
-      <p n="lawyer" speeches="26" condition="normalized" category="characterType"
-         display="lawyer"
-         listOfWordsUniqueTo="lawyer"
-         countOfUniqueWords="134">
+      <p n="lawyer" speeches="26" condition="normalized" category="characterType" display="lawyer"
+         listOfWordsUniqueTo="lawyer" countOfUniqueWords="134">
          <w freq="5">colonel</w>
          <w freq="5">niece</w>
          <w freq="4">forster</w>
@@ -16934,10 +16733,8 @@
          <w freq="1">whimsical</w>
          <w freq="1">worst</w>
       </p>
-      <p n="servant" speeches="23" condition="normalized" category="characterType"
-         display="servant"
-         listOfWordsUniqueTo="servant"
-         countOfUniqueWords="41">
+      <p n="servant" speeches="23" condition="normalized" category="characterType" display="servant"
+         listOfWordsUniqueTo="servant" countOfUniqueWords="41">
          <w freq="3">ma</w>
          <w freq="2">good-natured</w>
          <w freq="2">to-morrow</w>
