@@ -25,6 +25,4 @@ Ignore config files
 /scripts/config.xsl
 
 # stupid ds store files
-*/.DS_Store
 .DS_Store
-**/.DS_Store
