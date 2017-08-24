@@ -17,6 +17,10 @@ Copy `config/database_demo.yml`, `config/secrets_demo.yml`, and `config_demo.yml
 rails s
 ```
 
+## Reindex Search Results
+
+The TEI of the novels is included in the [data_austen](https://github.com/CDRH/data_austen) repository.  Instructions for repopulating the solr index can be found at [data](https://github.com/CDRH/data).
+
 ## Generate HTML
 
 The novel and chapter visualizations as well as the frequency page displaying characters / traits are generated with a ruby script.  These should only need to be regenerated should something about the TEI-XML change.  You will need to have saxon installed as a global command in order to run the first part of the script.  See [the data repository's instructions](https://github.com/CDRH/data#saxon) for how to set this up.  To run the script, move to the root of the repository:
