@@ -18,5 +18,4 @@ Rails.application.routes.draw do
   
   get 'about' => 'about#index', as: :about
   get 'about/:name' => 'about#sub', as: :about_sub
-
 end
