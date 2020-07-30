@@ -18306,7 +18306,7 @@
           <seg>
             <said who="aus.001.eliz" direct="true" aloud="true" prev="her">“Whatever my connections may be,”</said>
             <said who="aus.001.nar" direct="true" aloud="false"> said Elizabeth, </said>
-            <said who="aus.001.eli" direct="true" aloud="true" prev="her">“if your nephew does not object to them, they can be nothing to <hi rend="i(1)"
+            <said who="aus.001.eliz" direct="true" aloud="true" prev="her">“if your nephew does not object to them, they can be nothing to <hi rend="i(1)"
                 >you</hi>.” </said>
           </seg>
         </p>
