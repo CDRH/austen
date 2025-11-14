@@ -6,6 +6,11 @@ class SearchController < ApplicationController
     params[:rows] = rows
     options = create_search_options(params)
 
+    # Use original text highlighting instead of Solr 9 revision
+    # Commented as Solr 9 revision seems to provide more context, but wanted
+    # to document code to toggle behavior in case of future review
+    #options['hl.method'] = "original"
+
     @docs = $solr.query(options)
     @total_pages = @docs[:pages]
     @facets = $solr.get_facets(options)

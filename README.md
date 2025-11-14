@@ -19,7 +19,7 @@ rails s
 
 ## Reindex Search Results
 
-The TEI of the novels is included in the [data_austen](https://github.com/CDRH/data_austen) repository.  Instructions for repopulating the solr index can be found at [data](https://github.com/CDRH/data).
+The TEI of the novels is included in the [data_austen](https://github.com/CDRH/data_austen) repository.  Instructions for repopulating the solr index are in `data_austen` readme.
 
 ## Generate HTML
 
