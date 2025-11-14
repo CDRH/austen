@@ -10,10 +10,10 @@ GIT
 
 GIT
   remote: https://github.com/CDRH/solr_helpers
-  revision: 2ec7d9334ff0be1e63e7bb968c05d8e6672bfb09
-  branch: dev
+  revision: be0e1e7c204d5dbd2e6fd52c74129d95bfe80033
+  tag: 1.1.0
   specs:
-    solr_helpers (1.0.0)
+    solr_helpers (1.1.0)
       rails (>= 5.0.0)
       sqlite3
 
@@ -136,8 +136,8 @@ GEM
     mini_mime (1.1.5)
     minitest (5.26.1)
     msgpack (1.8.0)
-    net-http (0.7.0)
-      uri
+    net-http (0.8.0)
+      uri (>= 0.11.1)
     net-imap (0.5.12)
       date
       net-protocol
