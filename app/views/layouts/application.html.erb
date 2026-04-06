@@ -64,19 +64,18 @@
 </header><!-- /header -->
 
 
-    <div class="container" id="wrapper">
+    <main class="container" id="wrapper">
       <%= yield %>
-    </div>
+    </main>
 
 
- <div class="footer">
-	        <div class="container">
-  	        <div class="footer_info">
-		        <p>Created by the <a href="http://cdrh.unl.edu">Center for Digital Research in the Humanities</a>.</p>
-		        <div class="footer_logo"><a href="http://www.unl.edu"><%= image_tag 'unl_black.png' %></a></div>
-  	        </div><!-- /footer_info -->
-	        </div> <!-- /container -->
-	        
-        </div><!-- /footer -->
+ <footer id="footer" class="footer">
+	 <div class="container">
+  	 <div class="footer_info">
+		    <p>Created by the <a href="https://cdrh.unl.edu">Center for Digital Research in the Humanities</a>.</p>
+		  <div class="footer_logo"><a href="https://www.unl.edu" id="unl-logo"><%= image_tag 'unl_black.png', alt: "UNL logo" %></a></div>
+  	 </div><!-- /footer_info -->
+	 </div> <!-- /container -->   
+</footer><!-- /footer -->
 </body>
 </html>
