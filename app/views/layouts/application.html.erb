@@ -46,7 +46,8 @@
           </button>
          
         </div>
-        <div class="navbar-collapse collapse">
+        <nav class="navbar-collapse collapse" aria-label="Main Menu">
+          <div class="row">
           <ul class="nav navbar-nav">
             <li><%= link_to "Home", home_path %></li>
             <li><%= link_to "Word Frequencies", frequency_path %></li>
@@ -55,7 +56,8 @@
             <li><%= link_to "Search", search_path %></li>
             <li><%= link_to "About", about_path %></li>
           </ul>
-        </div>
+          </div>
+        </nav>
 
       </div>
     </div>
