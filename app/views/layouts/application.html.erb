@@ -50,12 +50,12 @@
         <nav class="navbar-collapse collapse" aria-label="Main Menu">
           <div class="row">
           <ul class="nav navbar-nav">
-            <li><%= link_to "Home", home_path %></li>
-            <li><%= link_to "Word Frequencies", frequency_path %></li>
-            <li><%= link_to "Novel Visualizations", visual_index_path %></li>
-            <li><%= link_to "Background", background_path %></li>
-            <li><%= link_to "Search", search_path %></li>
-            <li><%= link_to "About", about_path %></li>
+            <li><%= link_to "Home", home_path, 'aria-current': (current_page?(home_path) ? 'page' : nil) %></li>
+            <li><%= link_to "Word Frequencies", frequency_path, 'aria-current': (current_page?(frequency_path) ? 'page' : nil) %></li>
+            <li><%= link_to "Novel Visualizations", visual_index_path, 'aria-current': (current_page?(visual_index_path) ? 'page' : nil) %></li>
+            <li><%= link_to "Background", background_path, 'aria-current': (current_page?(background_path) ? 'page' : nil) %></li>
+            <li><%= link_to "Search", search_path, 'aria-current': (current_page?(search_path) ? 'page' : nil) %></li>
+            <li><%= link_to "About", about_path, 'aria-current': (current_page?(about_path) ? 'page' : nil) %></li>
           </ul>
           </div>
         </nav>
