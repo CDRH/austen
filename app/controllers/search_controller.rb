@@ -22,7 +22,7 @@ class SearchController < ApplicationController
     elsif view_context.any_facets_selected?
       @title = "Search Results: #{display_facets(params)}"
     else
-      @title = "Search the Journals"
+      @title = "Search"
     end
   end
 
