@@ -14,6 +14,7 @@ class SearchController < ApplicationController
     @docs = $solr.query(options)
     @total_pages = @docs[:pages]
     @facets = $solr.get_facets(options)
+    @title = "Search"
   end
 
 
