@@ -14,12 +14,14 @@ class SearchController < ApplicationController
     @docs = $solr.query(options)
     @total_pages = @docs[:pages]
     @facets = $solr.get_facets(options)
-    # uses the view helper function "any_facets_selected?"
-    if params["qtext"].present? && view_context.any_facets_selected?
+    # add search terms and filters to page title
+    title_facets = Facets.facet_list.map(&:to_s) << "page"
+    param_keys = params.keys
+    if params["qtext"].present? && param_keys.intersect?(title_facets)
       @title = "Search Results: \"#{params["qtext"]}\" - #{display_facets(params)}"
     elsif params["qtext"].present?
       @title = "Search Results: \"#{params["qtext"]}\""
-    elsif view_context.any_facets_selected?
+    elsif param_keys.intersect?(title_facets)
       @title = "Search Results: #{display_facets(params)}"
     else
       @title = "Search"
