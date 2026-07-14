@@ -119,7 +119,10 @@
         <% end %>
       </div>
       <div class="col-md-9 pagination_container">
-      <%= paginator(@total_pages, 3) %>
+        <h2 class="sr-only" id="pagination_label">Pagination</h2>
+        <nav aria-labelledby="pagination_label">
+          <%= paginator(@total_pages, 3) %>
+        </nav>
       </div>
     </div> <!-- /row search controls-->
 
@@ -158,7 +161,10 @@
       <div class="col-md-3 search_limit">
     </div>
     <div class="col-md-9 pagination_container">
-      <%= paginator(@total_pages, 3) %>
+      <h2 class="sr-only" id="bottom_pagination_label">Bottom Pagination</h2>
+      <nav aria-labelledby="bottom_pagination_label">
+        <%= paginator(@total_pages, 3) %>
+      </nav>
     </div>
   </div>
 </div><!-- /row -->

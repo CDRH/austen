@@ -14,6 +14,18 @@ class SearchController < ApplicationController
     @docs = $solr.query(options)
     @total_pages = @docs[:pages]
     @facets = $solr.get_facets(options)
+    # add search terms and filters to page title
+    title_facets = Facets.facet_list.map(&:to_s) << "page"
+    param_keys = params.keys
+    if params["qtext"].present? && param_keys.intersect?(title_facets)
+      @title = "Search Results: \"#{params["qtext"]}\" - #{display_facets(params)}"
+    elsif params["qtext"].present?
+      @title = "Search Results: \"#{params["qtext"]}\""
+    elsif param_keys.intersect?(title_facets)
+      @title = "Search Results: #{display_facets(params)}"
+    else
+      @title = "Search"
+    end
   end
 
 
@@ -43,5 +55,9 @@ class SearchController < ApplicationController
       options[:sort] = "id asc" if !options[:qtext]
     end
     return options
+  end
+
+  def display_facets(params)
+    params.except(:action,:sort,:controller,:qfield,:qtext,:commit,:rows).values.compact_blank.join(" / ")
   end
 end

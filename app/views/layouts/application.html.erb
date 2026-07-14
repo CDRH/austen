@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:functx="http://www.functx.com" xmlns="http://www.w3.org/1999/xhtml" class="<%= @page_class %>" hc="a0" hcx="0">
+<html lang="<%= I18n.locale %>" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:functx="http://www.functx.com" xmlns="http://www.w3.org/1999/xhtml" class="<%= @page_class %>" hc="a0" hcx="0">
 <head>
-  <title>Austen</title>
+  <title><% if @title.present? %><%= @title %> | <% end %>Austen Said</title>
 
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta charset="utf-8">
@@ -26,8 +26,12 @@
 </head>
 
 <body>
-	
-	<div class="header"><div class="container"><div class="site_title">
+	<a href="#wrapper" class="sr-only sr-only-focusable">
+    Skip to main content
+  </a>
+
+  <div id="body_wrapper">
+	<header id="header" class="header"><div class="container"><div class="site_title">
 	<h1>Austen <span class="title_said">Said</span>:</h1>
 	<h2>Patterns of Diction in <span class="secondary_title">Jane Austen's Major Novels</span></h2>
 </div></div>
@@ -36,42 +40,47 @@
 <div class="navbar navbar-default">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" aria-label="Expand or collapse main menu">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
          
         </div>
-        <div class="navbar-collapse collapse">
+        <nav class="navbar-collapse collapse" aria-label="Main Menu">
+          <div class="row">
           <ul class="nav navbar-nav">
-            <li><%= link_to "Home", home_path %></li>
-            <li><%= link_to "Word Frequencies", frequency_path %></li>
-            <li><%= link_to "Novel Visualizations", visual_index_path %></li>
-            <li><%= link_to "Background", background_path %></li>
-            <li><%= link_to "Search", search_path %></li>
-            <li><%= link_to "About", about_path %></li>
+            <li><%= link_to "Home", home_path, 'aria-current': (current_page?(home_path) ? 'page' : nil) %></li>
+            <li><%= link_to "Word Frequencies", frequency_path, 'aria-current': (current_page?(frequency_path) ? 'page' : nil) %></li>
+            <li><%= link_to "Novel Visualizations", visual_index_path, 'aria-current': (current_page?(visual_index_path) ? 'page' : nil) %></li>
+            <li><%= link_to "Background", background_path, 'aria-current': (current_page?(background_path) ? 'page' : nil) %></li>
+            <li><%= link_to "Search", search_path, 'aria-current': (current_page?(search_path) ? 'page' : nil) %></li>
+            <li><%= link_to "About", about_path, 'aria-current': (current_page?(about_path) ? 'page' : nil) %></li>
           </ul>
-        </div>
+          </div>
+        </nav>
 
       </div>
     </div>
-</div><!-- /header -->
+</header><!-- /header -->
 
 
-    <div class="container" id="wrapper">
+    <main class="container" id="wrapper">
       <%= yield %>
+    </main>
+
+
+ <footer id="footer" class="footer">
+	 <div class="container">
+  	 <div class="footer_info">
+		    <p>Created by the <a href="https://cdrh.unl.edu">Center for Digital Research in the Humanities</a>.</p>
+		  <div class="footer_logo"><a href="https://www.unl.edu" rel="external"><%= image_tag 'unl_black.png', alt: "University of Nebraska-Lincoln logo" %></a></div>
+  	 </div><!-- /footer_info -->
+	 </div> <!-- /container -->   
+    <div class="back-to-top">
+      <a href="#body_wrapper">Back to top</a>
     </div>
-
-
- <div class="footer">
-	        <div class="container">
-  	        <div class="footer_info">
-		        <p>Created by the <a href="http://cdrh.unl.edu">Center for Digital Research in the Humanities</a>.</p>
-		        <div class="footer_logo"><a href="http://www.unl.edu"><%= image_tag 'unl_black.png' %></a></div>
-  	        </div><!-- /footer_info -->
-	        </div> <!-- /container -->
-	        
-        </div><!-- /footer -->
+</footer><!-- /footer -->
+</div>
 </body>
 </html>

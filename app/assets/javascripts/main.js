@@ -91,7 +91,7 @@ $(document).ready(function() {
   // this should be pulled eventually from actual information
   // but for now using a placeholder as a ui proof of concept
   function newTextArea(number, data) {
-    var textarea = $('<textarea data-num="'+number+'" class="frequency_text" readonly=true rows=12 contenteditable="true"></textarea>');
+    var textarea = $('<textarea aria-label= "text frequency list" data-num="'+number+'" class="frequency_text" readonly=true rows=12 contenteditable="true"></textarea>');
     var text = data["novel"] + "\n";
     text += data["display"] + "\n";
     text += "Unique words: " + data["unique_words"] + "\n";
