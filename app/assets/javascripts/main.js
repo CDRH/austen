@@ -22,6 +22,18 @@ $(document).ready(function() {
   });
 
   /* ****************** */
+  /*  Frequency Novels  */
+  /* ****************** */
+  
+  $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+    // Set the new tab to true
+    $(e.target).attr('aria-selected', 'true');
+    
+    // Set the old tab to false
+    $(e.relatedTarget).attr('aria-selected', 'false');
+  });
+  
+  /* ****************** */
   /*   Frequency Page   */
   /* ****************** */
   
