@@ -13,7 +13,7 @@
             <% if (num != 1) %>
               <span class="badge"><%= num %><span class="sr-only-clip"><%= num %> results</span></span>
             <% else %>
-              <span class="badge"><%= num %><span class="sr-only-clip"><%= num %> results</span></span>
+              <span class="badge"><%= num %><span class="sr-only-clip"><%= num %> result</span></span>
             <% end %>
             <% if selected %>
                 <%= link_to search_path(remove_facet(facet_type)) do %>
