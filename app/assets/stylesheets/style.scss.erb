@@ -4,6 +4,15 @@
 /* /Bootstrap IMPORT */
 /**************************************/
 
+:root {
+  --austen-gray: #646464;
+  --austen-gray-dark: #333333;
+  --austen-gray-light: rgb(170, 170, 170);
+  --austen-green: rgb(16 132 67);
+  --austen-red: rgb(231, 12, 33);
+  --austen-teal: rgb(68, 121, 132);
+}
+
 #wrapper {
   margin-top: 20px; 
 }
@@ -12,35 +21,45 @@
   font-family: 'Alice', serif;
   font-size: 4.5em;
   margin: .2em 0 0 0;
-  color: #447984; 
+  color: var(--austen-teal); 
 }
 
 
 .site_title h1 span {
-  color: #EE1F20; 
+  color: var(--austen-red); 
 }
 
 
 .site_title h2 {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.8em;
-  color: #3c9d64;
+  color: var(--austen-green);
   margin: 0 0 .5em 0; 
+}
+
+.header .navbar-default .navbar-nav > li > a {
+  color: var(--austen-gray);
+  text-decoration: none;
+}
+
+.header .navbar-default .navbar-nav > li > a:hover {
+  color: var(--austen-gray-dark);
+  text-decoration: underline;
 }
 
 
 .tei_element {
-  color: #ee3f42; 
+  color: var(--austen-red); 
 }
 
 
 .tei_attribute {
-  color: #447984; 
+  color: var(--austen-teal); 
 }
 
 
 .tei_attribute_value {
-  color: #3c9d64; 
+  color: var(--austen-green); 
 }
 
 .header .navbar {
@@ -69,7 +88,7 @@ body {
 
 @media (min-width: 992px) {
   /*body {
-  background-color: #aaa;
+  background-color: var(--austen-gray-light);
   }*/
 
   .site_title h1 {
@@ -266,14 +285,14 @@ body {
 
 .paginationJump {
   width: 3em;
-  border: 1px solid #aaa;
+  border: 1px solid var(--austen-gray-light);
   margin: 0;
   //   padding: .2em;
   border-radius: 0px;
 }
 
 .pagination input.submit {
-  border: 1px solid #aaa;
+  border: 1px solid var(--austen-gray-light);
   background-color: #faf8ef;
   margin: 0 0 0 -1px;
   padding: .2em;
@@ -519,7 +538,7 @@ form.jumpForm {
 .home_text .initial_word {
   font-family: 'Alice';
   font-size: 1.9em;
-  color: #3c9d64; 
+  color: var(--austen-green); 
 }
 
 .tei_said {
@@ -597,7 +616,7 @@ a {
 }
 
 a:hover {
-  text-decoration-thickness: 2px;
+  text-decoration-thickness: 0.1em;
 }
 
 a.btn,
