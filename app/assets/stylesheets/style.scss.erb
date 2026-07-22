@@ -620,8 +620,14 @@ a:hover {
 }
 
 a.btn,
-a.btn:hover {
+a.btn:hover,
+.nav-pills a,
+.nav-pills a:hover {
   text-decoration: none;
+}
+
+.nav-pills li:not(.active) a:hover {
+  text-decoration: underline;
 }
 
 .btn {
