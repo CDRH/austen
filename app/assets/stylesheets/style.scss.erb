@@ -5,9 +5,11 @@
 /**************************************/
 
 :root {
-  --austen-gray: #646464;
-  --austen-gray-dark: #333333;
+  --austen-gray: rgb(100, 100, 100);
+  --austen-gray-dark: rgb(51, 51, 51);
   --austen-gray-light: rgb(170, 170, 170);
+  --austen-gray-lighter: rgb(221, 221, 221);
+  --austen-gray-lightest: rgb(245, 245, 245);
   --austen-green: rgb(16 132 67);
   --austen-red: rgb(231, 12, 33);
   --austen-teal: rgb(68, 121, 132);
@@ -370,7 +372,45 @@ form.jumpForm {
   background-color: #B8DAE6;
 }
 
-/* frequencies */
+/* Frequencies - Filters */
+
+.frequency #accordion button {
+  background: #f5f5f5;
+  border: 1px solid var(--austen-gray-lighter);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  display: block;
+  font-size: 18px;
+  margin-top: 5px;
+  text-align: left;
+  width: 100%;
+}
+
+.frequency #accordion button:hover {
+  text-decoration: underline;
+}
+
+.frequency #accordion .panel-collapse {
+  border: 1px solid var(--austen-gray-lighter);
+  border-top: none;
+}
+
+.frequency #accordion .panel-body {
+  border: none
+}
+
+.frequency #accordion ul {
+  list-style: none;
+  margin-bottom: 0px;
+  padding-left: 0;
+}
+
+.frequency #accordion ul li {
+  display: inline-block;
+}
+
+/* Frequencies - Tables */
+
 .text-display-container {
   float: left;
 }
