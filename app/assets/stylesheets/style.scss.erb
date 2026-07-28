@@ -4,43 +4,65 @@
 /* /Bootstrap IMPORT */
 /**************************************/
 
+:root {
+  --austen-gray: rgb(100, 100, 100);
+  --austen-gray-dark: rgb(51, 51, 51);
+  --austen-gray-light: rgb(170, 170, 170);
+  --austen-gray-lighter: rgb(221, 221, 221);
+  --austen-gray-lightest: rgb(245, 245, 245);
+  --austen-green: rgb(16 132 67);
+  --austen-red: rgb(231, 12, 33);
+  --austen-teal: rgb(68, 121, 132);
+}
+
 #wrapper {
   margin-top: 20px; 
 }
 
-.site_title h1 {
+.site_title .h1 {
+  display: inline-block;
   font-family: 'Alice', serif;
   font-size: 4.5em;
   margin: .2em 0 0 0;
-  color: #447984; 
+  color: var(--austen-teal); 
 }
 
 
-.site_title h1 span {
-  color: #EE1F20; 
+.site_title .h1 span {
+  color: var(--austen-red); 
 }
 
 
-.site_title h2 {
+.site_title .h2 {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.8em;
-  color: #3c9d64;
+  color: var(--austen-green);
   margin: 0 0 .5em 0; 
+}
+
+.header .navbar-default .navbar-nav > li > a {
+  color: var(--austen-gray);
+  text-decoration: none;
+}
+
+.header .navbar-default .navbar-nav > li > a:hover {
+  color: var(--austen-gray-dark);
+  text-decoration: underline;
 }
 
 
 .tei_element {
-  color: #ee3f42; 
+  color: var(--austen-red); 
 }
 
 
 .tei_attribute {
-  color: #447984; 
+  color: var(--austen-teal); 
 }
 
 
 .tei_attribute_value {
-  color: #3c9d64; 
+  color: var(--austen-green); 
 }
 
 .header .navbar {
@@ -69,10 +91,10 @@ body {
 
 @media (min-width: 992px) {
   /*body {
-  background-color: #aaa;
+  background-color: var(--austen-gray-light);
   }*/
 
-  .site_title h1 {
+  .site_title .h1 {
     display: inline-block;
     width: 50%;
     line-height: 1em;
@@ -80,7 +102,7 @@ body {
   }
 
 
-  .site_title h2 {
+  .site_title .h2 {
     display: inline-block;
     width: 45%;
     font-size: 2.6em;
@@ -228,6 +250,19 @@ body {
   margin: .2em 0 1em 0;
 }
 
+.search .form-control.main_search_text {
+  color: #5e797d;
+}
+
+.search .btn-warning,
+.search .btn-warning:active:hover, 
+.search .btn-warning:active:focus, 
+.search .btn-warning.focus:active, 
+.search .btn-warning.active:hover,
+.search .btn-warning.active.focus {
+  color: black
+}
+
 .main_search_text {
   width: 100% !important;
   margin-right: -2.15em;
@@ -266,14 +301,14 @@ body {
 
 .paginationJump {
   width: 3em;
-  border: 1px solid #aaa;
+  border: 1px solid var(--austen-gray-light);
   margin: 0;
   //   padding: .2em;
   border-radius: 0px;
 }
 
 .pagination input.submit {
-  border: 1px solid #aaa;
+  border: 1px solid var(--austen-gray-light);
   background-color: #faf8ef;
   margin: 0 0 0 -1px;
   padding: .2em;
@@ -351,7 +386,45 @@ form.jumpForm {
   background-color: #B8DAE6;
 }
 
-/* frequencies */
+/* Frequencies - Filters */
+
+.frequency #accordion button {
+  background: #f5f5f5;
+  border: 1px solid var(--austen-gray-lighter);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  display: block;
+  font-size: 18px;
+  margin-top: 5px;
+  text-align: left;
+  width: 100%;
+}
+
+.frequency #accordion button:hover {
+  text-decoration: underline;
+}
+
+.frequency #accordion .panel-collapse {
+  border: 1px solid var(--austen-gray-lighter);
+  border-top: none;
+}
+
+.frequency #accordion .panel-body {
+  border: none
+}
+
+.frequency #accordion ul {
+  list-style: none;
+  margin-bottom: 0px;
+  padding-left: 0;
+}
+
+.frequency #accordion ul li {
+  display: inline-block;
+}
+
+/* Frequencies - Tables */
+
 .text-display-container {
   float: left;
 }
@@ -519,7 +592,7 @@ form.jumpForm {
 .home_text .initial_word {
   font-family: 'Alice';
   font-size: 1.9em;
-  color: #3c9d64; 
+  color: var(--austen-green); 
 }
 
 .tei_said {
@@ -597,16 +670,30 @@ a {
 }
 
 a:hover {
-  text-decoration-thickness: 2px;
+  text-decoration-thickness: 0.1em;
 }
 
 a.btn,
-a.btn:hover {
+a.btn:hover,
+.nav-pills a,
+.nav-pills a:hover {
   text-decoration: none;
+}
+
+.nav-pills li:not(.active) a:hover {
+  text-decoration: underline;
 }
 
 .btn {
   white-space: initial;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration-thickness: 2px;
 }
 
 .back-to-top a {
@@ -622,7 +709,7 @@ a.btn:hover {
   z-index: 1000;
 
   &:hover {
-  color: #000;
+  color: #FFF;
   background-color: $gray-light;
   }
 

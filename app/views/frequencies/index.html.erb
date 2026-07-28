@@ -1,56 +1,63 @@
-<h2>Austen Word Frequencies</h2>
+<% content_for :title, "Austen Word Frequencies" %>
+<h1 class="h2">Austen Word Frequencies</h1>
 
 <p>Select characters and the frequencies for that character will appear on the right. Up to three frequency tables may be viewed at one time. To copy any given table, click "Select All Text," copy, and paste into a spreadsheet or other program.</p>
 
 <div class="row">
   <div class="col-md-6">
     
-    <ul class="nav nav-pills" role="tablist">
+    <ul class="nav nav-pills" role="tablist" id="select_novel" aria-label="Novels">
       <li role="presentation" class="active">
-        <a href="#one" aria-controls="one" role="tab" data-toggle="tab">Pride and Prejudice</a>
+        <a href="#one" role="tab" aria-selected="true" data-toggle="tab">Pride and Prejudice</a>
       </li>
       <li role="presentation">
-        <a href="#two" aria-controls="two" role="tab" data-toggle="tab">Persuasion</a>
+        <a href="#two" role="tab" aria-selected="false" data-toggle="tab">Persuasion</a>
       </li>
       <li role="presentation">
-        <a href="#three" aria-controls="three" role="tab" data-toggle="tab">Northanger Abbey</a>
+        <a href="#three" role="tab" aria-selected="false" data-toggle="tab">Northanger Abbey</a>
       </li>
       <li role="presentation">
-        <a href="#four" aria-controls="four" role="tab" data-toggle="tab">Sense and Sensibility</a>
+        <a href="#four" role="tab" aria-selected="false" data-toggle="tab">Sense and Sensibility</a>
       </li>
       <li role="presentation">
-        <a href="#five" aria-controls="five" role="tab" data-toggle="tab">Emma</a>
+        <a href="#five" role="tab" aria-selected="false" data-toggle="tab">Emma</a>
       </li>
       <li role="presentation">
-        <a href="#six" aria-controls="six" role="tab" data-toggle="tab">Mansfield Park</a>
+        <a href="#six" role="tab" aria-selected="false" data-toggle="tab">Mansfield Park</a>
       </li>
       <li role="presentation">
-        <a href="#seven" aria-controls="seven" role="tab" data-toggle="tab">All Novels</a>
+        <a href="#seven" role="tab" aria-selected="false" data-toggle="tab">All Novels</a>
       </li>
     </ul>
 
     <div class="tab-content">
 
       <div class="tab-pane active" id="one" role="tabpanel">
+        <h2 class="sr-only">Characters and traits from Pride and Prejudice</h2>
         <%= render :partial => "pride_and_prejudice" %>
       </div>
-
       <div role="tabpanel" class="tab-pane" id="two">
+        <h2 class="sr-only">Characters and traits from Persuasion</h2>
         <%= render :partial => "persuasion" %>
       </div>
       <div role="tabpanel" class="tab-pane" id="three">
+        <h2 class="sr-only">Characters and traits from Northanger Abbey</h2>
         <%= render :partial => "northanger_abbey" %>
       </div>
       <div role="tabpanel" class="tab-pane" id="four">
+        <h2 class="sr-only">Characters and traits from Sense and Sensibility</h2>
         <%= render :partial => "sense_and_sensibility" %>
       </div>
       <div role="tabpanel" class="tab-pane" id="five">
+        <h2 class="sr-only">Characters and traits from Emma</h2>
         <%= render :partial => "emma" %>
       </div>
       <div role="tabpanel" class="tab-pane" id="six">
+        <h2 class="sr-only">Characters and traits from Mansfield Park</h2>
         <%= render :partial => "mansfield_park" %>
       </div> 
       <div role="tabpanel" class="tab-pane" id="seven">
+        <h2 class="sr-only">Characters and traits from all 6 novels</h2>
         <%= render :partial => "all_novels" %>
       </div> 
     </div>

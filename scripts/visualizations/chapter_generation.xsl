@@ -263,6 +263,23 @@
         </xsl:if>
         <xsl:if test="descendant::certainty"><xsl:text> certainty</xsl:text><xsl:value-of select="replace(certainty/@degree, '\.', '_')"></xsl:value-of></xsl:if>
       </xsl:attribute>
+      <xsl:if test="@direct = 'false'">
+        <xsl:attribute name="aria-label">
+          <!-- FID -->
+          <xsl:if test="contains(@who,'nar_') and descendant::certainty">
+            <xsl:text>free indirect discourse </xsl:text>
+          </xsl:if>
+          <!-- INDIRECT -->
+          <xsl:if test="not(contains(@who,'nar_')) and descendant::certainty">
+            <xsl:text>indirect narration </xsl:text>
+          </xsl:if>
+          <!-- INTRO TO FID -->
+          <xsl:if test="(contains(@who,'nar') and not(contains(@who,'nar_')))">
+            <xsl:text>intro to free indirect discourse</xsl:text>
+          </xsl:if>
+          <xsl:if test="descendant::certainty"><xsl:text>certainty level</xsl:text><xsl:value-of select="replace(certainty/@degree, '\.', ' ')"></xsl:value-of></xsl:if>
+        </xsl:attribute>
+      </xsl:if>
       <xsl:attribute name="data-toggle">tooltip</xsl:attribute>
       <xsl:attribute name="title">
         <xsl:variable name="who"><xsl:value-of select="@who"/></xsl:variable>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="<%= I18n.locale %>" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:functx="http://www.functx.com" xmlns="http://www.w3.org/1999/xhtml" class="<%= @page_class %>" hc="a0" hcx="0">
 <head>
-  <title><% if @title.present? %><%= @title %> | <% end %>Austen Said</title>
+  <title><%= full_title(yield(:title)) %></title>
 
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta charset="utf-8">
@@ -26,14 +26,15 @@
 </head>
 
 <body>
-	<a href="#wrapper" class="sr-only sr-only-focusable">
-    Skip to main content
-  </a>
 
   <div id="body_wrapper">
-	<header id="header" class="header"><div class="container"><div class="site_title">
-	<h1>Austen <span class="title_said">Said</span>:</h1>
-	<h2>Patterns of Diction in <span class="secondary_title">Jane Austen's Major Novels</span></h2>
+	<header id="header" class="header">
+    <a href="#wrapper" class="sr-only sr-only-focusable">
+      Skip to main content
+    </a>
+  <div class="container"><div class="site_title">
+	<div class="h1">Austen <span class="title_said">Said</span>:</div>
+	<div class="h2">Patterns of Diction in <span class="secondary_title">Jane Austen's Major Novels</span></div>
 </div></div>
 
 

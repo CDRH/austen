@@ -1,6 +1,7 @@
-<h2>Search</h2>
+<% content_for :title, "Search" %>
+<h1 class="h2">Search</h1>
 
-<h3>Your search returned <%= @docs[:num_found] %> <%= result_text(@docs[:num_found]) %></h3>
+<div class="h3">Your search returned <%= @docs[:num_found] %> <%= result_text(@docs[:num_found]) %></div>
 
 <br/>
 
